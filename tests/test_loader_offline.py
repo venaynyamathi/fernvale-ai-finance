@@ -22,7 +22,7 @@ def run(strict):
     steps.BATCH_GAP = 0
 
     q = FakeQBO(strict=strict)
-    assert steps.check(q), "check should fix the settings itself"
+    assert steps.check(q), "settings should pass"
     steps.clean(q, assume_yes=True)
     assert not q.db["Invoice"], "sample invoice should be deleted"
     steps.setup(q)

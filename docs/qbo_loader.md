@@ -17,7 +17,7 @@ python -m qbo_loader clean     # delete Intuit's sample transactions (asks you t
 python -m qbo_loader setup     # 49 accounts, 8 classes, 3 items, ~320 customers, 42 vendors
 python -m qbo_loader load      # opening balances + ~6,000 transactions, about 15 minutes
 python -m qbo_loader verify    # QuickBooks trial balance vs the ledger on 4 dates
-python -m qbo_loader close     # closing date Sep 30, 2026
+python -m qbo_loader close     # reminds you to set the closing date (Sep 30, 2026) in QuickBooks
 ```
 
 Or run everything in order with `python -m qbo_loader all`.
@@ -28,12 +28,12 @@ The first command opens a browser window to sign in to QuickBooks. Choose the sa
 
 | Step | Detail |
 |---|---|
-| check | Turns on account numbers, class tracking per line and custom transaction numbers, and turns off auto-apply credits. If QuickBooks won't let it change a setting, it tells you where to change it yourself. |
+| check | Confirms four settings are on in QuickBooks (account numbers, class per line, custom transaction numbers, auto-apply credits off) and tells you where to change any that aren't. It only reads settings: the QuickBooks API replaces all settings at once, so writing one resets the others. |
 | clean | Deletes the sample company's transactions and makes sample customers, vendors, products and unused accounts inactive. Anything tagged `FV:` is never touched. |
 | setup | Reuses QuickBooks' own A/R, A/P and Retained Earnings accounts (renamed and numbered), creates everything else. |
 | load | Opening journal entry at Oct 31, 2024, the 4 invoices and 3 bills open at that date, then every transaction from Nov 1, 2024 to Oct 31, 2026 as native QuickBooks records: invoices, payments, credit memos, refund receipts, bills, bill payments, expenses, deposits, transfers and journal entries. |
 | verify | Pulls QuickBooks' trial balance at Dec 31, 2024, Dec 31, 2025, Sep 30, 2026 and Oct 31, 2026 and compares every Fernvale account to the ledger. Writes `.qbo/verify_report.md`. |
-| close | Sets the closing date to Sep 30, 2026, leaving October open. |
+| close | Reminds you to set the closing date to Sep 30, 2026 in QuickBooks (Settings > Advanced > Accounting > Close the books), leaving October open. |
 
 **Tagging:** every record the loader creates has a private note starting `FV:` followed by its ledger ID, so agents and people can trace any QuickBooks record back to the ledger and source systems.
 

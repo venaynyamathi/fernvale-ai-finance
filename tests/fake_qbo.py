@@ -31,9 +31,9 @@ class FakeQBO:
         self.db = defaultdict(dict)
         self.next_id = 1000
         self.prefs = {"SyncToken": "0",
-                      "AccountingInfoPrefs": {"UseAccountNumbers": False,
-                                              "ClassTrackingPerTxnLine": False},
-                      "SalesFormsPrefs": {"CustomTxnNumbers": False, "AutoApplyCredit": True,
+                      "AccountingInfoPrefs": {"UseAccountNumbers": True,
+                                              "ClassTrackingPerTxnLine": True},
+                      "SalesFormsPrefs": {"CustomTxnNumbers": True, "AutoApplyCredit": False,
                                           "AutoApplyPayments": True}}
         # Intuit-style sample company
         for name, typ, sub in [("Accounts Receivable (A/R)", "Accounts Receivable", "AccountsReceivable"),

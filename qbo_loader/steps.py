@@ -70,27 +70,9 @@ def check(q):
     log(f"Connected to '{info.get('CompanyName')}' (realm {q.realm}).")
     prefs = q.request("GET", "preferences")["Preferences"]
     acc, sales = prefs.get("AccountingInfoPrefs", {}), prefs.get("SalesFormsPrefs", {})
-    want_acc = {"UseAccountNumbers": True, "ClassTrackingPerTxnLine": True,
-                "ClassTrackingPerTxn": False}
-    want_sales = {"CustomTxnNumbers": True, "AutoApplyCredit": False, "AutoApplyPayments": False}
-    need_acc = {k: v for k, v in want_acc.items() if acc.get(k) != v}
-    need_sales = {k: v for k, v in want_sales.items() if sales.get(k) != v}
-    if need_acc or need_sales:
-        body = {"sparse": True, "SyncToken": prefs.get("SyncToken")}
-        if need_acc:
-            body["AccountingInfoPrefs"] = need_acc
-        if need_sales:
-            body["SalesFormsPrefs"] = need_sales
-        try:
-            q.request("POST", "preferences", body)
-        except QBOError as e:
-            log(f"Couldn't change settings automatically ({e.status}).")
-        prefs = q.request("GET", "preferences")["Preferences"]
-        acc, sales = prefs.get("AccountingInfoPrefs", {}), prefs.get("SalesFormsPrefs", {})
-        changed = [k for k, v in need_acc.items() if acc.get(k) == v] + \
-                  [k for k, v in need_sales.items() if sales.get(k) == v]
-        if changed:
-            log(f"Updated settings: {', '.join(changed)}")
+    # Read-only on purpose: QuickBooks treats a settings update as a full replace, so
+    # writing even one setting resets the others. People change these in the UI.
+    acc, sales = prefs.get("AccountingInfoPrefs", {}), prefs.get("SalesFormsPrefs", {})
     problems = []
     if not acc.get("UseAccountNumbers"):
         problems.append("Settings > Account and settings > Advanced > Chart of accounts: "
@@ -543,12 +525,8 @@ def verify(q):
 
 # ---------------------------------------------------------------------- close
 def close(q):
-    prefs = q.request("GET", "preferences")["Preferences"]
-    try:
-        q.request("POST", "preferences", {"sparse": True, "SyncToken": prefs.get("SyncToken"),
-                                          "AccountingInfoPrefs": {"BookCloseDate": LAST_CLOSED}})
-        log(f"Books closed through {LAST_CLOSED}.")
-    except QBOError as e:
-        log(f"Couldn't set the closing date automatically ({e.status}). In QuickBooks: Settings "
-            "> Account and settings > Advanced > Accounting > Close the books, closing date "
-            f"{LAST_CLOSED}.")
+    """Setting the closing date through the API rewrites all company settings, so this is a
+    one-minute manual step."""
+    log("Last step, in QuickBooks: Settings > Account and settings > Advanced > Accounting > "
+        f"Close the books: turn it on, closing date {LAST_CLOSED}, then Save. October 2026 "
+        "stays open for the close.")
