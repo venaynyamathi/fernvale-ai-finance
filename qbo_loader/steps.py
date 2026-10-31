@@ -83,11 +83,14 @@ def check(q):
             body["SalesFormsPrefs"] = need_sales
         try:
             q.request("POST", "preferences", body)
-            log(f"Updated settings: {', '.join(list(need_acc) + list(need_sales))}")
         except QBOError as e:
             log(f"Couldn't change settings automatically ({e.status}).")
         prefs = q.request("GET", "preferences")["Preferences"]
         acc, sales = prefs.get("AccountingInfoPrefs", {}), prefs.get("SalesFormsPrefs", {})
+        changed = [k for k, v in need_acc.items() if acc.get(k) == v] + \
+                  [k for k, v in need_sales.items() if sales.get(k) == v]
+        if changed:
+            log(f"Updated settings: {', '.join(changed)}")
     problems = []
     if not acc.get("UseAccountNumbers"):
         problems.append("Settings > Account and settings > Advanced > Chart of accounts: "
