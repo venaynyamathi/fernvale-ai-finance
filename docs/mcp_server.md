@@ -47,7 +47,7 @@
 
 3. Fully quit the Claude desktop app (from the system tray too) and reopen it. The Fernvale tools appear under the tools/connectors menu.
 
-If the server doesn't start, try the full path to Python instead of `python`. Running `where python` in PowerShell shows it. Note that JSON needs double backslashes.
+If the server shows as disconnected, read `.qbo/mcp_server.log`. It records which Python Claude started and whether the `mcp` library is installed for it. Computers with more than one Python often install `mcp` into a different one than Claude uses. Fix it with `"<that python.exe>" -m pip install mcp`, or put the full path to the right `python.exe` in `command`. Note that JSON needs double backslashes.
 
 ## Tests
 

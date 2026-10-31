@@ -13,7 +13,7 @@ Loaded Oct 31, 2026 with `python -m qbo_loader all`: sample data cleaned, 49 acc
 ## 3. MCP connections
 
 - [x] Fernvale MCP server (`fernvale_mcp/`): QuickBooks reports and queries, draft-then-confirm writes with closed-period protection, read-only source systems, no access to `private/` or the generator. See [mcp_server.md](mcp_server.md).
-- [ ] Add it to the Claude desktop app and test live
+- [x] Added to the Claude desktop app (Oct 31, 2026). Live check: QuickBooks trial balance at Sep 30, 2026 shows operating checking $2,508,560.88 and treasury $33,256,933.88, matching the bank statements exactly.
 
 ## 4. Workflows to build
 

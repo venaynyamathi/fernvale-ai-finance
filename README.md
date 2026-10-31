@@ -69,7 +69,7 @@ The build uses a fixed random seed, so the same inputs give identical output. Ch
 
 1. ✅ Company design, simulation, source-system database, validation
 2. ✅ QuickBooks Online sandbox: 5,990 transactions loaded as native QuickBooks records, trial balance verified to the cent on four dates ([verification](docs/qbo_load_verification.md), [loader guide](docs/qbo_loader.md))
-3. 🔄 MCP connections: Fernvale MCP server built and tested offline ([docs/mcp_server.md](docs/mcp_server.md)); connecting to Claude next
+3. ✅ MCP connections: Fernvale MCP server live in Claude; first live check tied QuickBooks cash at Sep 30, 2026 to the bank statements to the cent ([docs/mcp_server.md](docs/mcp_server.md))
 4. ⬜ Agentic workflows: October close, deferred revenue roll-forward, bank/Stripe/AR/AP reconciliations, accruals and prepaids, flux and budget-vs-actual analysis, rolling forecast, board metrics pack
 
 See [docs/roadmap.md](docs/roadmap.md).
