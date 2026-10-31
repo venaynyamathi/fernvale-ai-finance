@@ -4,18 +4,11 @@
 
 Simulation, source-system database, ledger, budget and validation are done. Rebuild with `python -m generator.build`.
 
-## 2. QuickBooks Online sandbox
+## 2. QuickBooks Online sandbox ✅
 
-- [ ] Create an Intuit Developer account and an app with the `com.intuit.quickbooks.accounting` scope. Connect the sandbox company and keep the credentials in a local `.env` (git-ignored).
-- [ ] Neutralize Intuit's sample company: make sample accounts, customers, vendors and items inactive.
-- [ ] Create the 49 accounts and 8 classes (`build/qbo_load/01_chart_of_accounts.csv`, `02_classes.csv`).
-- [ ] Create customers and vendors, plus service items for subscription and services revenue and a "Conversion" item mapped to 1999 Conversion Clearing.
-- [ ] Post the opening journal entry dated Oct 31, 2024 (`04_opening_journal_entry`).
-- [ ] Load the open invoices and bills at the cutoff (`05`, `06`) against 1999. Confirm 1999 is zero.
-- [ ] Load every transaction from Nov 1, 2024 in date order (`gl_entries_to_load`): invoices, payments, bills, bill payments, card activity, deposits, transfers and journal entries.
-- [ ] Tag every loaded record (for example `FV:` in the memo or private note) so agents can filter out sandbox noise.
-- [ ] Verify: QuickBooks trial balance at Sep 30 and Oct 31, 2026 matches the as-booked ledger.
-- [ ] Set a closing date of Sep 30, 2026.
+Loaded Oct 31, 2026 with `python -m qbo_loader all`: sample data cleaned, 49 accounts, 8 classes, 3 items, 320 customers, 42 vendors, the opening balances and 5,990 transactions as native QuickBooks records (invoices, payments, credit memos, refund receipts, bills, bill payments, expenses, deposits, transfers, journal entries). No record needed a fallback. Trial balance matches the ledger to the cent at Dec 31, 2024, Dec 31, 2025, Sep 30, 2026 and Oct 31, 2026. See [qbo_load_verification.md](qbo_load_verification.md).
+
+- [ ] Set the closing date to Sep 30, 2026 in QuickBooks (manual; the API would reset other settings).
 
 ## 3. MCP connections
 

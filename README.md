@@ -67,7 +67,7 @@ The build uses a fixed random seed, so the same inputs give identical output. Ch
 ## Roadmap
 
 1. ✅ Company design, simulation, source-system database, validation
-2. 🔄 QuickBooks Online sandbox: loader built and tested offline (`python -m qbo_loader all`, see [docs/qbo_loader.md](docs/qbo_loader.md)); first live run next
+2. ✅ QuickBooks Online sandbox: 5,990 transactions loaded as native QuickBooks records, trial balance verified to the cent on four dates ([verification](docs/qbo_load_verification.md), [loader guide](docs/qbo_loader.md))
 3. ⬜ MCP connections: QuickBooks plus a SQLite server for the source systems
 4. ⬜ Agentic workflows: October close, deferred revenue roll-forward, bank/Stripe/AR/AP reconciliations, accruals and prepaids, flux and budget-vs-actual analysis, rolling forecast, board metrics pack
 

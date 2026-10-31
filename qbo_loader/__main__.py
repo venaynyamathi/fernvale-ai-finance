@@ -48,7 +48,8 @@ def main(argv):
         steps.load(q)
         if steps.verify(q):
             steps.close(q)
-            log("All done. Fernvale's books are in QuickBooks, closed through Sep 30, 2026.")
+            log("All done. Fernvale's books are in QuickBooks and verified. Set the closing "
+                "date as described above to finish.")
         else:
             log("Loaded, but the trial balance doesn't match yet; the closing date was not set.")
             return 1
