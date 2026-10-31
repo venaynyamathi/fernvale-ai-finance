@@ -127,6 +127,16 @@ def check(q):
 
 # ---------------------------------------------------------------------- clean
 def clean(q, assume_yes=False):
+    remaining = 0
+    for t in SAMPLE_TXN_TYPES:
+        try:
+            remaining += sum(1 for r in q.query(f"SELECT * FROM {t}")
+                             if not (r.get("PrivateNote") or "").startswith(TAG))
+        except QBOError:
+            pass
+    if not remaining:
+        log("Clean: no sample transactions left, skipping.")
+        return
     if not assume_yes:
         print("\nThis permanently deletes Intuit's SAMPLE transactions from the sandbox company\n"
               "and makes the sample customers, vendors, products and unused accounts inactive.\n"
@@ -169,7 +179,7 @@ def clean(q, assume_yes=False):
             failed += sum(1 for _, f in res.values() if f)
             time.sleep(BATCH_GAP)
         log(f"  {t}: made {len(rows) - failed} sample records inactive" +
-            (f" ({failed} refused, usually inventory with quantity on hand)" if failed else ""))
+            (f" ({failed} refused; harmless)" if failed else ""))
     st = load_state()
     ours = set(st["accounts"].values())
     rows = [r for r in q.query("SELECT * FROM Account WHERE Active = true")
@@ -188,6 +198,38 @@ def clean(q, assume_yes=False):
 
 
 # ---------------------------------------------------------------------- setup
+def _create_account(q, body, a):
+    """Create an account, retrying the ways QuickBooks most often objects."""
+    attempts = [dict(body)]
+    no_sub = {k: v for k, v in body.items() if k != "AccountSubType"}
+    attempts.append(no_sub)
+    errors = []
+    for b in attempts:
+        try:
+            return q.create("Account", b)
+        except QBOError as e:
+            errors.append(str(e))
+            log(f"  account {a['number']}: QuickBooks said: {str(e)[:400]}")
+    # A same-named account may exist that our first search didn't return (or QuickBooks
+    # reserves the name). Find it and take it over.
+    for x in q.query("SELECT * FROM Account WHERE Active IN (true, false)"):
+        if x["Name"].lower() == body["Name"].lower() or x.get("AcctNum") == body["AcctNum"]:
+            try:
+                return q.update("Account", {"Id": x["Id"], "SyncToken": x["SyncToken"],
+                                            "sparse": True, "Active": True,
+                                            "Name": body["Name"], "AcctNum": body["AcctNum"],
+                                            "Description": body["Description"]})
+            except QBOError as e:
+                errors.append(str(e))
+    # last resort: a distinct name
+    try:
+        return q.create("Account", dict(no_sub, Name=f"{body['Name']} (FV)"))
+    except QBOError as e:
+        errors.append(str(e))
+    raise QBOError(f"Could not create account {a['number']} {a['name']}:\n  " +
+                   "\n  ".join(errors))
+
+
 def setup(q):
     st = load_state()
     p = Planner()
@@ -228,13 +270,7 @@ def setup(q):
             body = {"Name": a["name"], "AcctNum": a["number"], "AccountType": a["type"],
                     "AccountSubType": a["subtype"],
                     "Description": f"{TAG} Fernvale account {a['number']}"}
-            try:
-                obj = q.create("Account", body)
-            except QBOError as e:
-                if "ubType" not in str(e) and "subtype" not in str(e).lower():
-                    raise
-                body.pop("AccountSubType")
-                obj = q.create("Account", body)
+            obj = _create_account(q, body, a)
             log(f"  account {a['number']} {a['name']}: created")
         st["accounts"][a["number"]] = obj["Id"]
         taken.add(obj["Id"])

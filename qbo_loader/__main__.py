@@ -56,4 +56,13 @@ def main(argv):
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv))
+    try:
+        sys.exit(main(sys.argv))
+    except SystemExit:
+        raise
+    except Exception as e:     # put the full error in .qbo/loader.log, not just the screen
+        import traceback
+        log("STOPPED WITH AN ERROR:\n" + traceback.format_exc())
+        print("\nThe loader stopped. Details are in .qbo/loader.log. Fix and rerun; "
+              "finished work is kept.")
+        sys.exit(1)
