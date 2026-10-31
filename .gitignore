@@ -4,6 +4,7 @@ private/
 # Secrets (QuickBooks / Intuit credentials, OAuth tokens)
 .env
 .env.*
+!.env.example
 *.token
 *.tokens.json
 .qbo_tokens.json
