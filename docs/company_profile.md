@@ -7,7 +7,9 @@
 | | |
 |---|---|
 | Product | **Fernvale Flow**, a workflow automation platform for operations teams at logistics, manufacturing and field-service companies |
-| Founded | January 2022, Oakland, CA |
+| Founded | January 2022, Oakland, CA (Delaware C corporation) |
+| Address | 1450 Fernvale Way, Suite 400, Oakland, CA 94612 (fictional street) |
+| Phone / email | (510) 555-0142 · billing@fernvale.example |
 | Fiscal year | Calendar year |
 | Funding | Seed $5M (Jan 2022), Series A $14M (Mar 2024), Series B $32M (May 2026) |
 | ARR | ~$3.0M (Nov 2024) → ~$10.0M (Sep 2026) → ~$11.0M (Oct 2026) |

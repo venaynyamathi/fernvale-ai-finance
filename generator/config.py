@@ -18,6 +18,12 @@ COMPANY = {
                    "manufacturing and field-service companies.",
     "domain": "fernvale.example",
     "hq": "Oakland, CA",
+    # Fictional street (no such address exists); 555-01xx numbers are reserved for fiction
+    "address": "1450 Fernvale Way, Suite 400, Oakland, CA 94612",
+    "phone": "(510) 555-0142",
+    "billing_email": "billing@fernvale.example",
+    "ap_email": "ap@fernvale.example",
+    "legal_entity": "Delaware C corporation",
     "fiscal_year_end": "December 31",
     "founded": date(2022, 1, 3),
 }
