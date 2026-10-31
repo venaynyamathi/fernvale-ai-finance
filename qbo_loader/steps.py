@@ -183,7 +183,8 @@ def clean(q, assume_yes=False):
 def _create_account(q, body, a):
     """Create an account, retrying the ways QuickBooks most often objects."""
     attempts = [dict(body)]
-    no_sub = {k: v for k, v in body.items() if k != "AccountSubType"}
+    no_sub = {k: v for k, v in body.items()
+              if k != "AccountSubType" or v == "AccumulatedDepreciation"}
     attempts.append(no_sub)
     errors = []
     for b in attempts:
@@ -252,6 +253,11 @@ def setup(q):
             body = {"Name": a["name"], "AcctNum": a["number"], "AccountType": a["type"],
                     "AccountSubType": a["subtype"],
                     "Description": f"{TAG} Fernvale account {a['number']}"}
+            if a["subtype"] == "AccumulatedDepreciation":
+                # QuickBooks requires accumulated depreciation to sit under its fixed asset
+                parent = next(x["number"] for x in ours if x["type"] == "Fixed Asset"
+                              and x["subtype"] != "AccumulatedDepreciation")
+                body.update({"SubAccount": True, "ParentRef": {"value": st["accounts"][parent]}})
             obj = _create_account(q, body, a)
             log(f"  account {a['number']} {a['name']}: created")
         st["accounts"][a["number"]] = obj["Id"]
