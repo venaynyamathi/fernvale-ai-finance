@@ -29,7 +29,9 @@ build/
   books_as_booked.sqlite  chart of accounts, general ledger and conversion package for QuickBooks
   qbo_load/               chart of accounts, classes, opening balances, open AR/AP as CSV
   conversion_checks.json  opening AR/AP tie-out
-docs/             company profile, data dictionary, roadmap
+qbo_loader/       loads the books into a QuickBooks Online sandbox (see docs/qbo_loader.md)
+tests/            offline tests for the loader
+docs/             company profile, data dictionary, loader guide, roadmap
 private/          answer key (generated locally, git-ignored)
 ```
 
@@ -65,7 +67,7 @@ The build uses a fixed random seed, so the same inputs give identical output. Ch
 ## Roadmap
 
 1. ✅ Company design, simulation, source-system database, validation
-2. ⬜ QuickBooks Online sandbox: clear Intuit's sample data, create the chart of accounts and classes, load customers, vendors and history
+2. 🔄 QuickBooks Online sandbox: loader built and tested offline (`python -m qbo_loader all`, see [docs/qbo_loader.md](docs/qbo_loader.md)); first live run next
 3. ⬜ MCP connections: QuickBooks plus a SQLite server for the source systems
 4. ⬜ Agentic workflows: October close, deferred revenue roll-forward, bank/Stripe/AR/AP reconciliations, accruals and prepaids, flux and budget-vs-actual analysis, rolling forecast, board metrics pack
 

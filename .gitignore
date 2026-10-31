@@ -23,3 +23,6 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+# QuickBooks loader working files (logs, reports, ID map)
+.qbo/

@@ -22,7 +22,7 @@ from .util import (add_months, days_inclusive, month_end, months_between, money,
 ACCOUNTS = [
     ("1000", "Operating Checking", "Bank", "Checking", "BS"),
     ("1010", "Treasury Money Market", "Bank", "MoneyMarket", "BS"),
-    ("1050", "Stripe Clearing", "Other Current Asset", "UndepositedFunds", "BS"),
+    ("1050", "Stripe Clearing", "Bank", "CashOnHand", "BS"),
     ("1100", "Accounts Receivable", "Accounts Receivable", "AccountsReceivable", "BS"),
     ("1200", "Prepaid Software", "Other Current Asset", "PrepaidExpenses", "BS"),
     ("1210", "Prepaid Insurance", "Other Current Asset", "PrepaidExpenses", "BS"),
