@@ -30,6 +30,7 @@ build/
   qbo_load/               chart of accounts, classes, opening balances, open AR/AP as CSV
   conversion_checks.json  opening AR/AP tie-out
 qbo_loader/       loads the books into a QuickBooks Online sandbox (see docs/qbo_loader.md)
+fernvale_mcp/     MCP server giving Claude QuickBooks + source systems, draft-then-confirm writes
 tests/            offline tests for the loader
 docs/             company profile, data dictionary, loader guide, roadmap
 private/          answer key (generated locally, git-ignored)
@@ -68,7 +69,7 @@ The build uses a fixed random seed, so the same inputs give identical output. Ch
 
 1. ✅ Company design, simulation, source-system database, validation
 2. ✅ QuickBooks Online sandbox: 5,990 transactions loaded as native QuickBooks records, trial balance verified to the cent on four dates ([verification](docs/qbo_load_verification.md), [loader guide](docs/qbo_loader.md))
-3. ⬜ MCP connections: QuickBooks plus a SQLite server for the source systems
+3. 🔄 MCP connections: Fernvale MCP server built and tested offline ([docs/mcp_server.md](docs/mcp_server.md)); connecting to Claude next
 4. ⬜ Agentic workflows: October close, deferred revenue roll-forward, bank/Stripe/AR/AP reconciliations, accruals and prepaids, flux and budget-vs-actual analysis, rolling forecast, board metrics pack
 
 See [docs/roadmap.md](docs/roadmap.md).

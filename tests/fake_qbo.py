@@ -148,12 +148,22 @@ class FakeQBO:
                     if isinstance(v, dict):
                         self.prefs.setdefault(k, {}).update(v)
             return {"Preferences": self.prefs}
-        if path == "batch":
-            return self.batch_raw(body)
+        m = re.match(r"(\w+)/(\w+)$", path)
+        if method == "GET" and m:                       # e.g. invoice/1234
+            ent = next(e for e in self.db if e.lower() == m.group(1))
+            return {ent: copy.deepcopy(self.db[ent][m.group(2)])}
+        if method == "POST" and (params or {}).get("operation") in ("delete", "void"):
+            ent = next(e for e in self.db if e.lower() == path)
+            obj = self.db[ent].pop(body["Id"]) if params["operation"] == "delete" else \
+                self.db[ent][body["Id"]]
+            return {ent: {"Id": obj["Id"]}}
+        if method == "POST" and path in {e.lower() for e in self.db}:
+            ent = next(e for e in self.db if e.lower() == path)
+            return {ent: self.update(ent, body) if body.get("sparse") else self.create(ent, body)}
         raise NotImplementedError(path)
 
     def query(self, sql):
-        m = re.match(r"SELECT \* FROM (\w+)(.*)", sql)
+        m = re.match(r"SELECT \* FROM (\w+)(.*)", sql, re.I)
         entity, where = m.group(1), m.group(2)
         rows = list(self.db[entity].values())
         if "Active = true" in where:

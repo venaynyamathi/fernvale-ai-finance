@@ -12,9 +12,8 @@ Loaded Oct 31, 2026 with `python -m qbo_loader all`: sample data cleaned, 49 acc
 
 ## 3. MCP connections
 
-- [ ] QuickBooks Online MCP server (Intuit's sandbox server or a community server with draft-and-confirm writes)
-- [ ] SQLite MCP server pointed at `data/source_systems.sqlite`
-- [ ] Rule for honest testing: agents get QuickBooks plus the source database, never `private/` or the generator code.
+- [x] Fernvale MCP server (`fernvale_mcp/`): QuickBooks reports and queries, draft-then-confirm writes with closed-period protection, read-only source systems, no access to `private/` or the generator. See [mcp_server.md](mcp_server.md).
+- [ ] Add it to the Claude desktop app and test live
 
 ## 4. Workflows to build
 

@@ -3,6 +3,7 @@ QuickBooks Online connection: .env settings, OAuth sign-in, token refresh, API c
 Standard library only, so nothing extra needs installing.
 """
 import base64
+import sys
 import http.server
 import json
 import os
@@ -35,7 +36,7 @@ class QBOError(Exception):
 def log(msg):
     WORK.mkdir(exist_ok=True)
     line = f"{time.strftime('%Y-%m-%d %H:%M:%S')}  {msg}"
-    print(line, flush=True)
+    print(line, file=sys.stderr, flush=True)   # stderr: stdout belongs to MCP
     with open(WORK / "loader.log", "a", encoding="utf-8") as f:
         f.write(line + "\n")
 
@@ -125,7 +126,8 @@ class QBO:
             "client_id": self.env["QBO_CLIENT_ID"], "response_type": "code", "scope": SCOPE,
             "redirect_uri": redirect, "state": state})
         log("Opening your browser to sign in to QuickBooks. Pick the SANDBOX company.")
-        print("If the browser doesn't open, paste this address into it:\n" + url, flush=True)
+        print("If the browser doesn't open, paste this address into it:\n" + url,
+              file=sys.stderr, flush=True)
         webbrowser.open(url)
         t.join(timeout=600)
         server.server_close()
