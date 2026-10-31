@@ -1,0 +1,4 @@
+bill_id,invoice_number,vendor_id,vendor_name,invoice_date,due_date,open_amount,memo
+BILL-00150,INV-1649,V026,Marlow & Pierce LLP (fictional),2024-10-08,2024-11-07,5238.38,"Opening balance - open at conversion (Oct 31, 2024)"
+BILL-00153,KAL-2410677,V022,Kaltwerk Dev Studio (fictional),2024-10-31,2024-11-30,28000.0,"Opening balance - open at conversion (Oct 31, 2024)"
+BILL-00154,BRI-2410507,V023,Brightquarry Content Co. (fictional),2024-10-31,2024-11-30,9000.0,"Opening balance - open at conversion (Oct 31, 2024)"

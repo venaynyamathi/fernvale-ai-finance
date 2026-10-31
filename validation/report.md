@@ -15,6 +15,16 @@ Overall: **all checks passed**
 | PASS | GL card liability = card activity less statement payments | max diff 0.00 |
 | PASS | Stripe clearing = charges not yet paid out | max diff 0.00 |
 
+## QuickBooks conversion package (opening balances at Oct 31, 2024)
+
+| Result | Check | Detail |
+|---|---|---|
+| PASS | Opening journal entry balances | 0.00 |
+| PASS | Open invoices at conversion = GL accounts receivable | 478,723.28 vs 478,723.28 |
+| PASS | Open bills at conversion = GL accounts payable | 42,238.38 vs 42,238.38 |
+| PASS | Replayed QuickBooks load = full-history ledger (every account, 3 dates) | max diff 0.00 |
+| PASS | Conversion clearing account nets to zero after loading open AR/AP | -0.00 |
+
 ## SaaS metrics (from billing events)
 
 | Month | ARR | Customers | SMB / MM / Ent | Net new ARR | NRR (TTM) | GRR (TTM) |

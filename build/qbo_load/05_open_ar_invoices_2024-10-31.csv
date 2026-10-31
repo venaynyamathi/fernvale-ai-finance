@@ -1,0 +1,5 @@
+invoice_id,invoice_number,customer_id,customer_name,invoice_date,due_date,open_amount,memo
+in_000622,FV-10422,C00047,Sawtooth Plumbing Holdings,2024-09-30,2024-10-30,29520.0,"Opening balance - open at conversion (Oct 31, 2024)"
+in_001136,FV-10423,C00091,Kingsley Contracting Holdings,2024-09-30,2024-11-14,250508.0,"Opening balance - open at conversion (Oct 31, 2024)"
+in_000632,FV-10442,C00050,Pemberton Power Systems,2024-10-17,2024-11-16,42558.48,"Opening balance - open at conversion (Oct 31, 2024)"
+in_001163,FV-10452,C00094,Norcross Facility Services LLC,2024-10-26,2024-12-10,156136.8,"Opening balance - open at conversion (Oct 31, 2024)"

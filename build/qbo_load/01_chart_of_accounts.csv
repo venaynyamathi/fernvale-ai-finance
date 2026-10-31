@@ -1,0 +1,50 @@
+account_number,name,qbo_account_type,qbo_account_subtype,statement
+1000,Operating Checking,Bank,Checking,BS
+1010,Treasury Money Market,Bank,MoneyMarket,BS
+1050,Stripe Clearing,Other Current Asset,UndepositedFunds,BS
+1100,Accounts Receivable,Accounts Receivable,AccountsReceivable,BS
+1200,Prepaid Software,Other Current Asset,PrepaidExpenses,BS
+1210,Prepaid Insurance,Other Current Asset,PrepaidExpenses,BS
+1300,Security Deposits,Other Asset,SecurityDeposits,BS
+1500,Furniture & Leasehold Improvements,Fixed Asset,FurnitureAndFixtures,BS
+1550,Accumulated Depreciation,Fixed Asset,AccumulatedDepreciation,BS
+1999,Conversion Clearing,Other Current Asset,OtherCurrentAssets,BS
+2000,Accounts Payable,Accounts Payable,AccountsPayable,BS
+2100,Ramp Corporate Card,Credit Card,CreditCard,BS
+2200,Accrued Expenses,Other Current Liability,OtherCurrentLiabilities,BS
+2210,Accrued Commissions,Other Current Liability,PayrollClearing,BS
+2220,Accrued Bonus,Other Current Liability,PayrollClearing,BS
+2300,Deferred Revenue,Other Current Liability,OtherCurrentLiabilities,BS
+3010,Preferred Stock - Seed,Equity,PreferredStock,BS
+3020,Preferred Stock - Series A,Equity,PreferredStock,BS
+3030,Preferred Stock - Series B,Equity,PreferredStock,BS
+3900,Retained Earnings,Equity,RetainedEarnings,BS
+4000,Subscription Revenue,Income,ServiceFeeIncome,PL
+4100,Professional Services Revenue,Income,ServiceFeeIncome,PL
+5000,Hosting & Infrastructure,Cost of Goods Sold,OtherCostsOfServiceCos,PL
+5100,COGS - Support Salaries,Cost of Goods Sold,CostOfLaborCos,PL
+5110,COGS - Support Taxes & Benefits,Cost of Goods Sold,CostOfLaborCos,PL
+5200,Merchant Processing Fees,Cost of Goods Sold,OtherCostsOfServiceCos,PL
+6000,Salaries & Wages,Expense,PayrollExpenses,PL
+6010,Payroll Taxes,Expense,PayrollExpenses,PL
+6020,Employee Benefits,Expense,PayrollExpenses,PL
+6030,Sales Commissions,Expense,PayrollExpenses,PL
+6040,Bonuses,Expense,PayrollExpenses,PL
+6100,Contractors,Expense,OtherMiscellaneousServiceCost,PL
+6200,Software & Subscriptions,Expense,OfficeGeneralAdministrativeExpenses,PL
+6300,Advertising & Marketing Programs,Expense,AdvertisingPromotional,PL
+6310,Events & Sponsorships,Expense,AdvertisingPromotional,PL
+6400,Travel,Expense,Travel,PL
+6410,Meals & Entertainment,Expense,EntertainmentMeals,PL
+6500,Rent & Facilities,Expense,RentOrLeaseOfBuildings,PL
+6600,Legal Fees,Expense,LegalProfessionalFees,PL
+6610,Accounting & Tax Fees,Expense,LegalProfessionalFees,PL
+6620,Insurance,Expense,Insurance,PL
+6700,Recruiting,Expense,OtherMiscellaneousServiceCost,PL
+6710,Computer Equipment,Expense,SuppliesMaterials,PL
+6720,Office Expenses,Expense,OfficeGeneralAdministrativeExpenses,PL
+6800,Taxes & Licenses,Expense,TaxesPaid,PL
+6850,Bank & Service Fees,Expense,BankCharges,PL
+6900,Bad Debt & Chargebacks,Expense,BadDebts,PL
+6950,Depreciation,Expense,OtherMiscellaneousServiceCost,PL
+7000,Interest Income,Other Income,InterestEarned,PL

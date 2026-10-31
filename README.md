@@ -26,7 +26,9 @@ data/
   source_systems.sqlite   CRM, billing, Stripe, payroll, AP & cards, bank, FY2026 budget
   csv/                    the same tables as CSV
 build/
-  books_as_booked.sqlite  chart of accounts + general ledger to load into QuickBooks
+  books_as_booked.sqlite  chart of accounts, general ledger and conversion package for QuickBooks
+  qbo_load/               chart of accounts, classes, opening balances, open AR/AP as CSV
+  conversion_checks.json  opening AR/AP tie-out
 docs/             company profile, data dictionary, roadmap
 private/          answer key (generated locally, git-ignored)
 ```
@@ -34,7 +36,14 @@ private/          answer key (generated locally, git-ignored)
 **Two layers, like a real company:**
 
 1. **Source systems** (`data/source_systems.sqlite`): the operational detail. Subscriptions and invoices, Stripe charges and payouts, payroll runs, vendor bills, card swipes, bank statements, CRM deals and the board budget. See **[docs/data_dictionary.md](docs/data_dictionary.md)**.
-2. **The books** (`build/books_as_booked.sqlite` → QuickBooks Online): opening balances at Nov 1, 2024 and every transaction through Oct 31, 2026. Closed through **September 2026**. **October 2026 is open**, with no month-end entries yet, and contains planted errors. That's where the agents go to work.
+2. **The books** (`build/books_as_booked.sqlite` → QuickBooks Online): the full ledger from 2022, plus a conversion package that starts QuickBooks the way a real company would.
+   - **Chart of accounts and classes:** `build/qbo_load/01_chart_of_accounts.csv` (49 accounts) and `02_classes.csv` (8 departments).
+   - **Opening balances at Oct 31, 2024:** `03_opening_trial_balance` and `04_opening_journal_entry`, with prior profit and loss rolled into retained earnings.
+   - **Open receivables and payables at the cutoff:** `05_open_ar_invoices` and `06_open_ap_bills`, loaded as individual invoices and bills so customer and vendor detail survives. A temporary *1999 Conversion Clearing* account nets to zero once they're in.
+   - **Every transaction from Nov 1, 2024 to Oct 31, 2026:** the views `gl_entries_to_load` and `gl_lines_to_load`.
+   - **Legacy history:** monthly P&L for Jan 2022 to Oct 2024 in `legacy_pl_monthly`, for trend and forecast work.
+
+   The books are closed through **September 2026**. **October 2026 is open**, with no month-end entries yet, and contains planted errors. That's where the agents go to work.
 
 ## Rebuild from scratch
 
@@ -48,6 +57,7 @@ The build uses a fixed random seed, so the same inputs give identical output. Ch
 
 ## What the validation proves
 
+- The conversion package replays exactly: opening entry + open AR/AP + transactions from Nov 2024 reproduce the full-history ledger for every account, and the clearing account nets to zero.
 - The trial balance nets to zero, and the GL ties to the source systems at every month-end: cash to bank statements, AR to open invoices, AP to unpaid bills, card liability to card activity, Stripe clearing to unpaid-out charges.
 - ARR, customer counts, net and gross retention are recomputed from billing events.
 - Monthly P&L, gross margin and cash burn stay in believable ranges.

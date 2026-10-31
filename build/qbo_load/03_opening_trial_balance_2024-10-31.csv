@@ -1,0 +1,15 @@
+account_number,account_name,debit,credit
+1000,Operating Checking,2283319.18,0.0
+1010,Treasury Money Market,10784897.25,0.0
+1100,Accounts Receivable,478723.28,0.0
+1200,Prepaid Software,21392.12,0.0
+1210,Prepaid Insurance,6032.8,0.0
+2000,Accounts Payable,0.0,42238.38
+2100,Ramp Corporate Card,0.0,62242.62
+2200,Accrued Expenses,0.0,30900.0
+2210,Accrued Commissions,0.0,13063.68
+2220,Accrued Bonus,0.0,253540.01
+2300,Deferred Revenue,0.0,1455783.78
+3010,Preferred Stock - Seed,0.0,5000000.0
+3020,Preferred Stock - Series A,0.0,14000000.0
+3900,Retained Earnings,7283403.84,0.0

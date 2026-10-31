@@ -57,6 +57,11 @@ LEDGER = {
     "classes": "QuickBooks classes (departments) used to tag P&L lines.",
     "gl_entries": "Journal entry headers: date, period, document type (Invoice, Bill, Payment, Journal Entry...), source reference.",
     "gl_lines": "Journal entry lines: account, debit, credit, class, customer, vendor.",
+    "opening_trial_balance": "Balance sheet at the Oct 31, 2024 cutoff, with all prior profit and loss in retained earnings.",
+    "opening_journal_entry": "The opening entry to post in QuickBooks on Oct 31, 2024. AR and AP are replaced by 1999 Conversion Clearing.",
+    "open_ar_at_conversion": "Customer invoices still unpaid at the cutoff. Load these as individual invoices so QuickBooks has customer-level AR. Together they bring 1999 back to zero.",
+    "open_ap_at_conversion": "Vendor bills still unpaid at the cutoff. Load these as individual bills.",
+    "legacy_pl_monthly": "Monthly P&L by account and class from Jan 2022 to Oct 2024, the history from before QuickBooks, for trend analysis and forecasting.",
 }
 
 
@@ -79,8 +84,12 @@ def write_data_dictionary():
         for name, desc in tables.items():
             out += _section(src, name, desc)
     out += ["## `build/books_as_booked.sqlite`: what gets loaded into QuickBooks", "",
-            "Opening balances at 2024-11-01, then every transaction through 2026-10-31. Closed "
-            "through September 2026; October 2026 is open (no month-end entries yet).", ""]
+            "Holds the full simulated history (Jan 2022 onward) plus the conversion package. "
+            "QuickBooks gets the opening entry at 2024-10-31, the open invoices and bills at that "
+            "date, and then every transaction from 2024-11-01 to 2026-10-31 (views "
+            "`gl_entries_to_load` and `gl_lines_to_load`). Closed through September 2026; "
+            "October 2026 is open (no month-end entries yet). The `build/qbo_load/` folder has "
+            "the chart of accounts and conversion tables as CSV files.", ""]
     for name, desc in LEDGER.items():
         out += _section(led, name, desc)
     (ROOT / "docs").mkdir(exist_ok=True)

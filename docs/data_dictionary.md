@@ -196,9 +196,9 @@ Columns: `assumption`, `value`
 
 ## `build/books_as_booked.sqlite`: what gets loaded into QuickBooks
 
-Opening balances at 2024-11-01, then every transaction through 2026-10-31. Closed through September 2026; October 2026 is open (no month-end entries yet).
+Holds the full simulated history (Jan 2022 onward) plus the conversion package. QuickBooks gets the opening entry at 2024-10-31, the open invoices and bills at that date, and then every transaction from 2024-11-01 to 2026-10-31 (views `gl_entries_to_load` and `gl_lines_to_load`). Closed through September 2026; October 2026 is open (no month-end entries yet). The `build/qbo_load/` folder has the chart of accounts and conversion tables as CSV files.
 
-### `accounts`  (48 rows)
+### `accounts`  (49 rows)
 
 Chart of accounts with the QuickBooks account type/subtype each account is created as.
 
@@ -221,3 +221,33 @@ Columns: `je_id`, `txn_date`, `period`, `doc_type`, `source_ref`, `memo`, `entry
 Journal entry lines: account, debit, credit, class, customer, vendor.
 
 Columns: `je_id`, `line_no`, `account_number`, `account_name`, `debit`, `credit`, `class`, `customer_id`, `vendor_id`, `description`
+
+### `opening_trial_balance`  (14 rows)
+
+Balance sheet at the Oct 31, 2024 cutoff, with all prior profit and loss in retained earnings.
+
+Columns: `account_number`, `account_name`, `debit`, `credit`
+
+### `opening_journal_entry`  (13 rows)
+
+The opening entry to post in QuickBooks on Oct 31, 2024. AR and AP are replaced by 1999 Conversion Clearing.
+
+Columns: `line_no`, `account_number`, `account_name`, `debit`, `credit`, `description`
+
+### `open_ar_at_conversion`  (4 rows)
+
+Customer invoices still unpaid at the cutoff. Load these as individual invoices so QuickBooks has customer-level AR. Together they bring 1999 back to zero.
+
+Columns: `invoice_id`, `invoice_number`, `customer_id`, `customer_name`, `invoice_date`, `due_date`, `open_amount`, `memo`
+
+### `open_ap_at_conversion`  (3 rows)
+
+Vendor bills still unpaid at the cutoff. Load these as individual bills.
+
+Columns: `bill_id`, `invoice_number`, `vendor_id`, `vendor_name`, `invoice_date`, `due_date`, `open_amount`, `memo`
+
+### `legacy_pl_monthly`  (1,408 rows)
+
+Monthly P&L by account and class from Jan 2022 to Oct 2024, the history from before QuickBooks, for trend analysis and forecasting.
+
+Columns: `month`, `account_number`, `account_name`, `qbo_account_type`, `class`, `net_debit`, `amount`

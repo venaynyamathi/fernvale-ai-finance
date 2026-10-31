@@ -159,6 +159,65 @@ def main():
         return {c: v for c, v in by_cust.items() if v > 0.005}
     snap = {d: mrr_at(d) for d in month_ends(date(2023, 10, 1), as_of)}
 
+    # ---------------------------------------------------------------- QuickBooks conversion
+    lines += ["", "## QuickBooks conversion package (opening balances at Oct 31, 2024)", "",
+              "| Result | Check | Detail |", "|---|---|---|"]
+    cut = "2024-10-31"
+    oje = q(bkd, "SELECT account_number, debit - credit FROM opening_journal_entry")
+    net = round(sum(v for _, v in oje), 2)
+    check("Opening journal entry balances", abs(net) < 0.01, f"{net:,.2f}")
+    ar_open = q(bkd, "SELECT ROUND(SUM(open_amount), 2) FROM open_ar_at_conversion")[0][0] or 0
+    ap_open = q(bkd, "SELECT ROUND(SUM(open_amount), 2) FROM open_ap_at_conversion")[0][0] or 0
+    gl_ar = gl_balance(bkd, "1100", date(2024, 10, 31))
+    gl_ap = -gl_balance(bkd, "2000", date(2024, 10, 31))
+    check("Open invoices at conversion = GL accounts receivable", abs(ar_open - gl_ar) < 0.01,
+          f"{ar_open:,.2f} vs {gl_ar:,.2f}")
+    check("Open bills at conversion = GL accounts payable", abs(ap_open - gl_ap) < 0.01,
+          f"{ap_open:,.2f} vs {gl_ap:,.2f}")
+    # Replay what QuickBooks will hold: opening JE + open AR/AP + every entry from Nov 1, 2024
+    stmt = dict(q(bkd, "SELECT account_number, statement FROM accounts"))
+    worst_acct, worst = None, 0.0
+    for d in ("2025-12-31", "2026-09-30", "2026-10-31"):
+        replay = defaultdict(float)
+        for a, v in oje:
+            replay[a] += v
+        replay["1100"] += ar_open
+        replay["1999"] -= ar_open
+        replay["2000"] -= ap_open
+        replay["1999"] += ap_open
+        for a, v in q(bkd, """SELECT account_number, SUM(debit - credit) FROM gl_lines_to_load l
+                              JOIN gl_entries e USING (je_id) WHERE e.txn_date <= ?
+                              GROUP BY 1""", d):
+            replay[a] += v
+        full = dict(q(bkd, """SELECT account_number, SUM(debit - credit) FROM gl_lines l
+                              JOIN gl_entries e USING (je_id) WHERE e.txn_date <= ? GROUP BY 1""",
+                      d))
+        # in the full history, prior-year P&L sits in the P&L accounts; in QuickBooks it is
+        # in retained earnings as of the cutoff
+        full_bs = defaultdict(float)
+        for a, v in full.items():
+            if stmt[a] == "BS":
+                full_bs[a] += v
+        pre = q(bkd, """SELECT SUM(l.debit - l.credit) FROM gl_lines l JOIN gl_entries e
+                        USING (je_id) JOIN accounts a USING (account_number)
+                        WHERE e.txn_date <= ? AND a.statement != 'BS'""", cut)[0][0]
+        full_bs["3900"] += pre
+        post_pl = dict(q(bkd, """SELECT l.account_number, SUM(l.debit - l.credit)
+                                 FROM gl_lines l JOIN gl_entries e USING (je_id)
+                                 JOIN accounts a USING (account_number)
+                                 WHERE e.txn_date > ? AND e.txn_date <= ? AND a.statement != 'BS'
+                                 GROUP BY 1""", cut, d))
+        for a in set(replay) | set(full_bs) | set(post_pl):
+            target = full_bs.get(a, 0.0) + post_pl.get(a, 0.0)
+            diff = abs(replay.get(a, 0.0) - target)
+            if diff > worst:
+                worst, worst_acct = diff, f"{a} at {d}"
+    check("Replayed QuickBooks load = full-history ledger (every account, 3 dates)",
+          worst < 0.01, f"max diff {worst:,.2f}" + (f" ({worst_acct})" if worst >= 0.01 else ""))
+    clr = round(sum(v for a, v in oje if a == "1999") - ar_open + ap_open, 2)
+    check("Conversion clearing account nets to zero after loading open AR/AP", abs(clr) < 0.01,
+          f"{clr:,.2f}")
+
     lines += ["", "## SaaS metrics (from billing events)", "",
               "| Month | ARR | Customers | SMB / MM / Ent | Net new ARR | NRR (TTM) | GRR (TTM) |",
               "|---|---:|---:|---|---:|---:|---:|"]

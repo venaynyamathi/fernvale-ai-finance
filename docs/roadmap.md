@@ -8,9 +8,11 @@ Simulation, source-system database, ledger, budget and validation are done. Rebu
 
 - [ ] Create an Intuit Developer account and an app with the `com.intuit.quickbooks.accounting` scope. Connect the sandbox company and keep the credentials in a local `.env` (git-ignored).
 - [ ] Neutralize Intuit's sample company: make sample accounts, customers, vendors and items inactive.
-- [ ] Create the 48 accounts and 8 classes from `build/books_as_booked.sqlite`.
-- [ ] Create customers and vendors, plus service items for subscription and services revenue.
-- [ ] Load opening balances (Nov 1, 2024), then invoices, payments, bills, bill payments, card activity, deposits and journal entries in date order.
+- [ ] Create the 49 accounts and 8 classes (`build/qbo_load/01_chart_of_accounts.csv`, `02_classes.csv`).
+- [ ] Create customers and vendors, plus service items for subscription and services revenue and a "Conversion" item mapped to 1999 Conversion Clearing.
+- [ ] Post the opening journal entry dated Oct 31, 2024 (`04_opening_journal_entry`).
+- [ ] Load the open invoices and bills at the cutoff (`05`, `06`) against 1999. Confirm 1999 is zero.
+- [ ] Load every transaction from Nov 1, 2024 in date order (`gl_entries_to_load`): invoices, payments, bills, bill payments, card activity, deposits, transfers and journal entries.
 - [ ] Tag every loaded record (for example `FV:` in the memo or private note) so agents can filter out sandbox noise.
 - [ ] Verify: QuickBooks trial balance at Sep 30 and Oct 31, 2026 matches the as-booked ledger.
 - [ ] Set a closing date of Sep 30, 2026.

@@ -1,0 +1,14 @@
+line_no,account_number,account_name,debit,credit,description
+1,1000,Operating Checking,2283319.18,0.0,Opening balance at conversion
+2,1010,Treasury Money Market,10784897.25,0.0,Opening balance at conversion
+3,1200,Prepaid Software,21392.12,0.0,Opening balance at conversion
+4,1210,Prepaid Insurance,6032.8,0.0,Opening balance at conversion
+5,2100,Ramp Corporate Card,0.0,62242.62,Opening balance at conversion
+6,2200,Accrued Expenses,0.0,30900.0,Opening balance at conversion
+7,2210,Accrued Commissions,0.0,13063.68,Opening balance at conversion
+8,2220,Accrued Bonus,0.0,253540.01,Opening balance at conversion
+9,2300,Deferred Revenue,0.0,1455783.78,Opening balance at conversion
+10,3010,Preferred Stock - Seed,0.0,5000000.0,Opening balance at conversion
+11,3020,Preferred Stock - Series A,0.0,14000000.0,Opening balance at conversion
+12,3900,Retained Earnings,7283403.84,0.0,Opening balance at conversion
+13,1999,Conversion Clearing,436484.9,0.0,"Net of open AR $478,723.28 and open AP $42,238.38, loaded as individual invoices and bills"

@@ -17,6 +17,7 @@ from pathlib import Path
 
 from . import config as C
 from .budget import PLAN_ASSUMPTIONS, build_budget
+from .conversion import CLEARING, build_conversion
 from .docs import write_data_dictionary
 from .ledger import ACCOUNTS, CLASSES, build_ledgers
 from .source import simulate
@@ -159,9 +160,11 @@ def source_tables(sim, budget_rows, hc_rows, arr_rows):
     }
 
 
-def ledger_tables(ledger):
+def ledger_tables(ledger, with_clearing=False):
     accts = [{"account_number": a[0], "name": a[1], "qbo_account_type": a[2],
-              "qbo_account_subtype": a[3], "statement": a[4]} for a in ACCOUNTS]
+              "qbo_account_subtype": a[3], "statement": a[4]}
+             for a in ACCOUNTS + ([CLEARING] if with_clearing else [])]
+    accts.sort(key=lambda a: a["account_number"])
     return {
         "accounts": table(accts, ["account_number", "name", "qbo_account_type",
                                   "qbo_account_subtype", "statement"]),
@@ -192,7 +195,36 @@ def main():
             w.writerow(cols)
             w.writerows([[_sql(r.get(c)) for c in cols] for r in rows])
 
-    write_tables(ROOT / "build" / "books_as_booked.sqlite", ledger_tables(booked))
+    conv, conv_checks = build_conversion(sim, booked)
+    books = ledger_tables(booked, with_clearing=True)
+    books.update(conv)
+    books_path = ROOT / "build" / "books_as_booked.sqlite"
+    write_tables(books_path, books)
+    con = sqlite3.connect(books_path)
+    con.execute(f"""CREATE VIEW gl_entries_to_load AS SELECT * FROM gl_entries
+                    WHERE txn_date >= '{C.BOOKS_START.isoformat()}' ORDER BY txn_date, je_id""")
+    con.execute(f"""CREATE VIEW gl_lines_to_load AS SELECT l.* FROM gl_lines l
+                    JOIN gl_entries e USING (je_id)
+                    WHERE e.txn_date >= '{C.BOOKS_START.isoformat()}'""")
+    con.commit()
+    con.close()
+    load_dir = ROOT / "build" / "qbo_load"
+    if load_dir.exists():
+        shutil.rmtree(load_dir)
+    load_dir.mkdir(parents=True)
+    exports = {"01_chart_of_accounts": books["accounts"], "02_classes": books["classes"],
+               "03_opening_trial_balance_2024-10-31": conv["opening_trial_balance"],
+               "04_opening_journal_entry_2024-10-31": conv["opening_journal_entry"],
+               "05_open_ar_invoices_2024-10-31": conv["open_ar_at_conversion"],
+               "06_open_ap_bills_2024-10-31": conv["open_ap_at_conversion"],
+               "legacy_pl_monthly_2022-01_to_2024-10": conv["legacy_pl_monthly"]}
+    for name, (rows, cols) in exports.items():
+        with open(load_dir / f"{name}.csv", "w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(cols)
+            w.writerows([[_sql(r.get(c)) for c in cols] for r in rows])
+    with open(ROOT / "build" / "conversion_checks.json", "w") as f:
+        json.dump(conv_checks, f, indent=2, default=str)
     write_tables(ROOT / "private" / "books_expected.sqlite", ledger_tables(expected))
 
     planted = sim["planted"]
