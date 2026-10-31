@@ -1,0 +1,654 @@
+opportunity_id,account_id,name,type,stage,probability,forecast_category,amount,services_amount,created_date,close_date,owner_id,contract_seats,contract_start_date,term_months,billing_subscription_id,lost_reason
+006000006,001P00010,Cedarline Energy Services - New Business 2022,New Business,Closed Lost,0,Omitted,33048.0,0.0,2021-09-21,2022-01-17,E0009,51,,12,,Built in-house
+006000005,001P00009,Pemberton Concrete - New Business 2022,New Business,Closed Lost,0,Omitted,20736.0,0.0,2021-11-26,2022-02-01,E0009,32,,12,,Missing integration
+006000004,001P00008,Stonebridge Energy Services LLC - New Business 2022,New Business,Closed Lost,0,Omitted,42768.0,0.0,2021-11-10,2022-02-07,E0009,66,,12,,Chose competitor
+006000001,00100006A,Driftwood Construction LLC - New Business 2022,New Business,Closed Won,100,Closed,30456.0,0.0,2022-01-03,2022-02-09,E0009,47,2022-02-15,12,sub_00006,
+006000010,001P00014,Yarrow Wholesale Co. - New Business 2022,New Business,Closed Lost,0,Omitted,24624.0,0.0,2021-12-30,2022-02-11,E0009,38,,12,,Built in-house
+006000003,001P00007,Wexley Builders Holdings - New Business 2022,New Business,Closed Lost,0,Omitted,68040.0,0.0,2021-10-12,2022-02-12,E0009,105,,12,,Timing - revisit next year
+006000008,001P00012,Sumner Facility Services Co. - New Business 2022,New Business,Closed Lost,0,Omitted,30456.0,0.0,2021-09-26,2022-02-12,E0009,47,,12,,Missing integration
+006000002,001P00006,Pinecroft Components Inc. - New Business 2022,New Business,Closed Lost,0,Omitted,42120.0,0.0,2021-11-28,2022-02-22,E0009,65,,12,,No decision / stalled
+006000007,00100007A,Saltmarsh Power Systems LLC - New Business 2022,New Business,Closed Won,100,Closed,21384.0,15000.0,2021-12-21,2022-02-27,E0009,33,2022-03-08,12,sub_00007,
+006000009,001P00013,Redfern Distribution Corp. - New Business 2022,New Business,Closed Lost,0,Omitted,42120.0,0.0,2022-01-30,2022-03-03,E0009,65,,12,,No decision / stalled
+006000024,001P00031,Pinecroft Logistics - New Business 2022,New Business,Closed Lost,0,Omitted,42120.0,0.0,2022-03-18,2022-05-27,E0009,65,,12,,Timing - revisit next year
+006000014,001P00021,Larkspur Builders Corp. - New Business 2022,New Business,Closed Lost,0,Omitted,44712.0,0.0,2022-02-07,2022-06-05,E0009,69,,12,,No budget
+006000026,001P00033,Juniper Builders LLC - New Business 2022,New Business,Closed Lost,0,Omitted,53784.0,0.0,2022-04-15,2022-06-10,E0009,83,,12,,No budget
+006000020,001P00027,Stonebridge Supply Co. - New Business 2022,New Business,Closed Lost,0,Omitted,73872.0,0.0,2022-04-15,2022-06-11,E0009,114,,12,,No budget
+006000019,001P00026,Foxglove Water Works LLC - New Business 2022,New Business,Closed Lost,0,Omitted,47304.0,0.0,2022-03-04,2022-06-14,E0009,73,,12,,Missing integration
+006000015,001P00022,Corrigan Plumbing Inc. - New Business 2022,New Business,Closed Lost,0,Omitted,29808.0,0.0,2022-05-12,2022-06-15,E0009,46,,12,,Built in-house
+006000011,00100011A,Thornbury Power Systems Corp. - New Business 2022,New Business,Closed Won,100,Closed,28080.0,0.0,2022-04-22,2022-06-17,E0009,39,2022-06-25,12,sub_00011,
+006000021,00100013A,Eastwick Manufacturing Co. - New Business 2022,New Business,Closed Won,100,Closed,43092.0,0.0,2022-05-03,2022-06-18,E0009,63,2022-06-25,12,sub_00013,
+006000029,001P00036,Sumner Power Systems Holdings - New Business 2022,New Business,Closed Lost,0,Omitted,57672.0,0.0,2022-03-09,2022-06-19,E0009,89,,12,,Chose competitor
+006000013,001P00020,Oakhurst Builders Group - New Business 2022,New Business,Closed Lost,0,Omitted,36288.0,0.0,2022-03-16,2022-06-22,E0009,56,,12,,Built in-house
+006000016,00100012A,Sumner Plumbing - New Business 2022,New Business,Closed Won,100,Closed,37440.0,11000.0,2022-05-08,2022-06-23,E0009,52,2022-06-30,12,sub_00012,
+006000023,001P00030,Maplecrest Shipping Inc. - New Business 2022,New Business,Closed Lost,0,Omitted,56376.0,0.0,2022-03-24,2022-06-23,E0009,87,,12,,Chose competitor
+006000028,001P00035,Sheffield Field Services Partners - New Business 2022,New Business,Closed Lost,0,Omitted,29808.0,0.0,2022-03-12,2022-06-23,E0009,46,,12,,Built in-house
+006000037,001P00045,Norcross Machining Partners - New Business 2022,New Business,Closed Lost,0,Omitted,20736.0,0.0,2022-04-25,2022-06-27,E0009,32,,12,,No budget
+006000036,001P00044,Thornbury Haulage Inc. - New Business 2022,New Business,Closed Lost,0,Omitted,19440.0,0.0,2022-02-27,2022-06-28,E0009,30,,12,,Built in-house
+006000025,00100014A,Talbot Energy Services Corp. - New Business 2022,New Business,Closed Won,100,Closed,26568.0,0.0,2022-05-17,2022-06-30,E0009,41,2022-07-04,12,sub_00014,
+006000027,001P00034,Calder Plumbing - New Business 2022,New Business,Closed Lost,0,Omitted,49248.0,0.0,2022-03-28,2022-06-30,E0009,76,,12,,No decision / stalled
+006000022,001P00029,Elmstead Builders Partners - New Business 2022,New Business,Closed Lost,0,Omitted,44064.0,0.0,2022-04-02,2022-07-01,E0009,68,,12,,No decision / stalled
+006000012,001P00019,Greywater Machining Holdings - New Business 2022,New Business,Closed Lost,0,Omitted,73224.0,0.0,2022-03-19,2022-07-05,E0009,113,,12,,Built in-house
+006000032,001P00039,Kestrel Builders Holdings - New Business 2022,New Business,Closed Lost,0,Omitted,49248.0,0.0,2022-03-20,2022-07-10,E0009,76,,12,,Missing integration
+006000018,001P00025,Basalt Wholesale Corp. - New Business 2022,New Business,Closed Lost,0,Omitted,49896.0,0.0,2022-03-30,2022-07-11,E0009,77,,12,,No budget
+006000034,001P00042,Copperfield Power Systems LLC - New Business 2022,New Business,Closed Lost,0,Omitted,49248.0,0.0,2022-06-10,2022-07-13,E0009,76,,12,,Timing - revisit next year
+006000017,001P00024,Corrigan Trading Group - New Business 2022,New Business,Closed Lost,0,Omitted,20088.0,0.0,2022-04-23,2022-07-15,E0009,31,,12,,Built in-house
+006000030,001P00037,Westbrook Contracting Partners - New Business 2022,New Business,Closed Lost,0,Omitted,55080.0,0.0,2022-04-14,2022-07-15,E0009,85,,12,,Missing integration
+006000033,00100016A,Millrace Plumbing - New Business 2022,New Business,Closed Won,100,Closed,62856.0,0.0,2022-06-02,2022-07-21,E0009,97,2022-07-29,12,sub_00016,
+006000031,001P00038,Sawtooth Haulage Inc. - New Business 2022,New Business,Closed Lost,0,Omitted,42120.0,0.0,2022-06-12,2022-07-22,E0009,65,,12,,No decision / stalled
+006000035,001P00043,Clearwater Manufacturing LLC - New Business 2022,New Business,Closed Lost,0,Omitted,33696.0,0.0,2022-07-05,2022-08-13,E0009,52,,12,,Timing - revisit next year
+006000039,001P00052,Talbot Facility Services Co. - New Business 2022,New Business,Closed Lost,0,Omitted,47952.0,0.0,2022-09-10,2022-11-05,E0009,74,,12,,Built in-house
+006000040,001P00053,Upland Energy Services - New Business 2022,New Business,Closed Lost,0,Omitted,69984.0,0.0,2022-08-14,2022-11-11,E0009,108,,12,,Timing - revisit next year
+006000038,00100022A,Osprey Contracting Holdings - New Business 2022,New Business,Closed Won,100,Closed,59616.0,12000.0,2022-09-11,2022-11-13,E0009,92,2022-11-19,12,sub_00022,
+006000042,001P00055,Oakhurst Trading Holdings - New Business 2022,New Business,Closed Lost,0,Omitted,73872.0,0.0,2022-10-04,2022-11-21,E0009,114,,12,,Chose competitor
+006000041,001P00054,Thornbury Concrete Partners - New Business 2022,New Business,Closed Lost,0,Omitted,31104.0,0.0,2022-09-30,2022-11-26,E0009,48,,12,,No decision / stalled
+006000053,001P00069,Upland Plumbing LLC - New Business 2022,New Business,Closed Lost,0,Omitted,66744.0,0.0,2022-10-18,2022-11-26,E0009,103,,12,,Built in-house
+006000050,001P00066,Talbot Supply Group - New Business 2022,New Business,Closed Lost,0,Omitted,20736.0,0.0,2022-09-23,2022-11-28,E0009,32,,12,,No decision / stalled
+006000049,001P00065,Willowbend Supply Inc. - New Business 2022,New Business,Closed Lost,0,Omitted,56376.0,0.0,2022-10-20,2022-12-01,E0009,87,,12,,No budget
+006000048,00100027A,Palisade Field Services LLC - New Business 2022,New Business,Closed Won,100,Closed,34884.0,0.0,2022-10-10,2022-12-14,E0009,51,2022-12-15,12,sub_00027,
+006000046,001P00062,Ambrose Machining Group - New Business 2022,New Business,Closed Lost,0,Omitted,32400.0,0.0,2022-08-13,2022-12-15,E0009,50,,12,,Built in-house
+006000052,00100028A,Wexley Logistics LLC - New Business 2022,New Business,Closed Won,100,Closed,31680.0,0.0,2022-11-05,2022-12-17,E0009,44,2022-12-22,12,sub_00028,
+006000425,00100013A,Eastwick Manufacturing Co. - Expansion 2022,Expansion,Closed Won,100,Closed,10260.0,0.0,2022-11-15,2022-12-17,E0009,15,2022-12-25,12,sub_00013,
+006000045,001P00061,Maplecrest Trading Holdings - New Business 2022,New Business,Closed Lost,0,Omitted,59616.0,0.0,2022-09-18,2022-12-19,E0009,92,,12,,Chose competitor
+006000055,001P00071,Saltmarsh Distribution Holdings - New Business 2022,New Business,Closed Lost,0,Omitted,40176.0,0.0,2022-11-04,2022-12-19,E0009,62,,12,,No decision / stalled
+006000051,001P00067,Marrow HVAC Partners - New Business 2022,New Business,Closed Lost,0,Omitted,36288.0,0.0,2022-11-03,2022-12-22,E0009,56,,12,,No budget
+006000043,00100026A,Wexley Transport Partners - New Business 2022,New Business,Closed Won,100,Closed,28728.0,14500.0,2022-11-10,2022-12-28,E0009,42,2022-12-28,12,sub_00026,
+006000054,001P00070,Quarry Trading Group - New Business 2022,New Business,Closed Lost,0,Omitted,25272.0,0.0,2022-08-23,2022-12-29,E0009,39,,12,,No budget
+006000047,001P00063,Upland Industries Group - New Business 2023,New Business,Closed Lost,0,Omitted,23976.0,0.0,2022-10-25,2023-01-01,E0009,37,,12,,Missing integration
+006000430,00100014A,Talbot Energy Services Corp. - Expansion 2023,Expansion,Closed Won,100,Closed,6480.0,0.0,2022-11-25,2023-01-03,E0009,10,2023-01-04,12,sub_00014,
+006000057,00100032A,Talbot Wholesale Group - New Business 2023,New Business,Closed Won,100,Closed,72504.0,0.0,2022-11-11,2023-01-11,E0009,106,2023-01-11,12,sub_00032,
+006000044,001P00060,Silverbell Distribution Co. - New Business 2023,New Business,Closed Lost,0,Omitted,20736.0,0.0,2022-10-19,2023-01-14,E0009,32,,12,,Chose competitor
+006000056,00100031A,Ironleaf Water Works Co. - New Business 2023,New Business,Closed Won,100,Closed,73872.0,0.0,2022-12-13,2023-01-20,E0009,108,2023-01-20,12,sub_00031,
+006000408,00100006A,Driftwood Construction LLC - Renewal 2023,Renewal,Closed Won,100,Closed,30034.8,0.0,2022-11-16,2023-02-10,E0009,45,2023-02-15,12,sub_00006,
+006000411,00100007A,Saltmarsh Power Systems LLC - Renewal 2023,Renewal,Closed Won,100,Closed,24455.52,0.0,2022-12-07,2023-02-20,E0009,37,2023-03-08,12,sub_00007,
+006000058,00100036A,Lockhart Fabrication Corp. - New Business 2023,New Business,Closed Won,100,Closed,57600.0,0.0,2023-02-01,2023-04-06,E0013,80,2023-04-06,12,sub_00036,
+006000059,001P00080,Talbot Energy Services - New Business 2023,New Business,Closed Lost,0,Omitted,22680.0,0.0,2023-01-07,2023-04-20,E0009,35,,12,,Chose competitor
+006000060,001P00081,Dunmore Power Systems Holdings - New Business 2023,New Business,Closed Lost,0,Omitted,35640.0,0.0,2023-01-07,2023-04-20,E0013,55,,12,,Built in-house
+006000062,001P00084,Cedarline Water Works Corp. - New Business 2023,New Business,Closed Lost,0,Omitted,66744.0,0.0,2023-01-13,2023-05-01,E0013,103,,12,,No budget
+006000065,001P00087,Palisade Shipping Corp. - New Business 2023,New Business,Closed Lost,0,Omitted,72576.0,0.0,2023-03-05,2023-05-14,E0013,112,,12,,No budget
+006000064,001P00086,Marrow Mechanical Inc. - New Business 2023,New Business,Closed Lost,0,Omitted,30456.0,0.0,2023-03-10,2023-05-17,E0013,47,,12,,Built in-house
+006000061,00100038A,Thornbury Shipping Co. - New Business 2023,New Business,Closed Won,100,Closed,43200.0,9500.0,2023-03-31,2023-05-26,E0009,60,2023-05-28,12,sub_00038,
+006000071,001P00094,Greywater HVAC - New Business 2023,New Business,Closed Lost,0,Omitted,57024.0,0.0,2023-03-01,2023-05-26,E0013,88,,12,,Chose competitor
+006000063,001P00085,Upland Power Systems Holdings - New Business 2023,New Business,Closed Lost,0,Omitted,29808.0,0.0,2023-04-24,2023-06-05,E0013,46,,12,,Missing integration
+006000426,00100013A,Eastwick Manufacturing Co. - Renewal 2023,Renewal,Closed Won,100,Closed,57456.0,0.0,2023-03-26,2023-06-06,E0009,84,2023-06-25,12,sub_00013,
+006000069,001P00092,Talbot Cartage Holdings - New Business 2023,New Business,Closed Lost,0,Omitted,32400.0,0.0,2023-04-27,2023-06-14,E0013,50,,12,,Chose competitor
+006000066,00100040A,Whitlock Fabrication Group - New Business 2023,New Business,Closed Won,100,Closed,40356.0,11500.0,2023-04-16,2023-06-15,E0009,59,2023-06-17,12,sub_00040,
+006000067,001P00090,Hartwell Components LLC - New Business 2023,New Business,Closed Lost,0,Omitted,43416.0,0.0,2023-03-30,2023-06-17,E0009,67,,12,,No decision / stalled
+006000415,00100011A,Thornbury Power Systems Corp. - Renewal 2023,Renewal,Closed Won,100,Closed,31579.2,0.0,2023-03-26,2023-06-18,E0009,43,2023-06-25,12,sub_00011,
+006000420,00100012A,Sumner Plumbing - Renewal 2023,Renewal,Closed Won,100,Closed,44798.4,0.0,2023-03-31,2023-06-18,E0009,61,2023-06-30,12,sub_00012,
+006000068,001P00091,Juniper Wholesale Co. - New Business 2023,New Business,Closed Lost,0,Omitted,64800.0,0.0,2023-05-08,2023-06-20,E0009,100,,12,,No decision / stalled
+006000070,001P00093,Oakhurst Machining LLC - New Business 2023,New Business,Closed Lost,0,Omitted,20088.0,0.0,2023-05-05,2023-06-22,E0009,31,,12,,No budget
+006000431,00100014A,Talbot Energy Services Corp. - Renewal 2023,Renewal,Closed Lost,0,Omitted,33048.0,0.0,2023-04-04,2023-06-27,E0009,51,2023-07-04,12,sub_00014,Consolidated tooling
+006000432,00100016A,Millrace Plumbing - Renewal 2023,Renewal,Closed Won,100,Closed,72802.8,0.0,2023-04-29,2023-07-25,E0009,107,2023-07-29,12,sub_00016,
+006000072,00100042A,Halvorsen Freight Group - New Business 2023,New Business,Closed Won,100,Closed,311731.2,32000.0,2023-04-12,2023-07-27,E0013,410,2023-08-01,12,sub_00042,
+006000074,001P00098,Maplecrest Freight Co. - New Business 2023,New Business,Closed Lost,0,Omitted,275270.4,0.0,2023-04-13,2023-08-06,E0013,354,,12,,Built in-house
+006000075,001P00099,Elmstead Mechanical Corp. - New Business 2023,New Business,Closed Lost,0,Omitted,108864.0,0.0,2023-04-23,2023-08-16,E0013,140,,12,,No decision / stalled
+006000073,001P00097,Millrace Electric - New Business 2023,New Business,Closed Lost,0,Omitted,293932.8,0.0,2023-05-27,2023-08-20,E0013,378,,12,,Timing - revisit next year
+006000080,001P00108,Driftwood Trading - New Business 2023,New Business,Closed Lost,0,Omitted,52488.0,0.0,2023-05-21,2023-09-03,E0009,81,,12,,No decision / stalled
+006000077,001P00105,Maplecrest Facility Services Inc. - New Business 2023,New Business,Closed Lost,0,Omitted,24624.0,0.0,2023-07-15,2023-09-08,E0013,38,,12,,No budget
+006000076,00100047A,Sawtooth Plumbing Holdings - New Business 2023,New Business,Closed Won,100,Closed,25920.0,0.0,2023-08-06,2023-09-23,E0013,36,2023-09-30,12,sub_00047,
+006000078,001P00106,Alder Field Services LLC - New Business 2023,New Business,Closed Lost,0,Omitted,23328.0,0.0,2023-07-18,2023-09-30,E0013,36,,12,,No budget
+006000079,001P00107,Brackenridge Field Services Holdings - New Business 2023,New Business,Closed Lost,0,Omitted,35640.0,0.0,2023-06-16,2023-10-05,E0013,55,,12,,Built in-house
+006000081,00100050A,Pemberton Power Systems - New Business 2023,New Business,Closed Won,100,Closed,33516.0,0.0,2023-09-01,2023-10-13,E0013,49,2023-10-17,12,sub_00050,
+006000087,001P00119,Merriam Contracting Inc. - New Business 2023,New Business,Closed Lost,0,Omitted,35640.0,0.0,2023-06-15,2023-10-13,E0009,55,,12,,Missing integration
+006000082,001P00112,Bluestem Energy Services LLC - New Business 2023,New Business,Closed Lost,0,Omitted,57672.0,0.0,2023-07-28,2023-10-25,E0013,89,,12,,Missing integration
+006000085,001P00117,Merriam Supply Co. - New Business 2023,New Business,Closed Lost,0,Omitted,46656.0,0.0,2023-07-03,2023-10-25,E0009,72,,12,,Timing - revisit next year
+006000436,00100022A,Osprey Contracting Holdings - Renewal 2023,Renewal,Closed Won,100,Closed,70761.6,0.0,2023-08-20,2023-10-30,E0009,104,2023-11-19,12,sub_00022,
+006000083,001P00113,Osprey Mechanical Group - New Business 2023,New Business,Closed Lost,0,Omitted,26568.0,0.0,2023-07-12,2023-11-04,E0009,41,,12,,No decision / stalled
+006000084,00100053A,Osprey Contracting LLC - New Business 2023,New Business,Closed Won,100,Closed,47952.0,0.0,2023-09-16,2023-11-06,E0009,74,2023-11-09,12,sub_00053,
+006000088,001P00120,Lowell Manufacturing Group - New Business 2023,New Business,Closed Lost,0,Omitted,42120.0,0.0,2023-08-26,2023-11-09,E0013,65,,12,,No budget
+006000086,001P00118,Fallowmere Builders Partners - New Business 2023,New Business,Closed Lost,0,Omitted,35640.0,0.0,2023-09-01,2023-11-22,E0013,55,,12,,Built in-house
+006000089,001P00121,Vantor Water Works Corp. - New Business 2023,New Business,Closed Lost,0,Omitted,62856.0,0.0,2023-09-07,2023-11-22,E0009,97,,12,,No budget
+006000447,00100028A,Wexley Logistics LLC - Renewal 2023,Renewal,Closed Won,100,Closed,33840.0,0.0,2023-09-22,2023-11-30,E0009,47,2023-12-22,12,sub_00028,
+006000439,00100026A,Wexley Transport Partners - Renewal 2023,Renewal,Closed Won,100,Closed,35191.8,0.0,2023-09-28,2023-12-05,E0009,49,2023-12-28,12,sub_00026,
+006000444,00100027A,Palisade Field Services LLC - Renewal 2023,Renewal,Closed Won,100,Closed,41566.68,0.0,2023-09-15,2023-12-05,E0009,59,2023-12-15,12,sub_00027,
+006000455,00100032A,Talbot Wholesale Group - Renewal 2023,Renewal,Closed Won,100,Closed,82764.0,0.0,2023-10-12,2023-12-23,E0009,121,2024-01-11,12,sub_00032,
+006000093,00100057A,Clearwater Mechanical - New Business 2024,New Business,Closed Won,100,Closed,68400.0,0.0,2023-10-26,2024-01-03,E0009,100,2024-01-10,12,sub_00057,
+006000451,00100031A,Ironleaf Water Works Co. - Renewal 2024,Renewal,Closed Won,100,Closed,65664.0,0.0,2023-10-21,2024-01-06,E0009,96,2024-01-20,12,sub_00031,
+006000091,001P00125,Pemberton Cartage Group - New Business 2024,New Business,Closed Lost,0,Omitted,49248.0,0.0,2023-09-11,2024-01-08,E0009,76,,12,,Chose competitor
+006000090,00100056A,Lowell Concrete Corp. - New Business 2024,New Business,Closed Won,100,Closed,68688.0,13500.0,2023-11-27,2024-01-22,E0013,106,2024-01-30,12,sub_00056,
+006000409,00100006A,Driftwood Construction LLC - Renewal 2024,Renewal,Closed Won,100,Closed,32037.12,0.0,2023-11-16,2024-02-03,E0009,48,2024-02-15,12,sub_00006,
+006000092,001P00126,Fenwick Machining Group - New Business 2024,New Business,Closed Lost,0,Omitted,36288.0,0.0,2023-11-08,2024-02-07,E0013,56,,12,,No budget
+006000412,00100007A,Saltmarsh Power Systems LLC - Renewal 2024,Renewal,Closed Won,100,Closed,24455.52,0.0,2023-12-08,2024-02-12,E0009,37,2024-03-08,12,sub_00007,
+006000097,001P00135,Cinder Logistics Partners - New Business 2024,New Business,Closed Lost,0,Omitted,71928.0,0.0,2023-11-02,2024-02-15,E0013,111,,12,,Chose competitor
+006000098,001P00136,Willowbend Mechanical Holdings - New Business 2024,New Business,Closed Lost,0,Omitted,70632.0,0.0,2023-10-12,2024-02-27,E0009,109,,12,,Chose competitor
+006000094,00100062A,Rookwood Manufacturing - New Business 2024,New Business,Closed Won,100,Closed,26676.0,0.0,2024-02-01,2024-03-08,E0013,39,2024-03-16,12,sub_00062,
+006000095,001P00133,Fenwick Transport LLC - New Business 2024,New Business,Closed Lost,0,Omitted,35640.0,0.0,2023-12-20,2024-03-09,E0009,55,,12,,Chose competitor
+006000096,001P00134,Brackenridge Distribution Partners - New Business 2024,New Business,Closed Lost,0,Omitted,58320.0,0.0,2023-11-20,2024-03-09,E0013,90,,12,,Built in-house
+006000459,00100036A,Lockhart Fabrication Corp. - Renewal 2024,Renewal,Closed Won,100,Closed,62294.4,0.0,2024-01-06,2024-03-19,E0013,84,2024-04-06,12,sub_00036,
+006000099,00100063A,Dunmore Freight Holdings - New Business 2024,New Business,Closed Won,100,Closed,72504.0,13500.0,2024-01-25,2024-04-05,E0009,106,2024-04-10,12,sub_00063,
+006000101,001P00139,Redfern Contracting Inc. - New Business 2024,New Business,Closed Lost,0,Omitted,33696.0,0.0,2023-11-29,2024-04-15,E0009,52,,12,,No decision / stalled
+006000102,001P00140,Yarrow Power Systems Group - New Business 2024,New Business,Closed Lost,0,Omitted,23328.0,0.0,2023-12-14,2024-04-21,E0013,36,,12,,No decision / stalled
+006000100,001P00138,Ironleaf Wholesale Partners - New Business 2024,New Business,Closed Lost,0,Omitted,23976.0,0.0,2024-02-25,2024-04-22,E0009,37,,12,,No budget
+006000461,00100038A,Thornbury Shipping Co. - Renewal 2024,Renewal,Closed Won,100,Closed,60480.0,0.0,2024-02-27,2024-05-22,E0009,80,2024-05-28,12,sub_00038,
+006000464,00100040A,Whitlock Fabrication Group - Renewal 2024,Renewal,Closed Won,100,Closed,51984.0,0.0,2024-03-18,2024-05-24,E0009,76,2024-06-17,12,sub_00040,
+006000104,001P00151,Willowbend Transport Partners - New Business 2024,New Business,Closed Lost,0,Omitted,69984.0,0.0,2024-03-20,2024-06-04,E0013,108,,12,,Missing integration
+006000416,00100011A,Thornbury Power Systems Corp. - Renewal 2024,Renewal,Closed Won,100,Closed,33929.28,0.0,2024-03-26,2024-06-04,E0009,44,2024-06-25,12,sub_00011,
+006000113,001P00160,Alder Trading LLC - New Business 2024,New Business,Closed Lost,0,Omitted,33048.0,0.0,2024-01-18,2024-06-05,E0009,51,,12,,No budget
+006000112,001P00159,Pemberton Logistics Corp. - New Business 2024,New Business,Closed Lost,0,Omitted,35640.0,0.0,2024-02-24,2024-06-06,E0013,55,,12,,Chose competitor
+006000427,00100013A,Eastwick Manufacturing Co. - Renewal 2024,Renewal,Closed Won,100,Closed,63612.0,0.0,2024-03-26,2024-06-11,E0009,93,2024-06-25,12,sub_00013,
+006000110,001P00157,Quarry Concrete - New Business 2024,New Business,Closed Lost,0,Omitted,27216.0,0.0,2024-05-11,2024-06-16,E0013,42,,12,,Timing - revisit next year
+006000448,00100028A,Wexley Logistics LLC - Expansion 2024,Expansion,Closed Won,100,Closed,7920.0,0.0,2024-05-13,2024-06-16,E0009,11,2024-06-22,12,sub_00028,
+006000421,00100012A,Sumner Plumbing - Renewal 2024,Renewal,Closed Won,100,Closed,60147.36,0.0,2024-03-31,2024-06-17,E0009,78,2024-06-30,12,sub_00012,
+006000105,001P00152,Talbot Industries Co. - New Business 2024,New Business,Closed Lost,0,Omitted,58968.0,0.0,2024-04-09,2024-06-18,E0013,91,,12,,Built in-house
+006000103,00100073A,Redfern Distribution LLC - New Business 2024,New Business,Closed Won,100,Closed,56772.0,0.0,2024-04-23,2024-06-20,E0013,83,2024-06-24,12,sub_00073,
+006000109,001P00156,Cedarline Construction Partners - New Business 2024,New Business,Closed Lost,0,Omitted,69984.0,0.0,2024-02-13,2024-06-23,E0009,108,,12,,No budget
+006000440,00100026A,Wexley Transport Partners - Expansion 2024,Expansion,Closed Won,100,Closed,3591.0,0.0,2024-05-19,2024-06-26,E0009,5,2024-06-28,12,sub_00026,
+006000115,001P00164,Flint Facility Services Group - New Business 2024,New Business,Closed Lost,0,Omitted,71280.0,0.0,2024-05-21,2024-06-28,E0009,110,,12,,No decision / stalled
+006000106,00100074A,Westbrook Concrete Holdings - New Business 2024,New Business,Closed Won,100,Closed,72000.0,11000.0,2024-05-01,2024-06-30,E0013,100,2024-07-02,12,sub_00074,
+006000107,001P00154,Cedarline Trading Holdings - New Business 2024,New Business,Closed Lost,0,Omitted,58320.0,0.0,2024-03-15,2024-07-04,E0013,90,,12,,Timing - revisit next year
+006000111,001P00158,Belmar Field Services Co. - New Business 2024,New Business,Closed Lost,0,Omitted,48600.0,0.0,2024-03-25,2024-07-06,E0013,75,,12,,Chose competitor
+006000433,00100016A,Millrace Plumbing - Renewal 2024,Renewal,Closed Won,100,Closed,73483.2,0.0,2024-04-29,2024-07-08,E0009,108,2024-07-29,12,sub_00016,
+006000467,00100042A,Halvorsen Freight Group - Renewal 2024,Renewal,Closed Won,100,Closed,317979.6,0.0,2024-05-02,2024-07-14,E0013,410,2024-08-01,12,sub_00042,
+006000452,00100031A,Ironleaf Water Works Co. - Expansion 2024,Expansion,Closed Won,100,Closed,15048.0,0.0,2024-06-10,2024-07-16,E0013,22,2024-07-20,12,sub_00031,
+006000108,001P00155,Saltmarsh Logistics Group - New Business 2024,New Business,Closed Lost,0,Omitted,37584.0,0.0,2024-06-16,2024-07-18,E0013,58,,12,,No decision / stalled
+006000114,00100077A,Eastwick Plumbing Group - New Business 2024,New Business,Closed Won,100,Closed,20088.0,0.0,2024-06-14,2024-07-19,E0013,31,2024-07-20,12,sub_00077,
+006000116,00100080A,Upland Fabrication Group - New Business 2024,New Business,Closed Won,100,Closed,34884.0,9500.0,2024-07-06,2024-08-28,E0009,51,2024-09-04,12,sub_00080,
+006000120,001P00181,Merriam Haulage LLC - New Business 2024,New Business,Closed Lost,0,Omitted,226281.6,0.0,2024-07-19,2024-09-04,E0013,291,,12,,Chose competitor
+006000470,00100047A,Sawtooth Plumbing Holdings - Renewal 2024,Renewal,Closed Won,100,Closed,29520.0,0.0,2024-07-01,2024-09-06,E0013,41,2024-09-30,12,sub_00047,
+006000117,001P00168,Ironleaf Power Systems LLC - New Business 2024,New Business,Closed Lost,0,Omitted,36936.0,0.0,2024-05-21,2024-09-16,E0033,57,,12,,No decision / stalled
+006000123,001P00184,Pemberton Shipping Holdings - New Business 2024,New Business,Closed Lost,0,Omitted,256608.0,0.0,2024-06-09,2024-09-16,E0013,330,,12,,Built in-house
+006000127,001P00190,Ambrose Power Systems Inc. - New Business 2024,New Business,Closed Lost,0,Omitted,153964.8,0.0,2024-06-15,2024-09-22,E0013,198,,12,,Chose competitor
+006000122,001P00183,Redfern Power Systems Partners - New Business 2024,New Business,Closed Lost,0,Omitted,299376.0,0.0,2024-08-19,2024-09-24,E0009,385,,12,,No decision / stalled
+006000474,00100050A,Pemberton Power Systems - Renewal 2024,Renewal,Closed Won,100,Closed,42558.48,0.0,2024-07-18,2024-09-24,E0013,61,2024-10-17,12,sub_00050,
+006000118,00100091A,Kingsley Contracting Holdings - New Business 2024,New Business,Closed Won,100,Closed,208008.0,42500.0,2024-06-15,2024-09-27,E0013,321,2024-10-01,24,sub_00091,
+006000124,001P00185,Basalt Electric Holdings - New Business 2024,New Business,Closed Lost,0,Omitted,232502.4,0.0,2024-08-22,2024-09-27,E0009,299,,12,,Built in-house
+006000119,001P00180,Hollis Freight Partners - New Business 2024,New Business,Closed Lost,0,Omitted,202953.6,0.0,2024-06-10,2024-10-01,E0033,261,,12,,Missing integration
+006000121,001P00182,Willowbend Builders Partners - New Business 2024,New Business,Closed Lost,0,Omitted,237168.0,0.0,2024-07-11,2024-10-04,E0033,305,,12,,Built in-house
+006000128,001P00191,Talbot Construction - New Business 2024,New Business,Closed Lost,0,Omitted,211507.2,0.0,2024-08-22,2024-10-11,E0009,272,,12,,Built in-house
+006000125,00100094A,Norcross Facility Services LLC - New Business 2024,New Business,Closed Won,100,Closed,130636.8,25500.0,2024-05-19,2024-10-14,E0009,189,2024-10-28,12,sub_00094,
+006000126,001P00189,Corrigan Machining LLC - New Business 2024,New Business,Closed Lost,0,Omitted,234057.6,0.0,2024-06-05,2024-10-22,E0033,301,,12,,Built in-house
+006000477,00100053A,Osprey Contracting LLC - Renewal 2024,Renewal,Closed Won,100,Closed,50544.0,0.0,2024-08-10,2024-10-24,E0009,78,2024-11-09,12,sub_00053,
+006000129,001P00192,Sheffield Power Systems Holdings - New Business 2024,New Business,Closed Lost,0,Omitted,284601.6,0.0,2024-06-26,2024-11-06,E0009,366,,12,,Chose competitor
+006000437,00100022A,Osprey Contracting Holdings - Renewal 2024,Renewal,Closed Won,100,Closed,80592.0,0.0,2024-08-20,2024-11-06,E0009,115,2024-11-19,12,sub_00022,
+006000137,001P00211,Sumner Facility Services Holdings - New Business 2024,New Business,Closed Lost,0,Omitted,63504.0,0.0,2024-08-15,2024-11-09,E0009,98,,12,,No decision / stalled
+006000135,001P00209,Redfern Concrete Corp. - New Business 2024,New Business,Closed Lost,0,Omitted,29160.0,0.0,2024-07-18,2024-11-22,E0013,45,,12,,No budget
+006000449,00100028A,Wexley Logistics LLC - Renewal 2024,Renewal,Closed Won,100,Closed,53280.0,0.0,2024-09-22,2024-11-28,E0009,74,2024-12-22,12,sub_00028,
+006000132,001P00206,Brackenridge Transport Inc. - New Business 2024,New Business,Closed Lost,0,Omitted,25272.0,0.0,2024-08-13,2024-12-01,E0033,39,,12,,No budget
+006000133,00100107A,Fallowmere Field Services - New Business 2024,New Business,Closed Won,100,Closed,44460.0,0.0,2024-09-21,2024-12-01,E0009,65,2024-12-04,12,sub_00107,
+006000445,00100027A,Palisade Field Services LLC - Renewal 2024,Renewal,Closed Won,100,Closed,42812.76,0.0,2024-09-15,2024-12-08,E0009,59,2024-12-15,12,sub_00027,
+006000130,00100106A,Elmstead Cartage Inc. - New Business 2024,New Business,Closed Won,100,Closed,68400.0,0.0,2024-10-07,2024-12-14,E0033,95,2024-12-19,12,sub_00106,
+006000134,001P00208,Corrigan Plumbing Co. - New Business 2024,New Business,Closed Lost,0,Omitted,39528.0,0.0,2024-10-19,2024-12-15,E0013,61,,12,,Built in-house
+006000441,00100026A,Wexley Transport Partners - Renewal 2024,Renewal,Closed Won,100,Closed,42490.8,0.0,2024-09-28,2024-12-16,E0009,58,2024-12-28,12,sub_00026,
+006000422,00100012A,Sumner Plumbing - Expansion 2024,Expansion,Closed Won,100,Closed,6940.08,0.0,2024-11-20,2024-12-21,E0033,9,2024-12-30,12,sub_00012,
+006000456,00100032A,Talbot Wholesale Group - Renewal 2024,Renewal,Closed Won,100,Closed,91211.4,0.0,2024-10-12,2024-12-21,E0009,127,2025-01-11,12,sub_00032,
+006000136,001P00210,Lockhart Wholesale Holdings - New Business 2024,New Business,Closed Lost,0,Omitted,42768.0,0.0,2024-11-11,2024-12-23,E0013,66,,12,,Built in-house
+006000453,00100031A,Ironleaf Water Works Co. - Renewal 2024,Renewal,Closed Won,100,Closed,89303.04,0.0,2024-10-21,2024-12-26,E0009,128,2025-01-20,12,sub_00031,
+006000482,00100057A,Clearwater Mechanical - Renewal 2024,Renewal,Closed Won,100,Closed,82428.84,0.0,2024-10-11,2024-12-26,E0009,117,2025-01-10,12,sub_00057,
+006000141,001P00217,Radcliffe Fabrication Partners - New Business 2024,New Business,Closed Lost,0,Omitted,64152.0,0.0,2024-11-08,2024-12-31,E0013,99,,12,,Chose competitor
+006000131,001P00205,Pinecroft Haulage Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,60912.0,0.0,2024-10-31,2025-01-01,E0033,94,,12,,Built in-house
+006000143,001P00219,Copperfield Freight Partners - New Business 2025,New Business,Closed Lost,0,Omitted,290822.4,0.0,2024-10-03,2025-01-11,E0009,374,,12,,No decision / stalled
+006000491,00100077A,Eastwick Plumbing Group - Expansion 2025,Expansion,Closed Won,100,Closed,5184.0,0.0,2024-12-11,2025-01-11,E0013,8,2025-01-20,12,sub_00077,
+006000139,001P00215,Sumner Construction - New Business 2025,New Business,Closed Lost,0,Omitted,29160.0,0.0,2024-09-09,2025-01-12,E0037,45,,12,,No budget
+006000479,00100056A,Lowell Concrete Corp. - Renewal 2025,Renewal,Closed Won,100,Closed,66744.0,0.0,2024-10-31,2025-01-15,E0013,103,2025-01-30,12,sub_00056,
+006000138,00100110A,Sheffield Plastics - New Business 2025,New Business,Closed Won,100,Closed,60876.0,0.0,2024-11-17,2025-01-20,E0033,89,2025-01-25,12,sub_00110,
+006000145,001P00221,Copperfield Energy Services Co. - New Business 2025,New Business,Closed Lost,0,Omitted,289267.2,0.0,2024-09-20,2025-01-24,E0009,372,,12,,Missing integration
+006000410,00100006A,Driftwood Construction LLC - Renewal 2025,Renewal,Closed Won,100,Closed,33638.4,0.0,2024-11-16,2025-01-24,E0009,48,2025-02-15,12,sub_00006,
+006000142,00100111A,Driftwood Industries Inc. - New Business 2025,New Business,Closed Won,100,Closed,174787.2,51000.0,2024-11-07,2025-01-27,E0033,238,2025-02-01,24,sub_00111,
+006000147,001P00223,Calder Construction Group - New Business 2025,New Business,Closed Lost,0,Omitted,255830.4,0.0,2024-11-26,2025-02-01,E0033,329,,12,,Timing - revisit next year
+006000150,001P00231,Foxglove Energy Services Group - New Business 2025,New Business,Closed Lost,0,Omitted,66096.0,0.0,2024-11-10,2025-02-09,E0013,102,,12,,No budget
+006000140,001P00216,Eastwick Fabrication Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,29160.0,0.0,2025-01-03,2025-02-12,E0009,45,,12,,Built in-house
+006000146,001P00222,Stonebridge Distribution Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,268272.0,0.0,2024-10-07,2025-02-15,E0033,345,,12,,Built in-house
+006000148,001P00224,Dunmore Facility Services Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,122860.8,0.0,2025-01-17,2025-02-17,E0037,158,,12,,Missing integration
+006000144,001P00220,Kingsley Components Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,311817.6,0.0,2024-12-31,2025-02-19,E0037,401,,12,,Built in-house
+006000149,00100117A,Oakhurst Electric Inc. - New Business 2025,New Business,Closed Won,100,Closed,37620.0,9000.0,2025-01-14,2025-02-20,E0009,55,2025-02-23,12,sub_00117,
+006000413,00100007A,Saltmarsh Power Systems LLC - Renewal 2025,Renewal,Closed Won,100,Closed,31011.36,0.0,2024-12-07,2025-02-21,E0009,46,2025-03-08,12,sub_00007,
+006000484,00100062A,Rookwood Manufacturing - Renewal 2025,Renewal,Closed Won,100,Closed,31464.0,0.0,2024-12-15,2025-03-04,E0013,46,2025-03-16,12,sub_00062,
+006000460,00100036A,Lockhart Fabrication Corp. - Renewal 2025,Renewal,Closed Lost,0,Omitted,62294.4,0.0,2025-01-05,2025-03-08,E0013,84,2025-04-06,12,sub_00036,Company acquired
+006000486,00100063A,Dunmore Freight Holdings - Renewal 2025,Renewal,Closed Lost,0,Omitted,72504.0,0.0,2025-01-09,2025-03-11,E0009,106,2025-04-10,12,sub_00063,Low adoption
+006000153,001P00241,Alder Concrete Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,73224.0,0.0,2025-01-03,2025-03-16,E0013,113,,12,,Chose competitor
+006000471,00100047A,Sawtooth Plumbing Holdings - Expansion 2025,Expansion,Closed Won,100,Closed,7920.0,0.0,2025-02-18,2025-03-21,E0013,11,2025-03-30,12,sub_00047,
+006000156,001P00250,Larkspur Distribution - New Business 2025,New Business,Closed Lost,0,Omitted,62208.0,0.0,2024-12-21,2025-03-24,E0013,96,,12,,No decision / stalled
+006000151,00100125A,Timberline Components Co. - New Business 2025,New Business,Closed Won,100,Closed,45360.0,0.0,2025-01-18,2025-03-26,E0013,63,2025-04-04,12,sub_00125,
+006000157,001P00251,Dunmore Freight Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,55080.0,0.0,2025-01-18,2025-04-02,E0009,85,,12,,Built in-house
+006000154,001P00242,Sawtooth Mechanical Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,19440.0,0.0,2024-12-10,2025-04-09,E0033,30,,12,,Timing - revisit next year
+006000155,00100132A,Ironleaf Contracting Partners - New Business 2025,New Business,Closed Won,100,Closed,32400.0,0.0,2025-03-08,2025-04-14,E0037,50,2025-04-21,12,sub_00132,
+006000152,001P00240,Silverbell Construction Group - New Business 2025,New Business,Closed Lost,0,Omitted,34344.0,0.0,2025-03-14,2025-04-15,E0009,53,,12,,Timing - revisit next year
+006000171,001P00272,Larkspur Machining Co. - New Business 2025,New Business,Closed Lost,0,Omitted,145411.2,0.0,2024-12-12,2025-04-23,E0033,187,,12,,No budget
+006000172,001P00273,Yarrow Plastics Co. - New Business 2025,New Business,Closed Lost,0,Omitted,273715.2,0.0,2025-02-27,2025-04-26,E0037,352,,12,,No budget
+006000167,001P00268,Ridgeway Cartage Group - New Business 2025,New Business,Closed Lost,0,Omitted,23328.0,0.0,2024-12-27,2025-05-02,E0033,36,,12,,Missing integration
+006000164,001P00265,Whitlock Wholesale Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,40176.0,0.0,2025-01-16,2025-05-05,E0033,62,,12,,Chose competitor
+006000462,00100038A,Thornbury Shipping Co. - Renewal 2025,Renewal,Closed Won,100,Closed,74088.0,0.0,2025-02-26,2025-05-05,E0009,98,2025-05-28,12,sub_00038,
+006000161,001P00262,Timberline Manufacturing - New Business 2025,New Business,Closed Lost,0,Omitted,73224.0,0.0,2025-01-05,2025-05-07,E0009,113,,12,,Timing - revisit next year
+006000170,00100142A,Calder Electric Co. - New Business 2025,New Business,Closed Won,100,Closed,218419.2,33000.0,2025-02-09,2025-05-10,E0033,316,2025-05-24,12,sub_00142,
+006000165,001P00266,Quarry Mechanical - New Business 2025,New Business,Closed Lost,0,Omitted,58320.0,0.0,2025-02-01,2025-05-13,E0037,90,,12,,Timing - revisit next year
+006000159,001P00260,Yarrow Distribution Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,38880.0,0.0,2025-01-11,2025-05-19,E0009,60,,12,,Timing - revisit next year
+006000160,001P00261,Upland Mechanical - New Business 2025,New Business,Closed Lost,0,Omitted,59616.0,0.0,2025-03-27,2025-05-21,E0033,92,,12,,Chose competitor
+006000168,001P00269,Timberline Energy Services Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,36936.0,0.0,2025-01-15,2025-05-22,E0037,57,,12,,No budget
+006000182,001P00293,Vantor Water Works Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,71280.0,0.0,2025-02-27,2025-05-22,E0013,110,,12,,No budget
+006000158,00100140A,Dunmore Water Works Corp. - New Business 2025,New Business,Closed Won,100,Closed,53136.0,14500.0,2025-03-29,2025-05-24,E0009,82,2025-06-01,12,sub_00140,
+006000163,00100141A,Dunmore Construction Co. - New Business 2025,New Business,Closed Won,100,Closed,21600.0,14500.0,2025-04-02,2025-05-26,E0033,30,2025-06-02,12,sub_00141,
+006000176,001P00287,Cedarline Industries Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,28512.0,0.0,2025-02-06,2025-05-27,E0013,44,,12,,No budget
+006000181,001P00292,Merriam Plumbing Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,35640.0,0.0,2025-03-14,2025-05-30,E0013,55,,12,,No decision / stalled
+006000180,00100155A,Garland Shipping Holdings - New Business 2025,New Business,Closed Won,100,Closed,67392.0,11500.0,2025-03-23,2025-06-01,E0037,104,2025-06-07,12,sub_00155,
+006000428,00100013A,Eastwick Manufacturing Co. - Renewal 2025,Renewal,Closed Won,100,Closed,79610.76,0.0,2025-03-26,2025-06-03,E0009,113,2025-06-25,12,sub_00013,
+006000487,00100073A,Redfern Distribution LLC - Renewal 2025,Renewal,Closed Won,100,Closed,60000.48,0.0,2025-03-25,2025-06-03,E0013,86,2025-06-24,12,sub_00073,
+006000502,00100107A,Fallowmere Field Services - Expansion 2025,Expansion,Closed Won,100,Closed,10260.0,0.0,2025-04-25,2025-06-03,E0033,15,2025-06-04,12,sub_00107,
+006000417,00100011A,Thornbury Power Systems Corp. - Renewal 2025,Renewal,Closed Won,100,Closed,40903.2,0.0,2025-03-26,2025-06-04,E0009,52,2025-06-25,12,sub_00011,
+006000169,001P00270,Oakhurst Transport Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,71280.0,0.0,2025-04-25,2025-06-06,E0037,110,,12,,Missing integration
+006000174,001P00285,Merriam Construction Co. - New Business 2025,New Business,Closed Lost,0,Omitted,40176.0,0.0,2025-05-09,2025-06-08,E0037,62,,12,,Timing - revisit next year
+006000186,001P00297,Norcross Concrete Co. - New Business 2025,New Business,Closed Lost,0,Omitted,20088.0,0.0,2025-04-22,2025-06-09,E0013,31,,12,,No decision / stalled
+006000465,00100040A,Whitlock Fabrication Group - Renewal 2025,Renewal,Closed Won,100,Closed,67032.0,0.0,2025-03-18,2025-06-12,E0009,98,2025-06-17,12,sub_00040,
+006000489,00100074A,Westbrook Concrete Holdings - Renewal 2025,Renewal,Closed Won,100,Closed,87696.0,0.0,2025-04-02,2025-06-12,E0013,116,2025-07-02,12,sub_00074,
+006000166,001P00267,Ambrose HVAC Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,33048.0,0.0,2025-04-14,2025-06-14,E0042,51,,12,,No budget
+006000190,001P00305,Larkspur Power Systems LLC - New Business 2025,New Business,Closed Lost,0,Omitted,48600.0,0.0,2025-03-16,2025-06-14,E0037,75,,12,,No budget
+006000162,001P00263,Bluestem Machining Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,35640.0,0.0,2025-02-16,2025-06-16,E0013,55,,12,,No decision / stalled
+006000175,001P00286,Foxglove Distribution - New Business 2025,New Business,Closed Lost,0,Omitted,56376.0,0.0,2025-02-14,2025-06-16,E0009,87,,12,,Missing integration
+006000173,00100153A,Millrace Water Works Co. - New Business 2025,New Business,Closed Won,100,Closed,61920.0,0.0,2025-04-12,2025-06-19,E0033,86,2025-06-27,12,sub_00153,
+006000178,001P00289,Sawtooth Components Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,69984.0,0.0,2025-02-25,2025-06-21,E0033,108,,12,,Chose competitor
+006000183,00100156A,Quarry Plastics Corp. - New Business 2025,New Business,Closed Won,100,Closed,46512.0,0.0,2025-05-14,2025-06-21,E0009,68,2025-06-22,12,sub_00156,
+006000177,00100154A,Maplecrest Energy Services Corp. - New Business 2025,New Business,Closed Won,100,Closed,46656.0,0.0,2025-04-11,2025-06-23,E0037,72,2025-06-25,12,sub_00154,
+006000423,00100012A,Sumner Plumbing - Renewal 2025,Renewal,Closed Won,100,Closed,73940.4,0.0,2025-03-31,2025-06-25,E0009,94,2025-06-30,12,sub_00012,
+006000179,001P00290,Merriam Builders - New Business 2025,New Business,Closed Lost,0,Omitted,33696.0,0.0,2025-05-24,2025-06-29,E0037,52,,12,,Built in-house
+006000185,00100157A,Willowbend Shipping Partners - New Business 2025,New Business,Closed Won,100,Closed,23256.0,0.0,2025-05-24,2025-06-30,E0009,34,2025-07-01,12,sub_00157,
+006000492,00100077A,Eastwick Plumbing Group - Renewal 2025,Renewal,Closed Won,100,Closed,25920.0,0.0,2025-04-20,2025-07-02,E0013,40,2025-07-20,12,sub_00077,
+006000189,001P00304,Copperfield Trading Group - New Business 2025,New Business,Closed Lost,0,Omitted,55080.0,0.0,2025-05-05,2025-07-06,E0037,85,,12,,No decision / stalled
+006000187,00100162A,Palisade Field Services Group - New Business 2025,New Business,Closed Won,100,Closed,57672.0,0.0,2025-05-12,2025-07-09,E0013,89,2025-07-16,12,sub_00162,
+006000188,001P00303,Halden Fabrication LLC - New Business 2025,New Business,Closed Lost,0,Omitted,40824.0,0.0,2025-03-23,2025-07-10,E0042,63,,12,,Built in-house
+006000434,00100016A,Millrace Plumbing - Renewal 2025,Renewal,Closed Won,100,Closed,84796.8,0.0,2025-04-29,2025-07-11,E0009,121,2025-07-29,12,sub_00016,
+006000184,001P00295,Flint Plastics LLC - New Business 2025,New Business,Closed Lost,0,Omitted,45360.0,0.0,2025-03-02,2025-07-12,E0013,70,,12,,No budget
+006000195,001P00310,Pemberton Fabrication Group - New Business 2025,New Business,Closed Lost,0,Omitted,285379.2,0.0,2025-06-11,2025-07-12,E0013,367,,12,,Built in-house
+006000192,001P00307,Kestrel Distribution Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,286156.8,0.0,2025-04-06,2025-07-17,E0013,368,,12,,No budget
+006000505,00100111A,Driftwood Industries Inc. - Expansion 2025,Expansion,Closed Won,100,Closed,43329.6,0.0,2025-06-22,2025-07-24,E0046,59,2025-08-01,12,sub_00111,
+006000468,00100042A,Halvorsen Freight Group - Renewal 2025,Renewal,Closed Won,100,Closed,317979.6,0.0,2025-05-02,2025-07-25,E0013,410,2025-08-01,12,sub_00042,
+006000193,001P00308,Halden Water Works - New Business 2025,New Business,Closed Lost,0,Omitted,124416.0,0.0,2025-04-17,2025-07-26,E0009,160,,12,,Timing - revisit next year
+006000191,00100163A,Ambrose Fabrication Corp. - New Business 2025,New Business,Closed Won,100,Closed,266976.0,57000.0,2025-02-23,2025-07-27,E0009,412,2025-08-01,24,sub_00163,
+006000480,00100056A,Lowell Concrete Corp. - Expansion 2025,Expansion,Closed Won,100,Closed,12960.0,0.0,2025-06-20,2025-07-28,E0009,20,2025-07-30,12,sub_00056,
+006000194,001P00309,Harrowgate Fabrication Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,314928.0,0.0,2025-05-30,2025-08-15,E0013,405,,12,,No decision / stalled
+006000494,00100080A,Upland Fabrication Group - Renewal 2025,Renewal,Closed Won,100,Closed,35910.0,0.0,2025-06-05,2025-08-30,E0009,50,2025-09-04,12,sub_00080,
+006000197,001P00321,Ironleaf Energy Services LLC - New Business 2025,New Business,Closed Lost,0,Omitted,36288.0,0.0,2025-04-25,2025-09-08,E0013,56,,12,,Built in-house
+006000472,00100047A,Sawtooth Plumbing Holdings - Renewal 2025,Renewal,Closed Won,100,Closed,39657.6,0.0,2025-07-01,2025-09-24,E0013,54,2025-09-30,12,sub_00047,
+006000200,001P00324,Brackenridge Contracting Group - New Business 2025,New Business,Closed Lost,0,Omitted,36936.0,0.0,2025-05-21,2025-09-26,E0037,57,,12,,Built in-house
+006000205,001P00337,Norcross Supply Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,40824.0,0.0,2025-06-06,2025-09-27,E0046,63,,12,,No budget
+006000196,00100173A,Pemberton Concrete Inc. - New Business 2025,New Business,Closed Won,100,Closed,42408.0,10500.0,2025-08-17,2025-09-28,E0046,62,2025-10-04,12,sub_00173,
+006000475,00100050A,Pemberton Power Systems - Renewal 2025,Renewal,Closed Won,100,Closed,44830.8,0.0,2025-07-18,2025-09-28,E0013,63,2025-10-17,12,sub_00050,
+006000201,001P00325,Marrow Plastics LLC - New Business 2025,New Business,Closed Lost,0,Omitted,40824.0,0.0,2025-06-19,2025-09-30,E0042,63,,12,,No decision / stalled
+006000202,00100182A,Merriam Water Works Corp. - New Business 2025,New Business,Closed Won,100,Closed,59040.0,0.0,2025-08-29,2025-10-04,E0042,82,2025-10-06,12,sub_00182,
+006000211,001P00343,Maplecrest Components Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,20088.0,0.0,2025-08-12,2025-10-08,E0042,31,,12,,Chose competitor
+006000498,00100094A,Norcross Facility Services LLC - Renewal 2025,Renewal,Closed Won,100,Closed,164505.6,0.0,2025-07-29,2025-10-08,E0009,238,2025-10-28,12,sub_00094,
+006000198,001P00322,Lowell Manufacturing - New Business 2025,New Business,Closed Lost,0,Omitted,64800.0,0.0,2025-05-31,2025-10-09,E0046,100,,12,,Built in-house
+006000213,001P00345,Basalt Fabrication Co. - New Business 2025,New Business,Closed Lost,0,Omitted,156297.6,0.0,2025-07-10,2025-10-09,E0037,201,,12,,Built in-house
+006000234,001P00373,Fenwick Shipping Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,28512.0,0.0,2025-08-14,2025-10-14,E0013,44,,12,,No decision / stalled
+006000478,00100053A,Osprey Contracting LLC - Renewal 2025,Renewal,Closed Won,100,Closed,57399.84,0.0,2025-08-10,2025-10-16,E0009,86,2025-11-09,12,sub_00053,
+006000199,001P00323,Saltmarsh Logistics Co. - New Business 2025,New Business,Closed Lost,0,Omitted,46656.0,0.0,2025-09-15,2025-10-20,E0042,72,,12,,No decision / stalled
+006000210,001P00342,Sawtooth Energy Services Partners - New Business 2025,New Business,Closed Lost,0,Omitted,40824.0,0.0,2025-08-30,2025-10-20,E0046,63,,12,,Built in-house
+006000203,00100183A,Hollis Power Systems Co. - New Business 2025,New Business,Closed Won,100,Closed,49932.0,0.0,2025-09-12,2025-10-21,E0046,73,2025-10-30,12,sub_00183,
+006000208,00100184A,Stonebridge Concrete Co. - New Business 2025,New Business,Closed Won,100,Closed,60876.0,0.0,2025-08-14,2025-10-21,E0052,89,2025-10-25,12,sub_00184,
+006000207,001P00339,Oakhurst Distribution Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,27864.0,0.0,2025-06-08,2025-10-23,E0046,43,,12,,Timing - revisit next year
+006000215,00100186A,Vantor Shipping Inc. - New Business 2025,New Business,Closed Won,100,Closed,209174.4,33000.0,2025-07-30,2025-10-26,E0037,269,2025-11-01,12,sub_00186,
+006000216,00100187A,Merriam Power Systems Group - New Business 2025,New Business,Closed Won,100,Closed,263736.0,59500.0,2025-07-12,2025-10-27,E0052,407,2025-11-01,24,sub_00187,
+006000217,001P00349,Brackenridge Energy Services Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,227836.8,0.0,2025-07-27,2025-10-27,E0052,293,,12,,No budget
+006000204,001P00336,Vantor Wholesale Co. - New Business 2025,New Business,Closed Lost,0,Omitted,31752.0,0.0,2025-07-13,2025-10-29,E0046,49,,12,,No decision / stalled
+006000212,00100185A,Ironleaf Machining Corp. - New Business 2025,New Business,Closed Won,100,Closed,112752.0,50000.0,2025-07-30,2025-10-29,E0037,174,2025-11-01,24,sub_00185,
+006000229,001P00368,Eastwick Wholesale Group - New Business 2025,New Business,Closed Lost,0,Omitted,55728.0,0.0,2025-09-04,2025-11-01,E0037,86,,12,,No budget
+006000221,001P00360,Copperfield Plumbing Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,31752.0,0.0,2025-09-15,2025-11-02,E0009,49,,12,,Timing - revisit next year
+006000232,00100197A,Ironleaf Manufacturing LLC - New Business 2025,New Business,Closed Won,100,Closed,68400.0,0.0,2025-08-31,2025-11-02,E0013,100,2025-11-04,12,sub_00197,
+006000225,001P00364,Granite Energy Services Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,46656.0,0.0,2025-07-19,2025-11-03,E0037,72,,12,,Timing - revisit next year
+006000228,001P00367,Cinder Shipping Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,56376.0,0.0,2025-09-24,2025-11-03,E0037,87,,12,,Timing - revisit next year
+006000218,001P00350,Halden Manufacturing Group - New Business 2025,New Business,Closed Lost,0,Omitted,166406.4,0.0,2025-09-08,2025-11-04,E0046,214,,12,,No budget
+006000238,001P00377,Hollis Facility Services Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,64152.0,0.0,2025-06-20,2025-11-04,E0042,99,,12,,Missing integration
+006000209,001P00341,Saltmarsh Trading Partners - New Business 2025,New Business,Closed Lost,0,Omitted,54432.0,0.0,2025-07-15,2025-11-06,E0037,84,,12,,Timing - revisit next year
+006000235,00100198A,Kingsley Plumbing Group - New Business 2025,New Business,Closed Won,100,Closed,71280.0,0.0,2025-09-01,2025-11-06,E0046,99,2025-11-13,12,sub_00198,
+006000226,001P00365,Sumner Power Systems Group - New Business 2025,New Business,Closed Lost,0,Omitted,50544.0,0.0,2025-07-24,2025-11-07,E0052,78,,12,,No decision / stalled
+006000438,00100022A,Osprey Contracting Holdings - Renewal 2025,Renewal,Closed Won,100,Closed,96710.4,0.0,2025-08-20,2025-11-10,E0009,138,2025-11-19,12,sub_00022,
+006000206,001P00338,Wexley Contracting Partners - New Business 2025,New Business,Closed Lost,0,Omitted,66744.0,0.0,2025-08-25,2025-11-11,E0042,103,,12,,Missing integration
+006000233,001P00372,Saltmarsh Machining Partners - New Business 2025,New Business,Closed Lost,0,Omitted,27216.0,0.0,2025-08-05,2025-11-11,E0042,42,,12,,Timing - revisit next year
+006000237,001P00376,Cedarline Haulage Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,48600.0,0.0,2025-08-27,2025-11-13,E0037,75,,12,,Built in-house
+006000214,001P00346,Corrigan Manufacturing Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,112752.0,0.0,2025-07-03,2025-11-15,E0042,145,,12,,Timing - revisit next year
+006000222,001P00361,Upland Wholesale Corp. - New Business 2025,New Business,Closed Lost,0,Omitted,44712.0,0.0,2025-08-22,2025-11-16,E0009,69,,12,,No decision / stalled
+006000223,001P00362,Granite Energy Services LLC - New Business 2025,New Business,Closed Lost,0,Omitted,28512.0,0.0,2025-07-11,2025-11-17,E0009,44,,12,,Built in-house
+006000236,001P00375,Calder Concrete LLC - New Business 2025,New Business,Closed Lost,0,Omitted,68040.0,0.0,2025-08-12,2025-11-18,E0037,105,,12,,No decision / stalled
+006000511,00100142A,Calder Electric Co. - Expansion 2025,Expansion,Closed Won,100,Closed,40780.8,0.0,2025-10-15,2025-11-19,E0046,59,2025-11-24,12,sub_00142,
+006000224,00100196A,Redfern Components LLC - New Business 2025,New Business,Closed Won,100,Closed,23940.0,0.0,2025-09-17,2025-11-21,E0052,35,2025-11-28,12,sub_00196,
+006000227,001P00366,Halden Power Systems - New Business 2025,New Business,Closed Lost,0,Omitted,71280.0,0.0,2025-08-31,2025-11-21,E0052,110,,12,,Timing - revisit next year
+006000219,00100195A,Eastwick Energy Services Partners - New Business 2025,New Business,Closed Won,100,Closed,60192.0,0.0,2025-09-25,2025-11-24,E0046,88,2025-12-02,12,sub_00195,
+006000253,001P00399,Greywater Machining Co. - New Business 2025,New Business,Closed Lost,0,Omitted,54432.0,0.0,2025-09-17,2025-11-27,E0042,84,,12,,No budget
+006000231,001P00370,Rookwood Builders Co. - New Business 2025,New Business,Closed Lost,0,Omitted,57672.0,0.0,2025-07-15,2025-11-28,E0009,89,,12,,Chose competitor
+006000255,001P00401,Hollis Manufacturing Co. - New Business 2025,New Business,Closed Lost,0,Omitted,29808.0,0.0,2025-08-20,2025-11-29,E0013,46,,12,,No decision / stalled
+006000503,00100107A,Fallowmere Field Services - Renewal 2025,Renewal,Closed Won,100,Closed,57209.76,0.0,2025-09-04,2025-11-29,E0009,82,2025-12-04,12,sub_00107,
+006000446,00100027A,Palisade Field Services LLC - Renewal 2025,Renewal,Closed Won,100,Closed,44989.68,0.0,2025-09-15,2025-11-30,E0009,62,2025-12-15,12,sub_00027,
+006000220,001P00359,Silverbell Industries - New Business 2025,New Business,Closed Lost,0,Omitted,34344.0,0.0,2025-09-30,2025-12-01,E0037,53,,12,,No decision / stalled
+006000501,00100106A,Elmstead Cartage Inc. - Renewal 2025,Renewal,Closed Won,100,Closed,90000.0,0.0,2025-09-19,2025-12-02,E0033,125,2025-12-19,12,sub_00106,
+006000256,001P00402,Pinecroft Cartage - New Business 2025,New Business,Closed Lost,0,Omitted,55728.0,0.0,2025-10-14,2025-12-03,E0046,86,,12,,Missing integration
+006000230,001P00369,Pinecroft Plumbing Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,27216.0,0.0,2025-09-10,2025-12-04,E0009,42,,12,,No decision / stalled
+006000251,001P00397,Copperfield HVAC Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,20736.0,0.0,2025-09-14,2025-12-04,E0013,32,,12,,Timing - revisit next year
+006000450,00100028A,Wexley Logistics LLC - Renewal 2025,Renewal,Closed Won,100,Closed,61992.0,0.0,2025-09-22,2025-12-04,E0009,82,2025-12-22,12,sub_00028,
+006000264,001P00410,Flint Logistics - New Business 2025,New Business,Closed Lost,0,Omitted,51192.0,0.0,2025-09-07,2025-12-06,E0042,79,,12,,No budget
+006000442,00100026A,Wexley Transport Partners - Renewal 2025,Renewal,Closed Won,100,Closed,41500.8,0.0,2025-09-28,2025-12-11,E0009,55,2025-12-28,12,sub_00026,
+006000239,00100206A,Norcross Construction LLC - New Business 2025,New Business,Closed Won,100,Closed,34200.0,0.0,2025-10-03,2025-12-14,E0013,50,2025-12-20,12,sub_00206,
+006000241,001P00387,Belmar Concrete Co. - New Business 2025,New Business,Closed Lost,0,Omitted,33048.0,0.0,2025-09-06,2025-12-15,E0042,51,,12,,Built in-house
+006000262,001P00408,Wexley Shipping Partners - New Business 2025,New Business,Closed Lost,0,Omitted,28512.0,0.0,2025-09-26,2025-12-17,E0009,44,,12,,Timing - revisit next year
+006000457,00100032A,Talbot Wholesale Group - Renewal 2025,Renewal,Closed Won,100,Closed,128336.16,0.0,2025-10-12,2025-12-19,E0009,167,2026-01-11,12,sub_00032,
+006000259,001P00405,Lowell HVAC Inc. - New Business 2025,New Business,Closed Lost,0,Omitted,19440.0,0.0,2025-10-09,2025-12-20,E0009,30,,12,,Missing integration
+006000252,00100209A,Kestrel Components - New Business 2025,New Business,Closed Won,100,Closed,41760.0,10000.0,2025-10-25,2025-12-21,E0046,58,2025-12-30,12,sub_00209,
+006000483,00100057A,Clearwater Mechanical - Renewal 2025,Renewal,Closed Won,100,Closed,104783.76,0.0,2025-10-11,2025-12-21,E0009,139,2026-01-10,12,sub_00057,
+006000282,001P00437,Silverbell Trading Holdings - New Business 2025,New Business,Closed Lost,0,Omitted,22032.0,0.0,2025-10-25,2025-12-22,E0013,34,,12,,No decision / stalled
+006000265,001P00411,Pemberton Machining Partners - New Business 2025,New Business,Closed Lost,0,Omitted,20736.0,0.0,2025-10-31,2025-12-23,E0046,32,,12,,No budget
+006000418,00100011A,Thornbury Power Systems Corp. - Expansion 2025,Expansion,Closed Won,100,Closed,11012.4,0.0,2025-11-15,2025-12-23,E0046,14,2025-12-25,12,sub_00011,
+006000243,00100207A,Juniper Facility Services Inc. - New Business 2025,New Business,Closed Won,100,Closed,43776.0,0.0,2025-11-14,2025-12-26,E0042,64,2025-12-30,12,sub_00207,
+006000246,00100208A,Kingsley Freight Group - New Business 2025,New Business,Closed Won,100,Closed,34200.0,13000.0,2025-10-20,2025-12-26,E0052,50,2026-01-02,12,sub_00208,
+006000454,00100031A,Ironleaf Water Works Co. - Renewal 2025,Renewal,Closed Won,100,Closed,89582.4,0.0,2025-10-21,2025-12-26,E0009,120,2026-01-20,12,sub_00031,
+006000240,001P00386,Merriam Freight LLC - New Business 2025,New Business,Closed Lost,0,Omitted,37584.0,0.0,2025-11-05,2025-12-28,E0042,58,,12,,No budget
+006000257,00100210A,Radcliffe Plastics LLC - New Business 2025,New Business,Closed Won,100,Closed,69768.0,11500.0,2025-11-18,2025-12-28,E0013,102,2026-01-03,12,sub_00210,
+006000263,00100211A,Elmstead Trading Group - New Business 2025,New Business,Closed Won,100,Closed,23040.0,0.0,2025-11-04,2025-12-28,E0013,32,2026-01-02,12,sub_00211,
+006000266,00100212A,Larkspur Machining Partners - New Business 2025,New Business,Closed Won,100,Closed,138412.8,35500.0,2025-08-19,2025-12-28,E0046,178,2026-01-01,24,sub_00212,
+006000250,001P00396,Elmstead Plastics - New Business 2025,New Business,Closed Lost,0,Omitted,66744.0,0.0,2025-11-27,2025-12-31,E0046,103,,12,,Chose competitor
+006000242,001P00388,Marrow Shipping Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,78872.4,0.0,2025-11-04,2026-01-01,E0046,109,,12,,Built in-house
+006000249,001P00395,Granite Manufacturing Partners - New Business 2026,New Business,Closed Lost,0,Omitted,41968.8,0.0,2025-11-16,2026-01-01,E0037,58,,12,,Missing integration
+006000273,001P00428,Garland Supply Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,74530.8,0.0,2025-09-17,2026-01-01,E0042,103,,12,,Timing - revisit next year
+006000276,001P00431,Flint Concrete LLC - New Business 2026,New Business,Closed Lost,0,Omitted,40521.6,0.0,2025-11-25,2026-01-01,E0013,56,,12,,Built in-house
+006000258,001P00404,Harrowgate Water Works - New Business 2026,New Business,Closed Lost,0,Omitted,23155.2,0.0,2025-11-28,2026-01-03,E0037,32,,12,,Missing integration
+006000280,00100225A,Halden Wholesale Inc. - New Business 2026,New Business,Closed Won,100,Closed,28944.0,11000.0,2025-10-31,2026-01-03,E0052,40,2026-01-08,12,sub_00225,
+006000284,001P00439,Belmar Builders Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,183168.0,0.0,2025-08-22,2026-01-03,E0052,212,,12,,Missing integration
+006000245,001P00391,Clearwater Manufacturing Co. - New Business 2026,New Business,Closed Lost,0,Omitted,47757.6,0.0,2025-08-25,2026-01-04,E0009,66,,12,,Timing - revisit next year
+006000254,001P00400,Flint Industries Group - New Business 2026,New Business,Closed Lost,0,Omitted,51375.6,0.0,2025-08-20,2026-01-04,E0052,71,,12,,Timing - revisit next year
+006000244,001P00390,Northgate Energy Services Co. - New Business 2026,New Business,Closed Lost,0,Omitted,54993.6,0.0,2025-10-15,2026-01-05,E0009,76,,12,,Chose competitor
+006000269,001P00424,Eastwick Electric Group - New Business 2026,New Business,Closed Lost,0,Omitted,77425.2,0.0,2025-10-21,2026-01-05,E0046,107,,12,,Timing - revisit next year
+006000261,001P00407,Willowbend Energy Services - New Business 2026,New Business,Closed Lost,0,Omitted,62953.2,0.0,2025-11-18,2026-01-08,E0046,87,,12,,No budget
+006000247,001P00393,Sawtooth Distribution Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,76701.6,0.0,2025-09-23,2026-01-13,E0046,106,,12,,No budget
+006000248,001P00394,Tamarack HVAC Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,34009.2,0.0,2025-11-13,2026-01-13,E0046,47,,12,,Built in-house
+006000260,001P00406,Northgate Distribution LLC - New Business 2026,New Business,Closed Lost,0,Omitted,36903.6,0.0,2025-09-17,2026-01-14,E0037,51,,12,,Built in-house
+006000481,00100056A,Lowell Concrete Corp. - Renewal 2026,Renewal,Closed Won,100,Closed,70029.36,0.0,2025-10-31,2026-01-14,E0013,101,2026-01-30,12,sub_00056,
+006000287,001P00442,Garland Fabrication LLC - New Business 2026,New Business,Closed Lost,0,Omitted,242784.0,0.0,2025-10-15,2026-01-15,E0009,281,,12,,Chose competitor
+006000504,00100110A,Sheffield Plastics - Renewal 2026,Renewal,Closed Won,100,Closed,87825.6,0.0,2025-10-26,2026-01-15,E0033,120,2026-01-25,12,sub_00110,
+006000281,001P00436,Basalt Manufacturing Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,79596.0,0.0,2025-11-24,2026-01-17,E0042,110,,12,,Chose competitor
+006000277,001P00432,Lowell Haulage Partners - New Business 2026,New Business,Closed Lost,0,Omitted,75978.0,0.0,2025-09-25,2026-01-18,E0009,105,,12,,Missing integration
+006000285,001P00440,Sawtooth Mechanical Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,278208.0,0.0,2025-12-12,2026-01-22,E0037,322,,12,,Timing - revisit next year
+006000272,00100223A,Halden Trading Partners - New Business 2026,New Business,Closed Won,100,Closed,75254.4,0.0,2025-11-23,2026-01-24,E0013,104,2026-01-31,12,sub_00223,
+006000267,00100222A,Ambrose Water Works Corp. - New Business 2026,New Business,Closed Won,100,Closed,24924.0,0.0,2025-11-23,2026-01-25,E0046,31,2026-01-27,12,sub_00222,
+006000275,00100224A,Sheffield Freight Inc. - New Business 2026,New Business,Closed Won,100,Closed,57084.0,0.0,2025-12-15,2026-01-26,E0037,71,2026-01-27,12,sub_00224,
+006000283,00100226A,Underhill Facility Services Partners - New Business 2026,New Business,Closed Won,100,Closed,147456.0,44500.0,2025-09-09,2026-01-26,E0052,192,2026-02-01,12,sub_00226,
+006000271,001P00426,Vantor Components Group - New Business 2026,New Business,Closed Lost,0,Omitted,28220.4,0.0,2025-12-22,2026-01-27,E0037,39,,12,,Missing integration
+006000294,001P00455,Whitlock Construction Co. - New Business 2026,New Business,Closed Lost,0,Omitted,48481.2,0.0,2025-11-12,2026-01-28,E0013,67,,12,,No decision / stalled
+006000278,001P00433,Elmstead HVAC Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,72360.0,0.0,2025-10-23,2026-01-29,E0052,100,,12,,Chose competitor
+006000274,001P00429,Sawtooth Facility Services LLC - New Business 2026,New Business,Closed Lost,0,Omitted,24602.4,0.0,2025-09-27,2026-01-30,E0013,34,,12,,Missing integration
+006000279,001P00434,Kingsley Shipping Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,77425.2,0.0,2025-10-21,2026-02-02,E0046,107,,12,,Missing integration
+006000286,001P00441,Hollis Energy Services Group - New Business 2026,New Business,Closed Lost,0,Omitted,156384.0,0.0,2025-10-31,2026-02-03,E0042,181,,12,,Chose competitor
+006000292,001P00453,Greywater Concrete Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,39074.4,0.0,2025-12-25,2026-02-03,E0046,54,,12,,No budget
+006000288,001P00443,Bluestem Shipping - New Business 2026,New Business,Closed Lost,0,Omitted,233280.0,0.0,2025-11-09,2026-02-04,E0013,270,,12,,No budget
+006000270,001P00425,Foxglove Power Systems Partners - New Business 2026,New Business,Closed Lost,0,Omitted,32562.0,0.0,2025-11-10,2026-02-09,E0046,45,,12,,Missing integration
+006000295,001P00456,Bluestem Facility Services Partners - New Business 2026,New Business,Closed Lost,0,Omitted,23155.2,0.0,2025-12-17,2026-02-10,E0052,32,,12,,No budget
+006000299,00100235A,Cedarline Plumbing Holdings - New Business 2026,New Business,Closed Won,100,Closed,34732.8,0.0,2025-12-16,2026-02-11,E0013,48,2026-02-18,12,sub_00235,
+006000297,001P00458,Flint Industries LLC - New Business 2026,New Business,Closed Lost,0,Omitted,34009.2,0.0,2025-11-10,2026-02-12,E0042,47,,12,,Timing - revisit next year
+006000414,00100007A,Saltmarsh Power Systems LLC - Renewal 2026,Renewal,Closed Won,100,Closed,36787.32,0.0,2025-12-07,2026-02-13,E0009,51,2026-03-08,12,sub_00007,
+006000298,001P00459,Kestrel Mechanical Co. - New Business 2026,New Business,Closed Lost,0,Omitted,70189.2,0.0,2025-10-12,2026-02-14,E0046,97,,12,,No decision / stalled
+006000268,001P00423,Brackenridge Freight - New Business 2026,New Business,Closed Lost,0,Omitted,42692.4,0.0,2025-10-09,2026-02-17,E0042,59,,12,,Missing integration
+006000293,00100234A,Timberline Cartage Partners - New Business 2026,New Business,Closed Won,100,Closed,54229.8,0.0,2026-01-05,2026-02-20,E0009,71,2026-02-22,12,sub_00234,
+006000289,00100233A,Belmar Electric - New Business 2026,New Business,Closed Won,100,Closed,29748.0,14500.0,2025-12-19,2026-02-24,E0046,37,2026-02-25,12,sub_00233,
+006000485,00100062A,Rookwood Manufacturing - Renewal 2026,Renewal,Closed Won,100,Closed,37325.88,0.0,2025-12-15,2026-02-25,E0013,51,2026-03-16,12,sub_00062,
+006000301,001P00469,Belmar Contracting Group - New Business 2026,New Business,Closed Lost,0,Omitted,31838.4,0.0,2026-01-19,2026-02-26,E0052,44,,12,,No decision / stalled
+006000495,00100080A,Upland Fabrication Group - Expansion 2026,Expansion,Closed Won,100,Closed,6463.8,0.0,2026-01-23,2026-02-28,E0052,9,2026-03-04,12,sub_00080,
+006000306,001P00474,Halden Builders Co. - New Business 2026,New Business,Closed Lost,0,Omitted,31838.4,0.0,2026-01-12,2026-03-01,E0042,44,,12,,No budget
+006000296,001P00457,Ambrose Field Services Co. - New Business 2026,New Business,Closed Lost,0,Omitted,36180.0,0.0,2025-12-03,2026-03-05,E0046,50,,12,,No budget
+006000291,001P00452,Driftwood Manufacturing - New Business 2026,New Business,Closed Lost,0,Omitted,24602.4,0.0,2025-10-24,2026-03-09,E0046,34,,12,,No budget
+006000308,001P00476,Sawtooth Water Works Group - New Business 2026,New Business,Closed Lost,0,Omitted,76701.6,0.0,2025-12-23,2026-03-14,E0052,106,,12,,No budget
+006000305,00100244A,Basalt Transport Inc. - New Business 2026,New Business,Closed Won,100,Closed,59576.4,0.0,2026-01-26,2026-03-17,E0009,78,2026-03-20,12,sub_00244,
+006000290,001P00451,Merriam Wholesale Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,78872.4,0.0,2026-01-23,2026-03-20,E0013,109,,12,,Missing integration
+006000300,00100243A,Ambrose Transport - New Business 2026,New Business,Closed Won,100,Closed,71797.2,14500.0,2026-01-29,2026-03-23,E0052,94,2026-03-26,12,sub_00243,
+006000307,001P00475,Thornbury Electric Partners - New Business 2026,New Business,Closed Lost,0,Omitted,27496.8,0.0,2025-11-20,2026-03-26,E0037,38,,12,,Missing integration
+006000302,001P00470,Harrowgate Builders Co. - New Business 2026,New Business,Closed Lost,0,Omitted,58611.6,0.0,2026-02-11,2026-03-27,E0046,81,,12,,Built in-house
+006000319,001P00492,Upland Machining Co. - New Business 2026,New Business,Closed Lost,0,Omitted,23878.8,0.0,2025-12-13,2026-03-28,E0013,33,,12,,Built in-house
+006000506,00100125A,Timberline Components Co. - Renewal 2026,Renewal,Closed Won,100,Closed,57009.6,0.0,2026-01-03,2026-03-30,E0013,74,2026-04-04,12,sub_00125,
+006000313,001P00486,Foxglove HVAC Co. - New Business 2026,New Business,Closed Lost,0,Omitted,43416.0,0.0,2025-11-22,2026-03-31,E0046,60,,12,,No decision / stalled
+006000508,00100132A,Ironleaf Contracting Partners - Renewal 2026,Renewal,Closed Won,100,Closed,43681.68,0.0,2026-01-20,2026-04-01,E0037,63,2026-04-21,12,sub_00132,
+006000316,001P00489,Underhill Power Systems Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,45586.8,0.0,2025-11-27,2026-04-03,E0052,63,,12,,Timing - revisit next year
+006000304,001P00472,Talbot Concrete Co. - New Business 2026,New Business,Closed Lost,0,Omitted,56440.8,0.0,2025-12-22,2026-04-05,E0052,78,,12,,Missing integration
+006000315,001P00488,Northgate Power Systems Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,80319.6,0.0,2025-11-25,2026-04-06,E0046,111,,12,,Timing - revisit next year
+006000311,001P00484,Sheffield Power Systems LLC - New Business 2026,New Business,Closed Lost,0,Omitted,45586.8,0.0,2026-02-17,2026-04-07,E0013,63,,12,,Chose competitor
+006000317,00100251A,Harrowgate Trading Holdings - New Business 2026,New Business,Closed Won,100,Closed,58048.8,0.0,2026-02-23,2026-04-07,E0009,76,2026-04-12,12,sub_00251,
+006000318,001P00491,Copperfield Shipping Partners - New Business 2026,New Business,Closed Lost,0,Omitted,29667.6,0.0,2025-11-26,2026-04-09,E0046,41,,12,,No budget
+006000303,001P00471,Stonebridge Facility Services Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,55717.2,0.0,2026-01-26,2026-04-15,E0009,77,,12,,Missing integration
+006000310,001P00483,Stonebridge Distribution Partners - New Business 2026,New Business,Closed Lost,0,Omitted,75978.0,0.0,2026-03-11,2026-04-15,E0037,105,,12,,No decision / stalled
+006000322,001P00506,Ambrose Power Systems - New Business 2026,New Business,Closed Lost,0,Omitted,24602.4,0.0,2026-03-02,2026-04-19,E0037,34,,12,,Built in-house
+006000320,001P00493,Dunmore Transport Co. - New Business 2026,New Business,Closed Lost,0,Omitted,45586.8,0.0,2026-02-10,2026-04-21,E0052,63,,12,,Missing integration
+006000499,00100094A,Norcross Facility Services LLC - Expansion 2026,Expansion,Closed Won,100,Closed,37324.8,0.0,2026-03-19,2026-04-21,E0046,54,2026-04-28,12,sub_00094,
+006000309,00100250A,Flint Trading Corp. - New Business 2026,New Business,Closed Won,100,Closed,57888.0,0.0,2026-03-08,2026-04-22,E0042,80,2026-04-24,12,sub_00250,
+006000312,001P00485,Eastwick HVAC LLC - New Business 2026,New Business,Closed Lost,0,Omitted,80319.6,0.0,2026-01-13,2026-04-22,E0037,111,,12,,Missing integration
+006000523,00100185A,Ironleaf Machining Corp. - Expansion 2026,Expansion,Closed Won,100,Closed,27216.0,0.0,2026-03-22,2026-04-23,E0009,42,2026-05-01,12,sub_00185,
+006000525,00100187A,Merriam Power Systems Group - Expansion 2026,Expansion,Closed Won,100,Closed,69336.0,0.0,2026-03-22,2026-04-27,E0009,107,2026-05-01,12,sub_00187,
+006000524,00100186A,Vantor Shipping Inc. - Expansion 2026,Expansion,Closed Won,100,Closed,55209.6,0.0,2026-03-22,2026-04-30,E0052,71,2026-05-01,12,sub_00186,
+006000325,001P00509,Granite Trading Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,56440.8,0.0,2026-03-31,2026-05-05,E0042,78,,12,,Timing - revisit next year
+006000324,001P00508,Oakhurst Power Systems Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,57888.0,0.0,2026-01-25,2026-05-06,E0013,80,,12,,Chose competitor
+006000463,00100038A,Thornbury Shipping Co. - Renewal 2026,Renewal,Closed Won,100,Closed,96261.48,0.0,2026-02-26,2026-05-08,E0009,119,2026-05-28,12,sub_00038,
+006000314,001P00487,Sawtooth Industries LLC - New Business 2026,New Business,Closed Lost,0,Omitted,77425.2,0.0,2026-02-11,2026-05-09,E0046,107,,12,,No decision / stalled
+006000509,00100140A,Dunmore Water Works Corp. - Renewal 2026,Renewal,Closed Won,100,Closed,68642.64,0.0,2026-03-02,2026-05-13,E0009,99,2026-06-01,12,sub_00140,
+006000321,00100263A,Redfern Energy Services Corp. - New Business 2026,New Business,Closed Won,100,Closed,65686.8,8000.0,2026-03-05,2026-05-14,E0046,86,2026-05-19,12,sub_00263,
+006000512,00100142A,Calder Electric Co. - Renewal 2026,Renewal,Closed Won,100,Closed,278814.12,0.0,2026-02-22,2026-05-19,E0033,377,2026-05-24,12,sub_00142,
+006000510,00100141A,Dunmore Construction Co. - Renewal 2026,Renewal,Closed Won,100,Closed,26193.6,0.0,2026-03-03,2026-05-20,E0033,34,2026-06-02,12,sub_00141,
+006000323,001P00507,Underhill Energy Services Partners - New Business 2026,New Business,Closed Lost,0,Omitted,36903.6,0.0,2026-04-24,2026-05-24,E0037,51,,12,,Missing integration
+006000326,00100264A,Kestrel Energy Services Group - New Business 2026,New Business,Closed Won,100,Closed,173520.0,48000.0,2026-02-10,2026-05-24,E0037,241,2026-06-01,12,sub_00264,
+006000515,00100155A,Garland Shipping Holdings - Renewal 2026,Renewal,Closed Won,100,Closed,80429.76,0.0,2026-03-08,2026-05-27,E0037,116,2026-06-07,12,sub_00155,
+006000329,001P00525,Ironleaf Power Systems Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,55717.2,0.0,2026-04-22,2026-06-01,E0042,77,,12,,Built in-house
+006000516,00100156A,Quarry Plastics Corp. - Renewal 2026,Renewal,Closed Won,100,Closed,49035.96,0.0,2026-03-23,2026-06-01,E0009,67,2026-06-22,12,sub_00156,
+006000327,00100277A,Clearwater Power Systems Corp. - New Business 2026,New Business,Closed Won,100,Closed,77988.0,0.0,2026-04-04,2026-06-05,E0009,97,2026-06-09,12,sub_00277,
+006000466,00100040A,Whitlock Fabrication Group - Renewal 2026,Renewal,Closed Won,100,Closed,97340.04,0.0,2026-03-18,2026-06-07,E0009,133,2026-06-17,12,sub_00040,
+006000513,00100153A,Millrace Water Works Co. - Renewal 2026,Renewal,Closed Won,100,Closed,61632.0,0.0,2026-03-28,2026-06-09,E0033,80,2026-06-27,12,sub_00153,
+006000419,00100011A,Thornbury Power Systems Corp. - Renewal 2026,Renewal,Closed Won,100,Closed,72384.48,0.0,2026-03-26,2026-06-13,E0009,86,2026-06-25,12,sub_00011,
+006000488,00100073A,Redfern Distribution LLC - Renewal 2026,Renewal,Closed Lost,0,Omitted,60000.48,0.0,2026-03-25,2026-06-13,E0013,86,2026-06-24,12,sub_00073,Company acquired
+006000514,00100154A,Maplecrest Energy Services Corp. - Renewal 2026,Renewal,Closed Won,100,Closed,45068.4,0.0,2026-03-26,2026-06-13,E0037,65,2026-06-25,12,sub_00154,
+006000429,00100013A,Eastwick Manufacturing Co. - Renewal 2026,Renewal,Closed Won,100,Closed,97245.36,0.0,2026-03-26,2026-06-15,E0009,129,2026-06-25,12,sub_00013,
+006000490,00100074A,Westbrook Concrete Holdings - Renewal 2026,Renewal,Closed Won,100,Closed,116484.48,0.0,2026-04-02,2026-06-18,E0013,144,2026-07-02,12,sub_00074,
+006000328,00100278A,Sawtooth Wholesale Co. - New Business 2026,New Business,Closed Won,100,Closed,67294.8,0.0,2026-05-06,2026-06-20,E0046,93,2026-06-24,12,sub_00278,
+006000443,00100026A,Wexley Transport Partners - Expansion 2026,Expansion,Closed Won,100,Closed,9054.72,0.0,2026-05-19,2026-06-23,E0065,12,2026-06-28,12,sub_00026,
+006000517,00100157A,Willowbend Shipping Partners - Renewal 2026,Renewal,Closed Won,100,Closed,27811.44,0.0,2026-04-01,2026-06-23,E0009,38,2026-07-01,12,sub_00157,
+006000526,00100212A,Larkspur Machining Partners - Expansion 2026,Expansion,Closed Won,100,Closed,20217.6,0.0,2026-05-22,2026-06-24,E0013,26,2026-07-01,12,sub_00212,
+006000424,00100012A,Sumner Plumbing - Renewal 2026,Renewal,Closed Won,100,Closed,74067.84,0.0,2026-03-31,2026-06-25,E0009,88,2026-06-30,12,sub_00012,
+006000518,00100162A,Palisade Field Services Group - Renewal 2026,Renewal,Closed Won,100,Closed,69336.0,0.0,2026-04-16,2026-06-29,E0013,100,2026-07-16,12,sub_00162,
+006000330,001P00526,Sumner Builders - New Business 2026,New Business,Closed Lost,0,Omitted,28220.4,0.0,2026-05-12,2026-07-02,E0046,39,,12,,No budget
+006000458,00100032A,Talbot Wholesale Group - Expansion 2026,Expansion,Closed Won,100,Closed,21517.44,0.0,2026-06-01,2026-07-05,E0046,28,2026-07-11,12,sub_00032,
+006000435,00100016A,Millrace Plumbing - Renewal 2026,Renewal,Closed Won,100,Closed,104233.32,0.0,2026-04-29,2026-07-08,E0009,139,2026-07-29,12,sub_00016,
+006000339,001P00550,Halden Freight Partners - New Business 2026,New Business,Closed Lost,0,Omitted,41968.8,0.0,2026-05-26,2026-07-09,E0013,58,,12,,Timing - revisit next year
+006000340,001P00551,Kestrel Water Works - New Business 2026,New Business,Closed Lost,0,Omitted,65847.6,0.0,2026-05-30,2026-07-09,E0009,91,,12,,No decision / stalled
+006000469,00100042A,Halvorsen Freight Group - Renewal 2026,Renewal,Closed Lost,0,Omitted,317979.6,0.0,2026-05-02,2026-07-13,E0013,410,2026-08-01,12,sub_00042,Consolidated tooling
+006000493,00100077A,Eastwick Plumbing Group - Renewal 2026,Renewal,Closed Won,100,Closed,35361.36,0.0,2026-04-20,2026-07-15,E0013,51,2026-07-20,12,sub_00077,
+006000331,00100294A,Elmstead Logistics LLC - New Business 2026,New Business,Closed Won,100,Closed,74088.6,0.0,2026-05-15,2026-07-21,E0009,97,2026-07-29,12,sub_00294,
+006000334,00100295A,Ambrose Field Services Holdings - New Business 2026,New Business,Closed Won,100,Closed,67536.0,0.0,2026-05-20,2026-07-24,E0065,84,2026-07-28,12,sub_00295,
+006000336,001P00547,Saltmarsh Components Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,21708.0,0.0,2026-05-22,2026-07-25,E0013,30,,12,,Timing - revisit next year
+006000333,001P00544,Radcliffe Industries Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,41245.2,0.0,2026-04-03,2026-07-26,E0042,57,,12,,Built in-house
+006000341,001P00552,Kestrel Cartage Partners - New Business 2026,New Business,Closed Lost,0,Omitted,36180.0,0.0,2026-06-18,2026-07-28,E0052,50,,12,,Chose competitor
+006000332,001P00543,Larkspur Plumbing LLC - New Business 2026,New Business,Closed Lost,0,Omitted,43416.0,0.0,2026-04-03,2026-07-30,E0052,60,,12,,Chose competitor
+006000342,00100296A,Garland Water Works Partners - New Business 2026,New Business,Closed Won,100,Closed,265200.0,56000.0,2026-04-03,2026-07-31,E0052,325,2026-08-01,12,sub_00296,
+006000337,001P00548,Cedarline Construction - New Business 2026,New Business,Closed Lost,0,Omitted,70189.2,0.0,2026-05-15,2026-08-03,E0009,97,,12,,No decision / stalled
+006000348,001P00570,Timberline Wholesale Group - New Business 2026,New Business,Closed Lost,0,Omitted,49204.8,0.0,2026-07-01,2026-08-05,E0037,68,,12,,Chose competitor
+006000351,001P00573,Wexley Haulage - New Business 2026,New Business,Closed Lost,0,Omitted,67294.8,0.0,2026-06-10,2026-08-10,E0042,93,,12,,Timing - revisit next year
+006000359,001P00589,Lockhart Builders Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,68018.4,0.0,2026-04-23,2026-08-10,E0009,94,,12,,Built in-house
+006000346,001P00568,Silverbell HVAC - New Business 2026,New Business,Closed Lost,0,Omitted,73807.2,0.0,2026-04-11,2026-08-12,E0013,102,,12,,Missing integration
+006000335,001P00546,Vantor Construction Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,22431.6,0.0,2026-05-20,2026-08-15,E0009,31,,12,,No decision / stalled
+006000343,001P00554,Basalt Trading Partners - New Business 2026,New Business,Closed Lost,0,Omitted,224640.0,0.0,2026-04-12,2026-08-16,E0065,260,,12,,Chose competitor
+006000338,001P00549,Dunmore Machining - New Business 2026,New Business,Closed Lost,0,Omitted,73083.6,0.0,2026-04-12,2026-08-17,E0037,101,,12,,Missing integration
+006000352,001P00574,Maplecrest Industries Co. - New Business 2026,New Business,Closed Lost,0,Omitted,53546.4,0.0,2026-04-29,2026-08-17,E0013,74,,12,,No budget
+006000383,001P00613,Foxglove Builders LLC - New Business 2026,New Business,Closed Lost,0,Omitted,345600.0,0.0,2026-06-15,2026-08-17,E0052,400,,12,,Timing - revisit next year
+006000344,001P00555,Corrigan Components Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,133920.0,0.0,2026-05-02,2026-08-19,E0042,155,,12,,Timing - revisit next year
+006000496,00100080A,Upland Fabrication Group - Renewal 2026,Renewal,Closed Won,100,Closed,49182.72,0.0,2026-06-05,2026-08-21,E0009,64,2026-09-04,12,sub_00080,
+006000350,001P00572,Lockhart Machining Group - New Business 2026,New Business,Closed Lost,0,Omitted,28944.0,0.0,2026-04-24,2026-08-24,E0046,40,,12,,Chose competitor
+006000345,00100308A,Dunmore Wholesale Corp. - New Business 2026,New Business,Closed Won,100,Closed,45064.2,0.0,2026-06-26,2026-08-28,E0013,59,2026-09-04,12,sub_00308,
+006000370,001P00600,Northgate Wholesale Group - New Business 2026,New Business,Closed Lost,0,Omitted,62229.6,0.0,2026-04-26,2026-08-31,E0078,86,,12,,Built in-house
+006000347,001P00569,Osprey Construction Co. - New Business 2026,New Business,Closed Lost,0,Omitted,35456.4,0.0,2026-06-16,2026-09-01,E0078,49,,12,,Built in-house
+006000358,001P00588,Fallowmere Construction Group - New Business 2026,New Business,Closed Lost,0,Omitted,39798.0,0.0,2026-06-26,2026-09-01,E0037,55,,12,,Timing - revisit next year
+006000357,001P00587,Wexley Electric Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,79596.0,0.0,2026-04-25,2026-09-02,E0078,110,,12,,No decision / stalled
+006000372,001P00602,Kingsley Electric LLC - New Business 2026,New Business,Closed Lost,0,Omitted,58611.6,0.0,2026-05-19,2026-09-03,E0042,81,,12,,Built in-house
+006000356,00100318A,Ironleaf Builders Inc. - New Business 2026,New Business,Closed Won,100,Closed,36984.0,0.0,2026-07-24,2026-09-04,E0078,46,2026-09-07,12,sub_00318,
+006000375,00100322A,Oakhurst Freight Co. - New Business 2026,New Business,Closed Won,100,Closed,71636.4,12000.0,2026-07-19,2026-09-04,E0009,99,2026-09-10,12,sub_00322,
+006000382,001P00612,Hollis Trading Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,352512.0,0.0,2026-08-04,2026-09-04,E0078,408,,12,,Missing integration
+006000354,001P00584,Upland Field Services Co. - New Business 2026,New Business,Closed Lost,0,Omitted,51375.6,0.0,2026-06-14,2026-09-05,E0037,71,,12,,No budget
+006000361,001P00591,Flint Wholesale Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,75254.4,0.0,2026-04-27,2026-09-05,E0052,104,,12,,Built in-house
+006000377,001P00607,Kingsley Manufacturing LLC - New Business 2026,New Business,Closed Lost,0,Omitted,192672.0,0.0,2026-06-21,2026-09-06,E0065,223,,12,,Chose competitor
+006000378,001P00608,Whitlock Wholesale LLC - New Business 2026,New Business,Closed Lost,0,Omitted,152064.0,0.0,2026-05-26,2026-09-07,E0046,176,,12,,No decision / stalled
+006000380,00100324A,Redfern Logistics LLC - New Business 2026,New Business,Closed Won,100,Closed,125280.0,43000.0,2026-05-11,2026-09-09,E0013,145,2026-09-23,12,sub_00324,
+006000385,001P00615,Hartwell Mechanical Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,270432.0,0.0,2026-04-29,2026-09-09,E0009,313,,12,,No decision / stalled
+006000520,00100182A,Merriam Water Works Corp. - Renewal 2026,Renewal,Closed Won,100,Closed,50846.4,0.0,2026-07-07,2026-09-12,E0042,66,2026-10-06,12,sub_00182,
+006000349,001P00571,Driftwood Wholesale Co. - New Business 2026,New Business,Closed Lost,0,Omitted,26773.2,0.0,2026-04-27,2026-09-13,E0042,37,,12,,Chose competitor
+006000519,00100173A,Pemberton Concrete Inc. - Renewal 2026,Renewal,Closed Won,100,Closed,57086.64,0.0,2026-07-05,2026-09-14,E0046,78,2026-10-04,12,sub_00173,
+006000360,00100319A,Pemberton Builders Inc. - New Business 2026,New Business,Closed Won,100,Closed,46310.4,0.0,2026-07-31,2026-09-15,E0078,64,2026-09-18,12,sub_00319,
+006000355,001P00585,Kestrel Concrete Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,50652.0,0.0,2026-06-13,2026-09-18,E0052,70,,12,,Built in-house
+006000365,001P00595,Underhill Supply Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,36903.6,0.0,2026-06-29,2026-09-18,E0037,51,,12,,No decision / stalled
+006000473,00100047A,Sawtooth Plumbing Holdings - Renewal 2026,Renewal,Closed Won,100,Closed,44788.32,0.0,2026-07-01,2026-09-19,E0013,57,2026-09-30,12,sub_00047,
+006000369,00100321A,Driftwood Trading Corp. - New Business 2026,New Business,Closed Won,100,Closed,64320.0,14000.0,2026-08-07,2026-09-20,E0078,80,2026-09-28,12,sub_00321,
+006000373,001P00603,Osprey Manufacturing Partners - New Business 2026,New Business,Closed Lost,0,Omitted,52822.8,0.0,2026-06-03,2026-09-20,E0037,73,,12,,No decision / stalled
+006000376,00100323A,Talbot Electric - New Business 2026,New Business,Closed Won,100,Closed,218880.0,52500.0,2026-06-30,2026-09-20,E0042,240,2026-10-01,24,sub_00323,
+006000353,00100317A,Kingsley Transport Partners - New Business 2026,New Business,Closed Won,100,Closed,33607.2,0.0,2026-07-24,2026-09-23,E0085,44,2026-09-30,12,sub_00317,
+006000364,001P00594,Yarrow Power Systems Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,54270.0,0.0,2026-05-30,2026-09-23,E0042,75,,12,,No decision / stalled
+006000384,001P00614,Eastwick Builders Partners - New Business 2026,New Business,Closed Lost,0,Omitted,335232.0,0.0,2026-08-07,2026-09-23,E0078,388,,12,,Missing integration
+006000374,001P00604,Westbrook Shipping Co. - New Business 2026,New Business,Closed Lost,0,Omitted,31114.8,0.0,2026-07-03,2026-09-24,E0013,43,,12,,Missing integration
+006000476,00100050A,Pemberton Power Systems - Renewal 2026,Renewal,Closed Won,100,Closed,51013.8,0.0,2026-07-18,2026-09-24,E0013,67,2026-10-17,12,sub_00050,
+006000497,00100091A,Kingsley Contracting Holdings - Renewal 2026,Renewal,Closed Won,100,Closed,292597.92,0.0,2026-07-02,2026-09-24,E0013,422,2026-10-01,12,sub_00091,
+006000366,00100320A,Tamarack Components Corp. - New Business 2026,New Business,Closed Won,100,Closed,53466.0,0.0,2026-08-09,2026-09-26,E0046,70,2026-09-27,12,sub_00320,
+006000507,00100125A,Timberline Components Co. - Expansion 2026,Expansion,Closed Won,100,Closed,13867.2,0.0,2026-08-25,2026-09-27,E0078,18,2026-10-04,12,sub_00125,
+006000367,001P00597,Redfern Energy Services - New Business 2026,New Business,Closed Lost,0,Omitted,52099.2,0.0,2026-07-03,2026-09-28,E0065,72,,12,,Missing integration
+006000406,001P00647,Clearwater Cartage - New Business 2026,New Business,Closed Lost,0,Omitted,275616.0,0.0,2026-05-26,2026-09-28,E0078,319,,12,,Missing integration
+006000381,001P00611,Saltmarsh Facility Services Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,190944.0,0.0,2026-05-22,2026-09-29,E0085,221,,12,,No decision / stalled
+006000403,001P00644,Silverbell Facility Services - New Business 2026,New Business,Closed Lost,0,Omitted,28220.4,0.0,2026-06-29,2026-09-29,E0009,39,,12,,Built in-house
+006000362,001P00592,Westbrook Power Systems - New Business 2026,New Business,Closed Lost,0,Omitted,81043.2,0.0,2026-08-27,2026-10-02,E0065,112,,12,,No budget
+006000388,001P00629,Northgate Construction LLC - New Business 2026,New Business,Closed Lost,0,Omitted,26773.2,0.0,2026-06-07,2026-10-02,E0052,37,,12,,Chose competitor
+006000405,00100342A,Yarrow Distribution Group - New Business 2026,New Business,Closed Won,100,Closed,362016.0,35000.0,2026-05-08,2026-10-03,E0065,419,2026-10-17,12,sub_00342,
+006000371,001P00601,Hartwell Transport Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,53546.4,0.0,2026-07-02,2026-10-06,E0037,74,,12,,Missing integration
+006000392,001P00633,Sheffield Wholesale Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,34732.8,0.0,2026-06-26,2026-10-06,E0052,48,,12,,No budget
+006000363,001P00593,Oakhurst Manufacturing Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,24602.4,0.0,2026-08-24,2026-10-07,E0085,34,,12,,Missing integration
+006000379,001P00609,Larkspur Components Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,361152.0,0.0,2026-07-16,2026-10-07,E0042,418,,12,,No decision / stalled
+006000391,001P00632,Timberline Facility Services Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,56440.8,0.0,2026-07-17,2026-10-07,E0037,78,,12,,Timing - revisit next year
+006000398,001P00639,Lowell Contracting Holdings - New Business 2026,New Business,Closed Lost,0,Omitted,31114.8,0.0,2026-07-24,2026-10-07,E0085,43,,12,,Built in-house
+006000522,00100184A,Stonebridge Concrete Co. - Renewal 2026,Renewal,Closed Won,100,Closed,76115.52,0.0,2026-07-26,2026-10-08,E0052,104,2026-10-25,12,sub_00184,
+006000389,001P00630,Larkspur Distribution Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,43416.0,0.0,2026-06-09,2026-10-09,E0085,60,,12,,Missing integration
+006000387,00100337A,Elmstead Energy Services Co. - New Business 2026,New Business,Closed Won,100,Closed,25969.2,9500.0,2026-08-17,2026-10-11,E0078,34,2026-10-13,12,sub_00337,
+006000368,001P00598,Hartwell Transport Corp. - New Business 2026,New Business,Closed Lost,0,Omitted,68742.0,0.0,2026-06-09,2026-10-13,E0037,95,,12,,Timing - revisit next year
+006000407,001P00648,Palisade Energy Services Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,245376.0,0.0,2026-06-17,2026-10-14,E0052,284,,12,,Chose competitor
+006000399,001P00640,Palisade Freight Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,74530.8,0.0,2026-07-20,2026-10-15,E0078,103,,12,,No decision / stalled
+006000404,001P00645,Tamarack Water Works Partners - New Business 2026,New Business,Closed Lost,0,Omitted,66571.2,0.0,2026-07-30,2026-10-17,E0046,92,,12,,No budget
+006000386,00100336A,Foxglove Supply Holdings - New Business 2026,New Business,Closed Won,100,Closed,21708.0,0.0,2026-08-11,2026-10-18,E0042,30,2026-10-23,12,sub_00336,
+006000397,00100340A,Ironleaf Plumbing Inc. - New Business 2026,New Business,Closed Won,100,Closed,48119.4,13000.0,2026-09-08,2026-10-18,E0013,63,2026-10-26,12,sub_00340,
+006000400,001P00641,Calder Haulage LLC - New Business 2026,New Business,Closed Lost,0,Omitted,36903.6,0.0,2026-07-06,2026-10-20,E0065,51,,12,,Built in-house
+006000402,001P00643,Granite Wholesale Group - New Business 2026,New Business,Closed Lost,0,Omitted,52822.8,0.0,2026-06-10,2026-10-20,E0085,73,,12,,No budget
+006000390,00100338A,Driftwood HVAC Partners - New Business 2026,New Business,Closed Won,100,Closed,47355.6,13500.0,2026-09-16,2026-10-23,E0046,62,2026-10-23,12,sub_00338,
+006000393,001P00634,Juniper Wholesale Inc. - New Business 2026,New Business,Closed Lost,0,Omitted,32562.0,0.0,2026-06-12,2026-10-23,E0078,45,,12,,Chose competitor
+006000401,00100341A,Talbot Transport Inc. - New Business 2026,New Business,Closed Won,100,Closed,33768.0,12500.0,2026-09-17,2026-10-23,E0042,42,2026-10-24,12,sub_00341,
+006000395,00100339A,Talbot Shipping Co. - New Business 2026,New Business,Closed Won,100,Closed,59496.0,11500.0,2026-08-23,2026-10-24,E0013,74,2026-11-02,12,sub_00339,
+006000396,001P00637,Hartwell Logistics Co. - New Business 2026,New Business,Closed Lost,0,Omitted,37627.2,0.0,2026-08-11,2026-10-24,E0009,52,,12,,Timing - revisit next year
+006000500,00100094A,Norcross Facility Services LLC - Renewal 2026,Renewal,Closed Won,100,Closed,247752.6,0.0,2026-07-29,2026-10-24,E0009,335,2026-10-28,24,sub_00094,
+006000521,00100183A,Hollis Power Systems Co. - Renewal 2026,Renewal,Closed Won,100,Closed,58550.4,0.0,2026-07-31,2026-10-26,E0046,80,2026-10-30,12,sub_00183,
+006000634,00100186A,Vantor Shipping Inc. - Renewal 2026,Renewal,Negotiation,75,Commit,277603.2,0.0,2026-07-23,2026-10-26,E0037,340,2026-11-01,12,sub_00186,
+006000394,001P00635,Oakhurst Trading LLC - New Business 2026,New Business,Closed Lost,0,Omitted,28220.4,0.0,2026-09-15,2026-10-28,E0065,39,,12,,Missing integration
+006000637,00100197A,Ironleaf Manufacturing LLC - Renewal 2026,Renewal,Negotiation,75,Commit,71820.0,0.0,2026-07-26,2026-10-29,E0013,100,2026-11-04,12,sub_00197,
+006000532,001P00654,Corrigan Logistics Holdings - New Business 2026,New Business,Proposal,50,Best Case,46264.42,11000.0,2026-07-25,2026-11-03,E0042,62,,12,,
+006000626,00100053A,Osprey Contracting LLC - Renewal 2026,Renewal,Negotiation,75,Commit,60269.83,0.0,2026-07-31,2026-11-03,E0009,86,2026-11-09,12,sub_00053,
+006000534,001P00656,Alder Concrete Partners - New Business 2026,New Business,Negotiation,75,Commit,30363.4,0.0,2026-07-31,2026-11-05,E0065,40,,12,,
+006000539,001P00661,Cedarline Logistics LLC - New Business 2026,New Business,Proposal,50,Best Case,75405.34,0.0,2026-08-27,2026-11-05,E0042,98,,12,,
+006000543,001P00665,Kestrel Plastics Inc. - New Business 2026,New Business,Solution Validation,25,Pipeline,42138.57,0.0,2026-08-17,2026-11-05,E0013,53,,12,,
+006000537,001P00659,Osprey Builders Group - New Business 2026,New Business,Negotiation,75,Commit,84698.78,0.0,2026-09-29,2026-11-08,E0078,114,,12,,
+006000542,001P00664,Dunmore Transport LLC - New Business 2026,New Business,Negotiation,75,Commit,46717.09,14000.0,2026-08-26,2026-11-12,E0052,59,,12,,
+006000544,001P00666,Granite Freight Group - New Business 2026,New Business,Contracting,90,Commit,39039.84,12000.0,2026-09-04,2026-11-12,E0046,49,,12,,
+006000545,001P00667,Ironleaf Fabrication Corp. - New Business 2026,New Business,Contracting,90,Commit,175137.53,54000.0,2026-09-19,2026-11-13,E0042,231,,12,,
+006000620,00100022A,Osprey Contracting Holdings - Renewal 2026,Renewal,Negotiation,75,Commit,101545.92,0.0,2026-08-10,2026-11-13,E0009,138,2026-11-19,12,sub_00022,
+006000529,001P00651,Willowbend Components Inc. - New Business 2026,New Business,Contracting,90,Commit,78230.83,0.0,2026-10-07,2026-11-17,E0037,100,,12,,
+006000528,001P00650,Silverbell Power Systems Holdings - New Business 2026,New Business,Contracting,90,Commit,47161.33,14000.0,2026-08-27,2026-11-18,E0009,64,,12,,
+006000536,001P00658,Quarry Distribution - New Business 2026,New Business,Negotiation,75,Commit,24757.83,0.0,2026-07-12,2026-11-18,E0009,31,,12,,
+006000531,001P00653,Oakhurst Freight Corp. - New Business 2026,New Business,Proposal,50,Best Case,49148.02,0.0,2026-07-16,2026-11-19,E0013,63,,12,,
+006000540,001P00662,Talbot Construction Partners - New Business 2026,New Business,Negotiation,75,Commit,83832.64,0.0,2026-07-11,2026-11-20,E0037,111,,12,,
+006000636,00100196A,Redfern Components LLC - Renewal 2026,Renewal,Negotiation,75,Commit,25137.0,0.0,2026-08-19,2026-11-22,E0052,35,2026-11-28,12,sub_00196,
+006000530,001P00652,Rookwood HVAC Co. - New Business 2026,New Business,Proposal,50,Best Case,71117.97,14500.0,2026-09-01,2026-11-23,E0065,96,,12,,
+006000533,001P00655,Westbrook Shipping LLC - New Business 2026,New Business,Solution Validation,25,Pipeline,35710.48,13000.0,2026-08-05,2026-11-23,E0037,46,,12,,
+006000527,001P00649,Belmar Facility Services Group - New Business 2026,New Business,Negotiation,75,Commit,48660.35,0.0,2026-08-18,2026-11-25,E0009,63,,12,,
+006000538,001P00660,Kingsley Shipping Partners - New Business 2026,New Business,Contracting,90,Commit,47952.94,11500.0,2026-07-14,2026-11-25,E0052,64,,12,,
+006000635,00100195A,Eastwick Energy Services Partners - Renewal 2026,Renewal,Negotiation,75,Commit,63201.6,0.0,2026-08-23,2026-11-26,E0046,88,2026-12-02,12,sub_00195,
+006000535,001P00657,Millrace Construction Partners - New Business 2026,New Business,Proposal,50,Best Case,22937.7,0.0,2026-09-12,2026-11-27,E0042,31,,12,,
+006000631,00100107A,Fallowmere Field Services - Renewal 2026,Renewal,Negotiation,75,Commit,60070.25,0.0,2026-08-25,2026-11-28,E0009,82,2026-12-04,12,sub_00107,
+006000541,001P00663,Stonebridge Power Systems Inc. - New Business 2026,New Business,Proposal,50,Best Case,58048.91,8000.0,2026-10-20,2026-11-30,E0065,73,,12,,
+006000552,001P00674,Bluestem Energy Services Holdings - New Business 2026,New Business,Solution Validation,25,Pipeline,77570.55,13500.0,2026-07-13,2026-12-01,E0052,107,,12,,
+006000547,001P00669,Talbot Trading Corp. - New Business 2026,New Business,Proposal,50,Best Case,65601.89,0.0,2026-10-19,2026-12-03,E0042,83,,12,,
+006000553,001P00675,Wexley Machining Group - New Business 2026,New Business,Negotiation,75,Commit,71154.21,0.0,2026-10-15,2026-12-04,E0065,90,,12,,
+006000562,001P00684,Norcross Supply Partners - New Business 2026,New Business,Proposal,50,Best Case,72982.77,10000.0,2026-08-01,2026-12-04,E0037,92,,12,,
+006000575,001P00697,Osprey Distribution Corp. - New Business 2026,New Business,Solution Validation,25,Pipeline,311815.48,30000.0,2026-10-19,2026-12-06,E0013,344,,12,,
+006000577,001P00699,Underhill Machining Holdings - New Business 2026,New Business,Solution Validation,25,Pipeline,180575.66,44500.0,2026-07-31,2026-12-09,E0042,232,,12,,
+006000622,00100027A,Palisade Field Services LLC - Renewal 2026,Renewal,Negotiation,75,Commit,47239.16,0.0,2026-09-05,2026-12-09,E0009,62,2026-12-15,12,sub_00027,
+006000550,001P00672,Whitlock Trading Co. - New Business 2026,New Business,Solution Validation,25,Pipeline,55671.2,12500.0,2026-07-12,2026-12-10,E0052,74,,12,,
+006000565,001P00687,Calder Energy Services Holdings - New Business 2026,New Business,Negotiation,75,Commit,32677.78,0.0,2026-08-11,2026-12-10,E0009,45,,12,,
+006000571,001P00693,Norcross Water Works Co. - New Business 2026,New Business,Proposal,50,Best Case,75432.18,0.0,2026-07-05,2026-12-10,E0009,94,,12,,
+006000546,001P00668,Sumner Plumbing Co. - New Business 2026,New Business,Proposal,50,Best Case,48487.73,8500.0,2026-10-11,2026-12-11,E0009,63,,12,,
+006000548,001P00670,Lowell Concrete Inc. - New Business 2026,New Business,Proposal,50,Best Case,26862.17,13000.0,2026-10-04,2026-12-11,E0065,37,,12,,
+006000549,001P00671,Redfern Freight LLC - New Business 2026,New Business,Negotiation,75,Commit,78412.61,8000.0,2026-10-03,2026-12-11,E0046,108,,12,,
+006000555,001P00677,Corrigan Energy Services Corp. - New Business 2026,New Business,Contracting,90,Commit,80527.91,0.0,2026-10-16,2026-12-11,E0046,103,,12,,
+006000630,00100106A,Elmstead Cartage Inc. - Renewal 2026,Renewal,Negotiation,75,Commit,94500.0,0.0,2026-09-09,2026-12-13,E0033,125,2026-12-19,12,sub_00106,
+006000638,00100206A,Norcross Construction LLC - Renewal 2026,Renewal,Negotiation,75,Commit,35910.0,0.0,2026-09-10,2026-12-14,E0013,50,2026-12-20,12,sub_00206,
+006000558,001P00680,Foxglove Builders Co. - New Business 2026,New Business,Proposal,50,Best Case,78692.2,0.0,2026-09-17,2026-12-15,E0042,101,,12,,
+006000564,001P00686,Belmar Trading Co. - New Business 2026,New Business,Proposal,50,Best Case,69193.32,13000.0,2026-08-28,2026-12-16,E0052,93,,12,,
+006000623,00100028A,Wexley Logistics LLC - Renewal 2026,Renewal,Negotiation,75,Commit,65091.6,0.0,2026-09-12,2026-12-16,E0009,82,2026-12-22,12,sub_00028,
+006000551,001P00673,Rookwood Builders - New Business 2026,New Business,Negotiation,75,Commit,75102.32,0.0,2026-09-19,2026-12-18,E0013,101,,12,,
+006000556,001P00678,Harrowgate Freight Holdings - New Business 2026,New Business,Negotiation,75,Commit,74237.56,12500.0,2026-10-09,2026-12-19,E0013,102,,12,,
+006000561,001P00683,Dunmore Electric Partners - New Business 2026,New Business,Negotiation,75,Commit,55057.94,12000.0,2026-09-02,2026-12-19,E0046,75,,12,,
+006000568,001P00690,Upland Concrete Holdings - New Business 2026,New Business,Proposal,50,Best Case,75215.3,0.0,2026-10-20,2026-12-19,E0052,101,,12,,
+006000576,001P00698,Redfern Cartage Holdings - New Business 2026,New Business,Solution Validation,25,Pipeline,322789.57,42500.0,2026-07-28,2026-12-19,E0078,390,,12,,
+006000566,001P00688,Norcross Plumbing Group - New Business 2026,New Business,Contracting,90,Commit,81549.75,0.0,2026-08-07,2026-12-20,E0052,106,,12,,
+006000567,001P00689,Pemberton Supply - New Business 2026,New Business,Proposal,50,Best Case,43252.31,9000.0,2026-10-01,2026-12-20,E0085,55,,12,,
+006000573,001P00695,Lockhart Haulage Corp. - New Business 2026,New Business,Proposal,50,Best Case,184649.11,55500.0,2026-10-20,2026-12-22,E0052,216,,12,,
+006000621,00100026A,Wexley Transport Partners - Renewal 2026,Renewal,Negotiation,75,Commit,53083.3,0.0,2026-09-18,2026-12-22,E0009,67,2026-12-28,12,sub_00026,
+006000639,00100207A,Juniper Facility Services Inc. - Renewal 2026,Renewal,Negotiation,75,Commit,45964.8,0.0,2026-09-20,2026-12-24,E0042,64,2026-12-30,12,sub_00207,
+006000641,00100209A,Kestrel Components - Renewal 2026,Renewal,Negotiation,75,Commit,43848.0,0.0,2026-09-20,2026-12-24,E0046,58,2026-12-30,12,sub_00209,
+006000574,001P00696,Oakhurst Distribution Co. - New Business 2026,New Business,Solution Validation,25,Pipeline,167614.69,34000.0,2026-10-05,2026-12-25,E0046,208,,12,,
+006000640,00100208A,Kingsley Freight Group - Renewal 2026,Renewal,Proposal,50,Best Case,35910.0,0.0,2026-09-23,2026-12-27,E0052,50,2027-01-02,12,sub_00208,
+006000643,00100211A,Elmstead Trading Group - Renewal 2026,Renewal,Proposal,50,Best Case,24192.0,0.0,2026-09-23,2026-12-27,E0013,32,2027-01-02,12,sub_00211,
+006000554,001P00676,Upland Contracting Inc. - New Business 2026,New Business,Negotiation,75,Commit,39915.49,0.0,2026-10-18,2026-12-28,E0037,54,,12,,
+006000557,001P00679,Osprey Machining Partners - New Business 2026,New Business,Proposal,50,Best Case,70271.25,0.0,2026-07-27,2026-12-28,E0046,94,,12,,
+006000569,001P00691,Clearwater Facility Services Co. - New Business 2026,New Business,Solution Validation,25,Pipeline,48994.6,0.0,2026-09-06,2026-12-28,E0009,67,,12,,
+006000570,001P00692,Copperfield Fabrication - New Business 2026,New Business,Negotiation,75,Commit,29340.14,0.0,2026-07-30,2026-12-28,E0037,38,,12,,
+006000642,00100210A,Radcliffe Plastics LLC - Renewal 2026,Renewal,Proposal,50,Best Case,73256.4,0.0,2026-09-24,2026-12-28,E0013,102,2027-01-03,12,sub_00210,
+006000563,001P00685,Radcliffe Shipping Group - New Business 2026,New Business,Proposal,50,Best Case,44314.51,0.0,2026-07-16,2026-12-29,E0078,59,,12,,
+006000559,001P00681,Upland Energy Services Inc. - New Business 2026,New Business,Proposal,50,Best Case,90233.03,0.0,2026-10-15,2026-12-30,E0037,114,,12,,
+006000560,001P00682,Tamarack Plumbing Group - New Business 2026,New Business,Solution Validation,25,Pipeline,62310.0,0.0,2026-10-05,2026-12-31,E0065,83,,12,,
+006000572,001P00694,Marrow Wholesale LLC - New Business 2026,New Business,Proposal,50,Best Case,348030.92,39500.0,2026-08-25,2026-12-31,E0065,387,,12,,
+006000647,00100225A,Halden Wholesale Inc. - Renewal 2027,Renewal,Proposal,50,Best Case,30391.2,0.0,2026-09-29,2027-01-02,E0052,40,2027-01-08,12,sub_00225,
+006000597,001P00719,Corrigan Construction Inc. - New Business 2027,New Business,Solution Validation,25,Pipeline,159510.22,51000.0,2026-09-04,2027-01-04,E0046,215,,12,,
+006000628,00100057A,Clearwater Mechanical - Renewal 2027,Renewal,Proposal,50,Best Case,110022.95,0.0,2026-10-01,2027-01-04,E0009,139,2027-01-10,12,sub_00057,
+006000625,00100032A,Talbot Wholesale Group - Renewal 2027,Renewal,Proposal,50,Best Case,157346.28,0.0,2026-10-02,2027-01-05,E0009,195,2027-01-11,12,sub_00032,
+006000583,001P00705,Sheffield Construction Inc. - New Business 2027,New Business,Solution Validation,25,Pipeline,51152.13,13000.0,2026-09-04,2027-01-06,E0013,67,,12,,
+006000582,001P00704,Kestrel Mechanical Corp. - New Business 2027,New Business,Solution Validation,25,Pipeline,56610.33,0.0,2026-07-12,2027-01-07,E0037,74,,12,,
+006000584,001P00706,Timberline Power Systems Holdings - New Business 2027,New Business,Proposal,50,Best Case,67284.03,9500.0,2026-08-25,2027-01-07,E0046,91,,12,,
+006000593,001P00715,Brackenridge Concrete Holdings - New Business 2027,New Business,Negotiation,75,Commit,75762.28,14000.0,2026-09-05,2027-01-08,E0037,95,,12,,
+006000592,001P00714,Lowell Water Works Group - New Business 2027,New Business,Discovery,10,Pipeline,37461.89,11500.0,2026-08-18,2027-01-10,E0065,51,,12,,
+006000580,001P00702,Whitlock Trading Corp. - New Business 2027,New Business,Solution Validation,25,Pipeline,82523.81,0.0,2026-07-13,2027-01-11,E0085,112,,12,,
+006000578,001P00700,Palisade Builders Inc. - New Business 2027,New Business,Proposal,50,Best Case,42683.59,8500.0,2026-08-17,2027-01-14,E0013,55,,12,,
+006000594,001P00716,Quarry Builders Group - New Business 2027,New Business,Discovery,10,Pipeline,256037.67,31500.0,2026-10-16,2027-01-14,E0009,319,,12,,
+006000624,00100031A,Ironleaf Water Works Co. - Renewal 2027,Renewal,Proposal,50,Best Case,94061.52,0.0,2026-10-11,2027-01-14,E0009,120,2027-01-20,12,sub_00031,
+006000588,001P00710,Silverbell Supply - New Business 2027,New Business,Solution Validation,25,Pipeline,25251.14,0.0,2026-07-18,2027-01-15,E0009,33,,12,,
+006000596,001P00718,Juniper Cartage Corp. - New Business 2027,New Business,Discovery,10,Pipeline,249468.56,43000.0,2026-09-24,2027-01-17,E0052,274,,12,,
+006000585,001P00707,Greywater Components LLC - New Business 2027,New Business,Solution Validation,25,Pipeline,31036.23,0.0,2026-10-16,2027-01-19,E0037,41,,12,,
+006000632,00100110A,Sheffield Plastics - Renewal 2027,Renewal,Proposal,50,Best Case,92216.88,0.0,2026-10-16,2027-01-19,E0033,120,2027-01-25,12,sub_00110,
+006000644,00100222A,Ambrose Water Works Corp. - Renewal 2027,Renewal,Proposal,50,Best Case,26170.2,0.0,2026-10-18,2027-01-21,E0046,31,2027-01-27,12,sub_00222,
+006000646,00100224A,Sheffield Freight Inc. - Renewal 2027,Renewal,Proposal,50,Best Case,59938.2,0.0,2026-10-18,2027-01-21,E0037,71,2027-01-27,12,sub_00224,
+006000579,001P00701,Halden Components Co. - New Business 2027,New Business,Discovery,10,Pipeline,66510.52,0.0,2026-09-05,2027-01-22,E0085,87,,12,,
+006000587,001P00709,Quarry Freight LLC - New Business 2027,New Business,Proposal,50,Best Case,64206.35,0.0,2026-08-09,2027-01-22,E0037,86,,12,,
+006000589,001P00711,Brackenridge Freight Group - New Business 2027,New Business,Proposal,50,Best Case,30903.49,9000.0,2026-08-11,2027-01-23,E0085,41,,12,,
+006000627,00100056A,Lowell Concrete Corp. - Renewal 2027,Renewal,Proposal,50,Best Case,73530.83,0.0,2026-10-21,2027-01-24,E0013,101,2027-01-30,12,sub_00056,
+006000645,00100223A,Halden Trading Partners - Renewal 2027,Renewal,Proposal,50,Best Case,79017.12,0.0,2026-10-22,2027-01-25,E0013,104,2027-01-31,12,sub_00223,
+006000633,00100111A,Driftwood Industries Inc. - Renewal 2027,Renewal,Proposal,50,Best Case,229022.64,0.0,2026-10-23,2027-01-26,E0033,297,2027-02-01,12,sub_00111,
+006000648,00100226A,Underhill Facility Services Partners - Renewal 2027,Renewal,Proposal,50,Best Case,154828.8,0.0,2026-10-23,2027-01-26,E0052,192,2027-02-01,12,sub_00226,
+006000581,001P00703,Dunmore Trading Inc. - New Business 2027,New Business,Discovery,10,Pipeline,58277.63,0.0,2026-08-26,2027-01-27,E0065,78,,12,,
+006000591,001P00713,Silverbell Industries Corp. - New Business 2027,New Business,Discovery,10,Pipeline,36677.44,0.0,2026-08-07,2027-01-27,E0052,46,,12,,
+006000595,001P00717,Fallowmere Supply - New Business 2027,New Business,Negotiation,75,Commit,271635.03,58500.0,2026-07-21,2027-01-27,E0046,363,,12,,
+006000586,001P00708,Stonebridge Components Partners - New Business 2027,New Business,Proposal,50,Best Case,57523.63,0.0,2026-09-27,2027-01-29,E0013,79,,12,,
+006000590,001P00712,Oakhurst Water Works LLC - New Business 2027,New Business,Proposal,50,Best Case,33670.01,0.0,2026-10-14,2027-01-30,E0009,46,,12,,
+006000606,001P00728,Millrace Mechanical Group - New Business 2027,New Business,Discovery,10,Pipeline,289907.36,37500.0,2026-09-09,2027-02-08,E0009,351,,12,,
+006000598,001P00720,Oakhurst Plumbing Corp. - New Business 2027,New Business,Solution Validation,25,Pipeline,79869.32,10000.0,2026-10-05,2027-02-09,E0009,100,,12,,
+006000604,001P00726,Corrigan Distribution Holdings - New Business 2027,New Business,Solution Validation,25,Pipeline,82676.25,0.0,2026-10-19,2027-02-09,E0085,113,,12,,
+006000651,00100235A,Cedarline Plumbing Holdings - Renewal 2027,Renewal,Proposal,50,Best Case,36469.44,0.0,2026-11-09,2027-02-12,E0013,48,2027-02-18,12,sub_00235,
+006000601,001P00723,Brackenridge Water Works Co. - New Business 2027,New Business,Discovery,10,Pipeline,76502.81,0.0,2026-07-10,2027-02-13,E0065,99,,12,,
+006000650,00100234A,Timberline Cartage Partners - Renewal 2027,Renewal,Proposal,50,Best Case,56941.29,0.0,2026-11-13,2027-02-16,E0009,71,2027-02-22,12,sub_00234,
+006000602,001P00724,Sawtooth HVAC Corp. - New Business 2027,New Business,Solution Validation,25,Pipeline,56127.31,0.0,2026-10-08,2027-02-19,E0013,76,,12,,
+006000649,00100233A,Belmar Electric - Renewal 2027,Renewal,Proposal,50,Best Case,31235.4,0.0,2026-11-16,2027-02-19,E0046,37,2027-02-25,12,sub_00233,
+006000607,001P00729,Bluestem Shipping Inc. - New Business 2027,New Business,Discovery,10,Pipeline,218720.48,32500.0,2026-08-22,2027-02-20,E0085,272,,12,,
+006000603,001P00725,Larkspur Industries Corp. - New Business 2027,New Business,Discovery,10,Pipeline,82810.31,0.0,2026-07-08,2027-02-21,E0013,106,,12,,
+006000599,001P00721,Harrowgate Builders Inc. - New Business 2027,New Business,Solution Validation,25,Pipeline,55411.65,0.0,2026-09-20,2027-02-26,E0042,73,,12,,
+006000600,001P00722,Pinecroft Construction Partners - New Business 2027,New Business,Solution Validation,25,Pipeline,71495.62,0.0,2026-08-07,2027-02-28,E0013,91,,12,,
+006000605,001P00727,Willowbend Mechanical Co. - New Business 2027,New Business,Solution Validation,25,Pipeline,73353.65,0.0,2026-10-13,2027-02-28,E0085,100,,12,,
+006000619,00100007A,Saltmarsh Power Systems LLC - Renewal 2027,Renewal,Proposal,50,Best Case,38626.69,0.0,2026-11-27,2027-03-02,E0009,51,2027-03-08,12,sub_00007,
+006000618,001P00740,Sawtooth Contracting LLC - New Business 2027,New Business,Discovery,10,Pipeline,197196.18,42000.0,2026-08-20,2027-03-07,E0037,268,,12,,
+006000612,001P00734,Sheffield Energy Services LLC - New Business 2027,New Business,Discovery,10,Pipeline,43441.6,0.0,2026-07-30,2027-03-09,E0052,55,,12,,
+006000629,00100062A,Rookwood Manufacturing - Renewal 2027,Renewal,Proposal,50,Best Case,39192.17,0.0,2026-12-05,2027-03-10,E0013,51,2027-03-16,12,sub_00062,
+006000614,001P00736,Juniper Field Services Group - New Business 2027,New Business,Discovery,10,Pipeline,25727.01,8500.0,2026-09-30,2027-03-13,E0085,35,,12,,
+006000615,001P00737,Quarry Plumbing Partners - New Business 2027,New Business,Discovery,10,Pipeline,30003.04,0.0,2026-07-30,2027-03-13,E0009,38,,12,,
+006000609,001P00731,Pemberton Manufacturing Co. - New Business 2027,New Business,Discovery,10,Pipeline,48819.84,9500.0,2026-09-25,2027-03-14,E0046,64,,12,,
+006000653,00100244A,Basalt Transport Inc. - Renewal 2027,Renewal,Proposal,50,Best Case,62555.22,0.0,2026-12-09,2027-03-14,E0009,78,2027-03-20,12,sub_00244,
+006000610,001P00732,Palisade Power Systems Co. - New Business 2027,New Business,Discovery,10,Pipeline,51638.81,0.0,2026-08-09,2027-03-17,E0065,65,,12,,
+006000652,00100243A,Ambrose Transport - Renewal 2027,Renewal,Proposal,50,Best Case,75387.06,0.0,2026-12-15,2027-03-20,E0052,94,2027-03-26,12,sub_00243,
+006000611,001P00733,Granite Wholesale Inc. - New Business 2027,New Business,Discovery,10,Pipeline,59046.02,0.0,2026-07-05,2027-03-21,E0065,77,,12,,
+006000616,001P00738,Westbrook Components - New Business 2027,New Business,Discovery,10,Pipeline,47979.51,0.0,2026-07-28,2027-03-25,E0065,60,,12,,
+006000617,001P00739,Greywater Concrete Corp. - New Business 2027,New Business,Discovery,10,Pipeline,54872.87,10500.0,2026-07-22,2027-03-25,E0009,75,,12,,
+006000608,001P00730,Radcliffe Water Works LLC - New Business 2027,New Business,Discovery,10,Pipeline,40518.24,0.0,2026-09-17,2027-03-28,E0065,55,,12,,
+006000613,001P00735,Hollis Freight Holdings - New Business 2027,New Business,Discovery,10,Pipeline,25723.2,12500.0,2026-07-16,2027-03-29,E0078,33,,12,,

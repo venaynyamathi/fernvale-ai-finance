@@ -1,0 +1,43 @@
+vendor_id,name,category,default_department,payment_channel,payment_terms_days,accrue_monthly
+V001,Amazon Web Services,Hosting,COGS,bill,15,1
+V002,Datadog,Hosting,COGS,card,0,0
+V003,Twilio,Hosting,COGS,card,0,0
+V004,Sentry,Software - R&D,Engineering,card,0,0
+V005,GitHub,Software - R&D,Engineering,card,0,0
+V006,Atlassian,Software - R&D,Engineering,card,0,0
+V007,Figma,Software - R&D,Product,card,0,0
+V008,Google Workspace,Software - G&A,G&A,card,0,0
+V009,Slack,Software - G&A,G&A,card,0,0
+V010,Zoom,Software - G&A,G&A,card,0,0
+V011,Notion,Software - G&A,G&A,card,0,0
+V012,1Password,Software - G&A,G&A,card,0,0
+V013,Gusto,Payroll Fees,G&A,card,0,0
+V014,Salesforce,Software - Sales,Sales,bill,30,0
+V015,ZoomInfo,Software - Sales,Sales,bill,30,0
+V016,Gong,Software - Sales,Sales,card,0,0
+V017,HubSpot,Software - Marketing,Marketing,card,0,0
+V018,Google Ads,Advertising,Marketing,card,0,0
+V019,LinkedIn Ads,Advertising,Marketing,card,0,0
+V020,LinkedIn Recruiter,Recruiting,G&A,card,0,0
+V021,OpsForward Summit (fictional),Events,Marketing,bill,30,0
+V022,Kaltwerk Dev Studio (fictional),Contractors - R&D,Engineering,bill,30,0
+V023,Brightquarry Content Co. (fictional),Contractors - Marketing,Marketing,bill,30,0
+V024,Harbor Point Properties LLC (fictional),Rent,G&A,bill,0,0
+V025,Dovetail Interiors (fictional),Fixed Assets,G&A,bill,30,0
+V026,Marlow & Pierce LLP (fictional),Legal,G&A,bill,30,1
+V027,Brennan Ostrow CPAs (fictional),Accounting & Tax,G&A,bill,30,0
+V028,Keystone Mutual Insurance (fictional),Insurance,G&A,bill,30,0
+V029,Bluepine Health Plans (fictional),Benefits,Allocated,bill,0,0
+V030,Talentridge Search Partners (fictional),Recruiting,G&A,bill,30,0
+V031,Apple,Computer Equipment,Allocated,card,0,0
+V032,Delaware Division of Corporations,Taxes & Licenses,G&A,card,0,0
+V033,California Franchise Tax Board,Taxes & Licenses,G&A,card,0,0
+V034,United Airlines,Travel,Sales,card,0,0
+V035,Delta Air Lines,Travel,Sales,card,0,0
+V036,Marriott,Travel,Sales,card,0,0
+V037,Hilton,Travel,Sales,card,0,0
+V038,Uber,Travel,Sales,card,0,0
+V039,DoorDash,Meals & Entertainment,G&A,card,0,0
+V040,Local restaurants,Meals & Entertainment,Sales,card,0,0
+V041,Costco Business,Office Expenses,G&A,card,0,0
+V042,Amazon Business,Office Expenses,G&A,card,0,0

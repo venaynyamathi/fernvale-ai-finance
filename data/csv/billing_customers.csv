@@ -1,0 +1,343 @@
+customer_id,name,segment,industry,employee_count,state,payment_method,billing_email,stripe_customer_id,created_at
+C00001,Sheffield Distribution Corp.,SMB,Distribution,106,AZ,card,ap@sheffield001.example,cus_533697420b52,2022-01-26
+C00002,Talbot Haulage Inc.,SMB,Logistics,42,MI,card,ap@talbot002.example,cus_2f91f00611b0,2022-01-26
+C00003,Whitlock HVAC Partners,SMB,Field Services,130,MN,card,ap@whitlock003.example,cus_20208c5db857,2022-01-28
+C00004,Kingsley Distribution,SMB,Distribution,32,MO,card,ap@kingsley004.example,cus_2366ea12a080,2022-01-06
+C00005,Vantor Components LLC,SMB,Manufacturing,110,WA,card,ap@vantor005.example,cus_3311e73191c1,2022-02-06
+C00006,Driftwood Construction LLC,Mid-Market,Construction,1139,AZ,ach,ap@driftwood006.example,cus_3821a88a3450,2022-02-09
+C00007,Saltmarsh Power Systems LLC,Mid-Market,Utilities,336,MN,ach,ap@saltmarsh007.example,cus_483c33fdcee6,2022-02-27
+C00008,Norcross Concrete LLC,SMB,Construction,58,GA,card,ap@norcross008.example,cus_a38798efa9a,2022-05-15
+C00009,Elmstead Water Works Partners,SMB,Utilities,47,AZ,card,ap@elmstead009.example,cus_28a603a45016,2022-06-03
+C00010,Dunmore Industries,SMB,Manufacturing,113,MI,card,ap@dunmore010.example,cus_362c6dcf5f67,2022-06-27
+C00011,Thornbury Power Systems Corp.,Mid-Market,Utilities,486,MO,ach,ap@thornbury011.example,cus_52163219636d,2022-06-17
+C00012,Sumner Plumbing,Mid-Market,Field Services,1481,MI,ach,ap@sumner012.example,cus_21d62c956f87,2022-06-23
+C00013,Eastwick Manufacturing Co.,Mid-Market,Manufacturing,359,PA,ach,ap@eastwick013.example,cus_482cecce38be,2022-06-18
+C00014,Talbot Energy Services Corp.,Mid-Market,Utilities,261,PA,ach,ap@talbot014.example,cus_23f4b2dcd3ba,2022-06-30
+C00015,Copperfield Trading Corp.,SMB,Distribution,181,PA,card,ap@copperfield015.example,cus_2e0d124382cc,2022-07-27
+C00016,Millrace Plumbing,Mid-Market,Field Services,535,MI,ach,ap@millrace016.example,cus_2d543c17b060,2022-07-21
+C00017,Sheffield Energy Services Partners,SMB,Utilities,150,PA,card,ap@sheffield017.example,cus_3ec6714bd70f,2022-08-20
+C00018,Lowell Electric Inc.,SMB,Field Services,123,MI,card,ap@lowell018.example,cus_292afcf35a3d,2022-08-20
+C00019,Sawtooth Wholesale Corp.,SMB,Distribution,44,GA,card,ap@sawtooth019.example,cus_357d31bae560,2022-09-28
+C00020,Palisade Haulage Co.,SMB,Logistics,79,PA,card,ap@palisade020.example,cus_37ec299c1d39,2022-10-24
+C00021,Palisade Components Corp.,SMB,Manufacturing,183,IL,card,ap@palisade021.example,cus_25933e956631,2022-11-23
+C00022,Osprey Contracting Holdings,Mid-Market,Construction,1020,TN,ach,ap@osprey022.example,cus_3d9018b46b59,2022-11-13
+C00023,Thornbury Energy Services Holdings,SMB,Utilities,91,TN,card,ap@thornbury023.example,cus_1976cd959d77,2022-12-08
+C00024,Garland Distribution,SMB,Distribution,59,NC,card,ap@garland024.example,cus_26ae983539d1,2022-12-14
+C00025,Juniper HVAC Holdings,SMB,Field Services,138,AZ,card,ap@juniper025.example,cus_2e6f59086cac,2022-12-13
+C00026,Wexley Transport Partners,Mid-Market,Logistics,882,TX,ach,ap@wexley026.example,cus_3b73de4f79c6,2022-12-28
+C00027,Palisade Field Services LLC,Mid-Market,Field Services,466,AZ,ach,ap@palisade027.example,cus_27da8a1179da,2022-12-14
+C00028,Wexley Logistics LLC,Mid-Market,Logistics,507,IL,ach,ap@wexley028.example,cus_1c4a58ff19b1,2022-12-17
+C00029,Ridgeway Components Group,SMB,Manufacturing,48,AZ,card,ap@ridgeway029.example,cus_1b031e99ee98,2023-01-14
+C00030,Sheffield Builders Group,SMB,Construction,195,TX,card,ap@sheffield030.example,cus_14feed410beb,2023-01-24
+C00031,Ironleaf Water Works Co.,Mid-Market,Utilities,370,CO,ach,ap@ironleaf031.example,cus_2db6975bf1a5,2023-01-20
+C00032,Talbot Wholesale Group,Mid-Market,Distribution,708,CA,ach,ap@talbot032.example,cus_35e25b66b6d4,2023-01-11
+C00033,Ambrose Trading Holdings,SMB,Distribution,181,MO,card,ap@ambrose033.example,cus_4e68b539c829,2023-02-26
+C00034,Copperfield Components Corp.,SMB,Manufacturing,151,GA,card,ap@copperfield034.example,cus_2680790dda3c,2023-02-17
+C00035,Saltmarsh Transport Inc.,SMB,Logistics,22,MO,card,ap@saltmarsh035.example,cus_4006e2d462cb,2023-04-04
+C00036,Lockhart Fabrication Corp.,Mid-Market,Manufacturing,263,CA,ach,ap@lockhart036.example,cus_c68684e2d03,2023-04-06
+C00037,Fenwick Cartage Co.,SMB,Logistics,170,OH,card,ap@fenwick037.example,cus_526d0f435eb9,2023-05-01
+C00038,Thornbury Shipping Co.,Mid-Market,Logistics,969,CO,ach,ap@thornbury038.example,cus_250d0158ded2,2023-05-26
+C00039,Flint HVAC Partners,SMB,Field Services,96,CA,card,ap@flint039.example,cus_3e9b725c4337,2023-06-23
+C00040,Whitlock Fabrication Group,Mid-Market,Manufacturing,687,IL,ach,ap@whitlock040.example,cus_1e7d778fe5cf,2023-06-15
+C00041,Whitlock Power Systems,SMB,Utilities,150,NY,card,ap@whitlock041.example,cus_5051674f0a2d,2023-07-27
+C00042,Halvorsen Freight Group,Enterprise,Logistics,2862,OH,wire,ap@halvorsen042.example,cus_14e58add4c8f,2023-07-27
+C00043,Pemberton Construction Inc.,SMB,Construction,36,MN,card,ap@pemberton043.example,cus_15ab76839cd3,2023-08-21
+C00044,Thornbury Fabrication Partners,SMB,Manufacturing,32,IL,card,ap@thornbury044.example,cus_309a5091bdfe,2023-08-05
+C00045,Willowbend Manufacturing Inc.,SMB,Manufacturing,174,TN,card,ap@willowbend045.example,cus_27b010835e59,2023-08-10
+C00046,Osprey Contracting Inc.,SMB,Construction,174,MI,card,ap@osprey046.example,cus_49d560669116,2023-09-20
+C00047,Sawtooth Plumbing Holdings,Mid-Market,Field Services,1026,MI,ach,ap@sawtooth047.example,cus_3e53c6f73ad5,2023-09-23
+C00048,Copperfield Electric Partners,SMB,Field Services,126,OH,card,ap@copperfield048.example,cus_3fc772f9b1e6,2023-10-07
+C00049,Belmar Components,SMB,Manufacturing,142,OH,card,ap@belmar049.example,cus_21d088c709e7,2023-10-08
+C00050,Pemberton Power Systems,Mid-Market,Utilities,1310,NY,ach,ap@pemberton050.example,cus_31b879121551,2023-10-13
+C00051,Dunmore Facility Services Partners,SMB,Field Services,135,AZ,card,ap@dunmore051.example,cus_2bb34aaf86c2,2023-11-02
+C00052,Radcliffe Transport Group,SMB,Logistics,175,GA,card,ap@radcliffe052.example,cus_313fbe80dbb1,2023-11-26
+C00053,Osprey Contracting LLC,Mid-Market,Construction,579,MI,ach,ap@osprey053.example,cus_486e11b46392,2023-11-06
+C00054,Garland Freight Inc.,SMB,Logistics,112,GA,card,ap@garland054.example,cus_43c47a2d8db0,2024-01-21
+C00055,Wexley Builders LLC,SMB,Construction,32,TX,card,ap@wexley055.example,cus_424c103f7c43,2024-01-21
+C00056,Lowell Concrete Corp.,Mid-Market,Construction,1357,IL,ach,ap@lowell056.example,cus_4fc8d68fa9a9,2024-01-22
+C00057,Clearwater Mechanical,Mid-Market,Field Services,1187,NY,ach,ap@clearwater057.example,cus_4347fef5b15b,2024-01-03
+C00058,Tamarack Distribution LLC,SMB,Distribution,101,GA,card,ap@tamarack058.example,cus_2bbbe208c614,2024-03-26
+C00059,Juniper Facility Services,SMB,Field Services,49,TX,card,ap@juniper059.example,cus_1a60994a177c,2024-03-04
+C00060,Tamarack Plastics LLC,SMB,Manufacturing,52,MO,card,ap@tamarack060.example,cus_4aecc9b764e6,2024-03-05
+C00061,Kestrel Haulage Group,SMB,Logistics,154,NY,card,ap@kestrel061.example,cus_ada52d161ad,2024-03-15
+C00062,Rookwood Manufacturing,Mid-Market,Manufacturing,1413,MN,ach,ap@rookwood062.example,cus_dd1d02aa285,2024-03-08
+C00063,Dunmore Freight Holdings,Mid-Market,Logistics,1346,CA,ach,ap@dunmore063.example,cus_1ba2d6d72ec9,2024-04-05
+C00064,Redfern Facility Services,SMB,Field Services,128,CA,card,ap@redfern064.example,cus_58c312049be5,2024-05-05
+C00065,Flint Fabrication Partners,SMB,Manufacturing,56,MI,card,ap@flint065.example,cus_586774d4c270,2024-05-17
+C00066,Halden Logistics LLC,SMB,Logistics,164,CO,card,ap@halden066.example,cus_4899c25fe312,2024-05-06
+C00067,Westbrook Supply Co.,SMB,Distribution,184,WA,card,ap@westbrook067.example,cus_17fe2b14b511,2024-05-27
+C00068,Wexley Fabrication Holdings,SMB,Manufacturing,169,GA,card,ap@wexley068.example,cus_2aa6e10c8b44,2024-05-18
+C00069,Driftwood Wholesale Inc.,SMB,Distribution,20,MI,card,ap@driftwood069.example,cus_1b3e91f50307,2024-06-25
+C00070,Stonebridge Mechanical Holdings,SMB,Field Services,46,CO,card,ap@stonebridge070.example,cus_5a5a5e2b075c,2024-06-25
+C00071,Pemberton Energy Services Partners,SMB,Utilities,75,CO,card,ap@pemberton071.example,cus_3a99d890a1c8,2024-06-08
+C00072,Upland Facility Services Corp.,SMB,Field Services,72,TN,card,ap@upland072.example,cus_26d6374aa61b,2024-06-04
+C00073,Redfern Distribution LLC,Mid-Market,Distribution,1433,MN,ach,ap@redfern073.example,cus_3b8ea7907689,2024-06-20
+C00074,Westbrook Concrete Holdings,Mid-Market,Construction,1387,CA,ach,ap@westbrook074.example,cus_2785f6e6cd6f,2024-06-30
+C00075,Dunmore Shipping Group,SMB,Logistics,190,MN,card,ap@dunmore075.example,cus_5a4d498becdf,2024-07-18
+C00076,Juniper Water Works Partners,SMB,Utilities,34,CA,card,ap@juniper076.example,cus_52b54f6b367e,2024-07-21
+C00077,Eastwick Plumbing Group,Mid-Market,Field Services,1431,GA,ach,ap@eastwick077.example,cus_428c02476efc,2024-07-19
+C00078,Westbrook Cartage LLC,SMB,Logistics,95,MI,card,ap@westbrook078.example,cus_26f9bc362f70,2024-08-04
+C00079,Millrace Concrete LLC,SMB,Construction,94,MO,card,ap@millrace079.example,cus_2d10868d4440,2024-08-27
+C00080,Upland Fabrication Group,Mid-Market,Manufacturing,1498,OH,ach,ap@upland080.example,cus_1ae8d7e3b091,2024-08-28
+C00081,Silverbell Components Group,SMB,Manufacturing,154,PA,card,ap@silverbell081.example,cus_39e49aa2df21,2024-09-11
+C00082,Millrace Concrete Inc.,SMB,Construction,104,CA,card,ap@millrace082.example,cus_bf2d3f6afe3,2024-09-25
+C00083,Hollis Energy Services Co.,SMB,Utilities,81,CA,card,ap@hollis083.example,cus_1da17e352a30,2024-09-15
+C00084,Belmar Machining,SMB,Manufacturing,24,CO,card,ap@belmar084.example,cus_5ac8b6ccad90,2024-09-07
+C00085,Ridgeway Plastics,SMB,Manufacturing,189,MN,card,ap@ridgeway085.example,cus_229ed8a7e08c,2024-09-14
+C00086,Granite Mechanical Holdings,SMB,Field Services,77,CA,card,ap@granite086.example,cus_31c6b8c8fa75,2024-09-19
+C00087,Foxglove Supply Co.,SMB,Distribution,111,NY,card,ap@foxglove087.example,cus_4562f8953051,2024-09-06
+C00088,Kestrel Components Co.,SMB,Manufacturing,82,MI,card,ap@kestrel088.example,cus_52aaaf4e181c,2024-09-07
+C00089,Stonebridge Energy Services Group,SMB,Utilities,150,CA,card,ap@stonebridge089.example,cus_4d090c95551c,2024-09-02
+C00090,Sawtooth Contracting Inc.,SMB,Construction,128,CA,card,ap@sawtooth090.example,cus_241e10a82370,2024-09-06
+C00091,Kingsley Contracting Holdings,Enterprise,Construction,1536,TN,wire,ap@kingsley091.example,cus_107c4f19c157,2024-09-27
+C00092,Bluestem Builders LLC,SMB,Construction,126,TX,card,ap@bluestem092.example,cus_1c16f8d88b25,2024-10-01
+C00093,Foxglove Power Systems Holdings,SMB,Utilities,108,CO,card,ap@foxglove093.example,cus_434f4caaccbf,2024-10-10
+C00094,Norcross Facility Services LLC,Enterprise,Field Services,3562,MI,wire,ap@norcross094.example,cus_5913202c0385,2024-10-14
+C00095,Rookwood Mechanical Holdings,SMB,Field Services,197,NC,card,ap@rookwood095.example,cus_188557e7220d,2024-11-25
+C00096,Westbrook Shipping Corp.,SMB,Logistics,133,OH,card,ap@westbrook096.example,cus_12a92c7ec1ae,2024-11-03
+C00097,Osprey Power Systems,SMB,Utilities,128,IL,card,ap@osprey097.example,cus_168e81f4ff0c,2024-11-09
+C00098,Basalt Components Corp.,SMB,Manufacturing,48,TN,card,ap@basalt098.example,cus_579e7d9ce02e,2024-11-12
+C00099,Palisade Trading Group,SMB,Distribution,28,TX,card,ap@palisade099.example,cus_3218c92a0b5d,2024-11-03
+C00100,Underhill Haulage Corp.,SMB,Logistics,20,PA,card,ap@underhill100.example,cus_9fd174b36d3,2024-11-09
+C00101,Talbot Power Systems Holdings,SMB,Utilities,80,WA,card,ap@talbot101.example,cus_46246f51499f,2024-11-11
+C00102,Sumner Contracting LLC,SMB,Construction,144,NC,card,ap@sumner102.example,cus_3916fb295501,2024-11-27
+C00103,Garland Builders Partners,SMB,Construction,83,MI,card,ap@garland103.example,cus_3a7cbf0b17a0,2024-12-25
+C00104,Sawtooth Industries Holdings,SMB,Manufacturing,190,MO,card,ap@sawtooth104.example,cus_2fed0c488c7f,2024-12-22
+C00105,Hollis Plastics Partners,SMB,Manufacturing,139,NC,card,ap@hollis105.example,cus_40cc0bc9b996,2024-12-09
+C00106,Elmstead Cartage Inc.,Mid-Market,Logistics,700,MO,ach,ap@elmstead106.example,cus_479937758479,2024-12-14
+C00107,Fallowmere Field Services,Mid-Market,Field Services,1460,CO,ach,ap@fallowmere107.example,cus_4917b8432d28,2024-12-01
+C00108,Wexley Plumbing Group,SMB,Field Services,35,NC,card,ap@wexley108.example,cus_391e92aa0e31,2025-01-08
+C00109,Bluestem Trading Group,SMB,Distribution,74,NC,card,ap@bluestem109.example,cus_571f0738b253,2025-01-09
+C00110,Sheffield Plastics,Mid-Market,Manufacturing,726,IL,ach,ap@sheffield110.example,cus_2a4021b66c07,2025-01-20
+C00111,Driftwood Industries Inc.,Enterprise,Manufacturing,8592,IL,wire,ap@driftwood111.example,cus_28751a35cf5e,2025-01-27
+C00112,Calder Components Partners,SMB,Manufacturing,88,TX,card,ap@calder112.example,cus_3f8f99b00117,2025-02-28
+C00113,Sheffield Field Services LLC,SMB,Field Services,30,CA,card,ap@sheffield113.example,cus_20d8e6436aab,2025-02-08
+C00114,Marrow Haulage Inc.,SMB,Logistics,183,MN,card,ap@marrow114.example,cus_25b95e005730,2025-02-06
+C00115,Ambrose Machining Partners,SMB,Manufacturing,142,NY,card,ap@ambrose115.example,cus_2b5ec92e99a3,2025-02-23
+C00116,Larkspur Distribution Partners,SMB,Distribution,53,TN,card,ap@larkspur116.example,cus_9f87a08bfd2,2025-02-05
+C00117,Oakhurst Electric Inc.,Mid-Market,Field Services,765,GA,ach,ap@oakhurst117.example,cus_3a447947ba97,2025-02-20
+C00118,Whitlock Cartage Inc.,SMB,Logistics,131,AZ,card,ap@whitlock118.example,cus_146a64c3f6ff,2025-03-02
+C00119,Garland Haulage Partners,SMB,Logistics,90,MN,card,ap@garland119.example,cus_3a506b3c351f,2025-03-20
+C00120,Vantor Builders LLC,SMB,Construction,161,OH,card,ap@vantor120.example,cus_386cbe88b852,2025-03-20
+C00121,Timberline Shipping LLC,SMB,Logistics,172,TN,card,ap@timberline121.example,cus_24d2963bdafa,2025-03-05
+C00122,Silverbell Freight LLC,SMB,Logistics,72,CO,card,ap@silverbell122.example,cus_3907de77459a,2025-03-25
+C00123,Quarry Manufacturing,SMB,Manufacturing,176,CO,card,ap@quarry123.example,cus_3d22b9ce2dbe,2025-03-13
+C00124,Fallowmere Wholesale LLC,SMB,Distribution,139,WA,card,ap@fallowmere124.example,cus_1008bbb16586,2025-03-02
+C00125,Timberline Components Co.,Mid-Market,Manufacturing,436,NC,ach,ap@timberline125.example,cus_4de392483eed,2025-03-26
+C00126,Harrowgate Concrete LLC,SMB,Construction,130,CA,card,ap@harrowgate126.example,cus_21c37ace0ee0,2025-04-10
+C00127,Rookwood Electric Inc.,SMB,Field Services,23,IL,card,ap@rookwood127.example,cus_371753602597,2025-04-06
+C00128,Yarrow Water Works,SMB,Utilities,68,MI,card,ap@yarrow128.example,cus_28a91ab4bfa3,2025-04-20
+C00129,Norcross Builders Group,SMB,Construction,192,PA,card,ap@norcross129.example,cus_56997cbcff87,2025-04-26
+C00130,Ironleaf Fabrication Group,SMB,Manufacturing,188,MO,card,ap@ironleaf130.example,cus_d9e229f00cf,2025-04-12
+C00131,Corrigan Transport Inc.,SMB,Logistics,86,CO,card,ap@corrigan131.example,cus_566da0938742,2025-04-21
+C00132,Ironleaf Contracting Partners,Mid-Market,Construction,505,CA,ach,ap@ironleaf132.example,cus_40912851c032,2025-04-14
+C00133,Elmstead Machining,SMB,Manufacturing,115,MN,card,ap@elmstead133.example,cus_57ea04fb7ad7,2025-05-27
+C00134,Driftwood Machining Group,SMB,Manufacturing,55,GA,card,ap@driftwood134.example,cus_4c8866b901f8,2025-05-22
+C00135,Norcross Manufacturing Co.,SMB,Manufacturing,43,NY,card,ap@norcross135.example,cus_1a7eb70495cf,2025-05-11
+C00136,Elmstead Construction Holdings,SMB,Construction,134,IL,card,ap@elmstead136.example,cus_1a28360f3ce0,2025-05-13
+C00137,Yarrow Water Works Co.,SMB,Utilities,162,IL,card,ap@yarrow137.example,cus_49b4562f6266,2025-05-19
+C00138,Bluestem Machining Corp.,SMB,Manufacturing,88,IL,card,ap@bluestem138.example,cus_2b34eb20a344,2025-05-23
+C00139,Redfern Wholesale Partners,SMB,Distribution,77,WA,card,ap@redfern139.example,cus_1303baa35c3d,2025-05-03
+C00140,Dunmore Water Works Corp.,Mid-Market,Utilities,1257,WA,ach,ap@dunmore140.example,cus_1156b873d6c7,2025-05-24
+C00141,Dunmore Construction Co.,Mid-Market,Construction,918,MI,ach,ap@dunmore141.example,cus_535ad4a9b7cd,2025-05-26
+C00142,Calder Electric Co.,Enterprise,Field Services,5802,GA,wire,ap@calder142.example,cus_2ab5f6a0371d,2025-05-10
+C00143,Lowell Contracting Inc.,SMB,Construction,86,CA,card,ap@lowell143.example,cus_210b17a14b22,2025-06-10
+C00144,Basalt Contracting Holdings,SMB,Construction,62,MN,card,ap@basalt144.example,cus_3e6872993292,2025-06-10
+C00145,Halden Water Works Holdings,SMB,Utilities,179,TN,card,ap@halden145.example,cus_4d5c8a0c7464,2025-06-13
+C00146,Harrowgate Distribution Co.,SMB,Distribution,102,TN,card,ap@harrowgate146.example,cus_2b7bf15263ca,2025-06-25
+C00147,Corrigan Industries Holdings,SMB,Manufacturing,158,MI,card,ap@corrigan147.example,cus_285fb9bc44f0,2025-06-10
+C00148,Flint Supply Holdings,SMB,Distribution,45,MI,card,ap@flint148.example,cus_215c29755187,2025-06-17
+C00149,Belmar Power Systems Partners,SMB,Utilities,161,MN,card,ap@belmar149.example,cus_2b1078811694,2025-06-23
+C00150,Kingsley Plastics Co.,SMB,Manufacturing,121,NC,card,ap@kingsley150.example,cus_334e036b8a33,2025-06-26
+C00151,Harrowgate Electric Corp.,SMB,Field Services,120,GA,card,ap@harrowgate151.example,cus_4f65ecbf8130,2025-06-26
+C00152,Garland Wholesale Holdings,SMB,Distribution,174,CO,card,ap@garland152.example,cus_38e82c2f653b,2025-06-05
+C00153,Millrace Water Works Co.,Mid-Market,Utilities,325,TN,ach,ap@millrace153.example,cus_2642f9e64132,2025-06-19
+C00154,Maplecrest Energy Services Corp.,Mid-Market,Utilities,992,GA,ach,ap@maplecrest154.example,cus_150f5873f4f1,2025-06-23
+C00155,Garland Shipping Holdings,Mid-Market,Logistics,364,NC,ach,ap@garland155.example,cus_470c0c215961,2025-06-01
+C00156,Quarry Plastics Corp.,Mid-Market,Manufacturing,1475,NY,ach,ap@quarry156.example,cus_2c5dee183d54,2025-06-21
+C00157,Willowbend Shipping Partners,Mid-Market,Logistics,805,MN,ach,ap@willowbend157.example,cus_2281f5cd38c0,2025-06-30
+C00158,Kingsley Builders Partners,SMB,Construction,120,MN,card,ap@kingsley158.example,cus_4c6e519e0aac,2025-07-23
+C00159,Sawtooth Supply Group,SMB,Distribution,82,WA,card,ap@sawtooth159.example,cus_4019b8ca3ef9,2025-07-01
+C00160,Copperfield Manufacturing LLC,SMB,Manufacturing,133,TN,card,ap@copperfield160.example,cus_4a3ef434fbdb,2025-07-14
+C00161,Garland Water Works LLC,SMB,Utilities,159,MO,card,ap@garland161.example,cus_13b45845df52,2025-07-08
+C00162,Palisade Field Services Group,Mid-Market,Field Services,492,NY,ach,ap@palisade162.example,cus_b749d058d1c,2025-07-09
+C00163,Ambrose Fabrication Corp.,Enterprise,Manufacturing,6264,MO,wire,ap@ambrose163.example,cus_4ceb7bdc999b,2025-07-27
+C00164,Willowbend Shipping Inc.,SMB,Logistics,162,NY,card,ap@willowbend164.example,cus_3ca3a9655d08,2025-08-02
+C00165,Vantor Concrete LLC,SMB,Construction,35,CA,card,ap@vantor165.example,cus_105adb63f82c,2025-08-20
+C00166,Westbrook Haulage Partners,SMB,Logistics,161,NC,card,ap@westbrook166.example,cus_97944e4ddea,2025-08-10
+C00167,Whitlock Manufacturing Holdings,SMB,Manufacturing,31,NY,card,ap@whitlock167.example,cus_4ec4880fd7e4,2025-08-08
+C00168,Millrace Energy Services Group,SMB,Utilities,136,NC,card,ap@millrace168.example,cus_40a3d80ac9bf,2025-09-11
+C00169,Westbrook Machining LLC,SMB,Manufacturing,181,MN,card,ap@westbrook169.example,cus_5357dde39307,2025-09-16
+C00170,Quarry Energy Services,SMB,Utilities,65,MI,card,ap@quarry170.example,cus_14d7bc78a090,2025-09-11
+C00171,Cedarline Distribution LLC,SMB,Distribution,194,OH,card,ap@cedarline171.example,cus_340c42c1120e,2025-09-06
+C00172,Yarrow Electric Inc.,SMB,Field Services,185,TN,card,ap@yarrow172.example,cus_2d21c18b50b3,2025-09-09
+C00173,Pemberton Concrete Inc.,Mid-Market,Construction,535,CO,ach,ap@pemberton173.example,cus_3b2b40721c3a,2025-09-28
+C00174,Vantor Cartage Inc.,SMB,Logistics,172,AZ,card,ap@vantor174.example,cus_d7ea5fe1788,2025-10-07
+C00175,Ambrose Facility Services Partners,SMB,Field Services,197,CO,card,ap@ambrose175.example,cus_1712e7978b42,2025-10-15
+C00176,Saltmarsh Plumbing Corp.,SMB,Field Services,141,PA,card,ap@saltmarsh176.example,cus_227ca5aaf723,2025-10-19
+C00177,Radcliffe Energy Services Corp.,SMB,Utilities,113,WA,card,ap@radcliffe177.example,cus_56f80b2d4770,2025-10-06
+C00178,Tamarack Trading LLC,SMB,Distribution,27,CA,card,ap@tamarack178.example,cus_3915b882b765,2025-10-24
+C00179,Corrigan Plastics Inc.,SMB,Manufacturing,70,TX,card,ap@corrigan179.example,cus_521da4325ebb,2025-10-28
+C00180,Palisade Components Inc.,SMB,Manufacturing,121,PA,card,ap@palisade180.example,cus_1728f4088826,2025-10-07
+C00181,Lowell Supply Partners,SMB,Distribution,186,GA,card,ap@lowell181.example,cus_56f6c25af161,2025-10-01
+C00182,Merriam Water Works Corp.,Mid-Market,Utilities,975,CO,ach,ap@merriam182.example,cus_53aa9c04afe7,2025-10-04
+C00183,Hollis Power Systems Co.,Mid-Market,Utilities,944,CA,ach,ap@hollis183.example,cus_23876c6850bc,2025-10-21
+C00184,Stonebridge Concrete Co.,Mid-Market,Construction,1466,OH,ach,ap@stonebridge184.example,cus_270a8c4449c2,2025-10-21
+C00185,Ironleaf Machining Corp.,Enterprise,Manufacturing,5465,WA,wire,ap@ironleaf185.example,cus_3e0606a463e7,2025-10-29
+C00186,Vantor Shipping Inc.,Enterprise,Logistics,9491,TN,wire,ap@vantor186.example,cus_1607642ae961,2025-10-26
+C00187,Merriam Power Systems Group,Enterprise,Utilities,8850,IL,wire,ap@merriam187.example,cus_328e90a813d5,2025-10-27
+C00188,Calder Plumbing LLC,SMB,Field Services,43,MO,card,ap@calder188.example,cus_56deed19eb2c,2025-11-21
+C00189,Brackenridge Fabrication,SMB,Manufacturing,176,WA,card,ap@brackenridge189.example,cus_ee5948c6a10,2025-11-12
+C00190,Redfern Electric Inc.,SMB,Field Services,116,CA,card,ap@redfern190.example,cus_3d8398d4474a,2025-11-28
+C00191,Bluestem Manufacturing Corp.,SMB,Manufacturing,112,IL,card,ap@bluestem191.example,cus_1af0e7b3d9b8,2025-11-20
+C00192,Osprey Concrete Partners,SMB,Construction,137,AZ,card,ap@osprey192.example,cus_22f3d9177000,2025-11-13
+C00193,Granite Haulage LLC,SMB,Logistics,189,IL,card,ap@granite193.example,cus_4b2dc8c84302,2025-11-11
+C00194,Harrowgate Haulage LLC,SMB,Logistics,196,GA,card,ap@harrowgate194.example,cus_385e6ba5bfd3,2025-11-12
+C00195,Eastwick Energy Services Partners,Mid-Market,Utilities,1237,WA,ach,ap@eastwick195.example,cus_34ed75ed8b89,2025-11-24
+C00196,Redfern Components LLC,Mid-Market,Manufacturing,1218,WA,ach,ap@redfern196.example,cus_4ac8f1825c71,2025-11-21
+C00197,Ironleaf Manufacturing LLC,Mid-Market,Manufacturing,905,TX,ach,ap@ironleaf197.example,cus_53848b230fa0,2025-11-02
+C00198,Kingsley Plumbing Group,Mid-Market,Field Services,355,MO,ach,ap@kingsley198.example,cus_53b3cbad211b,2025-11-06
+C00199,Quarry Water Works Group,SMB,Utilities,176,GA,card,ap@quarry199.example,cus_129252a83c7d,2025-12-05
+C00200,Marrow Power Systems Inc.,SMB,Utilities,36,PA,card,ap@marrow200.example,cus_595f035ce5e6,2025-12-06
+C00201,Dunmore Logistics Inc.,SMB,Logistics,92,NY,card,ap@dunmore201.example,cus_2f2182ba698b,2025-12-20
+C00202,Underhill Water Works Partners,SMB,Utilities,159,GA,card,ap@underhill202.example,cus_408ad550aa3d,2025-12-16
+C00203,Brackenridge Wholesale Corp.,SMB,Distribution,157,MI,card,ap@brackenridge203.example,cus_14b05cc7090e,2025-12-26
+C00204,Pemberton Supply Corp.,SMB,Distribution,161,GA,card,ap@pemberton204.example,cus_1c3a76a4563d,2025-12-21
+C00205,Ambrose Distribution,SMB,Distribution,90,WA,card,ap@ambrose205.example,cus_4c26d065306d,2025-12-22
+C00206,Norcross Construction LLC,Mid-Market,Construction,1073,TN,ach,ap@norcross206.example,cus_59c0f404f312,2025-12-14
+C00207,Juniper Facility Services Inc.,Mid-Market,Field Services,925,MN,ach,ap@juniper207.example,cus_4b4e485dc85d,2025-12-26
+C00208,Kingsley Freight Group,Mid-Market,Logistics,1200,OH,ach,ap@kingsley208.example,cus_117ffaa1288e,2025-12-26
+C00209,Kestrel Components,Mid-Market,Manufacturing,684,AZ,ach,ap@kestrel209.example,cus_5237ae794ae9,2025-12-21
+C00210,Radcliffe Plastics LLC,Mid-Market,Manufacturing,616,MO,ach,ap@radcliffe210.example,cus_9db911af889,2025-12-28
+C00211,Elmstead Trading Group,Mid-Market,Distribution,983,NY,ach,ap@elmstead211.example,cus_b766de9f5b0,2025-12-28
+C00212,Larkspur Machining Partners,Enterprise,Manufacturing,12225,OH,wire,ap@larkspur212.example,cus_26c0a3e53fee,2025-12-28
+C00213,Greywater Supply Group,SMB,Distribution,198,AZ,card,ap@greywater213.example,cus_47275a2a90d3,2026-01-21
+C00214,Fenwick Facility Services Corp.,SMB,Field Services,97,MI,card,ap@fenwick214.example,cus_1af56c29643c,2026-01-11
+C00215,Millrace Transport Corp.,SMB,Logistics,39,MN,card,ap@millrace215.example,cus_2c4c21c726bf,2026-01-03
+C00216,Marrow Water Works,SMB,Utilities,170,AZ,card,ap@marrow216.example,cus_56c154a85835,2026-01-02
+C00217,Yarrow Trading Co.,SMB,Distribution,78,TN,card,ap@yarrow217.example,cus_e725a1bce35,2026-01-20
+C00218,Ridgeway Supply Co.,SMB,Distribution,99,TX,card,ap@ridgeway218.example,cus_3f703d143413,2026-01-17
+C00219,Granite Plumbing Group,SMB,Field Services,166,WA,card,ap@granite219.example,cus_f1fc0960488,2026-01-10
+C00220,Maplecrest Machining Corp.,SMB,Manufacturing,171,NC,card,ap@maplecrest220.example,cus_4e8d5e3b330a,2026-01-25
+C00221,Norcross Construction Holdings,SMB,Construction,80,NY,card,ap@norcross221.example,cus_190959a8497a,2026-01-14
+C00222,Ambrose Water Works Corp.,Mid-Market,Utilities,518,WA,ach,ap@ambrose222.example,cus_58d18b97c00f,2026-01-25
+C00223,Halden Trading Partners,Mid-Market,Distribution,1086,IL,ach,ap@halden223.example,cus_4cdf6ea481b2,2026-01-24
+C00224,Sheffield Freight Inc.,Mid-Market,Logistics,600,NY,ach,ap@sheffield224.example,cus_3b7f55ddfbf2,2026-01-26
+C00225,Halden Wholesale Inc.,Mid-Market,Distribution,1197,MO,ach,ap@halden225.example,cus_26fe24b8e072,2026-01-03
+C00226,Underhill Facility Services Partners,Enterprise,Field Services,12321,OH,wire,ap@underhill226.example,cus_1b573b95da82,2026-01-26
+C00227,Upland Supply Corp.,SMB,Distribution,36,PA,card,ap@upland227.example,cus_123eb703d8e6,2026-02-17
+C00228,Westbrook Electric Co.,SMB,Field Services,37,CA,card,ap@westbrook228.example,cus_49399004f517,2026-02-21
+C00229,Timberline Haulage LLC,SMB,Logistics,190,CO,card,ap@timberline229.example,cus_4596c05dc01f,2026-02-05
+C00230,Foxglove Fabrication Holdings,SMB,Manufacturing,110,MN,card,ap@foxglove230.example,cus_440d50096f78,2026-02-13
+C00231,Garland Mechanical Partners,SMB,Field Services,84,CO,card,ap@garland231.example,cus_2be02bae6231,2026-02-10
+C00232,Flint HVAC LLC,SMB,Field Services,166,CO,card,ap@flint232.example,cus_331c3e574c50,2026-02-19
+C00233,Belmar Electric,Mid-Market,Field Services,1492,IL,ach,ap@belmar233.example,cus_1e7862a36430,2026-02-24
+C00234,Timberline Cartage Partners,Mid-Market,Logistics,814,PA,ach,ap@timberline234.example,cus_4579782531d6,2026-02-20
+C00235,Cedarline Plumbing Holdings,Mid-Market,Field Services,1187,NC,ach,ap@cedarline235.example,cus_517b19713cec,2026-02-11
+C00236,Belmar Cartage Holdings,SMB,Logistics,96,IL,card,ap@belmar236.example,cus_2663733b1f34,2026-03-09
+C00237,Flint Facility Services Inc.,SMB,Field Services,41,TX,card,ap@flint237.example,cus_1812a8d5edbf,2026-03-01
+C00238,Wexley Power Systems Holdings,SMB,Utilities,98,NY,card,ap@wexley238.example,cus_3eec4637dfc8,2026-03-04
+C00239,Tamarack Freight Corp.,SMB,Logistics,52,IL,card,ap@tamarack239.example,cus_1e00b6ed856c,2026-03-14
+C00240,Larkspur HVAC Co.,SMB,Field Services,52,TX,card,ap@larkspur240.example,cus_1d201c3176a1,2026-03-17
+C00241,Northgate Industries Holdings,SMB,Manufacturing,151,MI,card,ap@northgate241.example,cus_46a9ac765240,2026-03-27
+C00242,Bluestem Builders Group,SMB,Construction,47,MI,card,ap@bluestem242.example,cus_140c130730c3,2026-03-22
+C00243,Ambrose Transport,Mid-Market,Logistics,1008,MO,ach,ap@ambrose243.example,cus_5aeba9fdf038,2026-03-23
+C00244,Basalt Transport Inc.,Mid-Market,Logistics,1066,GA,ach,ap@basalt244.example,cus_4987e54c2edd,2026-03-17
+C00245,Harrowgate Wholesale Inc.,SMB,Distribution,57,WA,card,ap@harrowgate245.example,cus_337fdc0e958b,2026-04-06
+C00246,Corrigan Wholesale Partners,SMB,Distribution,176,NY,card,ap@corrigan246.example,cus_39ab4f5716db,2026-04-03
+C00247,Clearwater Shipping Group,SMB,Logistics,54,NY,card,ap@clearwater247.example,cus_2b15803315fb,2026-04-27
+C00248,Tamarack Fabrication Co.,SMB,Manufacturing,172,TX,card,ap@tamarack248.example,cus_2bf6ba7fba80,2026-04-08
+C00249,Maplecrest Machining Co.,SMB,Manufacturing,79,TX,card,ap@maplecrest249.example,cus_4965dff68bea,2026-04-07
+C00250,Flint Trading Corp.,Mid-Market,Distribution,1439,IL,ach,ap@flint250.example,cus_56e89363138d,2026-04-22
+C00251,Harrowgate Trading Holdings,Mid-Market,Distribution,727,IL,ach,ap@harrowgate251.example,cus_19b31ed52287,2026-04-07
+C00252,Calder Industries Partners,SMB,Manufacturing,164,TN,card,ap@calder252.example,cus_104c0ef7ed14,2026-05-27
+C00253,Oakhurst Distribution Group,SMB,Distribution,145,TN,card,ap@oakhurst253.example,cus_557760782a6d,2026-05-05
+C00254,Harrowgate Trading Corp.,SMB,Distribution,112,TX,card,ap@harrowgate254.example,cus_160d4e7591f8,2026-05-28
+C00255,Ambrose Wholesale Corp.,SMB,Distribution,114,MI,card,ap@ambrose255.example,cus_23318fc073bf,2026-05-07
+C00256,Hartwell Water Works Group,SMB,Utilities,106,TN,card,ap@hartwell256.example,cus_4a37e7704ab8,2026-05-17
+C00257,Belmar Distribution Holdings,SMB,Distribution,67,TX,card,ap@belmar257.example,cus_2563af52c9a8,2026-05-21
+C00258,Hollis Components Group,SMB,Manufacturing,144,MO,card,ap@hollis258.example,cus_e754c30bc17,2026-05-03
+C00259,Corrigan Industries,SMB,Manufacturing,64,MO,card,ap@corrigan259.example,cus_241b2961f5a9,2026-05-17
+C00260,Merriam Industries Holdings,SMB,Manufacturing,21,CO,card,ap@merriam260.example,cus_261951188d25,2026-05-03
+C00261,Halden Plastics Co.,SMB,Manufacturing,109,MO,card,ap@halden261.example,cus_995b02dba56,2026-05-04
+C00262,Timberline Plumbing,SMB,Field Services,22,IL,card,ap@timberline262.example,cus_2412cb8677cc,2026-05-10
+C00263,Redfern Energy Services Corp.,Mid-Market,Utilities,216,CA,ach,ap@redfern263.example,cus_2c785bf06e2d,2026-05-14
+C00264,Kestrel Energy Services Group,Enterprise,Utilities,3208,GA,wire,ap@kestrel264.example,cus_93e5461f61b,2026-05-24
+C00265,Thornbury Machining Holdings,SMB,Manufacturing,176,CA,card,ap@thornbury265.example,cus_494743f945e3,2026-06-25
+C00266,Vantor Logistics Corp.,SMB,Logistics,145,MI,card,ap@vantor266.example,cus_16a7c22cd343,2026-06-24
+C00267,Calder Plumbing Partners,SMB,Field Services,130,GA,card,ap@calder267.example,cus_377bdb45edc8,2026-06-09
+C00268,Granite Cartage Co.,SMB,Logistics,106,CA,card,ap@granite268.example,cus_2b98d6e07972,2026-06-24
+C00269,Elmstead Cartage Corp.,SMB,Logistics,192,MO,card,ap@elmstead269.example,cus_ba492751d84,2026-06-15
+C00270,Pinecroft Water Works Co.,SMB,Utilities,189,GA,card,ap@pinecroft270.example,cus_44cb6b78580f,2026-06-20
+C00271,Harrowgate Power Systems Inc.,SMB,Utilities,176,MN,card,ap@harrowgate271.example,cus_4b1b98b9fb92,2026-06-02
+C00272,Underhill Industries Holdings,SMB,Manufacturing,190,WA,card,ap@underhill272.example,cus_19f005deaa47,2026-06-10
+C00273,Timberline Manufacturing Partners,SMB,Manufacturing,112,CA,card,ap@timberline273.example,cus_26b61c7bcb26,2026-06-21
+C00274,Belmar Freight,SMB,Logistics,26,NC,card,ap@belmar274.example,cus_307ed9b87833,2026-06-28
+C00275,Lowell Concrete LLC,SMB,Construction,76,MI,card,ap@lowell275.example,cus_265d216d59b0,2026-06-12
+C00276,Kingsley Trading Inc.,SMB,Distribution,76,MN,card,ap@kingsley276.example,cus_31d8712b8ade,2026-06-07
+C00277,Clearwater Power Systems Corp.,Mid-Market,Utilities,378,CA,ach,ap@clearwater277.example,cus_4b0ada60130d,2026-06-05
+C00278,Sawtooth Wholesale Co.,Mid-Market,Distribution,1422,MI,ach,ap@sawtooth278.example,cus_501303feb624,2026-06-20
+C00279,Silverbell Electric Corp.,SMB,Field Services,118,TN,card,ap@silverbell279.example,cus_4ed84e30835c,2026-07-08
+C00280,Quarry Water Works LLC,SMB,Utilities,161,WA,card,ap@quarry280.example,cus_2e1bea43b086,2026-07-28
+C00281,Sawtooth Fabrication Holdings,SMB,Manufacturing,172,MI,card,ap@sawtooth281.example,cus_3b94a7d0f7e1,2026-07-11
+C00282,Wexley Energy Services Co.,SMB,Utilities,178,TN,card,ap@wexley282.example,cus_3469ad1cedd6,2026-07-05
+C00283,Belmar Field Services,SMB,Field Services,169,AZ,card,ap@belmar283.example,cus_19400b5d7a13,2026-07-20
+C00284,Belmar HVAC Partners,SMB,Field Services,121,CO,card,ap@belmar284.example,cus_4bda19f36c4b,2026-07-07
+C00285,Elmstead Plastics Partners,SMB,Manufacturing,62,CO,card,ap@elmstead285.example,cus_55463e0d8991,2026-07-12
+C00286,Lowell Machining Partners,SMB,Manufacturing,186,IL,card,ap@lowell286.example,cus_418426a074d4,2026-07-10
+C00287,Lowell Shipping Holdings,SMB,Logistics,129,MO,card,ap@lowell287.example,cus_98547afcf69,2026-07-27
+C00288,Whitlock Construction Holdings,SMB,Construction,135,MI,card,ap@whitlock288.example,cus_2e38ea0d5018,2026-07-17
+C00289,Lockhart Mechanical Inc.,SMB,Field Services,96,CO,card,ap@lockhart289.example,cus_1aaa9103da08,2026-07-27
+C00290,Larkspur Energy Services Co.,SMB,Utilities,173,AZ,card,ap@larkspur290.example,cus_338ad20f49df,2026-07-08
+C00291,Sheffield Freight Holdings,SMB,Logistics,165,MN,card,ap@sheffield291.example,cus_33e55da3dd42,2026-07-01
+C00292,Thornbury Facility Services,SMB,Field Services,59,CA,card,ap@thornbury292.example,cus_54432f86b8fb,2026-07-25
+C00293,Greywater Distribution Inc.,SMB,Distribution,55,AZ,card,ap@greywater293.example,cus_571698260d58,2026-07-12
+C00294,Elmstead Logistics LLC,Mid-Market,Logistics,903,CA,ach,ap@elmstead294.example,cus_1c448c1b674b,2026-07-21
+C00295,Ambrose Field Services Holdings,Mid-Market,Field Services,1077,CA,ach,ap@ambrose295.example,cus_25894344b60a,2026-07-24
+C00296,Garland Water Works Partners,Enterprise,Utilities,13482,CA,wire,ap@garland296.example,cus_332f4929caae,2026-07-31
+C00297,Tamarack Fabrication,SMB,Manufacturing,65,MN,card,ap@tamarack297.example,cus_4c4e912291ef,2026-08-21
+C00298,Driftwood Freight Group,SMB,Logistics,133,OH,card,ap@driftwood298.example,cus_54556709ca6a,2026-08-21
+C00299,Osprey Components,SMB,Manufacturing,23,MI,card,ap@osprey299.example,cus_44e44a9020e2,2026-08-03
+C00300,Tamarack Facility Services Inc.,SMB,Field Services,116,NY,card,ap@tamarack300.example,cus_339cc7e1a13a,2026-08-09
+C00301,Hartwell Concrete LLC,SMB,Construction,22,CA,card,ap@hartwell301.example,cus_5275c5b35d95,2026-08-08
+C00302,Hartwell Supply Co.,SMB,Distribution,94,NY,card,ap@hartwell302.example,cus_5576fab0773b,2026-08-23
+C00303,Osprey HVAC Inc.,SMB,Field Services,169,NY,card,ap@osprey303.example,cus_4485db65f22e,2026-08-17
+C00304,Copperfield Power Systems Holdings,SMB,Utilities,138,NC,card,ap@copperfield304.example,cus_271f091921a6,2026-08-03
+C00305,Lockhart Contracting LLC,SMB,Construction,25,AZ,card,ap@lockhart305.example,cus_54f19bf52afc,2026-08-19
+C00306,Ironleaf Supply Co.,SMB,Distribution,26,NY,card,ap@ironleaf306.example,cus_39f272b17113,2026-08-27
+C00307,Lockhart Freight,SMB,Logistics,112,NY,card,ap@lockhart307.example,cus_12bae28dccc1,2026-08-11
+C00308,Dunmore Wholesale Corp.,Mid-Market,Distribution,491,MN,ach,ap@dunmore308.example,cus_2da83f816111,2026-08-28
+C00309,Pemberton Plumbing,SMB,Field Services,122,NC,card,ap@pemberton309.example,cus_58301a17bedb,2026-09-12
+C00310,Tamarack Plumbing Co.,SMB,Field Services,168,MO,card,ap@tamarack310.example,cus_130a27f45e3f,2026-09-01
+C00311,Wexley Trading Partners,SMB,Distribution,105,OH,card,ap@wexley311.example,cus_2d9a21f47dd0,2026-09-09
+C00312,Sawtooth Mechanical Holdings,SMB,Field Services,43,TX,card,ap@sawtooth312.example,cus_40f3c5d9fce6,2026-09-15
+C00313,Wexley Supply Partners,SMB,Distribution,185,NY,card,ap@wexley313.example,cus_4ea9c80ef832,2026-09-11
+C00314,Oakhurst Electric Holdings,SMB,Field Services,44,MN,card,ap@oakhurst314.example,cus_460d9517934b,2026-09-01
+C00315,Foxglove Contracting Partners,SMB,Construction,162,AZ,card,ap@foxglove315.example,cus_546848eb84f8,2026-09-15
+C00316,Clearwater Builders Holdings,SMB,Construction,175,AZ,card,ap@clearwater316.example,cus_244ede5fbac6,2026-09-27
+C00317,Kingsley Transport Partners,Mid-Market,Logistics,1043,WA,ach,ap@kingsley317.example,cus_204429a85be9,2026-09-23
+C00318,Ironleaf Builders Inc.,Mid-Market,Construction,782,AZ,ach,ap@ironleaf318.example,cus_e8a406777b5,2026-09-04
+C00319,Pemberton Builders Inc.,Mid-Market,Construction,477,IL,ach,ap@pemberton319.example,cus_26dc0a12c2f3,2026-09-15
+C00320,Tamarack Components Corp.,Mid-Market,Manufacturing,488,TX,ach,ap@tamarack320.example,cus_47e3d4454aea,2026-09-26
+C00321,Driftwood Trading Corp.,Mid-Market,Distribution,525,MI,ach,ap@driftwood321.example,cus_1a369d2c5846,2026-09-20
+C00322,Oakhurst Freight Co.,Mid-Market,Logistics,981,IL,ach,ap@oakhurst322.example,cus_41304289c012,2026-09-04
+C00323,Talbot Electric,Enterprise,Field Services,2127,MN,wire,ap@talbot323.example,cus_4f7e9ce72d9e,2026-09-20
+C00324,Redfern Logistics LLC,Enterprise,Logistics,12384,OH,wire,ap@redfern324.example,cus_57d6cbdb8afc,2026-09-09
+C00325,Lowell Manufacturing Holdings,SMB,Manufacturing,63,MO,card,ap@lowell325.example,cus_33099d9a6259,2026-10-24
+C00326,Wexley Mechanical LLC,SMB,Field Services,195,MN,card,ap@wexley326.example,cus_1d0fdbf0e4fb,2026-10-21
+C00327,Halden Construction,SMB,Construction,153,PA,card,ap@halden327.example,cus_1c25f35fa797,2026-10-07
+C00328,Granite Concrete Corp.,SMB,Construction,183,CA,card,ap@granite328.example,cus_24bb42bf380f,2026-10-24
+C00329,Harrowgate Plumbing Co.,SMB,Field Services,97,OH,card,ap@harrowgate329.example,cus_49e2a2cc130c,2026-10-08
+C00330,Kingsley Fabrication LLC,SMB,Manufacturing,182,NC,card,ap@kingsley330.example,cus_1c4b1bac64e6,2026-10-19
+C00331,Redfern Fabrication Holdings,SMB,Manufacturing,165,TN,card,ap@redfern331.example,cus_300f55a8f411,2026-10-09
+C00332,Quarry Fabrication Holdings,SMB,Manufacturing,36,CA,card,ap@quarry332.example,cus_be8ec0b14d8,2026-10-24
+C00333,Bluestem Contracting Holdings,SMB,Construction,183,MI,card,ap@bluestem333.example,cus_4df72565e553,2026-10-01
+C00334,Garland Mechanical Corp.,SMB,Field Services,170,IL,card,ap@garland334.example,cus_5495ecf37475,2026-10-10
+C00335,Stonebridge Cartage Partners,SMB,Logistics,27,NC,card,ap@stonebridge335.example,cus_3649275ec83d,2026-10-03
+C00336,Foxglove Supply Holdings,Mid-Market,Distribution,943,CO,ach,ap@foxglove336.example,cus_1f0e6c635764,2026-10-18
+C00337,Elmstead Energy Services Co.,Mid-Market,Utilities,514,MN,ach,ap@elmstead337.example,cus_181affc02e7d,2026-10-11
+C00338,Driftwood HVAC Partners,Mid-Market,Field Services,1209,OH,ach,ap@driftwood338.example,cus_1666b63f71d7,2026-10-23
+C00339,Talbot Shipping Co.,Mid-Market,Logistics,892,CA,ach,ap@talbot339.example,cus_336edd91ffa2,2026-10-24
+C00340,Ironleaf Plumbing Inc.,Mid-Market,Field Services,402,CA,ach,ap@ironleaf340.example,cus_4b0acd0ed19f,2026-10-18
+C00341,Talbot Transport Inc.,Mid-Market,Logistics,1089,CA,ach,ap@talbot341.example,cus_196fa724c96d,2026-10-23
+C00342,Yarrow Distribution Group,Enterprise,Distribution,7629,CO,wire,ap@yarrow342.example,cus_3822146a60e6,2026-10-03

@@ -1,0 +1,742 @@
+account_id,name,type,segment,industry,employee_count,account_owner_id,billing_customer_id,created_date
+00100001A,Sheffield Distribution Corp.,Customer,SMB,Distribution,106,,C00001,2022-01-26
+00100002A,Talbot Haulage Inc.,Customer,SMB,Logistics,42,,C00002,2022-01-26
+00100003A,Whitlock HVAC Partners,Customer,SMB,Field Services,130,,C00003,2022-01-28
+00100004A,Kingsley Distribution,Customer,SMB,Distribution,32,,C00004,2022-01-06
+00100005A,Vantor Components LLC,Customer,SMB,Manufacturing,110,,C00005,2022-02-06
+00100006A,Driftwood Construction LLC,Customer,Mid-Market,Construction,1139,E0009,C00006,2022-02-09
+001P00006,Pinecroft Components Inc.,Prospect,Mid-Market,Manufacturing,1223,E0009,,2021-10-25
+001P00007,Wexley Builders Holdings,Prospect,Mid-Market,Construction,448,E0009,,2021-10-15
+001P00008,Stonebridge Energy Services LLC,Prospect,Mid-Market,Utilities,433,E0009,,2021-10-10
+001P00009,Pemberton Concrete,Prospect,Mid-Market,Construction,1289,E0009,,2021-10-04
+001P00010,Cedarline Energy Services,Prospect,Mid-Market,Utilities,1078,E0009,,2021-09-19
+00100007A,Saltmarsh Power Systems LLC,Customer,Mid-Market,Utilities,336,E0009,C00007,2022-02-27
+001P00012,Sumner Facility Services Co.,Prospect,Mid-Market,Field Services,956,E0009,,2021-10-15
+001P00013,Redfern Distribution Corp.,Prospect,Mid-Market,Distribution,699,E0009,,2021-11-03
+001P00014,Yarrow Wholesale Co.,Prospect,Mid-Market,Distribution,1272,E0009,,2021-10-14
+00100008A,Norcross Concrete LLC,Customer,SMB,Construction,58,,C00008,2022-05-15
+00100009A,Elmstead Water Works Partners,Customer,SMB,Utilities,47,,C00009,2022-06-03
+00100010A,Dunmore Industries,Customer,SMB,Manufacturing,113,,C00010,2022-06-27
+00100011A,Thornbury Power Systems Corp.,Customer,Mid-Market,Utilities,486,E0009,C00011,2022-06-17
+001P00019,Greywater Machining Holdings,Prospect,Mid-Market,Manufacturing,481,E0009,,2022-03-07
+001P00020,Oakhurst Builders Group,Prospect,Mid-Market,Construction,270,E0009,,2022-02-22
+001P00021,Larkspur Builders Corp.,Prospect,Mid-Market,Construction,229,E0009,,2022-02-05
+001P00022,Corrigan Plumbing Inc.,Prospect,Mid-Market,Field Services,515,E0009,,2022-02-15
+00100012A,Sumner Plumbing,Customer,Mid-Market,Field Services,1481,E0009,C00012,2022-06-23
+001P00024,Corrigan Trading Group,Prospect,Mid-Market,Distribution,1375,E0009,,2022-03-17
+001P00025,Basalt Wholesale Corp.,Prospect,Mid-Market,Distribution,365,E0009,,2022-03-13
+001P00026,Foxglove Water Works LLC,Prospect,Mid-Market,Utilities,688,E0009,,2022-02-14
+001P00027,Stonebridge Supply Co.,Prospect,Mid-Market,Distribution,983,E0009,,2022-02-11
+00100013A,Eastwick Manufacturing Co.,Customer,Mid-Market,Manufacturing,359,E0009,C00013,2022-06-18
+001P00029,Elmstead Builders Partners,Prospect,Mid-Market,Construction,1039,E0009,,2022-03-03
+001P00030,Maplecrest Shipping Inc.,Prospect,Mid-Market,Logistics,306,E0009,,2022-02-23
+001P00031,Pinecroft Logistics,Prospect,Mid-Market,Logistics,291,E0009,,2022-01-27
+00100014A,Talbot Energy Services Corp.,Customer,Mid-Market,Utilities,261,E0009,C00014,2022-06-30
+001P00033,Juniper Builders LLC,Prospect,Mid-Market,Construction,1496,E0009,,2022-02-10
+001P00034,Calder Plumbing,Prospect,Mid-Market,Field Services,637,E0009,,2022-03-02
+001P00035,Sheffield Field Services Partners,Prospect,Mid-Market,Field Services,429,E0009,,2022-02-23
+001P00036,Sumner Power Systems Holdings,Prospect,Mid-Market,Utilities,1199,E0009,,2022-02-19
+001P00037,Westbrook Contracting Partners,Prospect,Mid-Market,Construction,904,E0009,,2022-03-17
+001P00038,Sawtooth Haulage Inc.,Prospect,Mid-Market,Logistics,869,E0009,,2022-03-24
+001P00039,Kestrel Builders Holdings,Prospect,Mid-Market,Construction,569,E0009,,2022-03-12
+00100015A,Copperfield Trading Corp.,Customer,SMB,Distribution,181,,C00015,2022-07-27
+00100016A,Millrace Plumbing,Customer,Mid-Market,Field Services,535,E0009,C00016,2022-07-21
+001P00042,Copperfield Power Systems LLC,Prospect,Mid-Market,Utilities,503,E0009,,2022-03-15
+001P00043,Clearwater Manufacturing LLC,Prospect,Mid-Market,Manufacturing,1332,E0009,,2022-04-15
+001P00044,Thornbury Haulage Inc.,Prospect,Mid-Market,Logistics,767,E0009,,2022-02-28
+001P00045,Norcross Machining Partners,Prospect,Mid-Market,Manufacturing,643,E0009,,2022-02-27
+00100017A,Sheffield Energy Services Partners,Customer,SMB,Utilities,150,,C00017,2022-08-20
+00100018A,Lowell Electric Inc.,Customer,SMB,Field Services,123,,C00018,2022-08-20
+00100019A,Sawtooth Wholesale Corp.,Customer,SMB,Distribution,44,,C00019,2022-09-28
+00100020A,Palisade Haulage Co.,Customer,SMB,Logistics,79,,C00020,2022-10-24
+00100021A,Palisade Components Corp.,Customer,SMB,Manufacturing,183,,C00021,2022-11-23
+00100022A,Osprey Contracting Holdings,Customer,Mid-Market,Construction,1020,E0009,C00022,2022-11-13
+001P00052,Talbot Facility Services Co.,Prospect,Mid-Market,Field Services,946,E0009,,2022-07-08
+001P00053,Upland Energy Services,Prospect,Mid-Market,Utilities,693,E0009,,2022-07-14
+001P00054,Thornbury Concrete Partners,Prospect,Mid-Market,Construction,1491,E0009,,2022-07-29
+001P00055,Oakhurst Trading Holdings,Prospect,Mid-Market,Distribution,372,E0009,,2022-07-24
+00100023A,Thornbury Energy Services Holdings,Customer,SMB,Utilities,91,,C00023,2022-12-08
+00100024A,Garland Distribution,Customer,SMB,Distribution,59,,C00024,2022-12-14
+00100025A,Juniper HVAC Holdings,Customer,SMB,Field Services,138,,C00025,2022-12-13
+00100026A,Wexley Transport Partners,Customer,Mid-Market,Logistics,882,E0009,C00026,2022-12-28
+001P00060,Silverbell Distribution Co.,Prospect,Mid-Market,Distribution,812,E0009,,2022-09-16
+001P00061,Maplecrest Trading Holdings,Prospect,Mid-Market,Distribution,1050,E0009,,2022-08-21
+001P00062,Ambrose Machining Group,Prospect,Mid-Market,Manufacturing,1245,E0009,,2022-08-17
+001P00063,Upland Industries Group,Prospect,Mid-Market,Manufacturing,379,E0009,,2022-09-03
+00100027A,Palisade Field Services LLC,Customer,Mid-Market,Field Services,466,E0009,C00027,2022-12-14
+001P00065,Willowbend Supply Inc.,Prospect,Mid-Market,Distribution,393,E0009,,2022-08-03
+001P00066,Talbot Supply Group,Prospect,Mid-Market,Distribution,489,E0009,,2022-07-31
+001P00067,Marrow HVAC Partners,Prospect,Mid-Market,Field Services,1160,E0009,,2022-08-24
+00100028A,Wexley Logistics LLC,Customer,Mid-Market,Logistics,507,E0009,C00028,2022-12-17
+001P00069,Upland Plumbing LLC,Prospect,Mid-Market,Field Services,554,E0009,,2022-07-29
+001P00070,Quarry Trading Group,Prospect,Mid-Market,Distribution,722,E0009,,2022-08-31
+001P00071,Saltmarsh Distribution Holdings,Prospect,Mid-Market,Distribution,307,E0009,,2022-08-21
+00100029A,Ridgeway Components Group,Customer,SMB,Manufacturing,48,,C00029,2023-01-14
+00100030A,Sheffield Builders Group,Customer,SMB,Construction,195,,C00030,2023-01-24
+00100031A,Ironleaf Water Works Co.,Customer,Mid-Market,Utilities,370,E0009,C00031,2023-01-20
+00100032A,Talbot Wholesale Group,Customer,Mid-Market,Distribution,708,E0009,C00032,2023-01-11
+00100033A,Ambrose Trading Holdings,Customer,SMB,Distribution,181,,C00033,2023-02-26
+00100034A,Copperfield Components Corp.,Customer,SMB,Manufacturing,151,,C00034,2023-02-17
+00100035A,Saltmarsh Transport Inc.,Customer,SMB,Logistics,22,,C00035,2023-04-04
+00100036A,Lockhart Fabrication Corp.,Customer,Mid-Market,Manufacturing,263,E0013,C00036,2023-04-06
+001P00080,Talbot Energy Services,Prospect,Mid-Market,Utilities,1105,E0009,,2022-12-21
+001P00081,Dunmore Power Systems Holdings,Prospect,Mid-Market,Utilities,219,E0013,,2022-12-21
+00100037A,Fenwick Cartage Co.,Customer,SMB,Logistics,170,,C00037,2023-05-01
+00100038A,Thornbury Shipping Co.,Customer,Mid-Market,Logistics,969,E0009,C00038,2023-05-26
+001P00084,Cedarline Water Works Corp.,Prospect,Mid-Market,Utilities,1064,E0013,,2023-01-01
+001P00085,Upland Power Systems Holdings,Prospect,Mid-Market,Utilities,467,E0013,,2023-02-05
+001P00086,Marrow Mechanical Inc.,Prospect,Mid-Market,Field Services,1432,E0013,,2023-01-17
+001P00087,Palisade Shipping Corp.,Prospect,Mid-Market,Logistics,1398,E0013,,2023-01-14
+00100039A,Flint HVAC Partners,Customer,SMB,Field Services,96,,C00039,2023-06-23
+00100040A,Whitlock Fabrication Group,Customer,Mid-Market,Manufacturing,687,E0009,C00040,2023-06-15
+001P00090,Hartwell Components LLC,Prospect,Mid-Market,Manufacturing,1079,E0009,,2023-02-17
+001P00091,Juniper Wholesale Co.,Prospect,Mid-Market,Distribution,827,E0009,,2023-02-20
+001P00092,Talbot Cartage Holdings,Prospect,Mid-Market,Logistics,1332,E0013,,2023-02-14
+001P00093,Oakhurst Machining LLC,Prospect,Mid-Market,Manufacturing,756,E0009,,2023-02-22
+001P00094,Greywater HVAC,Prospect,Mid-Market,Field Services,260,E0013,,2023-01-26
+00100041A,Whitlock Power Systems,Customer,SMB,Utilities,150,,C00041,2023-07-27
+00100042A,Halvorsen Freight Group,Customer,Enterprise,Logistics,2862,E0013,C00042,2023-07-27
+001P00097,Millrace Electric,Prospect,Enterprise,Field Services,9010,E0013,,2023-04-22
+001P00098,Maplecrest Freight Co.,Prospect,Enterprise,Logistics,6864,E0013,,2023-04-08
+001P00099,Elmstead Mechanical Corp.,Prospect,Enterprise,Field Services,2397,E0013,,2023-04-18
+00100043A,Pemberton Construction Inc.,Customer,SMB,Construction,36,,C00043,2023-08-21
+00100044A,Thornbury Fabrication Partners,Customer,SMB,Manufacturing,32,,C00044,2023-08-05
+00100045A,Willowbend Manufacturing Inc.,Customer,SMB,Manufacturing,174,,C00045,2023-08-10
+00100046A,Osprey Contracting Inc.,Customer,SMB,Construction,174,,C00046,2023-09-20
+00100047A,Sawtooth Plumbing Holdings,Customer,Mid-Market,Field Services,1026,E0013,C00047,2023-09-23
+001P00105,Maplecrest Facility Services Inc.,Prospect,Mid-Market,Field Services,1166,E0013,,2023-05-11
+001P00106,Alder Field Services LLC,Prospect,Mid-Market,Field Services,499,E0013,,2023-06-02
+001P00107,Brackenridge Field Services Holdings,Prospect,Mid-Market,Field Services,215,E0013,,2023-06-07
+001P00108,Driftwood Trading,Prospect,Mid-Market,Distribution,757,E0009,,2023-05-06
+00100048A,Copperfield Electric Partners,Customer,SMB,Field Services,126,,C00048,2023-10-07
+00100049A,Belmar Components,Customer,SMB,Manufacturing,142,,C00049,2023-10-08
+00100050A,Pemberton Power Systems,Customer,Mid-Market,Utilities,1310,E0013,C00050,2023-10-13
+001P00112,Bluestem Energy Services LLC,Prospect,Mid-Market,Utilities,1490,E0013,,2023-06-27
+001P00113,Osprey Mechanical Group,Prospect,Mid-Market,Field Services,245,E0009,,2023-07-07
+00100051A,Dunmore Facility Services Partners,Customer,SMB,Field Services,135,,C00051,2023-11-02
+00100052A,Radcliffe Transport Group,Customer,SMB,Logistics,175,,C00052,2023-11-26
+00100053A,Osprey Contracting LLC,Customer,Mid-Market,Construction,579,E0009,C00053,2023-11-06
+001P00117,Merriam Supply Co.,Prospect,Mid-Market,Distribution,1445,E0009,,2023-06-27
+001P00118,Fallowmere Builders Partners,Prospect,Mid-Market,Construction,993,E0013,,2023-07-25
+001P00119,Merriam Contracting Inc.,Prospect,Mid-Market,Construction,909,E0009,,2023-06-15
+001P00120,Lowell Manufacturing Group,Prospect,Mid-Market,Manufacturing,1163,E0013,,2023-07-12
+001P00121,Vantor Water Works Corp.,Prospect,Mid-Market,Utilities,1232,E0009,,2023-07-25
+00100054A,Garland Freight Inc.,Customer,SMB,Logistics,112,,C00054,2024-01-21
+00100055A,Wexley Builders LLC,Customer,SMB,Construction,32,,C00055,2024-01-21
+00100056A,Lowell Concrete Corp.,Customer,Mid-Market,Construction,1357,E0013,C00056,2024-01-22
+001P00125,Pemberton Cartage Group,Prospect,Mid-Market,Logistics,1021,E0009,,2023-09-10
+001P00126,Fenwick Machining Group,Prospect,Mid-Market,Manufacturing,416,E0013,,2023-10-10
+00100057A,Clearwater Mechanical,Customer,Mid-Market,Field Services,1187,E0009,C00057,2024-01-03
+00100058A,Tamarack Distribution LLC,Customer,SMB,Distribution,101,,C00058,2024-03-26
+00100059A,Juniper Facility Services,Customer,SMB,Field Services,49,,C00059,2024-03-04
+00100060A,Tamarack Plastics LLC,Customer,SMB,Manufacturing,52,,C00060,2024-03-05
+00100061A,Kestrel Haulage Group,Customer,SMB,Logistics,154,,C00061,2024-03-15
+00100062A,Rookwood Manufacturing,Customer,Mid-Market,Manufacturing,1413,E0013,C00062,2024-03-08
+001P00133,Fenwick Transport LLC,Prospect,Mid-Market,Logistics,694,E0009,,2023-11-10
+001P00134,Brackenridge Distribution Partners,Prospect,Mid-Market,Distribution,1124,E0013,,2023-11-10
+001P00135,Cinder Logistics Partners,Prospect,Mid-Market,Logistics,817,E0013,,2023-10-18
+001P00136,Willowbend Mechanical Holdings,Prospect,Mid-Market,Field Services,878,E0009,,2023-10-30
+00100063A,Dunmore Freight Holdings,Customer,Mid-Market,Logistics,1346,E0009,C00063,2024-04-05
+001P00138,Ironleaf Wholesale Partners,Prospect,Mid-Market,Distribution,987,E0009,,2023-12-24
+001P00139,Redfern Contracting Inc.,Prospect,Mid-Market,Construction,1379,E0009,,2023-12-17
+001P00140,Yarrow Power Systems Group,Prospect,Mid-Market,Utilities,289,E0013,,2023-12-23
+00100064A,Redfern Facility Services,Customer,SMB,Field Services,128,,C00064,2024-05-05
+00100065A,Flint Fabrication Partners,Customer,SMB,Manufacturing,56,,C00065,2024-05-17
+00100066A,Halden Logistics LLC,Customer,SMB,Logistics,164,,C00066,2024-05-06
+00100067A,Westbrook Supply Co.,Customer,SMB,Distribution,184,,C00067,2024-05-27
+00100068A,Wexley Fabrication Holdings,Customer,SMB,Manufacturing,169,,C00068,2024-05-18
+00100069A,Driftwood Wholesale Inc.,Customer,SMB,Distribution,20,,C00069,2024-06-25
+00100070A,Stonebridge Mechanical Holdings,Customer,SMB,Field Services,46,,C00070,2024-06-25
+00100071A,Pemberton Energy Services Partners,Customer,SMB,Utilities,75,,C00071,2024-06-08
+00100072A,Upland Facility Services Corp.,Customer,SMB,Field Services,72,,C00072,2024-06-04
+00100073A,Redfern Distribution LLC,Customer,Mid-Market,Distribution,1433,E0013,C00073,2024-06-20
+001P00151,Willowbend Transport Partners,Prospect,Mid-Market,Logistics,400,E0013,,2024-02-05
+001P00152,Talbot Industries Co.,Prospect,Mid-Market,Manufacturing,1236,E0013,,2024-02-19
+00100074A,Westbrook Concrete Holdings,Customer,Mid-Market,Construction,1387,E0013,C00074,2024-06-30
+001P00154,Cedarline Trading Holdings,Prospect,Mid-Market,Distribution,397,E0013,,2024-03-06
+001P00155,Saltmarsh Logistics Group,Prospect,Mid-Market,Logistics,524,E0013,,2024-03-20
+001P00156,Cedarline Construction Partners,Prospect,Mid-Market,Construction,1083,E0009,,2024-02-24
+001P00157,Quarry Concrete,Prospect,Mid-Market,Construction,287,E0013,,2024-02-17
+001P00158,Belmar Field Services Co.,Prospect,Mid-Market,Field Services,1284,E0013,,2024-03-08
+001P00159,Pemberton Logistics Corp.,Prospect,Mid-Market,Logistics,1037,E0013,,2024-02-07
+001P00160,Alder Trading LLC,Prospect,Mid-Market,Distribution,584,E0009,,2024-02-06
+00100075A,Dunmore Shipping Group,Customer,SMB,Logistics,190,,C00075,2024-07-18
+00100076A,Juniper Water Works Partners,Customer,SMB,Utilities,34,,C00076,2024-07-21
+00100077A,Eastwick Plumbing Group,Customer,Mid-Market,Field Services,1431,E0013,C00077,2024-07-19
+001P00164,Flint Facility Services Group,Prospect,Mid-Market,Field Services,558,E0009,,2024-02-29
+00100078A,Westbrook Cartage LLC,Customer,SMB,Logistics,95,,C00078,2024-08-04
+00100079A,Millrace Concrete LLC,Customer,SMB,Construction,94,,C00079,2024-08-27
+00100080A,Upland Fabrication Group,Customer,Mid-Market,Manufacturing,1498,E0009,C00080,2024-08-28
+001P00168,Ironleaf Power Systems LLC,Prospect,Mid-Market,Utilities,638,E0033,,2024-05-19
+00100081A,Silverbell Components Group,Customer,SMB,Manufacturing,154,,C00081,2024-09-11
+00100082A,Millrace Concrete Inc.,Customer,SMB,Construction,104,,C00082,2024-09-25
+00100083A,Hollis Energy Services Co.,Customer,SMB,Utilities,81,,C00083,2024-09-15
+00100084A,Belmar Machining,Customer,SMB,Manufacturing,24,,C00084,2024-09-07
+00100085A,Ridgeway Plastics,Customer,SMB,Manufacturing,189,,C00085,2024-09-14
+00100086A,Granite Mechanical Holdings,Customer,SMB,Field Services,77,,C00086,2024-09-19
+00100087A,Foxglove Supply Co.,Customer,SMB,Distribution,111,,C00087,2024-09-06
+00100088A,Kestrel Components Co.,Customer,SMB,Manufacturing,82,,C00088,2024-09-07
+00100089A,Stonebridge Energy Services Group,Customer,SMB,Utilities,150,,C00089,2024-09-02
+00100090A,Sawtooth Contracting Inc.,Customer,SMB,Construction,128,,C00090,2024-09-06
+00100091A,Kingsley Contracting Holdings,Customer,Enterprise,Construction,1536,E0013,C00091,2024-09-27
+001P00180,Hollis Freight Partners,Prospect,Enterprise,Logistics,9767,E0033,,2024-06-03
+001P00181,Merriam Haulage LLC,Prospect,Enterprise,Logistics,10813,E0013,,2024-05-07
+001P00182,Willowbend Builders Partners,Prospect,Enterprise,Construction,10622,E0033,,2024-06-06
+001P00183,Redfern Power Systems Partners,Prospect,Enterprise,Utilities,4617,E0009,,2024-05-27
+001P00184,Pemberton Shipping Holdings,Prospect,Enterprise,Logistics,6159,E0013,,2024-05-19
+001P00185,Basalt Electric Holdings,Prospect,Enterprise,Field Services,10066,E0009,,2024-05-30
+00100092A,Bluestem Builders LLC,Customer,SMB,Construction,126,,C00092,2024-10-01
+00100093A,Foxglove Power Systems Holdings,Customer,SMB,Utilities,108,,C00093,2024-10-10
+00100094A,Norcross Facility Services LLC,Customer,Enterprise,Field Services,3562,E0009,C00094,2024-10-14
+001P00189,Corrigan Machining LLC,Prospect,Enterprise,Manufacturing,8837,E0033,,2024-06-24
+001P00190,Ambrose Power Systems Inc.,Prospect,Enterprise,Utilities,10846,E0013,,2024-05-25
+001P00191,Talbot Construction,Prospect,Enterprise,Construction,8341,E0009,,2024-06-13
+001P00192,Sheffield Power Systems Holdings,Prospect,Enterprise,Utilities,4124,E0009,,2024-07-09
+00100095A,Rookwood Mechanical Holdings,Customer,SMB,Field Services,197,,C00095,2024-11-25
+00100096A,Westbrook Shipping Corp.,Customer,SMB,Logistics,133,,C00096,2024-11-03
+00100097A,Osprey Power Systems,Customer,SMB,Utilities,128,,C00097,2024-11-09
+00100098A,Basalt Components Corp.,Customer,SMB,Manufacturing,48,,C00098,2024-11-12
+00100099A,Palisade Trading Group,Customer,SMB,Distribution,28,,C00099,2024-11-03
+00100100A,Underhill Haulage Corp.,Customer,SMB,Logistics,20,,C00100,2024-11-09
+00100101A,Talbot Power Systems Holdings,Customer,SMB,Utilities,80,,C00101,2024-11-11
+00100102A,Sumner Contracting LLC,Customer,SMB,Construction,144,,C00102,2024-11-27
+00100103A,Garland Builders Partners,Customer,SMB,Construction,83,,C00103,2024-12-25
+00100104A,Sawtooth Industries Holdings,Customer,SMB,Manufacturing,190,,C00104,2024-12-22
+00100105A,Hollis Plastics Partners,Customer,SMB,Manufacturing,139,,C00105,2024-12-09
+00100106A,Elmstead Cartage Inc.,Customer,Mid-Market,Logistics,700,E0033,C00106,2024-12-14
+001P00205,Pinecroft Haulage Holdings,Prospect,Mid-Market,Logistics,222,E0033,,2024-09-03
+001P00206,Brackenridge Transport Inc.,Prospect,Mid-Market,Logistics,215,E0033,,2024-08-03
+00100107A,Fallowmere Field Services,Customer,Mid-Market,Field Services,1460,E0009,C00107,2024-12-01
+001P00208,Corrigan Plumbing Co.,Prospect,Mid-Market,Field Services,902,E0013,,2024-08-17
+001P00209,Redfern Concrete Corp.,Prospect,Mid-Market,Construction,892,E0013,,2024-07-25
+001P00210,Lockhart Wholesale Holdings,Prospect,Mid-Market,Distribution,715,E0013,,2024-08-25
+001P00211,Sumner Facility Services Holdings,Prospect,Mid-Market,Field Services,1187,E0009,,2024-07-12
+00100108A,Wexley Plumbing Group,Customer,SMB,Field Services,35,,C00108,2025-01-08
+00100109A,Bluestem Trading Group,Customer,SMB,Distribution,74,,C00109,2025-01-09
+00100110A,Sheffield Plastics,Customer,Mid-Market,Manufacturing,726,E0033,C00110,2025-01-20
+001P00215,Sumner Construction,Prospect,Mid-Market,Construction,880,E0037,,2024-09-14
+001P00216,Eastwick Fabrication Corp.,Prospect,Mid-Market,Manufacturing,301,E0009,,2024-10-15
+001P00217,Radcliffe Fabrication Partners,Prospect,Mid-Market,Manufacturing,1121,E0013,,2024-09-02
+00100111A,Driftwood Industries Inc.,Customer,Enterprise,Manufacturing,8592,E0033,C00111,2025-01-27
+001P00219,Copperfield Freight Partners,Prospect,Enterprise,Logistics,1968,E0009,,2024-09-13
+001P00220,Kingsley Components Holdings,Prospect,Enterprise,Manufacturing,10583,E0037,,2024-10-22
+001P00221,Copperfield Energy Services Co.,Prospect,Enterprise,Utilities,6803,E0009,,2024-09-26
+001P00222,Stonebridge Distribution Inc.,Prospect,Enterprise,Distribution,5659,E0033,,2024-10-18
+001P00223,Calder Construction Group,Prospect,Enterprise,Construction,11730,E0033,,2024-10-04
+001P00224,Dunmore Facility Services Corp.,Prospect,Enterprise,Field Services,5186,E0037,,2024-10-20
+00100112A,Calder Components Partners,Customer,SMB,Manufacturing,88,,C00112,2025-02-28
+00100113A,Sheffield Field Services LLC,Customer,SMB,Field Services,30,,C00113,2025-02-08
+00100114A,Marrow Haulage Inc.,Customer,SMB,Logistics,183,,C00114,2025-02-06
+00100115A,Ambrose Machining Partners,Customer,SMB,Manufacturing,142,,C00115,2025-02-23
+00100116A,Larkspur Distribution Partners,Customer,SMB,Distribution,53,,C00116,2025-02-05
+00100117A,Oakhurst Electric Inc.,Customer,Mid-Market,Field Services,765,E0009,C00117,2025-02-20
+001P00231,Foxglove Energy Services Group,Prospect,Mid-Market,Utilities,226,E0013,,2024-10-12
+00100118A,Whitlock Cartage Inc.,Customer,SMB,Logistics,131,,C00118,2025-03-02
+00100119A,Garland Haulage Partners,Customer,SMB,Logistics,90,,C00119,2025-03-20
+00100120A,Vantor Builders LLC,Customer,SMB,Construction,161,,C00120,2025-03-20
+00100121A,Timberline Shipping LLC,Customer,SMB,Logistics,172,,C00121,2025-03-05
+00100122A,Silverbell Freight LLC,Customer,SMB,Logistics,72,,C00122,2025-03-25
+00100123A,Quarry Manufacturing,Customer,SMB,Manufacturing,176,,C00123,2025-03-13
+00100124A,Fallowmere Wholesale LLC,Customer,SMB,Distribution,139,,C00124,2025-03-02
+00100125A,Timberline Components Co.,Customer,Mid-Market,Manufacturing,436,E0013,C00125,2025-03-26
+001P00240,Silverbell Construction Group,Prospect,Mid-Market,Construction,715,E0009,,2024-12-16
+001P00241,Alder Concrete Corp.,Prospect,Mid-Market,Construction,897,E0013,,2024-11-16
+001P00242,Sawtooth Mechanical Inc.,Prospect,Mid-Market,Field Services,1064,E0033,,2024-12-10
+00100126A,Harrowgate Concrete LLC,Customer,SMB,Construction,130,,C00126,2025-04-10
+00100127A,Rookwood Electric Inc.,Customer,SMB,Field Services,23,,C00127,2025-04-06
+00100128A,Yarrow Water Works,Customer,SMB,Utilities,68,,C00128,2025-04-20
+00100129A,Norcross Builders Group,Customer,SMB,Construction,192,,C00129,2025-04-26
+00100130A,Ironleaf Fabrication Group,Customer,SMB,Manufacturing,188,,C00130,2025-04-12
+00100131A,Corrigan Transport Inc.,Customer,SMB,Logistics,86,,C00131,2025-04-21
+00100132A,Ironleaf Contracting Partners,Customer,Mid-Market,Construction,505,E0037,C00132,2025-04-14
+001P00250,Larkspur Distribution,Prospect,Mid-Market,Distribution,662,E0013,,2024-11-24
+001P00251,Dunmore Freight Corp.,Prospect,Mid-Market,Logistics,1381,E0009,,2024-12-03
+00100133A,Elmstead Machining,Customer,SMB,Manufacturing,115,,C00133,2025-05-27
+00100134A,Driftwood Machining Group,Customer,SMB,Manufacturing,55,,C00134,2025-05-22
+00100135A,Norcross Manufacturing Co.,Customer,SMB,Manufacturing,43,,C00135,2025-05-11
+00100136A,Elmstead Construction Holdings,Customer,SMB,Construction,134,,C00136,2025-05-13
+00100137A,Yarrow Water Works Co.,Customer,SMB,Utilities,162,,C00137,2025-05-19
+00100138A,Bluestem Machining Corp.,Customer,SMB,Manufacturing,88,,C00138,2025-05-23
+00100139A,Redfern Wholesale Partners,Customer,SMB,Distribution,77,,C00139,2025-05-03
+00100140A,Dunmore Water Works Corp.,Customer,Mid-Market,Utilities,1257,E0009,C00140,2025-05-24
+001P00260,Yarrow Distribution Inc.,Prospect,Mid-Market,Distribution,318,E0009,,2025-01-19
+001P00261,Upland Mechanical,Prospect,Mid-Market,Field Services,1349,E0033,,2025-01-21
+001P00262,Timberline Manufacturing,Prospect,Mid-Market,Manufacturing,731,E0009,,2025-01-07
+001P00263,Bluestem Machining Holdings,Prospect,Mid-Market,Manufacturing,895,E0013,,2025-02-16
+00100141A,Dunmore Construction Co.,Customer,Mid-Market,Construction,918,E0033,C00141,2025-05-26
+001P00265,Whitlock Wholesale Holdings,Prospect,Mid-Market,Distribution,1206,E0033,,2025-01-05
+001P00266,Quarry Mechanical,Prospect,Mid-Market,Field Services,794,E0037,,2025-01-13
+001P00267,Ambrose HVAC Holdings,Prospect,Mid-Market,Field Services,557,E0042,,2025-02-14
+001P00268,Ridgeway Cartage Group,Prospect,Mid-Market,Logistics,1304,E0033,,2025-01-02
+001P00269,Timberline Energy Services Corp.,Prospect,Mid-Market,Utilities,921,E0037,,2025-01-22
+001P00270,Oakhurst Transport Corp.,Prospect,Mid-Market,Logistics,1442,E0037,,2025-02-06
+00100142A,Calder Electric Co.,Customer,Enterprise,Field Services,5802,E0033,C00142,2025-05-10
+001P00272,Larkspur Machining Co.,Prospect,Enterprise,Manufacturing,10237,E0033,,2024-12-24
+001P00273,Yarrow Plastics Co.,Prospect,Enterprise,Manufacturing,8663,E0037,,2024-12-27
+00100143A,Lowell Contracting Inc.,Customer,SMB,Construction,86,,C00143,2025-06-10
+00100144A,Basalt Contracting Holdings,Customer,SMB,Construction,62,,C00144,2025-06-10
+00100145A,Halden Water Works Holdings,Customer,SMB,Utilities,179,,C00145,2025-06-13
+00100146A,Harrowgate Distribution Co.,Customer,SMB,Distribution,102,,C00146,2025-06-25
+00100147A,Corrigan Industries Holdings,Customer,SMB,Manufacturing,158,,C00147,2025-06-10
+00100148A,Flint Supply Holdings,Customer,SMB,Distribution,45,,C00148,2025-06-17
+00100149A,Belmar Power Systems Partners,Customer,SMB,Utilities,161,,C00149,2025-06-23
+00100150A,Kingsley Plastics Co.,Customer,SMB,Manufacturing,121,,C00150,2025-06-26
+00100151A,Harrowgate Electric Corp.,Customer,SMB,Field Services,120,,C00151,2025-06-26
+00100152A,Garland Wholesale Holdings,Customer,SMB,Distribution,174,,C00152,2025-06-05
+00100153A,Millrace Water Works Co.,Customer,Mid-Market,Utilities,325,E0033,C00153,2025-06-19
+001P00285,Merriam Construction Co.,Prospect,Mid-Market,Construction,1210,E0037,,2025-02-08
+001P00286,Foxglove Distribution,Prospect,Mid-Market,Distribution,815,E0009,,2025-02-16
+001P00287,Cedarline Industries Holdings,Prospect,Mid-Market,Manufacturing,1305,E0013,,2025-01-27
+00100154A,Maplecrest Energy Services Corp.,Customer,Mid-Market,Utilities,992,E0037,C00154,2025-06-23
+001P00289,Sawtooth Components Inc.,Prospect,Mid-Market,Manufacturing,944,E0033,,2025-02-21
+001P00290,Merriam Builders,Prospect,Mid-Market,Construction,888,E0037,,2025-03-01
+00100155A,Garland Shipping Holdings,Customer,Mid-Market,Logistics,364,E0037,C00155,2025-06-01
+001P00292,Merriam Plumbing Holdings,Prospect,Mid-Market,Field Services,1389,E0013,,2025-01-30
+001P00293,Vantor Water Works Holdings,Prospect,Mid-Market,Utilities,1042,E0013,,2025-01-22
+00100156A,Quarry Plastics Corp.,Customer,Mid-Market,Manufacturing,1475,E0009,C00156,2025-06-21
+001P00295,Flint Plastics LLC,Prospect,Mid-Market,Manufacturing,1330,E0013,,2025-03-14
+00100157A,Willowbend Shipping Partners,Customer,Mid-Market,Logistics,805,E0009,C00157,2025-06-30
+001P00297,Norcross Concrete Co.,Prospect,Mid-Market,Construction,278,E0013,,2025-02-09
+00100158A,Kingsley Builders Partners,Customer,SMB,Construction,120,,C00158,2025-07-23
+00100159A,Sawtooth Supply Group,Customer,SMB,Distribution,82,,C00159,2025-07-01
+00100160A,Copperfield Manufacturing LLC,Customer,SMB,Manufacturing,133,,C00160,2025-07-14
+00100161A,Garland Water Works LLC,Customer,SMB,Utilities,159,,C00161,2025-07-08
+00100162A,Palisade Field Services Group,Customer,Mid-Market,Field Services,492,E0013,C00162,2025-07-09
+001P00303,Halden Fabrication LLC,Prospect,Mid-Market,Manufacturing,1484,E0042,,2025-03-12
+001P00304,Copperfield Trading Group,Prospect,Mid-Market,Distribution,1296,E0037,,2025-03-08
+001P00305,Larkspur Power Systems LLC,Prospect,Mid-Market,Utilities,859,E0037,,2025-02-14
+00100163A,Ambrose Fabrication Corp.,Customer,Enterprise,Manufacturing,6264,E0009,C00163,2025-07-27
+001P00307,Kestrel Distribution Inc.,Prospect,Enterprise,Distribution,11137,E0013,,2025-03-19
+001P00308,Halden Water Works,Prospect,Enterprise,Utilities,2500,E0009,,2025-03-28
+001P00309,Harrowgate Fabrication Corp.,Prospect,Enterprise,Manufacturing,11236,E0013,,2025-04-17
+001P00310,Pemberton Fabrication Group,Prospect,Enterprise,Manufacturing,2159,E0013,,2025-03-14
+00100164A,Willowbend Shipping Inc.,Customer,SMB,Logistics,162,,C00164,2025-08-02
+00100165A,Vantor Concrete LLC,Customer,SMB,Construction,35,,C00165,2025-08-20
+00100166A,Westbrook Haulage Partners,Customer,SMB,Logistics,161,,C00166,2025-08-10
+00100167A,Whitlock Manufacturing Holdings,Customer,SMB,Manufacturing,31,,C00167,2025-08-08
+00100168A,Millrace Energy Services Group,Customer,SMB,Utilities,136,,C00168,2025-09-11
+00100169A,Westbrook Machining LLC,Customer,SMB,Manufacturing,181,,C00169,2025-09-16
+00100170A,Quarry Energy Services,Customer,SMB,Utilities,65,,C00170,2025-09-11
+00100171A,Cedarline Distribution LLC,Customer,SMB,Distribution,194,,C00171,2025-09-06
+00100172A,Yarrow Electric Inc.,Customer,SMB,Field Services,185,,C00172,2025-09-09
+00100173A,Pemberton Concrete Inc.,Customer,Mid-Market,Construction,535,E0046,C00173,2025-09-28
+001P00321,Ironleaf Energy Services LLC,Prospect,Mid-Market,Utilities,1495,E0013,,2025-05-11
+001P00322,Lowell Manufacturing,Prospect,Mid-Market,Manufacturing,898,E0046,,2025-06-11
+001P00323,Saltmarsh Logistics Co.,Prospect,Mid-Market,Logistics,313,E0042,,2025-06-22
+001P00324,Brackenridge Contracting Group,Prospect,Mid-Market,Construction,768,E0037,,2025-05-29
+001P00325,Marrow Plastics LLC,Prospect,Mid-Market,Manufacturing,673,E0042,,2025-06-02
+00100174A,Vantor Cartage Inc.,Customer,SMB,Logistics,172,,C00174,2025-10-07
+00100175A,Ambrose Facility Services Partners,Customer,SMB,Field Services,197,,C00175,2025-10-15
+00100176A,Saltmarsh Plumbing Corp.,Customer,SMB,Field Services,141,,C00176,2025-10-19
+00100177A,Radcliffe Energy Services Corp.,Customer,SMB,Utilities,113,,C00177,2025-10-06
+00100178A,Tamarack Trading LLC,Customer,SMB,Distribution,27,,C00178,2025-10-24
+00100179A,Corrigan Plastics Inc.,Customer,SMB,Manufacturing,70,,C00179,2025-10-28
+00100180A,Palisade Components Inc.,Customer,SMB,Manufacturing,121,,C00180,2025-10-07
+00100181A,Lowell Supply Partners,Customer,SMB,Distribution,186,,C00181,2025-10-01
+00100182A,Merriam Water Works Corp.,Customer,Mid-Market,Utilities,975,E0042,C00182,2025-10-04
+00100183A,Hollis Power Systems Co.,Customer,Mid-Market,Utilities,944,E0046,C00183,2025-10-21
+001P00336,Vantor Wholesale Co.,Prospect,Mid-Market,Distribution,435,E0046,,2025-07-01
+001P00337,Norcross Supply Inc.,Prospect,Mid-Market,Distribution,225,E0046,,2025-05-30
+001P00338,Wexley Contracting Partners,Prospect,Mid-Market,Construction,718,E0042,,2025-07-14
+001P00339,Oakhurst Distribution Corp.,Prospect,Mid-Market,Distribution,905,E0046,,2025-06-25
+00100184A,Stonebridge Concrete Co.,Customer,Mid-Market,Construction,1466,E0052,C00184,2025-10-21
+001P00341,Saltmarsh Trading Partners,Prospect,Mid-Market,Distribution,872,E0037,,2025-07-09
+001P00342,Sawtooth Energy Services Partners,Prospect,Mid-Market,Utilities,1361,E0046,,2025-06-22
+001P00343,Maplecrest Components Inc.,Prospect,Mid-Market,Manufacturing,1339,E0042,,2025-06-10
+00100185A,Ironleaf Machining Corp.,Customer,Enterprise,Manufacturing,5465,E0037,C00185,2025-10-29
+001P00345,Basalt Fabrication Co.,Prospect,Enterprise,Manufacturing,3589,E0037,,2025-06-11
+001P00346,Corrigan Manufacturing Inc.,Prospect,Enterprise,Manufacturing,7547,E0042,,2025-07-18
+00100186A,Vantor Shipping Inc.,Customer,Enterprise,Logistics,9491,E0037,C00186,2025-10-26
+00100187A,Merriam Power Systems Group,Customer,Enterprise,Utilities,8850,E0052,C00187,2025-10-27
+001P00349,Brackenridge Energy Services Holdings,Prospect,Enterprise,Utilities,8854,E0052,,2025-06-29
+001P00350,Halden Manufacturing Group,Prospect,Enterprise,Manufacturing,8045,E0046,,2025-07-07
+00100188A,Calder Plumbing LLC,Customer,SMB,Field Services,43,,C00188,2025-11-21
+00100189A,Brackenridge Fabrication,Customer,SMB,Manufacturing,176,,C00189,2025-11-12
+00100190A,Redfern Electric Inc.,Customer,SMB,Field Services,116,,C00190,2025-11-28
+00100191A,Bluestem Manufacturing Corp.,Customer,SMB,Manufacturing,112,,C00191,2025-11-20
+00100192A,Osprey Concrete Partners,Customer,SMB,Construction,137,,C00192,2025-11-13
+00100193A,Granite Haulage LLC,Customer,SMB,Logistics,189,,C00193,2025-11-11
+00100194A,Harrowgate Haulage LLC,Customer,SMB,Logistics,196,,C00194,2025-11-12
+00100195A,Eastwick Energy Services Partners,Customer,Mid-Market,Utilities,1237,E0046,C00195,2025-11-24
+001P00359,Silverbell Industries,Prospect,Mid-Market,Manufacturing,408,E0037,,2025-08-03
+001P00360,Copperfield Plumbing Holdings,Prospect,Mid-Market,Field Services,807,E0009,,2025-07-05
+001P00361,Upland Wholesale Corp.,Prospect,Mid-Market,Distribution,316,E0009,,2025-07-19
+001P00362,Granite Energy Services LLC,Prospect,Mid-Market,Utilities,656,E0009,,2025-07-20
+00100196A,Redfern Components LLC,Customer,Mid-Market,Manufacturing,1218,E0052,C00196,2025-11-21
+001P00364,Granite Energy Services Inc.,Prospect,Mid-Market,Utilities,1362,E0037,,2025-07-06
+001P00365,Sumner Power Systems Group,Prospect,Mid-Market,Utilities,204,E0052,,2025-07-10
+001P00366,Halden Power Systems,Prospect,Mid-Market,Utilities,1276,E0052,,2025-07-24
+001P00367,Cinder Shipping Corp.,Prospect,Mid-Market,Logistics,1201,E0037,,2025-07-06
+001P00368,Eastwick Wholesale Group,Prospect,Mid-Market,Distribution,1258,E0037,,2025-07-04
+001P00369,Pinecroft Plumbing Holdings,Prospect,Mid-Market,Field Services,1481,E0009,,2025-08-06
+001P00370,Rookwood Builders Co.,Prospect,Mid-Market,Construction,340,E0009,,2025-07-31
+00100197A,Ironleaf Manufacturing LLC,Customer,Mid-Market,Manufacturing,905,E0013,C00197,2025-11-02
+001P00372,Saltmarsh Machining Partners,Prospect,Mid-Market,Manufacturing,353,E0042,,2025-07-14
+001P00373,Fenwick Shipping Inc.,Prospect,Mid-Market,Logistics,1470,E0013,,2025-06-16
+00100198A,Kingsley Plumbing Group,Customer,Mid-Market,Field Services,355,E0046,C00198,2025-11-06
+001P00375,Calder Concrete LLC,Prospect,Mid-Market,Construction,1113,E0037,,2025-07-21
+001P00376,Cedarline Haulage Corp.,Prospect,Mid-Market,Logistics,985,E0037,,2025-07-16
+001P00377,Hollis Facility Services Holdings,Prospect,Mid-Market,Field Services,1252,E0042,,2025-07-07
+00100199A,Quarry Water Works Group,Customer,SMB,Utilities,176,,C00199,2025-12-05
+00100200A,Marrow Power Systems Inc.,Customer,SMB,Utilities,36,,C00200,2025-12-06
+00100201A,Dunmore Logistics Inc.,Customer,SMB,Logistics,92,,C00201,2025-12-20
+00100202A,Underhill Water Works Partners,Customer,SMB,Utilities,159,,C00202,2025-12-16
+00100203A,Brackenridge Wholesale Corp.,Customer,SMB,Distribution,157,,C00203,2025-12-26
+00100204A,Pemberton Supply Corp.,Customer,SMB,Distribution,161,,C00204,2025-12-21
+00100205A,Ambrose Distribution,Customer,SMB,Distribution,90,,C00205,2025-12-22
+00100206A,Norcross Construction LLC,Customer,Mid-Market,Construction,1073,E0013,C00206,2025-12-14
+001P00386,Merriam Freight LLC,Prospect,Mid-Market,Logistics,588,E0042,,2025-08-30
+001P00387,Belmar Concrete Co.,Prospect,Mid-Market,Construction,1039,E0042,,2025-08-17
+001P00388,Marrow Shipping Holdings,Prospect,Mid-Market,Logistics,281,E0046,,2025-09-03
+00100207A,Juniper Facility Services Inc.,Customer,Mid-Market,Field Services,925,E0042,C00207,2025-12-26
+001P00390,Northgate Energy Services Co.,Prospect,Mid-Market,Utilities,859,E0009,,2025-09-07
+001P00391,Clearwater Manufacturing Co.,Prospect,Mid-Market,Manufacturing,554,E0009,,2025-09-06
+00100208A,Kingsley Freight Group,Customer,Mid-Market,Logistics,1200,E0052,C00208,2025-12-26
+001P00393,Sawtooth Distribution Inc.,Prospect,Mid-Market,Distribution,1146,E0046,,2025-09-15
+001P00394,Tamarack HVAC Holdings,Prospect,Mid-Market,Field Services,1360,E0046,,2025-09-15
+001P00395,Granite Manufacturing Partners,Prospect,Mid-Market,Manufacturing,1243,E0037,,2025-09-03
+001P00396,Elmstead Plastics,Prospect,Mid-Market,Manufacturing,865,E0046,,2025-09-02
+001P00397,Copperfield HVAC Holdings,Prospect,Mid-Market,Field Services,1265,E0013,,2025-08-06
+00100209A,Kestrel Components,Customer,Mid-Market,Manufacturing,684,E0046,C00209,2025-12-21
+001P00399,Greywater Machining Co.,Prospect,Mid-Market,Manufacturing,741,E0042,,2025-07-30
+001P00400,Flint Industries Group,Prospect,Mid-Market,Manufacturing,657,E0052,,2025-09-06
+001P00401,Hollis Manufacturing Co.,Prospect,Mid-Market,Manufacturing,973,E0013,,2025-08-01
+001P00402,Pinecroft Cartage,Prospect,Mid-Market,Logistics,1304,E0046,,2025-08-05
+00100210A,Radcliffe Plastics LLC,Customer,Mid-Market,Manufacturing,616,E0013,C00210,2025-12-28
+001P00404,Harrowgate Water Works,Prospect,Mid-Market,Utilities,1043,E0037,,2025-09-05
+001P00405,Lowell HVAC Inc.,Prospect,Mid-Market,Field Services,1011,E0009,,2025-08-22
+001P00406,Northgate Distribution LLC,Prospect,Mid-Market,Distribution,1480,E0037,,2025-09-16
+001P00407,Willowbend Energy Services,Prospect,Mid-Market,Utilities,594,E0046,,2025-09-10
+001P00408,Wexley Shipping Partners,Prospect,Mid-Market,Logistics,213,E0009,,2025-08-19
+00100211A,Elmstead Trading Group,Customer,Mid-Market,Distribution,983,E0013,C00211,2025-12-28
+001P00410,Flint Logistics,Prospect,Mid-Market,Logistics,403,E0042,,2025-08-08
+001P00411,Pemberton Machining Partners,Prospect,Mid-Market,Manufacturing,869,E0046,,2025-08-25
+00100212A,Larkspur Machining Partners,Customer,Enterprise,Manufacturing,12225,E0046,C00212,2025-12-28
+00100213A,Greywater Supply Group,Customer,SMB,Distribution,198,,C00213,2026-01-21
+00100214A,Fenwick Facility Services Corp.,Customer,SMB,Field Services,97,,C00214,2026-01-11
+00100215A,Millrace Transport Corp.,Customer,SMB,Logistics,39,,C00215,2026-01-03
+00100216A,Marrow Water Works,Customer,SMB,Utilities,170,,C00216,2026-01-02
+00100217A,Yarrow Trading Co.,Customer,SMB,Distribution,78,,C00217,2026-01-20
+00100218A,Ridgeway Supply Co.,Customer,SMB,Distribution,99,,C00218,2026-01-17
+00100219A,Granite Plumbing Group,Customer,SMB,Field Services,166,,C00219,2026-01-10
+00100220A,Maplecrest Machining Corp.,Customer,SMB,Manufacturing,171,,C00220,2026-01-25
+00100221A,Norcross Construction Holdings,Customer,SMB,Construction,80,,C00221,2026-01-14
+00100222A,Ambrose Water Works Corp.,Customer,Mid-Market,Utilities,518,E0046,C00222,2026-01-25
+001P00423,Brackenridge Freight,Prospect,Mid-Market,Logistics,487,E0042,,2025-10-20
+001P00424,Eastwick Electric Group,Prospect,Mid-Market,Field Services,1336,E0046,,2025-09-07
+001P00425,Foxglove Power Systems Partners,Prospect,Mid-Market,Utilities,674,E0046,,2025-10-12
+001P00426,Vantor Components Group,Prospect,Mid-Market,Manufacturing,445,E0037,,2025-09-29
+00100223A,Halden Trading Partners,Customer,Mid-Market,Distribution,1086,E0013,C00223,2026-01-24
+001P00428,Garland Supply Inc.,Prospect,Mid-Market,Distribution,343,E0042,,2025-09-03
+001P00429,Sawtooth Facility Services LLC,Prospect,Mid-Market,Field Services,508,E0013,,2025-10-02
+00100224A,Sheffield Freight Inc.,Customer,Mid-Market,Logistics,600,E0037,C00224,2026-01-26
+001P00431,Flint Concrete LLC,Prospect,Mid-Market,Construction,1108,E0013,,2025-09-03
+001P00432,Lowell Haulage Partners,Prospect,Mid-Market,Logistics,724,E0009,,2025-09-20
+001P00433,Elmstead HVAC Inc.,Prospect,Mid-Market,Field Services,930,E0052,,2025-10-01
+001P00434,Kingsley Shipping Holdings,Prospect,Mid-Market,Logistics,685,E0046,,2025-10-05
+00100225A,Halden Wholesale Inc.,Customer,Mid-Market,Distribution,1197,E0052,C00225,2026-01-03
+001P00436,Basalt Manufacturing Corp.,Prospect,Mid-Market,Manufacturing,628,E0042,,2025-09-19
+001P00437,Silverbell Trading Holdings,Prospect,Mid-Market,Distribution,1413,E0013,,2025-08-24
+00100226A,Underhill Facility Services Partners,Customer,Enterprise,Field Services,12321,E0052,C00226,2026-01-26
+001P00439,Belmar Builders Corp.,Prospect,Enterprise,Construction,3670,E0052,,2025-09-05
+001P00440,Sawtooth Mechanical Corp.,Prospect,Enterprise,Field Services,7068,E0037,,2025-09-24
+001P00441,Hollis Energy Services Group,Prospect,Enterprise,Utilities,9861,E0042,,2025-10-06
+001P00442,Garland Fabrication LLC,Prospect,Enterprise,Manufacturing,6519,E0009,,2025-09-17
+001P00443,Bluestem Shipping,Prospect,Enterprise,Logistics,6244,E0013,,2025-10-07
+00100227A,Upland Supply Corp.,Customer,SMB,Distribution,36,,C00227,2026-02-17
+00100228A,Westbrook Electric Co.,Customer,SMB,Field Services,37,,C00228,2026-02-21
+00100229A,Timberline Haulage LLC,Customer,SMB,Logistics,190,,C00229,2026-02-05
+00100230A,Foxglove Fabrication Holdings,Customer,SMB,Manufacturing,110,,C00230,2026-02-13
+00100231A,Garland Mechanical Partners,Customer,SMB,Field Services,84,,C00231,2026-02-10
+00100232A,Flint HVAC LLC,Customer,SMB,Field Services,166,,C00232,2026-02-19
+00100233A,Belmar Electric,Customer,Mid-Market,Field Services,1492,E0046,C00233,2026-02-24
+001P00451,Merriam Wholesale Inc.,Prospect,Mid-Market,Distribution,555,E0013,,2025-11-20
+001P00452,Driftwood Manufacturing,Prospect,Mid-Market,Manufacturing,680,E0046,,2025-11-09
+001P00453,Greywater Concrete Inc.,Prospect,Mid-Market,Construction,336,E0046,,2025-10-06
+00100234A,Timberline Cartage Partners,Customer,Mid-Market,Logistics,814,E0009,C00234,2026-02-20
+001P00455,Whitlock Construction Co.,Prospect,Mid-Market,Construction,277,E0013,,2025-09-30
+001P00456,Bluestem Facility Services Partners,Prospect,Mid-Market,Field Services,1137,E0052,,2025-10-13
+001P00457,Ambrose Field Services Co.,Prospect,Mid-Market,Field Services,500,E0046,,2025-11-05
+001P00458,Flint Industries LLC,Prospect,Mid-Market,Manufacturing,954,E0042,,2025-10-15
+001P00459,Kestrel Mechanical Co.,Prospect,Mid-Market,Field Services,1256,E0046,,2025-10-17
+00100235A,Cedarline Plumbing Holdings,Customer,Mid-Market,Field Services,1187,E0013,C00235,2026-02-11
+00100236A,Belmar Cartage Holdings,Customer,SMB,Logistics,96,,C00236,2026-03-09
+00100237A,Flint Facility Services Inc.,Customer,SMB,Field Services,41,,C00237,2026-03-01
+00100238A,Wexley Power Systems Holdings,Customer,SMB,Utilities,98,,C00238,2026-03-04
+00100239A,Tamarack Freight Corp.,Customer,SMB,Logistics,52,,C00239,2026-03-14
+00100240A,Larkspur HVAC Co.,Customer,SMB,Field Services,52,,C00240,2026-03-17
+00100241A,Northgate Industries Holdings,Customer,SMB,Manufacturing,151,,C00241,2026-03-27
+00100242A,Bluestem Builders Group,Customer,SMB,Construction,47,,C00242,2026-03-22
+00100243A,Ambrose Transport,Customer,Mid-Market,Logistics,1008,E0052,C00243,2026-03-23
+001P00469,Belmar Contracting Group,Prospect,Mid-Market,Construction,706,E0052,,2025-10-29
+001P00470,Harrowgate Builders Co.,Prospect,Mid-Market,Construction,1279,E0046,,2025-11-27
+001P00471,Stonebridge Facility Services Holdings,Prospect,Mid-Market,Field Services,805,E0009,,2025-12-16
+001P00472,Talbot Concrete Co.,Prospect,Mid-Market,Construction,504,E0052,,2025-12-06
+00100244A,Basalt Transport Inc.,Customer,Mid-Market,Logistics,1066,E0009,C00244,2026-03-17
+001P00474,Halden Builders Co.,Prospect,Mid-Market,Construction,1448,E0042,,2025-11-01
+001P00475,Thornbury Electric Partners,Prospect,Mid-Market,Field Services,400,E0037,,2025-11-26
+001P00476,Sawtooth Water Works Group,Prospect,Mid-Market,Utilities,663,E0052,,2025-11-14
+00100245A,Harrowgate Wholesale Inc.,Customer,SMB,Distribution,57,,C00245,2026-04-06
+00100246A,Corrigan Wholesale Partners,Customer,SMB,Distribution,176,,C00246,2026-04-03
+00100247A,Clearwater Shipping Group,Customer,SMB,Logistics,54,,C00247,2026-04-27
+00100248A,Tamarack Fabrication Co.,Customer,SMB,Manufacturing,172,,C00248,2026-04-08
+00100249A,Maplecrest Machining Co.,Customer,SMB,Manufacturing,79,,C00249,2026-04-07
+00100250A,Flint Trading Corp.,Customer,Mid-Market,Distribution,1439,E0042,C00250,2026-04-22
+001P00483,Stonebridge Distribution Partners,Prospect,Mid-Market,Distribution,1430,E0037,,2025-12-16
+001P00484,Sheffield Power Systems LLC,Prospect,Mid-Market,Utilities,890,E0013,,2025-12-08
+001P00485,Eastwick HVAC LLC,Prospect,Mid-Market,Field Services,1240,E0037,,2025-12-23
+001P00486,Foxglove HVAC Co.,Prospect,Mid-Market,Field Services,956,E0046,,2025-12-01
+001P00487,Sawtooth Industries LLC,Prospect,Mid-Market,Manufacturing,468,E0046,,2026-01-09
+001P00488,Northgate Power Systems Holdings,Prospect,Mid-Market,Utilities,954,E0046,,2025-12-07
+001P00489,Underhill Power Systems Corp.,Prospect,Mid-Market,Utilities,405,E0052,,2025-12-04
+00100251A,Harrowgate Trading Holdings,Customer,Mid-Market,Distribution,727,E0009,C00251,2026-04-07
+001P00491,Copperfield Shipping Partners,Prospect,Mid-Market,Logistics,797,E0046,,2025-12-10
+001P00492,Upland Machining Co.,Prospect,Mid-Market,Manufacturing,312,E0013,,2025-11-28
+001P00493,Dunmore Transport Co.,Prospect,Mid-Market,Logistics,411,E0052,,2025-12-22
+00100252A,Calder Industries Partners,Customer,SMB,Manufacturing,164,,C00252,2026-05-27
+00100253A,Oakhurst Distribution Group,Customer,SMB,Distribution,145,,C00253,2026-05-05
+00100254A,Harrowgate Trading Corp.,Customer,SMB,Distribution,112,,C00254,2026-05-28
+00100255A,Ambrose Wholesale Corp.,Customer,SMB,Distribution,114,,C00255,2026-05-07
+00100256A,Hartwell Water Works Group,Customer,SMB,Utilities,106,,C00256,2026-05-17
+00100257A,Belmar Distribution Holdings,Customer,SMB,Distribution,67,,C00257,2026-05-21
+00100258A,Hollis Components Group,Customer,SMB,Manufacturing,144,,C00258,2026-05-03
+00100259A,Corrigan Industries,Customer,SMB,Manufacturing,64,,C00259,2026-05-17
+00100260A,Merriam Industries Holdings,Customer,SMB,Manufacturing,21,,C00260,2026-05-03
+00100261A,Halden Plastics Co.,Customer,SMB,Manufacturing,109,,C00261,2026-05-04
+00100262A,Timberline Plumbing,Customer,SMB,Field Services,22,,C00262,2026-05-10
+00100263A,Redfern Energy Services Corp.,Customer,Mid-Market,Utilities,216,E0046,C00263,2026-05-14
+001P00506,Ambrose Power Systems,Prospect,Mid-Market,Utilities,1194,E0037,,2025-12-20
+001P00507,Underhill Energy Services Partners,Prospect,Mid-Market,Utilities,222,E0037,,2026-01-24
+001P00508,Oakhurst Power Systems Corp.,Prospect,Mid-Market,Utilities,1344,E0013,,2026-01-06
+001P00509,Granite Trading Inc.,Prospect,Mid-Market,Distribution,214,E0042,,2026-01-05
+00100264A,Kestrel Energy Services Group,Customer,Enterprise,Utilities,3208,E0037,C00264,2026-05-24
+00100265A,Thornbury Machining Holdings,Customer,SMB,Manufacturing,176,,C00265,2026-06-25
+00100266A,Vantor Logistics Corp.,Customer,SMB,Logistics,145,,C00266,2026-06-24
+00100267A,Calder Plumbing Partners,Customer,SMB,Field Services,130,,C00267,2026-06-09
+00100268A,Granite Cartage Co.,Customer,SMB,Logistics,106,,C00268,2026-06-24
+00100269A,Elmstead Cartage Corp.,Customer,SMB,Logistics,192,,C00269,2026-06-15
+00100270A,Pinecroft Water Works Co.,Customer,SMB,Utilities,189,,C00270,2026-06-20
+00100271A,Harrowgate Power Systems Inc.,Customer,SMB,Utilities,176,,C00271,2026-06-02
+00100272A,Underhill Industries Holdings,Customer,SMB,Manufacturing,190,,C00272,2026-06-10
+00100273A,Timberline Manufacturing Partners,Customer,SMB,Manufacturing,112,,C00273,2026-06-21
+00100274A,Belmar Freight,Customer,SMB,Logistics,26,,C00274,2026-06-28
+00100275A,Lowell Concrete LLC,Customer,SMB,Construction,76,,C00275,2026-06-12
+00100276A,Kingsley Trading Inc.,Customer,SMB,Distribution,76,,C00276,2026-06-07
+00100277A,Clearwater Power Systems Corp.,Customer,Mid-Market,Utilities,378,E0009,C00277,2026-06-05
+00100278A,Sawtooth Wholesale Co.,Customer,Mid-Market,Distribution,1422,E0046,C00278,2026-06-20
+001P00525,Ironleaf Power Systems Holdings,Prospect,Mid-Market,Utilities,602,E0042,,2026-02-01
+001P00526,Sumner Builders,Prospect,Mid-Market,Construction,222,E0046,,2026-03-04
+00100279A,Silverbell Electric Corp.,Customer,SMB,Field Services,118,,C00279,2026-07-08
+00100280A,Quarry Water Works LLC,Customer,SMB,Utilities,161,,C00280,2026-07-28
+00100281A,Sawtooth Fabrication Holdings,Customer,SMB,Manufacturing,172,,C00281,2026-07-11
+00100282A,Wexley Energy Services Co.,Customer,SMB,Utilities,178,,C00282,2026-07-05
+00100283A,Belmar Field Services,Customer,SMB,Field Services,169,,C00283,2026-07-20
+00100284A,Belmar HVAC Partners,Customer,SMB,Field Services,121,,C00284,2026-07-07
+00100285A,Elmstead Plastics Partners,Customer,SMB,Manufacturing,62,,C00285,2026-07-12
+00100286A,Lowell Machining Partners,Customer,SMB,Manufacturing,186,,C00286,2026-07-10
+00100287A,Lowell Shipping Holdings,Customer,SMB,Logistics,129,,C00287,2026-07-27
+00100288A,Whitlock Construction Holdings,Customer,SMB,Construction,135,,C00288,2026-07-17
+00100289A,Lockhart Mechanical Inc.,Customer,SMB,Field Services,96,,C00289,2026-07-27
+00100290A,Larkspur Energy Services Co.,Customer,SMB,Utilities,173,,C00290,2026-07-08
+00100291A,Sheffield Freight Holdings,Customer,SMB,Logistics,165,,C00291,2026-07-01
+00100292A,Thornbury Facility Services,Customer,SMB,Field Services,59,,C00292,2026-07-25
+00100293A,Greywater Distribution Inc.,Customer,SMB,Distribution,55,,C00293,2026-07-12
+00100294A,Elmstead Logistics LLC,Customer,Mid-Market,Logistics,903,E0009,C00294,2026-07-21
+001P00543,Larkspur Plumbing LLC,Prospect,Mid-Market,Field Services,1440,E0052,,2026-04-01
+001P00544,Radcliffe Industries Inc.,Prospect,Mid-Market,Manufacturing,1022,E0042,,2026-03-28
+00100295A,Ambrose Field Services Holdings,Customer,Mid-Market,Field Services,1077,E0065,C00295,2026-07-24
+001P00546,Vantor Construction Corp.,Prospect,Mid-Market,Construction,1177,E0009,,2026-04-17
+001P00547,Saltmarsh Components Corp.,Prospect,Mid-Market,Manufacturing,217,E0013,,2026-03-27
+001P00548,Cedarline Construction,Prospect,Mid-Market,Construction,1164,E0009,,2026-04-05
+001P00549,Dunmore Machining,Prospect,Mid-Market,Manufacturing,532,E0037,,2026-04-19
+001P00550,Halden Freight Partners,Prospect,Mid-Market,Logistics,349,E0013,,2026-03-11
+001P00551,Kestrel Water Works,Prospect,Mid-Market,Utilities,1168,E0009,,2026-03-11
+001P00552,Kestrel Cartage Partners,Prospect,Mid-Market,Logistics,1375,E0052,,2026-03-30
+00100296A,Garland Water Works Partners,Customer,Enterprise,Utilities,13482,E0052,C00296,2026-07-31
+001P00554,Basalt Trading Partners,Prospect,Enterprise,Distribution,1963,E0065,,2026-04-18
+001P00555,Corrigan Components Inc.,Prospect,Enterprise,Manufacturing,6947,E0042,,2026-04-21
+00100297A,Tamarack Fabrication,Customer,SMB,Manufacturing,65,,C00297,2026-08-21
+00100298A,Driftwood Freight Group,Customer,SMB,Logistics,133,,C00298,2026-08-21
+00100299A,Osprey Components,Customer,SMB,Manufacturing,23,,C00299,2026-08-03
+00100300A,Tamarack Facility Services Inc.,Customer,SMB,Field Services,116,,C00300,2026-08-09
+00100301A,Hartwell Concrete LLC,Customer,SMB,Construction,22,,C00301,2026-08-08
+00100302A,Hartwell Supply Co.,Customer,SMB,Distribution,94,,C00302,2026-08-23
+00100303A,Osprey HVAC Inc.,Customer,SMB,Field Services,169,,C00303,2026-08-17
+00100304A,Copperfield Power Systems Holdings,Customer,SMB,Utilities,138,,C00304,2026-08-03
+00100305A,Lockhart Contracting LLC,Customer,SMB,Construction,25,,C00305,2026-08-19
+00100306A,Ironleaf Supply Co.,Customer,SMB,Distribution,26,,C00306,2026-08-27
+00100307A,Lockhart Freight,Customer,SMB,Logistics,112,,C00307,2026-08-11
+00100308A,Dunmore Wholesale Corp.,Customer,Mid-Market,Distribution,491,E0013,C00308,2026-08-28
+001P00568,Silverbell HVAC,Prospect,Mid-Market,Field Services,874,E0013,,2026-04-14
+001P00569,Osprey Construction Co.,Prospect,Mid-Market,Construction,924,E0078,,2026-05-04
+001P00570,Timberline Wholesale Group,Prospect,Mid-Market,Distribution,526,E0037,,2026-04-07
+001P00571,Driftwood Wholesale Co.,Prospect,Mid-Market,Distribution,1272,E0042,,2026-05-16
+001P00572,Lockhart Machining Group,Prospect,Mid-Market,Manufacturing,623,E0046,,2026-04-26
+001P00573,Wexley Haulage,Prospect,Mid-Market,Logistics,530,E0042,,2026-04-12
+001P00574,Maplecrest Industries Co.,Prospect,Mid-Market,Manufacturing,1023,E0013,,2026-04-19
+00100309A,Pemberton Plumbing,Customer,SMB,Field Services,122,,C00309,2026-09-12
+00100310A,Tamarack Plumbing Co.,Customer,SMB,Field Services,168,,C00310,2026-09-01
+00100311A,Wexley Trading Partners,Customer,SMB,Distribution,105,,C00311,2026-09-09
+00100312A,Sawtooth Mechanical Holdings,Customer,SMB,Field Services,43,,C00312,2026-09-15
+00100313A,Wexley Supply Partners,Customer,SMB,Distribution,185,,C00313,2026-09-11
+00100314A,Oakhurst Electric Holdings,Customer,SMB,Field Services,44,,C00314,2026-09-01
+00100315A,Foxglove Contracting Partners,Customer,SMB,Construction,162,,C00315,2026-09-15
+00100316A,Clearwater Builders Holdings,Customer,SMB,Construction,175,,C00316,2026-09-27
+00100317A,Kingsley Transport Partners,Customer,Mid-Market,Logistics,1043,E0085,C00317,2026-09-23
+001P00584,Upland Field Services Co.,Prospect,Mid-Market,Field Services,1271,E0037,,2026-05-08
+001P00585,Kestrel Concrete Inc.,Prospect,Mid-Market,Construction,1032,E0052,,2026-05-21
+00100318A,Ironleaf Builders Inc.,Customer,Mid-Market,Construction,782,E0078,C00318,2026-09-04
+001P00587,Wexley Electric Corp.,Prospect,Mid-Market,Field Services,293,E0078,,2026-05-05
+001P00588,Fallowmere Construction Group,Prospect,Mid-Market,Construction,619,E0037,,2026-05-04
+001P00589,Lockhart Builders Corp.,Prospect,Mid-Market,Construction,1469,E0009,,2026-04-12
+00100319A,Pemberton Builders Inc.,Customer,Mid-Market,Construction,477,E0078,C00319,2026-09-15
+001P00591,Flint Wholesale Holdings,Prospect,Mid-Market,Distribution,1221,E0052,,2026-05-08
+001P00592,Westbrook Power Systems,Prospect,Mid-Market,Utilities,1349,E0065,,2026-06-04
+001P00593,Oakhurst Manufacturing Corp.,Prospect,Mid-Market,Manufacturing,468,E0085,,2026-06-09
+001P00594,Yarrow Power Systems Corp.,Prospect,Mid-Market,Utilities,780,E0042,,2026-05-26
+001P00595,Underhill Supply Corp.,Prospect,Mid-Market,Distribution,1023,E0037,,2026-05-21
+00100320A,Tamarack Components Corp.,Customer,Mid-Market,Manufacturing,488,E0046,C00320,2026-09-26
+001P00597,Redfern Energy Services,Prospect,Mid-Market,Utilities,1037,E0065,,2026-05-31
+001P00598,Hartwell Transport Corp.,Prospect,Mid-Market,Logistics,411,E0037,,2026-06-15
+00100321A,Driftwood Trading Corp.,Customer,Mid-Market,Distribution,525,E0078,C00321,2026-09-20
+001P00600,Northgate Wholesale Group,Prospect,Mid-Market,Distribution,711,E0078,,2026-05-03
+001P00601,Hartwell Transport Inc.,Prospect,Mid-Market,Logistics,392,E0037,,2026-06-08
+001P00602,Kingsley Electric LLC,Prospect,Mid-Market,Field Services,211,E0042,,2026-05-06
+001P00603,Osprey Manufacturing Partners,Prospect,Mid-Market,Manufacturing,576,E0037,,2026-05-23
+001P00604,Westbrook Shipping Co.,Prospect,Mid-Market,Logistics,1049,E0013,,2026-05-27
+00100322A,Oakhurst Freight Co.,Customer,Mid-Market,Logistics,981,E0009,C00322,2026-09-04
+00100323A,Talbot Electric,Customer,Enterprise,Field Services,2127,E0042,C00323,2026-09-20
+001P00607,Kingsley Manufacturing LLC,Prospect,Enterprise,Manufacturing,6573,E0065,,2026-05-09
+001P00608,Whitlock Wholesale LLC,Prospect,Enterprise,Distribution,4160,E0046,,2026-05-10
+001P00609,Larkspur Components Holdings,Prospect,Enterprise,Manufacturing,3839,E0042,,2026-06-09
+00100324A,Redfern Logistics LLC,Customer,Enterprise,Logistics,12384,E0013,C00324,2026-09-09
+001P00611,Saltmarsh Facility Services Inc.,Prospect,Enterprise,Field Services,3186,E0085,,2026-06-01
+001P00612,Hollis Trading Holdings,Prospect,Enterprise,Distribution,2518,E0078,,2026-05-07
+001P00613,Foxglove Builders LLC,Prospect,Enterprise,Construction,10528,E0052,,2026-04-19
+001P00614,Eastwick Builders Partners,Prospect,Enterprise,Construction,10665,E0078,,2026-05-26
+001P00615,Hartwell Mechanical Inc.,Prospect,Enterprise,Field Services,5592,E0009,,2026-05-12
+00100325A,Lowell Manufacturing Holdings,Customer,SMB,Manufacturing,63,,C00325,2026-10-24
+00100326A,Wexley Mechanical LLC,Customer,SMB,Field Services,195,,C00326,2026-10-21
+00100327A,Halden Construction,Customer,SMB,Construction,153,,C00327,2026-10-07
+00100328A,Granite Concrete Corp.,Customer,SMB,Construction,183,,C00328,2026-10-24
+00100329A,Harrowgate Plumbing Co.,Customer,SMB,Field Services,97,,C00329,2026-10-08
+00100330A,Kingsley Fabrication LLC,Customer,SMB,Manufacturing,182,,C00330,2026-10-19
+00100331A,Redfern Fabrication Holdings,Customer,SMB,Manufacturing,165,,C00331,2026-10-09
+00100332A,Quarry Fabrication Holdings,Customer,SMB,Manufacturing,36,,C00332,2026-10-24
+00100333A,Bluestem Contracting Holdings,Customer,SMB,Construction,183,,C00333,2026-10-01
+00100334A,Garland Mechanical Corp.,Customer,SMB,Field Services,170,,C00334,2026-10-10
+00100335A,Stonebridge Cartage Partners,Customer,SMB,Logistics,27,,C00335,2026-10-03
+00100336A,Foxglove Supply Holdings,Customer,Mid-Market,Distribution,943,E0042,C00336,2026-10-18
+00100337A,Elmstead Energy Services Co.,Customer,Mid-Market,Utilities,514,E0078,C00337,2026-10-11
+001P00629,Northgate Construction LLC,Prospect,Mid-Market,Construction,1089,E0052,,2026-06-04
+001P00630,Larkspur Distribution Corp.,Prospect,Mid-Market,Distribution,562,E0085,,2026-06-11
+00100338A,Driftwood HVAC Partners,Customer,Mid-Market,Field Services,1209,E0046,C00338,2026-10-23
+001P00632,Timberline Facility Services Corp.,Prospect,Mid-Market,Field Services,402,E0037,,2026-06-09
+001P00633,Sheffield Wholesale Inc.,Prospect,Mid-Market,Distribution,1373,E0052,,2026-06-08
+001P00634,Juniper Wholesale Inc.,Prospect,Mid-Market,Distribution,1471,E0078,,2026-06-25
+001P00635,Oakhurst Trading LLC,Prospect,Mid-Market,Distribution,628,E0065,,2026-06-30
+00100339A,Talbot Shipping Co.,Customer,Mid-Market,Logistics,892,E0013,C00339,2026-10-24
+001P00637,Hartwell Logistics Co.,Prospect,Mid-Market,Logistics,755,E0009,,2026-06-26
+00100340A,Ironleaf Plumbing Inc.,Customer,Mid-Market,Field Services,402,E0013,C00340,2026-10-18
+001P00639,Lowell Contracting Holdings,Prospect,Mid-Market,Construction,288,E0085,,2026-06-09
+001P00640,Palisade Freight Inc.,Prospect,Mid-Market,Logistics,1363,E0078,,2026-06-17
+001P00641,Calder Haulage LLC,Prospect,Mid-Market,Logistics,560,E0065,,2026-06-22
+00100341A,Talbot Transport Inc.,Customer,Mid-Market,Logistics,1089,E0042,C00341,2026-10-23
+001P00643,Granite Wholesale Group,Prospect,Mid-Market,Distribution,757,E0085,,2026-06-22
+001P00644,Silverbell Facility Services,Prospect,Mid-Market,Field Services,353,E0009,,2026-06-01
+001P00645,Tamarack Water Works Partners,Prospect,Mid-Market,Utilities,847,E0046,,2026-06-19
+00100342A,Yarrow Distribution Group,Customer,Enterprise,Distribution,7629,E0065,C00342,2026-10-03
+001P00647,Clearwater Cartage,Prospect,Enterprise,Logistics,1843,E0078,,2026-05-31
+001P00648,Palisade Energy Services Inc.,Prospect,Enterprise,Utilities,10657,E0052,,2026-06-16
+001P00649,Belmar Facility Services Group,Prospect,Mid-Market,Field Services,455,E0009,,2026-09-01
+001P00650,Silverbell Power Systems Holdings,Prospect,Mid-Market,Utilities,488,E0009,,2026-09-01
+001P00651,Willowbend Components Inc.,Prospect,Mid-Market,Manufacturing,1064,E0037,,2026-09-01
+001P00652,Rookwood HVAC Co.,Prospect,Mid-Market,Field Services,504,E0065,,2026-09-01
+001P00653,Oakhurst Freight Corp.,Prospect,Mid-Market,Logistics,571,E0013,,2026-09-01
+001P00654,Corrigan Logistics Holdings,Prospect,Mid-Market,Logistics,966,E0042,,2026-09-01
+001P00655,Westbrook Shipping LLC,Prospect,Mid-Market,Logistics,1102,E0037,,2026-09-01
+001P00656,Alder Concrete Partners,Prospect,Mid-Market,Construction,1426,E0065,,2026-09-01
+001P00657,Millrace Construction Partners,Prospect,Mid-Market,Construction,518,E0042,,2026-09-01
+001P00658,Quarry Distribution,Prospect,Mid-Market,Distribution,1370,E0009,,2026-09-01
+001P00659,Osprey Builders Group,Prospect,Mid-Market,Construction,786,E0078,,2026-09-01
+001P00660,Kingsley Shipping Partners,Prospect,Mid-Market,Logistics,453,E0052,,2026-09-01
+001P00661,Cedarline Logistics LLC,Prospect,Mid-Market,Logistics,1202,E0042,,2026-09-01
+001P00662,Talbot Construction Partners,Prospect,Mid-Market,Construction,623,E0037,,2026-09-01
+001P00663,Stonebridge Power Systems Inc.,Prospect,Mid-Market,Utilities,313,E0065,,2026-09-01
+001P00664,Dunmore Transport LLC,Prospect,Mid-Market,Logistics,1146,E0052,,2026-09-01
+001P00665,Kestrel Plastics Inc.,Prospect,Mid-Market,Manufacturing,326,E0013,,2026-09-01
+001P00666,Granite Freight Group,Prospect,Mid-Market,Logistics,592,E0046,,2026-09-01
+001P00667,Ironleaf Fabrication Corp.,Prospect,Enterprise,Manufacturing,9358,E0042,,2026-09-01
+001P00668,Sumner Plumbing Co.,Prospect,Mid-Market,Field Services,532,E0009,,2026-09-01
+001P00669,Talbot Trading Corp.,Prospect,Mid-Market,Distribution,683,E0042,,2026-09-01
+001P00670,Lowell Concrete Inc.,Prospect,Mid-Market,Construction,948,E0065,,2026-09-01
+001P00671,Redfern Freight LLC,Prospect,Mid-Market,Logistics,311,E0046,,2026-09-01
+001P00672,Whitlock Trading Co.,Prospect,Mid-Market,Distribution,731,E0052,,2026-09-01
+001P00673,Rookwood Builders,Prospect,Mid-Market,Construction,1251,E0013,,2026-09-01
+001P00674,Bluestem Energy Services Holdings,Prospect,Mid-Market,Utilities,581,E0052,,2026-09-01
+001P00675,Wexley Machining Group,Prospect,Mid-Market,Manufacturing,1136,E0065,,2026-09-01
+001P00676,Upland Contracting Inc.,Prospect,Mid-Market,Construction,912,E0037,,2026-09-01
+001P00677,Corrigan Energy Services Corp.,Prospect,Mid-Market,Utilities,1296,E0046,,2026-09-01
+001P00678,Harrowgate Freight Holdings,Prospect,Mid-Market,Logistics,1142,E0013,,2026-09-01
+001P00679,Osprey Machining Partners,Prospect,Mid-Market,Manufacturing,933,E0046,,2026-09-01
+001P00680,Foxglove Builders Co.,Prospect,Mid-Market,Construction,384,E0042,,2026-09-01
+001P00681,Upland Energy Services Inc.,Prospect,Mid-Market,Utilities,592,E0037,,2026-09-01
+001P00682,Tamarack Plumbing Group,Prospect,Mid-Market,Field Services,412,E0065,,2026-09-01
+001P00683,Dunmore Electric Partners,Prospect,Mid-Market,Field Services,452,E0046,,2026-09-01
+001P00684,Norcross Supply Partners,Prospect,Mid-Market,Distribution,433,E0037,,2026-09-01
+001P00685,Radcliffe Shipping Group,Prospect,Mid-Market,Logistics,1430,E0078,,2026-09-01
+001P00686,Belmar Trading Co.,Prospect,Mid-Market,Distribution,717,E0052,,2026-09-01
+001P00687,Calder Energy Services Holdings,Prospect,Mid-Market,Utilities,1487,E0009,,2026-09-01
+001P00688,Norcross Plumbing Group,Prospect,Mid-Market,Field Services,694,E0052,,2026-09-01
+001P00689,Pemberton Supply,Prospect,Mid-Market,Distribution,1415,E0085,,2026-09-01
+001P00690,Upland Concrete Holdings,Prospect,Mid-Market,Construction,1238,E0052,,2026-09-01
+001P00691,Clearwater Facility Services Co.,Prospect,Mid-Market,Field Services,489,E0009,,2026-09-01
+001P00692,Copperfield Fabrication,Prospect,Mid-Market,Manufacturing,1006,E0037,,2026-09-01
+001P00693,Norcross Water Works Co.,Prospect,Mid-Market,Utilities,1134,E0009,,2026-09-01
+001P00694,Marrow Wholesale LLC,Prospect,Enterprise,Distribution,11148,E0065,,2026-09-01
+001P00695,Lockhart Haulage Corp.,Prospect,Enterprise,Logistics,3550,E0052,,2026-09-01
+001P00696,Oakhurst Distribution Co.,Prospect,Enterprise,Distribution,9621,E0046,,2026-09-01
+001P00697,Osprey Distribution Corp.,Prospect,Enterprise,Distribution,10070,E0013,,2026-09-01
+001P00698,Redfern Cartage Holdings,Prospect,Enterprise,Logistics,9630,E0078,,2026-09-01
+001P00699,Underhill Machining Holdings,Prospect,Enterprise,Manufacturing,1600,E0042,,2026-09-01
+001P00700,Palisade Builders Inc.,Prospect,Mid-Market,Construction,1344,E0013,,2026-09-01
+001P00701,Halden Components Co.,Prospect,Mid-Market,Manufacturing,355,E0085,,2026-09-01
+001P00702,Whitlock Trading Corp.,Prospect,Mid-Market,Distribution,819,E0085,,2026-09-01
+001P00703,Dunmore Trading Inc.,Prospect,Mid-Market,Distribution,701,E0065,,2026-09-01
+001P00704,Kestrel Mechanical Corp.,Prospect,Mid-Market,Field Services,835,E0037,,2026-09-01
+001P00705,Sheffield Construction Inc.,Prospect,Mid-Market,Construction,1181,E0013,,2026-09-01
+001P00706,Timberline Power Systems Holdings,Prospect,Mid-Market,Utilities,502,E0046,,2026-09-01
+001P00707,Greywater Components LLC,Prospect,Mid-Market,Manufacturing,736,E0037,,2026-09-01
+001P00708,Stonebridge Components Partners,Prospect,Mid-Market,Manufacturing,738,E0013,,2026-09-01
+001P00709,Quarry Freight LLC,Prospect,Mid-Market,Logistics,1061,E0037,,2026-09-01
+001P00710,Silverbell Supply,Prospect,Mid-Market,Distribution,275,E0009,,2026-09-01
+001P00711,Brackenridge Freight Group,Prospect,Mid-Market,Logistics,538,E0085,,2026-09-01
+001P00712,Oakhurst Water Works LLC,Prospect,Mid-Market,Utilities,1387,E0009,,2026-09-01
+001P00713,Silverbell Industries Corp.,Prospect,Mid-Market,Manufacturing,1275,E0052,,2026-09-01
+001P00714,Lowell Water Works Group,Prospect,Mid-Market,Utilities,1158,E0065,,2026-09-01
+001P00715,Brackenridge Concrete Holdings,Prospect,Mid-Market,Construction,787,E0037,,2026-09-01
+001P00716,Quarry Builders Group,Prospect,Enterprise,Construction,7681,E0009,,2026-09-01
+001P00717,Fallowmere Supply,Prospect,Enterprise,Distribution,3448,E0046,,2026-09-01
+001P00718,Juniper Cartage Corp.,Prospect,Enterprise,Logistics,2942,E0052,,2026-09-01
+001P00719,Corrigan Construction Inc.,Prospect,Enterprise,Construction,2299,E0046,,2026-09-01
+001P00720,Oakhurst Plumbing Corp.,Prospect,Mid-Market,Field Services,1259,E0009,,2026-09-01
+001P00721,Harrowgate Builders Inc.,Prospect,Mid-Market,Construction,1057,E0042,,2026-09-01
+001P00722,Pinecroft Construction Partners,Prospect,Mid-Market,Construction,1093,E0013,,2026-09-01
+001P00723,Brackenridge Water Works Co.,Prospect,Mid-Market,Utilities,1387,E0065,,2026-09-01
+001P00724,Sawtooth HVAC Corp.,Prospect,Mid-Market,Field Services,296,E0013,,2026-09-01
+001P00725,Larkspur Industries Corp.,Prospect,Mid-Market,Manufacturing,253,E0013,,2026-09-01
+001P00726,Corrigan Distribution Holdings,Prospect,Mid-Market,Distribution,912,E0085,,2026-09-01
+001P00727,Willowbend Mechanical Co.,Prospect,Mid-Market,Field Services,978,E0085,,2026-09-01
+001P00728,Millrace Mechanical Group,Prospect,Enterprise,Field Services,9190,E0009,,2026-09-01
+001P00729,Bluestem Shipping Inc.,Prospect,Enterprise,Logistics,8198,E0085,,2026-09-01
+001P00730,Radcliffe Water Works LLC,Prospect,Mid-Market,Utilities,768,E0065,,2026-09-01
+001P00731,Pemberton Manufacturing Co.,Prospect,Mid-Market,Manufacturing,1476,E0046,,2026-09-01
+001P00732,Palisade Power Systems Co.,Prospect,Mid-Market,Utilities,206,E0065,,2026-09-01
+001P00733,Granite Wholesale Inc.,Prospect,Mid-Market,Distribution,956,E0065,,2026-09-01
+001P00734,Sheffield Energy Services LLC,Prospect,Mid-Market,Utilities,1399,E0052,,2026-09-01
+001P00735,Hollis Freight Holdings,Prospect,Mid-Market,Logistics,549,E0078,,2026-09-01
+001P00736,Juniper Field Services Group,Prospect,Mid-Market,Field Services,971,E0085,,2026-09-01
+001P00737,Quarry Plumbing Partners,Prospect,Mid-Market,Field Services,1350,E0009,,2026-09-01
+001P00738,Westbrook Components,Prospect,Mid-Market,Manufacturing,1241,E0065,,2026-09-01
+001P00739,Greywater Concrete Corp.,Prospect,Mid-Market,Construction,1407,E0009,,2026-09-01
+001P00740,Sawtooth Contracting LLC,Prospect,Enterprise,Construction,1809,E0037,,2026-09-01

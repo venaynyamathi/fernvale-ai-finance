@@ -1,0 +1,3 @@
+account_id,name,bank,type,last4
+BA-OPER,Operating Checking,Pacific Crest Bank (fictional),checking,4417
+BA-TRES,Treasury Money Market,Pacific Crest Bank (fictional),money_market,9052

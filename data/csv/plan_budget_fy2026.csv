@@ -1,0 +1,660 @@
+month,account_number,class,amount,driver
+2026-01-01,4000,,573215.48,Average plan ARR / 12
+2026-01-01,4100,,35000.0,Implementation services plan
+2026-01-01,6030,Sales,51300.0,10% of planned gross new ACV
+2026-01-01,5000,Cost of Revenue,59235.82,9.2% of subscription revenue + fixed
+2026-01-01,5200,Cost of Revenue,6166.02,Card fees scale with revenue
+2026-01-01,6900,G&A,1719.65,0.3% of revenue
+2026-01-01,6000,Engineering,295230.0,Plan headcount x avg salary
+2026-01-01,6010,Engineering,28046.85,Employer tax rate by quarter
+2026-01-01,6020,Engineering,17808.0,Benefits per head
+2026-01-01,6040,Engineering,23618.4,8% bonus target accrual
+2026-01-01,6000,Product,54903.33,Plan headcount x avg salary
+2026-01-01,6010,Product,5215.82,Employer tax rate by quarter
+2026-01-01,6020,Product,3339.0,Benefits per head
+2026-01-01,6040,Product,4392.27,8% bonus target accrual
+2026-01-01,6000,Sales,114400.0,Plan headcount x avg salary
+2026-01-01,6010,Sales,10868.0,Employer tax rate by quarter
+2026-01-01,6020,Sales,10017.0,Benefits per head
+2026-01-01,6000,Marketing,64610.0,Plan headcount x avg salary
+2026-01-01,6010,Marketing,6137.95,Employer tax rate by quarter
+2026-01-01,6020,Marketing,4452.0,Benefits per head
+2026-01-01,6040,Marketing,5168.8,8% bonus target accrual
+2026-01-01,6000,Customer Success,59626.67,Plan headcount x avg salary
+2026-01-01,6010,Customer Success,5664.53,Employer tax rate by quarter
+2026-01-01,6020,Customer Success,5565.0,Benefits per head
+2026-01-01,6040,Customer Success,4770.13,8% bonus target accrual
+2026-01-01,5100,Support,32370.0,Plan headcount x avg salary
+2026-01-01,5110,Support,3075.15,Employer tax rate by quarter
+2026-01-01,5110,Support,4452.0,Benefits per head
+2026-01-01,5100,Support,2589.6,8% bonus target accrual
+2026-01-01,6000,G&A,85800.0,Plan headcount x avg salary
+2026-01-01,6010,G&A,8151.0,Employer tax rate by quarter
+2026-01-01,6020,G&A,5565.0,Benefits per head
+2026-01-01,6040,G&A,6864.0,8% bonus target accrual
+2026-01-01,6700,G&A,1500.0,Agency fee on 30% of planned hires
+2026-01-01,6200,G&A,2578.09,2025 run-rate scaled by headcount
+2026-01-01,6200,Engineering,1283.09,2025 run-rate scaled by headcount
+2026-01-01,6200,Marketing,2885.45,2025 run-rate scaled by headcount
+2026-01-01,6200,Product,188.5,2025 run-rate scaled by headcount
+2026-01-01,6200,Sales,4832.02,2025 run-rate scaled by headcount
+2026-01-01,6300,Marketing,40538.0,2025 run-rate; step-up after Series B
+2026-01-01,6100,Engineering,38000.0,Dev agency
+2026-01-01,6100,Marketing,14000.0,Content retainer
+2026-01-01,6400,Sales,5489.59,Travel scales with GTM headcount
+2026-01-01,6400,Customer Success,2764.93,Travel scales with GTM headcount
+2026-01-01,6410,G&A,1388.94,Meals scale with headcount
+2026-01-01,6410,Sales,517.91,Meals scale with headcount
+2026-01-01,6410,Customer Success,260.32,Meals scale with headcount
+2026-01-01,6720,G&A,1474.46,Office scales with headcount
+2026-01-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-01-01,6500,G&A,18000.0,Lease; new office from July
+2026-01-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-01-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-01-01,7000,,18791.67,Yield on planned cash balance
+2026-02-01,4000,,604882.14,Average plan ARR / 12
+2026-02-01,4100,,35000.0,Implementation services plan
+2026-02-01,6030,Sales,51300.0,10% of planned gross new ACV
+2026-02-01,5000,Cost of Revenue,62149.16,9.2% of subscription revenue + fixed
+2026-02-01,5200,Cost of Revenue,6506.65,Card fees scale with revenue
+2026-02-01,6900,G&A,1814.65,0.3% of revenue
+2026-02-01,6000,Engineering,313681.88,Plan headcount x avg salary
+2026-02-01,6010,Engineering,29799.78,Employer tax rate by quarter
+2026-02-01,6020,Engineering,18921.0,Benefits per head
+2026-02-01,6040,Engineering,25094.55,8% bonus target accrual
+2026-02-01,6000,Product,54903.33,Plan headcount x avg salary
+2026-02-01,6010,Product,5215.82,Employer tax rate by quarter
+2026-02-01,6020,Product,3339.0,Benefits per head
+2026-02-01,6040,Product,4392.27,8% bonus target accrual
+2026-02-01,6000,Sales,127111.11,Plan headcount x avg salary
+2026-02-01,6010,Sales,12075.56,Employer tax rate by quarter
+2026-02-01,6020,Sales,11130.0,Benefits per head
+2026-02-01,6000,Marketing,64610.0,Plan headcount x avg salary
+2026-02-01,6010,Marketing,6137.95,Employer tax rate by quarter
+2026-02-01,6020,Marketing,4452.0,Benefits per head
+2026-02-01,6040,Marketing,5168.8,8% bonus target accrual
+2026-02-01,6000,Customer Success,59626.67,Plan headcount x avg salary
+2026-02-01,6010,Customer Success,5664.53,Employer tax rate by quarter
+2026-02-01,6020,Customer Success,5565.0,Benefits per head
+2026-02-01,6040,Customer Success,4770.13,8% bonus target accrual
+2026-02-01,5100,Support,32370.0,Plan headcount x avg salary
+2026-02-01,5110,Support,3075.15,Employer tax rate by quarter
+2026-02-01,5110,Support,4452.0,Benefits per head
+2026-02-01,5100,Support,2589.6,8% bonus target accrual
+2026-02-01,6000,G&A,85800.0,Plan headcount x avg salary
+2026-02-01,6010,G&A,8151.0,Employer tax rate by quarter
+2026-02-01,6020,G&A,5565.0,Benefits per head
+2026-02-01,6040,G&A,6864.0,8% bonus target accrual
+2026-02-01,6700,G&A,22646.28,Agency fee on 30% of planned hires
+2026-02-01,6710,G&A,4800.0,Laptop per planned hire
+2026-02-01,6200,G&A,2636.57,2025 run-rate scaled by headcount
+2026-02-01,6200,Engineering,1312.19,2025 run-rate scaled by headcount
+2026-02-01,6200,Marketing,2950.91,2025 run-rate scaled by headcount
+2026-02-01,6200,Product,192.77,2025 run-rate scaled by headcount
+2026-02-01,6200,Sales,4941.63,2025 run-rate scaled by headcount
+2026-02-01,6300,Marketing,40538.0,2025 run-rate; step-up after Series B
+2026-02-01,6100,Engineering,38000.0,Dev agency
+2026-02-01,6100,Marketing,14000.0,Content retainer
+2026-02-01,6400,Sales,5680.53,Travel scales with GTM headcount
+2026-02-01,6400,Customer Success,2861.1,Travel scales with GTM headcount
+2026-02-01,6410,G&A,1449.33,Meals scale with headcount
+2026-02-01,6410,Sales,540.43,Meals scale with headcount
+2026-02-01,6410,Customer Success,271.64,Meals scale with headcount
+2026-02-01,6720,G&A,1538.57,Office scales with headcount
+2026-02-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-02-01,6500,G&A,18000.0,Lease; new office from July
+2026-02-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-02-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-02-01,7000,,18791.67,Yield on planned cash balance
+2026-03-01,4000,,636548.81,Average plan ARR / 12
+2026-03-01,4100,,35000.0,Implementation services plan
+2026-03-01,6030,Sales,51300.0,10% of planned gross new ACV
+2026-03-01,5000,Cost of Revenue,65062.49,9.2% of subscription revenue + fixed
+2026-03-01,5200,Cost of Revenue,6847.29,Card fees scale with revenue
+2026-03-01,6900,G&A,1909.65,0.3% of revenue
+2026-03-01,6000,Engineering,313681.88,Plan headcount x avg salary
+2026-03-01,6010,Engineering,29799.78,Employer tax rate by quarter
+2026-03-01,6020,Engineering,18921.0,Benefits per head
+2026-03-01,6040,Engineering,25094.55,8% bonus target accrual
+2026-03-01,6000,Product,54903.33,Plan headcount x avg salary
+2026-03-01,6010,Product,5215.82,Employer tax rate by quarter
+2026-03-01,6020,Product,3339.0,Benefits per head
+2026-03-01,6040,Product,4392.27,8% bonus target accrual
+2026-03-01,6000,Sales,127111.11,Plan headcount x avg salary
+2026-03-01,6010,Sales,12075.56,Employer tax rate by quarter
+2026-03-01,6020,Sales,11130.0,Benefits per head
+2026-03-01,6000,Marketing,64610.0,Plan headcount x avg salary
+2026-03-01,6010,Marketing,6137.95,Employer tax rate by quarter
+2026-03-01,6020,Marketing,4452.0,Benefits per head
+2026-03-01,6040,Marketing,5168.8,8% bonus target accrual
+2026-03-01,6000,Customer Success,59626.67,Plan headcount x avg salary
+2026-03-01,6010,Customer Success,5664.53,Employer tax rate by quarter
+2026-03-01,6020,Customer Success,5565.0,Benefits per head
+2026-03-01,6040,Customer Success,4770.13,8% bonus target accrual
+2026-03-01,5100,Support,32370.0,Plan headcount x avg salary
+2026-03-01,5110,Support,3075.15,Employer tax rate by quarter
+2026-03-01,5110,Support,4452.0,Benefits per head
+2026-03-01,5100,Support,2589.6,8% bonus target accrual
+2026-03-01,6000,G&A,85800.0,Plan headcount x avg salary
+2026-03-01,6010,G&A,8151.0,Employer tax rate by quarter
+2026-03-01,6020,G&A,5565.0,Benefits per head
+2026-03-01,6040,G&A,6864.0,8% bonus target accrual
+2026-03-01,6700,G&A,1500.0,Agency fee on 30% of planned hires
+2026-03-01,6200,G&A,2636.57,2025 run-rate scaled by headcount
+2026-03-01,6200,Engineering,1312.19,2025 run-rate scaled by headcount
+2026-03-01,6200,Marketing,2950.91,2025 run-rate scaled by headcount
+2026-03-01,6200,Product,192.77,2025 run-rate scaled by headcount
+2026-03-01,6200,Sales,4941.63,2025 run-rate scaled by headcount
+2026-03-01,6300,Marketing,40538.0,2025 run-rate; step-up after Series B
+2026-03-01,6310,Marketing,30000.0,Two conferences
+2026-03-01,6100,Engineering,38000.0,Dev agency
+2026-03-01,6100,Marketing,14000.0,Content retainer
+2026-03-01,6400,Sales,5680.53,Travel scales with GTM headcount
+2026-03-01,6400,Customer Success,2861.1,Travel scales with GTM headcount
+2026-03-01,6410,G&A,1449.33,Meals scale with headcount
+2026-03-01,6410,Sales,540.43,Meals scale with headcount
+2026-03-01,6410,Customer Success,271.64,Meals scale with headcount
+2026-03-01,6720,G&A,1538.57,Office scales with headcount
+2026-03-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-03-01,6500,G&A,18000.0,Lease; new office from July
+2026-03-01,6600,G&A,106500.0,Retainer run-rate + Series B financing in March
+2026-03-01,6610,G&A,9500.0,Tax returns (Mar) + FY25 audit (Apr-Jun)
+2026-03-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-03-01,6800,G&A,2500.0,DE franchise + CA min tax
+2026-03-01,7000,,18791.67,Yield on planned cash balance
+2026-04-01,4000,,669882.14,Average plan ARR / 12
+2026-04-01,4100,,35000.0,Implementation services plan
+2026-04-01,6030,Sales,56700.0,10% of planned gross new ACV
+2026-04-01,5000,Cost of Revenue,68129.16,9.2% of subscription revenue + fixed
+2026-04-01,5200,Cost of Revenue,7205.85,Card fees scale with revenue
+2026-04-01,6900,G&A,2009.65,0.3% of revenue
+2026-04-01,6000,Engineering,313681.88,Plan headcount x avg salary
+2026-04-01,6010,Engineering,24467.19,Employer tax rate by quarter
+2026-04-01,6020,Engineering,18921.0,Benefits per head
+2026-04-01,6040,Engineering,25094.55,8% bonus target accrual
+2026-04-01,6000,Product,73204.44,Plan headcount x avg salary
+2026-04-01,6010,Product,5709.95,Employer tax rate by quarter
+2026-04-01,6020,Product,4452.0,Benefits per head
+2026-04-01,6040,Product,5856.36,8% bonus target accrual
+2026-04-01,6000,Sales,127111.11,Plan headcount x avg salary
+2026-04-01,6010,Sales,9914.67,Employer tax rate by quarter
+2026-04-01,6020,Sales,11130.0,Benefits per head
+2026-04-01,6000,Marketing,64610.0,Plan headcount x avg salary
+2026-04-01,6010,Marketing,5039.58,Employer tax rate by quarter
+2026-04-01,6020,Marketing,4452.0,Benefits per head
+2026-04-01,6040,Marketing,5168.8,8% bonus target accrual
+2026-04-01,6000,Customer Success,59626.67,Plan headcount x avg salary
+2026-04-01,6010,Customer Success,4650.88,Employer tax rate by quarter
+2026-04-01,6020,Customer Success,5565.0,Benefits per head
+2026-04-01,6040,Customer Success,4770.13,8% bonus target accrual
+2026-04-01,5100,Support,32370.0,Plan headcount x avg salary
+2026-04-01,5110,Support,2524.86,Employer tax rate by quarter
+2026-04-01,5110,Support,4452.0,Benefits per head
+2026-04-01,5100,Support,2589.6,8% bonus target accrual
+2026-04-01,6000,G&A,85800.0,Plan headcount x avg salary
+2026-04-01,6010,G&A,6692.4,Employer tax rate by quarter
+2026-04-01,6020,G&A,5565.0,Benefits per head
+2026-04-01,6040,G&A,6864.0,8% bonus target accrual
+2026-04-01,6700,G&A,12073.14,Agency fee on 30% of planned hires
+2026-04-01,6710,G&A,2400.0,Laptop per planned hire
+2026-04-01,6200,G&A,2665.81,2025 run-rate scaled by headcount
+2026-04-01,6200,Engineering,1326.75,2025 run-rate scaled by headcount
+2026-04-01,6200,Marketing,2983.64,2025 run-rate scaled by headcount
+2026-04-01,6200,Product,194.91,2025 run-rate scaled by headcount
+2026-04-01,6200,Sales,4996.44,2025 run-rate scaled by headcount
+2026-04-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-04-01,6100,Engineering,38000.0,Dev agency
+2026-04-01,6100,Marketing,14000.0,Content retainer
+2026-04-01,6400,Sales,5776.0,Travel scales with GTM headcount
+2026-04-01,6400,Customer Success,2909.19,Travel scales with GTM headcount
+2026-04-01,6410,G&A,1479.52,Meals scale with headcount
+2026-04-01,6410,Sales,551.69,Meals scale with headcount
+2026-04-01,6410,Customer Success,277.3,Meals scale with headcount
+2026-04-01,6720,G&A,1570.62,Office scales with headcount
+2026-04-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-04-01,6500,G&A,18000.0,Lease; new office from July
+2026-04-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-04-01,6610,G&A,15000.0,Tax returns (Mar) + FY25 audit (Apr-Jun)
+2026-04-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-04-01,6800,G&A,800.0,DE franchise + CA min tax
+2026-04-01,7000,,112750.0,Yield on planned cash balance
+2026-05-01,4000,,704882.14,Average plan ARR / 12
+2026-05-01,4100,,35000.0,Implementation services plan
+2026-05-01,6030,Sales,56700.0,10% of planned gross new ACV
+2026-05-01,5000,Cost of Revenue,71349.16,9.2% of subscription revenue + fixed
+2026-05-01,5200,Cost of Revenue,7582.34,Card fees scale with revenue
+2026-05-01,6900,G&A,2114.65,0.3% of revenue
+2026-05-01,6000,Engineering,350585.62,Plan headcount x avg salary
+2026-05-01,6010,Engineering,27345.68,Employer tax rate by quarter
+2026-05-01,6020,Engineering,21147.0,Benefits per head
+2026-05-01,6040,Engineering,28046.85,8% bonus target accrual
+2026-05-01,6000,Product,73204.44,Plan headcount x avg salary
+2026-05-01,6010,Product,5709.95,Employer tax rate by quarter
+2026-05-01,6020,Product,4452.0,Benefits per head
+2026-05-01,6040,Product,5856.36,8% bonus target accrual
+2026-05-01,6000,Sales,139822.22,Plan headcount x avg salary
+2026-05-01,6010,Sales,10906.13,Employer tax rate by quarter
+2026-05-01,6020,Sales,12243.0,Benefits per head
+2026-05-01,6000,Marketing,80762.5,Plan headcount x avg salary
+2026-05-01,6010,Marketing,6299.48,Employer tax rate by quarter
+2026-05-01,6020,Marketing,5565.0,Benefits per head
+2026-05-01,6040,Marketing,6461.0,8% bonus target accrual
+2026-05-01,6000,Customer Success,71552.0,Plan headcount x avg salary
+2026-05-01,6010,Customer Success,5581.06,Employer tax rate by quarter
+2026-05-01,6020,Customer Success,6678.0,Benefits per head
+2026-05-01,6040,Customer Success,5724.16,8% bonus target accrual
+2026-05-01,5100,Support,32370.0,Plan headcount x avg salary
+2026-05-01,5110,Support,2524.86,Employer tax rate by quarter
+2026-05-01,5110,Support,4452.0,Benefits per head
+2026-05-01,5100,Support,2589.6,8% bonus target accrual
+2026-05-01,6000,G&A,102960.0,Plan headcount x avg salary
+2026-05-01,6010,G&A,8030.88,Employer tax rate by quarter
+2026-05-01,6020,G&A,6678.0,Benefits per head
+2026-05-01,6040,G&A,8236.8,8% bonus target accrual
+2026-05-01,6700,G&A,64938.85,Agency fee on 30% of planned hires
+2026-05-01,6710,G&A,14400.0,Laptop per planned hire
+2026-05-01,6200,G&A,2841.26,2025 run-rate scaled by headcount
+2026-05-01,6200,Engineering,1414.06,2025 run-rate scaled by headcount
+2026-05-01,6200,Marketing,3180.0,2025 run-rate scaled by headcount
+2026-05-01,6200,Product,207.74,2025 run-rate scaled by headcount
+2026-05-01,6200,Sales,5325.27,2025 run-rate scaled by headcount
+2026-05-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-05-01,6100,Engineering,38000.0,Dev agency
+2026-05-01,6100,Marketing,14000.0,Content retainer
+2026-05-01,6400,Sales,6348.82,Travel scales with GTM headcount
+2026-05-01,6400,Customer Success,3197.7,Travel scales with GTM headcount
+2026-05-01,6410,G&A,1660.69,Meals scale with headcount
+2026-05-01,6410,Sales,619.24,Meals scale with headcount
+2026-05-01,6410,Customer Success,311.25,Meals scale with headcount
+2026-05-01,6720,G&A,1762.94,Office scales with headcount
+2026-05-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-05-01,6500,G&A,18000.0,Lease; new office from July
+2026-05-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-05-01,6610,G&A,15000.0,Tax returns (Mar) + FY25 audit (Apr-Jun)
+2026-05-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-05-01,7000,,112750.0,Yield on planned cash balance
+2026-06-01,4000,,739882.14,Average plan ARR / 12
+2026-06-01,4100,,35000.0,Implementation services plan
+2026-06-01,6030,Sales,56700.0,10% of planned gross new ACV
+2026-06-01,5000,Cost of Revenue,74569.16,9.2% of subscription revenue + fixed
+2026-06-01,5200,Cost of Revenue,7958.83,Card fees scale with revenue
+2026-06-01,6900,G&A,2219.65,0.3% of revenue
+2026-06-01,6000,Engineering,369037.5,Plan headcount x avg salary
+2026-06-01,6010,Engineering,28784.92,Employer tax rate by quarter
+2026-06-01,6020,Engineering,22260.0,Benefits per head
+2026-06-01,6040,Engineering,29523.0,8% bonus target accrual
+2026-06-01,6000,Product,73204.44,Plan headcount x avg salary
+2026-06-01,6010,Product,5709.95,Employer tax rate by quarter
+2026-06-01,6020,Product,4452.0,Benefits per head
+2026-06-01,6040,Product,5856.36,8% bonus target accrual
+2026-06-01,6000,Sales,152533.33,Plan headcount x avg salary
+2026-06-01,6010,Sales,11897.6,Employer tax rate by quarter
+2026-06-01,6020,Sales,13356.0,Benefits per head
+2026-06-01,6000,Marketing,96915.0,Plan headcount x avg salary
+2026-06-01,6010,Marketing,7559.37,Employer tax rate by quarter
+2026-06-01,6020,Marketing,6678.0,Benefits per head
+2026-06-01,6040,Marketing,7753.2,8% bonus target accrual
+2026-06-01,6000,Customer Success,71552.0,Plan headcount x avg salary
+2026-06-01,6010,Customer Success,5581.06,Employer tax rate by quarter
+2026-06-01,6020,Customer Success,6678.0,Benefits per head
+2026-06-01,6040,Customer Success,5724.16,8% bonus target accrual
+2026-06-01,5100,Support,32370.0,Plan headcount x avg salary
+2026-06-01,5110,Support,2524.86,Employer tax rate by quarter
+2026-06-01,5110,Support,4452.0,Benefits per head
+2026-06-01,5100,Support,2589.6,8% bonus target accrual
+2026-06-01,6000,G&A,102960.0,Plan headcount x avg salary
+2026-06-01,6010,G&A,8030.88,Employer tax rate by quarter
+2026-06-01,6020,G&A,6678.0,Benefits per head
+2026-06-01,6040,G&A,8236.8,8% bonus target accrual
+2026-06-01,6700,G&A,33219.42,Agency fee on 30% of planned hires
+2026-06-01,6710,G&A,7200.0,Laptop per planned hire
+2026-06-01,6200,G&A,2928.98,2025 run-rate scaled by headcount
+2026-06-01,6200,Engineering,1457.72,2025 run-rate scaled by headcount
+2026-06-01,6200,Marketing,3278.18,2025 run-rate scaled by headcount
+2026-06-01,6200,Product,214.15,2025 run-rate scaled by headcount
+2026-06-01,6200,Sales,5489.69,2025 run-rate scaled by headcount
+2026-06-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-06-01,6100,Engineering,38000.0,Dev agency
+2026-06-01,6100,Marketing,14000.0,Content retainer
+2026-06-01,6400,Sales,6635.24,Travel scales with GTM headcount
+2026-06-01,6400,Customer Success,3341.96,Travel scales with GTM headcount
+2026-06-01,6410,G&A,1751.27,Meals scale with headcount
+2026-06-01,6410,Sales,653.02,Meals scale with headcount
+2026-06-01,6410,Customer Success,328.23,Meals scale with headcount
+2026-06-01,6720,G&A,1859.1,Office scales with headcount
+2026-06-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-06-01,6500,G&A,18000.0,Lease; new office from July
+2026-06-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-06-01,6610,G&A,15000.0,Tax returns (Mar) + FY25 audit (Apr-Jun)
+2026-06-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-06-01,7000,,112750.0,Yield on planned cash balance
+2026-07-01,4000,,780715.48,Average plan ARR / 12
+2026-07-01,4100,,35000.0,Implementation services plan
+2026-07-01,6030,Sales,75600.0,10% of planned gross new ACV
+2026-07-01,5000,Cost of Revenue,78325.82,9.2% of subscription revenue + fixed
+2026-07-01,5200,Cost of Revenue,8398.07,Card fees scale with revenue
+2026-07-01,6900,G&A,2342.15,0.3% of revenue
+2026-07-01,6000,Engineering,387489.38,Plan headcount x avg salary
+2026-07-01,6010,Engineering,26349.28,Employer tax rate by quarter
+2026-07-01,6020,Engineering,23373.0,Benefits per head
+2026-07-01,6040,Engineering,30999.15,8% bonus target accrual
+2026-07-01,6000,Product,91505.56,Plan headcount x avg salary
+2026-07-01,6010,Product,6222.38,Employer tax rate by quarter
+2026-07-01,6020,Product,5565.0,Benefits per head
+2026-07-01,6040,Product,7320.44,8% bonus target accrual
+2026-07-01,6000,Sales,177955.56,Plan headcount x avg salary
+2026-07-01,6010,Sales,12100.98,Employer tax rate by quarter
+2026-07-01,6020,Sales,15582.0,Benefits per head
+2026-07-01,6000,Marketing,96915.0,Plan headcount x avg salary
+2026-07-01,6010,Marketing,6590.22,Employer tax rate by quarter
+2026-07-01,6020,Marketing,6678.0,Benefits per head
+2026-07-01,6040,Marketing,7753.2,8% bonus target accrual
+2026-07-01,6000,Customer Success,71552.0,Plan headcount x avg salary
+2026-07-01,6010,Customer Success,4865.54,Employer tax rate by quarter
+2026-07-01,6020,Customer Success,6678.0,Benefits per head
+2026-07-01,6040,Customer Success,5724.16,8% bonus target accrual
+2026-07-01,5100,Support,40462.5,Plan headcount x avg salary
+2026-07-01,5110,Support,2751.45,Employer tax rate by quarter
+2026-07-01,5110,Support,5565.0,Benefits per head
+2026-07-01,5100,Support,3237.0,8% bonus target accrual
+2026-07-01,6000,G&A,102960.0,Plan headcount x avg salary
+2026-07-01,6010,G&A,7001.28,Employer tax rate by quarter
+2026-07-01,6020,G&A,6678.0,Benefits per head
+2026-07-01,6040,G&A,8236.8,8% bonus target accrual
+2026-07-01,6700,G&A,54365.71,Agency fee on 30% of planned hires
+2026-07-01,6710,G&A,12000.0,Laptop per planned hire
+2026-07-01,6200,G&A,3075.18,2025 run-rate scaled by headcount
+2026-07-01,6200,Engineering,1530.49,2025 run-rate scaled by headcount
+2026-07-01,6200,Marketing,3441.82,2025 run-rate scaled by headcount
+2026-07-01,6200,Product,224.84,2025 run-rate scaled by headcount
+2026-07-01,6200,Sales,5763.72,2025 run-rate scaled by headcount
+2026-07-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-07-01,6100,Engineering,25000.0,Dev agency
+2026-07-01,6100,Marketing,14000.0,Content retainer
+2026-07-01,6400,Sales,7112.59,Travel scales with GTM headcount
+2026-07-01,6400,Customer Success,3582.39,Travel scales with GTM headcount
+2026-07-01,6410,G&A,1902.24,Meals scale with headcount
+2026-07-01,6410,Sales,709.31,Meals scale with headcount
+2026-07-01,6410,Customer Success,356.53,Meals scale with headcount
+2026-07-01,6720,G&A,2019.37,Office scales with headcount
+2026-07-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-07-01,6500,G&A,40000.0,Lease; new office from July
+2026-07-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-07-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-07-01,7000,,112750.0,Yield on planned cash balance
+2026-08-01,4000,,827382.14,Average plan ARR / 12
+2026-08-01,4100,,35000.0,Implementation services plan
+2026-08-01,6030,Sales,75600.0,10% of planned gross new ACV
+2026-08-01,5000,Cost of Revenue,82619.16,9.2% of subscription revenue + fixed
+2026-08-01,5200,Cost of Revenue,8900.06,Card fees scale with revenue
+2026-08-01,6900,G&A,2482.15,0.3% of revenue
+2026-08-01,6000,Engineering,424393.12,Plan headcount x avg salary
+2026-08-01,6010,Engineering,28858.73,Employer tax rate by quarter
+2026-08-01,6020,Engineering,25599.0,Benefits per head
+2026-08-01,6040,Engineering,33951.45,8% bonus target accrual
+2026-08-01,6000,Product,109806.67,Plan headcount x avg salary
+2026-08-01,6010,Product,7466.85,Employer tax rate by quarter
+2026-08-01,6020,Product,6678.0,Benefits per head
+2026-08-01,6040,Product,8784.53,8% bonus target accrual
+2026-08-01,6000,Sales,190666.67,Plan headcount x avg salary
+2026-08-01,6010,Sales,12965.33,Employer tax rate by quarter
+2026-08-01,6020,Sales,16695.0,Benefits per head
+2026-08-01,6000,Marketing,96915.0,Plan headcount x avg salary
+2026-08-01,6010,Marketing,6590.22,Employer tax rate by quarter
+2026-08-01,6020,Marketing,6678.0,Benefits per head
+2026-08-01,6040,Marketing,7753.2,8% bonus target accrual
+2026-08-01,6000,Customer Success,83477.33,Plan headcount x avg salary
+2026-08-01,6010,Customer Success,5676.46,Employer tax rate by quarter
+2026-08-01,6020,Customer Success,7791.0,Benefits per head
+2026-08-01,6040,Customer Success,6678.19,8% bonus target accrual
+2026-08-01,5100,Support,40462.5,Plan headcount x avg salary
+2026-08-01,5110,Support,2751.45,Employer tax rate by quarter
+2026-08-01,5110,Support,5565.0,Benefits per head
+2026-08-01,5100,Support,3237.0,8% bonus target accrual
+2026-08-01,6000,G&A,120120.0,Plan headcount x avg salary
+2026-08-01,6010,G&A,8168.16,Employer tax rate by quarter
+2026-08-01,6020,G&A,7791.0,Benefits per head
+2026-08-01,6040,G&A,9609.6,8% bonus target accrual
+2026-08-01,6700,G&A,64938.85,Agency fee on 30% of planned hires
+2026-08-01,6710,G&A,14400.0,Laptop per planned hire
+2026-08-01,6200,G&A,3250.63,2025 run-rate scaled by headcount
+2026-08-01,6200,Engineering,1617.8,2025 run-rate scaled by headcount
+2026-08-01,6200,Marketing,3638.18,2025 run-rate scaled by headcount
+2026-08-01,6200,Product,237.67,2025 run-rate scaled by headcount
+2026-08-01,6200,Sales,6092.55,2025 run-rate scaled by headcount
+2026-08-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-08-01,6100,Engineering,25000.0,Dev agency
+2026-08-01,6100,Marketing,14000.0,Content retainer
+2026-08-01,6400,Sales,7685.42,Travel scales with GTM headcount
+2026-08-01,6400,Customer Success,3870.91,Travel scales with GTM headcount
+2026-08-01,6410,G&A,2083.41,Meals scale with headcount
+2026-08-01,6410,Sales,776.86,Meals scale with headcount
+2026-08-01,6410,Customer Success,390.48,Meals scale with headcount
+2026-08-01,6720,G&A,2211.69,Office scales with headcount
+2026-08-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-08-01,6500,G&A,40000.0,Lease; new office from July
+2026-08-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-08-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-08-01,6950,G&A,2500.0,Buildout $150k over 5 years
+2026-08-01,7000,,112750.0,Yield on planned cash balance
+2026-09-01,4000,,874048.81,Average plan ARR / 12
+2026-09-01,4100,,35000.0,Implementation services plan
+2026-09-01,6030,Sales,75600.0,10% of planned gross new ACV
+2026-09-01,5000,Cost of Revenue,86912.49,9.2% of subscription revenue + fixed
+2026-09-01,5200,Cost of Revenue,9402.05,Card fees scale with revenue
+2026-09-01,6900,G&A,2622.15,0.3% of revenue
+2026-09-01,6000,Engineering,442845.0,Plan headcount x avg salary
+2026-09-01,6010,Engineering,30113.46,Employer tax rate by quarter
+2026-09-01,6020,Engineering,26712.0,Benefits per head
+2026-09-01,6040,Engineering,35427.6,8% bonus target accrual
+2026-09-01,6000,Product,109806.67,Plan headcount x avg salary
+2026-09-01,6010,Product,7466.85,Employer tax rate by quarter
+2026-09-01,6020,Product,6678.0,Benefits per head
+2026-09-01,6040,Product,8784.53,8% bonus target accrual
+2026-09-01,6000,Sales,203377.78,Plan headcount x avg salary
+2026-09-01,6010,Sales,13829.69,Employer tax rate by quarter
+2026-09-01,6020,Sales,17808.0,Benefits per head
+2026-09-01,6000,Marketing,113067.5,Plan headcount x avg salary
+2026-09-01,6010,Marketing,7688.59,Employer tax rate by quarter
+2026-09-01,6020,Marketing,7791.0,Benefits per head
+2026-09-01,6040,Marketing,9045.4,8% bonus target accrual
+2026-09-01,6000,Customer Success,83477.33,Plan headcount x avg salary
+2026-09-01,6010,Customer Success,5676.46,Employer tax rate by quarter
+2026-09-01,6020,Customer Success,7791.0,Benefits per head
+2026-09-01,6040,Customer Success,6678.19,8% bonus target accrual
+2026-09-01,5100,Support,40462.5,Plan headcount x avg salary
+2026-09-01,5110,Support,2751.45,Employer tax rate by quarter
+2026-09-01,5110,Support,5565.0,Benefits per head
+2026-09-01,5100,Support,3237.0,8% bonus target accrual
+2026-09-01,6000,G&A,120120.0,Plan headcount x avg salary
+2026-09-01,6010,G&A,8168.16,Employer tax rate by quarter
+2026-09-01,6020,G&A,7791.0,Benefits per head
+2026-09-01,6040,G&A,9609.6,8% bonus target accrual
+2026-09-01,6700,G&A,33219.42,Agency fee on 30% of planned hires
+2026-09-01,6710,G&A,7200.0,Laptop per planned hire
+2026-09-01,6200,G&A,3338.35,2025 run-rate scaled by headcount
+2026-09-01,6200,Engineering,1661.46,2025 run-rate scaled by headcount
+2026-09-01,6200,Marketing,3736.36,2025 run-rate scaled by headcount
+2026-09-01,6200,Product,244.08,2025 run-rate scaled by headcount
+2026-09-01,6200,Sales,6256.97,2025 run-rate scaled by headcount
+2026-09-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-09-01,6310,Marketing,45000.0,Two conferences
+2026-09-01,6100,Engineering,25000.0,Dev agency
+2026-09-01,6100,Marketing,14000.0,Content retainer
+2026-09-01,6400,Sales,7971.83,Travel scales with GTM headcount
+2026-09-01,6400,Customer Success,4015.16,Travel scales with GTM headcount
+2026-09-01,6410,G&A,2173.99,Meals scale with headcount
+2026-09-01,6410,Sales,810.64,Meals scale with headcount
+2026-09-01,6410,Customer Success,407.46,Meals scale with headcount
+2026-09-01,6720,G&A,2307.85,Office scales with headcount
+2026-09-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-09-01,6500,G&A,40000.0,Lease; new office from July
+2026-09-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-09-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-09-01,6950,G&A,2500.0,Buildout $150k over 5 years
+2026-09-01,7000,,112750.0,Yield on planned cash balance
+2026-10-01,4000,,923215.48,Average plan ARR / 12
+2026-10-01,4100,,35000.0,Implementation services plan
+2026-10-01,6030,Sales,83700.0,10% of planned gross new ACV
+2026-10-01,5000,Cost of Revenue,91435.82,9.2% of subscription revenue + fixed
+2026-10-01,5200,Cost of Revenue,9930.93,Card fees scale with revenue
+2026-10-01,6900,G&A,2769.65,0.3% of revenue
+2026-10-01,6000,Engineering,461296.88,Plan headcount x avg salary
+2026-10-01,6010,Engineering,26755.22,Employer tax rate by quarter
+2026-10-01,6020,Engineering,27825.0,Benefits per head
+2026-10-01,6040,Engineering,36903.75,8% bonus target accrual
+2026-10-01,6000,Product,109806.67,Plan headcount x avg salary
+2026-10-01,6010,Product,6368.79,Employer tax rate by quarter
+2026-10-01,6020,Product,6678.0,Benefits per head
+2026-10-01,6040,Product,8784.53,8% bonus target accrual
+2026-10-01,6000,Sales,216088.89,Plan headcount x avg salary
+2026-10-01,6010,Sales,12533.16,Employer tax rate by quarter
+2026-10-01,6020,Sales,18921.0,Benefits per head
+2026-10-01,6000,Marketing,113067.5,Plan headcount x avg salary
+2026-10-01,6010,Marketing,6557.91,Employer tax rate by quarter
+2026-10-01,6020,Marketing,7791.0,Benefits per head
+2026-10-01,6040,Marketing,9045.4,8% bonus target accrual
+2026-10-01,6000,Customer Success,83477.33,Plan headcount x avg salary
+2026-10-01,6010,Customer Success,4841.69,Employer tax rate by quarter
+2026-10-01,6020,Customer Success,7791.0,Benefits per head
+2026-10-01,6040,Customer Success,6678.19,8% bonus target accrual
+2026-10-01,5100,Support,40462.5,Plan headcount x avg salary
+2026-10-01,5110,Support,2346.83,Employer tax rate by quarter
+2026-10-01,5110,Support,5565.0,Benefits per head
+2026-10-01,5100,Support,3237.0,8% bonus target accrual
+2026-10-01,6000,G&A,120120.0,Plan headcount x avg salary
+2026-10-01,6010,G&A,6966.96,Employer tax rate by quarter
+2026-10-01,6020,G&A,7791.0,Benefits per head
+2026-10-01,6040,G&A,9609.6,8% bonus target accrual
+2026-10-01,6700,G&A,22646.28,Agency fee on 30% of planned hires
+2026-10-01,6710,G&A,4800.0,Laptop per planned hire
+2026-10-01,6200,G&A,3396.84,2025 run-rate scaled by headcount
+2026-10-01,6200,Engineering,1690.57,2025 run-rate scaled by headcount
+2026-10-01,6200,Marketing,3801.82,2025 run-rate scaled by headcount
+2026-10-01,6200,Product,248.36,2025 run-rate scaled by headcount
+2026-10-01,6200,Sales,6366.58,2025 run-rate scaled by headcount
+2026-10-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-10-01,6100,Engineering,25000.0,Dev agency
+2026-10-01,6100,Marketing,14000.0,Content retainer
+2026-10-01,6400,Sales,8162.77,Travel scales with GTM headcount
+2026-10-01,6400,Customer Success,4111.33,Travel scales with GTM headcount
+2026-10-01,6410,G&A,2234.38,Meals scale with headcount
+2026-10-01,6410,Sales,833.16,Meals scale with headcount
+2026-10-01,6410,Customer Success,418.78,Meals scale with headcount
+2026-10-01,6720,G&A,2371.96,Office scales with headcount
+2026-10-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-10-01,6500,G&A,40000.0,Lease; new office from July
+2026-10-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-10-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-10-01,6950,G&A,2500.0,Buildout $150k over 5 years
+2026-10-01,7000,,112750.0,Yield on planned cash balance
+2026-11-01,4000,,974882.14,Average plan ARR / 12
+2026-11-01,4100,,35000.0,Implementation services plan
+2026-11-01,6030,Sales,83700.0,10% of planned gross new ACV
+2026-11-01,5000,Cost of Revenue,96189.16,9.2% of subscription revenue + fixed
+2026-11-01,5200,Cost of Revenue,10486.7,Card fees scale with revenue
+2026-11-01,6900,G&A,2924.65,0.3% of revenue
+2026-11-01,6000,Engineering,479748.75,Plan headcount x avg salary
+2026-11-01,6010,Engineering,27825.43,Employer tax rate by quarter
+2026-11-01,6020,Engineering,28938.0,Benefits per head
+2026-11-01,6040,Engineering,38379.9,8% bonus target accrual
+2026-11-01,6000,Product,109806.67,Plan headcount x avg salary
+2026-11-01,6010,Product,6368.79,Employer tax rate by quarter
+2026-11-01,6020,Product,6678.0,Benefits per head
+2026-11-01,6040,Product,8784.53,8% bonus target accrual
+2026-11-01,6000,Sales,228800.0,Plan headcount x avg salary
+2026-11-01,6010,Sales,13270.4,Employer tax rate by quarter
+2026-11-01,6020,Sales,20034.0,Benefits per head
+2026-11-01,6000,Marketing,113067.5,Plan headcount x avg salary
+2026-11-01,6010,Marketing,6557.91,Employer tax rate by quarter
+2026-11-01,6020,Marketing,7791.0,Benefits per head
+2026-11-01,6040,Marketing,9045.4,8% bonus target accrual
+2026-11-01,6000,Customer Success,83477.33,Plan headcount x avg salary
+2026-11-01,6010,Customer Success,4841.69,Employer tax rate by quarter
+2026-11-01,6020,Customer Success,7791.0,Benefits per head
+2026-11-01,6040,Customer Success,6678.19,8% bonus target accrual
+2026-11-01,5100,Support,40462.5,Plan headcount x avg salary
+2026-11-01,5110,Support,2346.83,Employer tax rate by quarter
+2026-11-01,5110,Support,5565.0,Benefits per head
+2026-11-01,5100,Support,3237.0,8% bonus target accrual
+2026-11-01,6000,G&A,120120.0,Plan headcount x avg salary
+2026-11-01,6010,G&A,6966.96,Employer tax rate by quarter
+2026-11-01,6020,G&A,7791.0,Benefits per head
+2026-11-01,6040,G&A,9609.6,8% bonus target accrual
+2026-11-01,6700,G&A,22646.28,Agency fee on 30% of planned hires
+2026-11-01,6710,G&A,4800.0,Laptop per planned hire
+2026-11-01,6200,G&A,3455.32,2025 run-rate scaled by headcount
+2026-11-01,6200,Engineering,1719.68,2025 run-rate scaled by headcount
+2026-11-01,6200,Marketing,3867.27,2025 run-rate scaled by headcount
+2026-11-01,6200,Product,252.63,2025 run-rate scaled by headcount
+2026-11-01,6200,Sales,6476.19,2025 run-rate scaled by headcount
+2026-11-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-11-01,6100,Engineering,25000.0,Dev agency
+2026-11-01,6100,Marketing,14000.0,Content retainer
+2026-11-01,6400,Sales,8353.72,Travel scales with GTM headcount
+2026-11-01,6400,Customer Success,4207.51,Travel scales with GTM headcount
+2026-11-01,6410,G&A,2294.77,Meals scale with headcount
+2026-11-01,6410,Sales,855.68,Meals scale with headcount
+2026-11-01,6410,Customer Success,430.1,Meals scale with headcount
+2026-11-01,6720,G&A,2436.06,Office scales with headcount
+2026-11-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-11-01,6500,G&A,40000.0,Lease; new office from July
+2026-11-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-11-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-11-01,6950,G&A,2500.0,Buildout $150k over 5 years
+2026-11-01,7000,,112750.0,Yield on planned cash balance
+2026-12-01,4000,,1026548.81,Average plan ARR / 12
+2026-12-01,4100,,35000.0,Implementation services plan
+2026-12-01,6030,Sales,83700.0,10% of planned gross new ACV
+2026-12-01,5000,Cost of Revenue,100942.49,9.2% of subscription revenue + fixed
+2026-12-01,5200,Cost of Revenue,11042.48,Card fees scale with revenue
+2026-12-01,6900,G&A,3079.65,0.3% of revenue
+2026-12-01,6000,Engineering,498200.62,Plan headcount x avg salary
+2026-12-01,6010,Engineering,28895.64,Employer tax rate by quarter
+2026-12-01,6020,Engineering,30051.0,Benefits per head
+2026-12-01,6040,Engineering,39856.05,8% bonus target accrual
+2026-12-01,6000,Product,109806.67,Plan headcount x avg salary
+2026-12-01,6010,Product,6368.79,Employer tax rate by quarter
+2026-12-01,6020,Product,6678.0,Benefits per head
+2026-12-01,6040,Product,8784.53,8% bonus target accrual
+2026-12-01,6000,Sales,241511.11,Plan headcount x avg salary
+2026-12-01,6010,Sales,14007.64,Employer tax rate by quarter
+2026-12-01,6020,Sales,21147.0,Benefits per head
+2026-12-01,6000,Marketing,113067.5,Plan headcount x avg salary
+2026-12-01,6010,Marketing,6557.91,Employer tax rate by quarter
+2026-12-01,6020,Marketing,7791.0,Benefits per head
+2026-12-01,6040,Marketing,9045.4,8% bonus target accrual
+2026-12-01,6000,Customer Success,83477.33,Plan headcount x avg salary
+2026-12-01,6010,Customer Success,4841.69,Employer tax rate by quarter
+2026-12-01,6020,Customer Success,7791.0,Benefits per head
+2026-12-01,6040,Customer Success,6678.19,8% bonus target accrual
+2026-12-01,5100,Support,40462.5,Plan headcount x avg salary
+2026-12-01,5110,Support,2346.83,Employer tax rate by quarter
+2026-12-01,5110,Support,5565.0,Benefits per head
+2026-12-01,5100,Support,3237.0,8% bonus target accrual
+2026-12-01,6000,G&A,120120.0,Plan headcount x avg salary
+2026-12-01,6010,G&A,6966.96,Employer tax rate by quarter
+2026-12-01,6020,G&A,7791.0,Benefits per head
+2026-12-01,6040,G&A,9609.6,8% bonus target accrual
+2026-12-01,6700,G&A,22646.28,Agency fee on 30% of planned hires
+2026-12-01,6710,G&A,4800.0,Laptop per planned hire
+2026-12-01,6200,G&A,3513.8,2025 run-rate scaled by headcount
+2026-12-01,6200,Engineering,1748.78,2025 run-rate scaled by headcount
+2026-12-01,6200,Marketing,3932.73,2025 run-rate scaled by headcount
+2026-12-01,6200,Product,256.91,2025 run-rate scaled by headcount
+2026-12-01,6200,Sales,6585.8,2025 run-rate scaled by headcount
+2026-12-01,6300,Marketing,55131.68,2025 run-rate; step-up after Series B
+2026-12-01,6100,Engineering,25000.0,Dev agency
+2026-12-01,6100,Marketing,14000.0,Content retainer
+2026-12-01,6400,Sales,8544.66,Travel scales with GTM headcount
+2026-12-01,6400,Customer Success,4303.68,Travel scales with GTM headcount
+2026-12-01,6410,G&A,2355.16,Meals scale with headcount
+2026-12-01,6410,Sales,878.19,Meals scale with headcount
+2026-12-01,6410,Customer Success,441.42,Meals scale with headcount
+2026-12-01,6720,G&A,2500.17,Office scales with headcount
+2026-12-01,6850,G&A,774.98,2025 run-rate + 20%
+2026-12-01,6500,G&A,40000.0,Lease; new office from July
+2026-12-01,6600,G&A,6500.0,Retainer run-rate + Series B financing in March
+2026-12-01,6620,G&A,4583.33,2026 insurance premium amortized
+2026-12-01,6950,G&A,2500.0,Buildout $150k over 5 years
+2026-12-01,7000,,112750.0,Yield on planned cash balance

@@ -1,0 +1,16 @@
+assumption,value
+built_on,"""2025-12-12"""
+approved_by_board,"""2025-12-18"""
+series_b_close_assumed,"""2026-03-31"""
+december_2025_net_new_arr_forecast,400000
+net_new_arr_by_quarter,"{""1"": 380000, ""2"": 420000, ""3"": 560000, ""4"": 620000}"
+gross_to_net_new_bookings,1.35
+services_revenue_monthly,35000
+hosting_pct_of_subscription,0.092
+hosting_fixed_monthly,6500
+payroll_tax_rate_by_quarter,"{""1"": 0.095, ""2"": 0.078, ""3"": 0.068, ""4"": 0.058}"
+benefits_per_head_month,1113
+agency_recruiting_share_of_hires,0.3
+new_office_move_in,"""2026-07-01"""
+new_office_rent,40000
+headcount_plan_end,"{""Engineering"": 24, ""Product"": 6, ""Sales"": 16, ""Marketing"": 7, ""Customer Success"": 7, ""Support"": 5, ""G&A"": 7}"

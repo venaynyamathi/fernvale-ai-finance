@@ -1,0 +1,325 @@
+bill_id,vendor_id,vendor_name,invoice_number,invoice_date,received_date,due_date,service_period_start,service_period_end,amount,category,department,status,paid_date,memo
+BILL-00002,V024,Harbor Point Properties LLC (fictional),HPP-202201,2022-01-01,2022-01-03,2022-01-01,2022-01-01,2022-01-31,9500.0,Rent,G&A,paid,2022-01-03,Office rent January 2022
+BILL-00004,V029,Bluepine Health Plans (fictional),BLU-2201424,2022-01-01,2022-01-02,2022-01-01,2022-01-01,2022-01-31,0.0,Benefits,Allocated,paid,2022-01-03,Medical/dental/vision premiums January 2022 (0 enrolled)
+BILL-00006,V024,Harbor Point Properties LLC (fictional),HPP-202202,2022-02-01,2022-02-01,2022-02-01,2022-02-01,2022-02-28,9500.0,Rent,G&A,paid,2022-02-01,Office rent February 2022
+BILL-00008,V028,Keystone Mutual Insurance (fictional),KEY-2202480,2022-02-01,2022-02-01,2022-03-03,2022-02-01,2023-01-31,9000.0,Insurance,G&A,paid,2022-03-03,"D&O, E&O/Cyber and general liability annual premium"
+BILL-00009,V029,Bluepine Health Plans (fictional),BLU-2202470,2022-02-01,2022-02-02,2022-02-01,2022-02-01,2022-02-28,6300.0,Benefits,Allocated,paid,2022-02-01,Medical/dental/vision premiums February 2022 (6 enrolled)
+BILL-00001,V001,Amazon Web Services,EUINUS22018578,2022-02-02,2022-02-04,2022-02-17,2022-01-01,2022-01-31,3105.62,Hosting,COGS,paid,2022-02-17,AWS usage January 2022
+BILL-00003,V026,Marlow & Pierce LLP (fictional),INV-1502,2022-02-11,2022-02-11,2022-03-13,2022-01-01,2022-01-31,4249.17,Legal,G&A,paid,2022-03-11,Legal services January 2022
+BILL-00011,V024,Harbor Point Properties LLC (fictional),HPP-202203,2022-03-01,2022-03-01,2022-03-01,2022-03-01,2022-03-31,9500.0,Rent,G&A,paid,2022-03-01,Office rent March 2022
+BILL-00013,V029,Bluepine Health Plans (fictional),BLU-2203454,2022-03-01,2022-03-01,2022-03-01,2022-03-01,2022-03-31,8400.0,Benefits,Allocated,paid,2022-03-01,Medical/dental/vision premiums March 2022 (8 enrolled)
+BILL-00005,V001,Amazon Web Services,EUINUS22026427,2022-03-02,2022-03-02,2022-03-17,2022-02-01,2022-02-28,3367.56,Hosting,COGS,paid,2022-03-17,AWS usage February 2022
+BILL-00007,V026,Marlow & Pierce LLP (fictional),INV-1506,2022-03-11,2022-03-13,2022-04-10,2022-02-01,2022-02-28,6311.67,Legal,G&A,paid,2022-04-19,Legal services February 2022
+BILL-00015,V024,Harbor Point Properties LLC (fictional),HPP-202204,2022-04-01,2022-04-03,2022-04-01,2022-04-01,2022-04-30,9500.0,Rent,G&A,paid,2022-04-01,Office rent April 2022
+BILL-00017,V029,Bluepine Health Plans (fictional),BLU-2204579,2022-04-01,2022-04-02,2022-04-01,2022-04-01,2022-04-30,9450.0,Benefits,Allocated,paid,2022-04-01,Medical/dental/vision premiums April 2022 (9 enrolled)
+BILL-00010,V001,Amazon Web Services,EUINUS22037686,2022-04-04,2022-04-06,2022-04-19,2022-03-01,2022-03-31,3458.24,Hosting,COGS,paid,2022-04-19,AWS usage March 2022
+BILL-00012,V026,Marlow & Pierce LLP (fictional),INV-1511,2022-04-11,2022-04-11,2022-05-11,2022-03-01,2022-03-31,4606.71,Legal,G&A,paid,2022-05-11,Legal services March 2022
+BILL-00019,V024,Harbor Point Properties LLC (fictional),HPP-202205,2022-05-01,2022-05-03,2022-05-01,2022-05-01,2022-05-31,9500.0,Rent,G&A,paid,2022-05-02,Office rent May 2022
+BILL-00021,V029,Bluepine Health Plans (fictional),BLU-2205696,2022-05-01,2022-05-01,2022-05-01,2022-05-01,2022-05-31,9450.0,Benefits,Allocated,paid,2022-05-02,Medical/dental/vision premiums May 2022 (9 enrolled)
+BILL-00014,V001,Amazon Web Services,EUINUS22049157,2022-05-02,2022-05-02,2022-05-17,2022-04-01,2022-04-30,3560.58,Hosting,COGS,paid,2022-05-17,AWS usage April 2022
+BILL-00016,V026,Marlow & Pierce LLP (fictional),INV-1515,2022-05-08,2022-05-09,2022-06-07,2022-04-01,2022-04-30,5387.43,Legal,G&A,paid,2022-06-17,Legal services April 2022
+BILL-00023,V024,Harbor Point Properties LLC (fictional),HPP-202206,2022-06-01,2022-06-03,2022-06-01,2022-06-01,2022-06-30,9500.0,Rent,G&A,paid,2022-06-01,Office rent June 2022
+BILL-00025,V029,Bluepine Health Plans (fictional),BLU-2206288,2022-06-01,2022-06-03,2022-06-01,2022-06-01,2022-06-30,9450.0,Benefits,Allocated,paid,2022-06-07,Medical/dental/vision premiums June 2022 (9 enrolled)
+BILL-00018,V001,Amazon Web Services,EUINUS22059707,2022-06-02,2022-06-03,2022-06-17,2022-05-01,2022-05-31,3383.13,Hosting,COGS,paid,2022-06-17,AWS usage May 2022
+BILL-00020,V026,Marlow & Pierce LLP (fictional),INV-1519,2022-06-07,2022-06-07,2022-07-07,2022-05-01,2022-05-31,5529.12,Legal,G&A,paid,2022-07-07,Legal services May 2022
+BILL-00027,V024,Harbor Point Properties LLC (fictional),HPP-202207,2022-07-01,2022-07-01,2022-07-01,2022-07-01,2022-07-31,9500.0,Rent,G&A,paid,2022-07-01,Office rent July 2022
+BILL-00029,V029,Bluepine Health Plans (fictional),BLU-2207238,2022-07-01,2022-07-01,2022-07-01,2022-07-01,2022-07-31,9450.0,Benefits,Allocated,paid,2022-07-01,Medical/dental/vision premiums July 2022 (9 enrolled)
+BILL-00022,V001,Amazon Web Services,EUINUS22068014,2022-07-04,2022-07-06,2022-07-19,2022-06-01,2022-06-30,4189.03,Hosting,COGS,paid,2022-07-19,AWS usage June 2022
+BILL-00024,V026,Marlow & Pierce LLP (fictional),INV-1523,2022-07-09,2022-07-11,2022-08-08,2022-06-01,2022-06-30,5152.77,Legal,G&A,paid,2022-08-25,Legal services June 2022
+BILL-00031,V024,Harbor Point Properties LLC (fictional),HPP-202208,2022-08-01,2022-08-03,2022-08-01,2022-08-01,2022-08-31,9500.0,Rent,G&A,paid,2022-08-01,Office rent August 2022
+BILL-00033,V029,Bluepine Health Plans (fictional),BLU-2208417,2022-08-01,2022-08-01,2022-08-01,2022-08-01,2022-08-31,9450.0,Benefits,Allocated,paid,2022-08-01,Medical/dental/vision premiums August 2022 (9 enrolled)
+BILL-00026,V001,Amazon Web Services,EUINUS22073725,2022-08-02,2022-08-04,2022-08-17,2022-07-01,2022-07-31,5076.54,Hosting,COGS,paid,2022-08-17,AWS usage July 2022
+BILL-00028,V026,Marlow & Pierce LLP (fictional),INV-1527,2022-08-09,2022-08-10,2022-09-08,2022-07-01,2022-07-31,3547.66,Legal,G&A,paid,2022-09-08,Legal services July 2022
+BILL-00036,V024,Harbor Point Properties LLC (fictional),HPP-202209,2022-09-01,2022-09-03,2022-09-01,2022-09-01,2022-09-30,9500.0,Rent,G&A,paid,2022-09-01,Office rent September 2022
+BILL-00038,V029,Bluepine Health Plans (fictional),BLU-2209495,2022-09-01,2022-09-03,2022-09-01,2022-09-01,2022-09-30,9450.0,Benefits,Allocated,paid,2022-09-01,Medical/dental/vision premiums September 2022 (9 enrolled)
+BILL-00030,V001,Amazon Web Services,EUINUS22082511,2022-09-02,2022-09-02,2022-09-17,2022-08-01,2022-08-31,5702.86,Hosting,COGS,paid,2022-09-16,AWS usage August 2022
+BILL-00032,V026,Marlow & Pierce LLP (fictional),INV-1531,2022-09-09,2022-09-09,2022-10-09,2022-08-01,2022-08-31,4583.47,Legal,G&A,paid,2022-10-07,Legal services August 2022
+BILL-00035,V014,Salesforce,SAL-2209379,2022-09-12,2022-09-12,2022-10-12,2022-09-15,2023-09-14,7920.0,Software - Sales,Sales,paid,2022-10-12,"Salesforce Sales Cloud Enterprise - 4 users, 12 months"
+BILL-00040,V024,Harbor Point Properties LLC (fictional),HPP-202210,2022-10-01,2022-10-02,2022-10-01,2022-10-01,2022-10-31,9500.0,Rent,G&A,paid,2022-10-03,Office rent October 2022
+BILL-00042,V029,Bluepine Health Plans (fictional),BLU-2210914,2022-10-01,2022-10-03,2022-10-01,2022-10-01,2022-10-31,9450.0,Benefits,Allocated,paid,2022-10-03,Medical/dental/vision premiums October 2022 (9 enrolled)
+BILL-00034,V001,Amazon Web Services,EUINUS22098349,2022-10-03,2022-10-04,2022-10-18,2022-09-01,2022-09-30,5534.62,Hosting,COGS,paid,2022-10-18,AWS usage September 2022
+BILL-00037,V026,Marlow & Pierce LLP (fictional),INV-1536,2022-10-08,2022-10-10,2022-11-07,2022-09-01,2022-09-30,4153.45,Legal,G&A,paid,2022-11-07,Legal services September 2022
+BILL-00044,V024,Harbor Point Properties LLC (fictional),HPP-202211,2022-11-01,2022-11-02,2022-11-01,2022-11-01,2022-11-30,9500.0,Rent,G&A,paid,2022-11-01,Office rent November 2022
+BILL-00046,V029,Bluepine Health Plans (fictional),BLU-2211591,2022-11-01,2022-11-03,2022-11-01,2022-11-01,2022-11-30,9450.0,Benefits,Allocated,paid,2022-11-01,Medical/dental/vision premiums November 2022 (9 enrolled)
+BILL-00039,V001,Amazon Web Services,EUINUS22102802,2022-11-02,2022-11-04,2022-11-17,2022-10-01,2022-10-31,5521.49,Hosting,COGS,paid,2022-11-17,AWS usage October 2022
+BILL-00041,V026,Marlow & Pierce LLP (fictional),INV-1540,2022-11-08,2022-11-08,2022-12-08,2022-10-01,2022-10-31,4971.61,Legal,G&A,paid,2022-12-08,Legal services October 2022
+BILL-00048,V024,Harbor Point Properties LLC (fictional),HPP-202212,2022-12-01,2022-12-01,2022-12-01,2022-12-01,2022-12-31,9500.0,Rent,G&A,paid,2022-12-01,Office rent December 2022
+BILL-00050,V029,Bluepine Health Plans (fictional),BLU-2212387,2022-12-01,2022-12-03,2022-12-01,2022-12-01,2022-12-31,9450.0,Benefits,Allocated,paid,2022-12-09,Medical/dental/vision premiums December 2022 (9 enrolled)
+BILL-00043,V001,Amazon Web Services,EUINUS22114736,2022-12-02,2022-12-03,2022-12-17,2022-11-01,2022-11-30,5929.91,Hosting,COGS,paid,2022-12-16,AWS usage November 2022
+BILL-00045,V026,Marlow & Pierce LLP (fictional),INV-1544,2022-12-07,2022-12-09,2023-01-06,2022-11-01,2022-11-30,5265.04,Legal,G&A,paid,2023-01-06,Legal services November 2022
+BILL-00052,V024,Harbor Point Properties LLC (fictional),HPP-202301,2023-01-01,2023-01-02,2023-01-01,2023-01-01,2023-01-31,9500.0,Rent,G&A,paid,2023-01-02,Office rent January 2023
+BILL-00054,V029,Bluepine Health Plans (fictional),BLU-2301482,2023-01-01,2023-01-02,2023-01-01,2023-01-01,2023-01-31,12600.0,Benefits,Allocated,paid,2023-01-02,Medical/dental/vision premiums January 2023 (12 enrolled)
+BILL-00047,V001,Amazon Web Services,EUINUS22126850,2023-01-02,2023-01-03,2023-01-17,2022-12-01,2022-12-31,6941.56,Hosting,COGS,paid,2023-01-17,AWS usage December 2022
+BILL-00049,V026,Marlow & Pierce LLP (fictional),INV-1548,2023-01-07,2023-01-07,2023-02-06,2022-12-01,2022-12-31,5455.67,Legal,G&A,paid,2023-02-06,Legal services December 2022
+BILL-00056,V024,Harbor Point Properties LLC (fictional),HPP-202302,2023-02-01,2023-02-03,2023-02-01,2023-02-01,2023-02-28,9500.0,Rent,G&A,paid,2023-02-01,Office rent February 2023
+BILL-00058,V028,Keystone Mutual Insurance (fictional),KEY-2302482,2023-02-01,2023-02-01,2023-03-03,2023-02-01,2024-01-31,15000.0,Insurance,G&A,paid,2023-03-03,"D&O, E&O/Cyber and general liability annual premium"
+BILL-00059,V029,Bluepine Health Plans (fictional),BLU-2302143,2023-02-01,2023-02-03,2023-02-01,2023-02-01,2023-02-28,12600.0,Benefits,Allocated,paid,2023-02-01,Medical/dental/vision premiums February 2023 (12 enrolled)
+BILL-00051,V001,Amazon Web Services,EUINUS23011380,2023-02-02,2023-02-03,2023-02-17,2023-01-01,2023-01-31,8001.53,Hosting,COGS,paid,2023-02-17,AWS usage January 2023
+BILL-00053,V026,Marlow & Pierce LLP (fictional),INV-1552,2023-02-07,2023-02-07,2023-03-09,2023-01-01,2023-01-31,5385.76,Legal,G&A,paid,2023-03-09,Legal services January 2023
+BILL-00061,V024,Harbor Point Properties LLC (fictional),HPP-202303,2023-03-01,2023-03-02,2023-03-01,2023-03-01,2023-03-31,9500.0,Rent,G&A,paid,2023-03-01,Office rent March 2023
+BILL-00064,V029,Bluepine Health Plans (fictional),BLU-2303856,2023-03-01,2023-03-01,2023-03-01,2023-03-01,2023-03-31,12600.0,Benefits,Allocated,paid,2023-03-01,Medical/dental/vision premiums March 2023 (12 enrolled)
+BILL-00055,V001,Amazon Web Services,EUINUS23023099,2023-03-02,2023-03-04,2023-03-17,2023-02-01,2023-02-28,8411.67,Hosting,COGS,paid,2023-03-17,AWS usage February 2023
+BILL-00057,V026,Marlow & Pierce LLP (fictional),INV-1556,2023-03-06,2023-03-06,2023-04-05,2023-02-01,2023-02-28,7126.24,Legal,G&A,paid,2023-04-05,Legal services February 2023
+BILL-00063,V027,Brennan Ostrow CPAs (fictional),BRE-2303644,2023-03-20,2023-03-21,2023-04-19,,,6500.0,Accounting & Tax,G&A,paid,2023-04-19,2022 federal & state tax returns
+BILL-00066,V024,Harbor Point Properties LLC (fictional),HPP-202304,2023-04-01,2023-04-01,2023-04-01,2023-04-01,2023-04-30,9500.0,Rent,G&A,paid,2023-04-03,Office rent April 2023
+BILL-00068,V029,Bluepine Health Plans (fictional),BLU-2304788,2023-04-01,2023-04-01,2023-04-01,2023-04-01,2023-04-30,13650.0,Benefits,Allocated,paid,2023-04-03,Medical/dental/vision premiums April 2023 (13 enrolled)
+BILL-00060,V001,Amazon Web Services,EUINUS23032167,2023-04-03,2023-04-05,2023-04-18,2023-03-01,2023-03-31,7940.2,Hosting,COGS,paid,2023-04-18,AWS usage March 2023
+BILL-00062,V026,Marlow & Pierce LLP (fictional),INV-1561,2023-04-07,2023-04-08,2023-05-07,2023-03-01,2023-03-31,6832.51,Legal,G&A,paid,2023-05-05,Legal services March 2023
+BILL-00070,V024,Harbor Point Properties LLC (fictional),HPP-202305,2023-05-01,2023-05-03,2023-05-01,2023-05-01,2023-05-31,9500.0,Rent,G&A,paid,2023-05-01,Office rent May 2023
+BILL-00072,V029,Bluepine Health Plans (fictional),BLU-2305175,2023-05-01,2023-05-02,2023-05-01,2023-05-01,2023-05-31,14700.0,Benefits,Allocated,paid,2023-05-01,Medical/dental/vision premiums May 2023 (14 enrolled)
+BILL-00065,V001,Amazon Web Services,EUINUS23049788,2023-05-02,2023-05-03,2023-05-17,2023-04-01,2023-04-30,8946.35,Hosting,COGS,paid,2023-05-17,AWS usage April 2023
+BILL-00067,V026,Marlow & Pierce LLP (fictional),INV-1566,2023-05-10,2023-05-10,2023-06-09,2023-04-01,2023-04-30,7072.45,Legal,G&A,paid,2023-06-09,Legal services April 2023
+BILL-00074,V024,Harbor Point Properties LLC (fictional),HPP-202306,2023-06-01,2023-06-01,2023-06-01,2023-06-01,2023-06-30,9500.0,Rent,G&A,paid,2023-06-01,Office rent June 2023
+BILL-00076,V029,Bluepine Health Plans (fictional),BLU-2306435,2023-06-01,2023-06-03,2023-06-01,2023-06-01,2023-06-30,14700.0,Benefits,Allocated,paid,2023-06-01,Medical/dental/vision premiums June 2023 (14 enrolled)
+BILL-00069,V001,Amazon Web Services,EUINUS23053680,2023-06-02,2023-06-04,2023-06-17,2023-05-01,2023-05-31,9051.17,Hosting,COGS,paid,2023-06-16,AWS usage May 2023
+BILL-00071,V026,Marlow & Pierce LLP (fictional),INV-1570,2023-06-08,2023-06-09,2023-07-08,2023-05-01,2023-05-31,7281.55,Legal,G&A,paid,2023-07-07,Legal services May 2023
+BILL-00078,V024,Harbor Point Properties LLC (fictional),HPP-202307,2023-07-01,2023-07-03,2023-07-01,2023-07-01,2023-07-31,9500.0,Rent,G&A,paid,2023-07-03,Office rent July 2023
+BILL-00080,V029,Bluepine Health Plans (fictional),BLU-2307332,2023-07-01,2023-07-02,2023-07-01,2023-07-01,2023-07-31,14700.0,Benefits,Allocated,paid,2023-07-03,Medical/dental/vision premiums July 2023 (14 enrolled)
+BILL-00073,V001,Amazon Web Services,EUINUS23064523,2023-07-03,2023-07-04,2023-07-18,2023-06-01,2023-06-30,9326.0,Hosting,COGS,paid,2023-07-24,AWS usage June 2023
+BILL-00075,V026,Marlow & Pierce LLP (fictional),INV-1574,2023-07-09,2023-07-09,2023-08-08,2023-06-01,2023-06-30,4796.59,Legal,G&A,paid,2023-08-22,Legal services June 2023
+BILL-00082,V024,Harbor Point Properties LLC (fictional),HPP-202308,2023-08-01,2023-08-01,2023-08-01,2023-08-01,2023-08-31,9500.0,Rent,G&A,paid,2023-08-01,Office rent August 2023
+BILL-00084,V029,Bluepine Health Plans (fictional),BLU-2308769,2023-08-01,2023-08-03,2023-08-01,2023-08-01,2023-08-31,14700.0,Benefits,Allocated,paid,2023-08-01,Medical/dental/vision premiums August 2023 (14 enrolled)
+BILL-00077,V001,Amazon Web Services,EUINUS23079831,2023-08-02,2023-08-04,2023-08-17,2023-07-01,2023-07-31,8751.08,Hosting,COGS,paid,2023-08-22,AWS usage July 2023
+BILL-00079,V026,Marlow & Pierce LLP (fictional),INV-1578,2023-08-11,2023-08-13,2023-09-10,2023-07-01,2023-07-31,6747.81,Legal,G&A,paid,2023-09-08,Legal services July 2023
+BILL-00087,V024,Harbor Point Properties LLC (fictional),HPP-202309,2023-09-01,2023-09-03,2023-09-01,2023-09-01,2023-09-30,9500.0,Rent,G&A,paid,2023-09-01,Office rent September 2023
+BILL-00089,V029,Bluepine Health Plans (fictional),BLU-2309985,2023-09-01,2023-09-01,2023-09-01,2023-09-01,2023-09-30,14700.0,Benefits,Allocated,paid,2023-09-01,Medical/dental/vision premiums September 2023 (14 enrolled)
+BILL-00081,V001,Amazon Web Services,EUINUS23088218,2023-09-04,2023-09-05,2023-09-19,2023-08-01,2023-08-31,11194.49,Hosting,COGS,paid,2023-09-19,AWS usage August 2023
+BILL-00083,V026,Marlow & Pierce LLP (fictional),INV-1582,2023-09-09,2023-09-11,2023-10-09,2023-08-01,2023-08-31,5710.61,Legal,G&A,paid,2023-10-09,Legal services August 2023
+BILL-00086,V014,Salesforce,SAL-2309461,2023-09-12,2023-09-14,2023-10-12,2023-09-15,2024-09-14,11880.0,Software - Sales,Sales,paid,2023-10-12,"Salesforce Sales Cloud Enterprise - 6 users, 12 months"
+BILL-00091,V024,Harbor Point Properties LLC (fictional),HPP-202310,2023-10-01,2023-10-03,2023-10-01,2023-10-01,2023-10-31,9500.0,Rent,G&A,paid,2023-10-02,Office rent October 2023
+BILL-00093,V029,Bluepine Health Plans (fictional),BLU-2310120,2023-10-01,2023-10-02,2023-10-01,2023-10-01,2023-10-31,15750.0,Benefits,Allocated,paid,2023-10-02,Medical/dental/vision premiums October 2023 (15 enrolled)
+BILL-00085,V001,Amazon Web Services,EUINUS23091778,2023-10-02,2023-10-04,2023-10-17,2023-09-01,2023-09-30,11840.1,Hosting,COGS,paid,2023-10-17,AWS usage September 2023
+BILL-00088,V026,Marlow & Pierce LLP (fictional),INV-1587,2023-10-06,2023-10-07,2023-11-05,2023-09-01,2023-09-30,5288.58,Legal,G&A,paid,2023-11-03,Legal services September 2023
+BILL-00095,V024,Harbor Point Properties LLC (fictional),HPP-202311,2023-11-01,2023-11-03,2023-11-01,2023-11-01,2023-11-30,9500.0,Rent,G&A,paid,2023-11-01,Office rent November 2023
+BILL-00097,V029,Bluepine Health Plans (fictional),BLU-2311818,2023-11-01,2023-11-01,2023-11-01,2023-11-01,2023-11-30,15750.0,Benefits,Allocated,paid,2023-11-01,Medical/dental/vision premiums November 2023 (15 enrolled)
+BILL-00090,V001,Amazon Web Services,EUINUS23105920,2023-11-02,2023-11-02,2023-11-17,2023-10-01,2023-10-31,12508.17,Hosting,COGS,paid,2023-11-17,AWS usage October 2023
+BILL-00092,V026,Marlow & Pierce LLP (fictional),INV-1591,2023-11-07,2023-11-09,2023-12-07,2023-10-01,2023-10-31,4634.39,Legal,G&A,paid,2023-12-07,Legal services October 2023
+BILL-00099,V024,Harbor Point Properties LLC (fictional),HPP-202312,2023-12-01,2023-12-01,2023-12-01,2023-12-01,2023-12-31,9500.0,Rent,G&A,paid,2023-12-01,Office rent December 2023
+BILL-00101,V029,Bluepine Health Plans (fictional),BLU-2312916,2023-12-01,2023-12-02,2023-12-01,2023-12-01,2023-12-31,16800.0,Benefits,Allocated,paid,2023-12-01,Medical/dental/vision premiums December 2023 (16 enrolled)
+BILL-00094,V001,Amazon Web Services,EUINUS23112531,2023-12-04,2023-12-05,2023-12-19,2023-11-01,2023-11-30,12665.27,Hosting,COGS,paid,2023-12-19,AWS usage November 2023
+BILL-00096,V026,Marlow & Pierce LLP (fictional),INV-1595,2023-12-08,2023-12-10,2024-01-07,2023-11-01,2023-11-30,4401.69,Legal,G&A,paid,2024-01-05,Legal services November 2023
+BILL-00104,V024,Harbor Point Properties LLC (fictional),HPP-202401,2024-01-01,2024-01-02,2024-01-01,2024-01-01,2024-01-31,9500.0,Rent,G&A,paid,2024-01-01,Office rent January 2024
+BILL-00106,V029,Bluepine Health Plans (fictional),BLU-2401304,2024-01-01,2024-01-02,2024-01-01,2024-01-01,2024-01-31,22050.0,Benefits,Allocated,paid,2024-01-01,Medical/dental/vision premiums January 2024 (21 enrolled)
+BILL-00098,V001,Amazon Web Services,EUINUS23127712,2024-01-02,2024-01-03,2024-01-17,2023-12-01,2023-12-31,12731.68,Hosting,COGS,paid,2024-01-17,AWS usage December 2023
+BILL-00103,V015,ZoomInfo,ZOO-2401195,2024-01-08,2024-01-09,2024-02-07,2024-01-01,2024-12-31,14500.0,Software - Sales,Sales,paid,2024-02-07,ZoomInfo SalesOS annual subscription
+BILL-00100,V026,Marlow & Pierce LLP (fictional),INV-1599,2024-01-09,2024-01-09,2024-02-08,2023-12-01,2023-12-31,4906.74,Legal,G&A,paid,2024-02-08,Legal services December 2023
+BILL-00108,V024,Harbor Point Properties LLC (fictional),HPP-202402,2024-02-01,2024-02-02,2024-02-01,2024-02-01,2024-02-29,9500.0,Rent,G&A,paid,2024-02-01,Office rent February 2024
+BILL-00110,V028,Keystone Mutual Insurance (fictional),KEY-2402621,2024-02-01,2024-02-01,2024-03-02,2024-02-01,2025-01-31,24000.0,Insurance,G&A,paid,2024-03-01,"D&O, E&O/Cyber and general liability annual premium"
+BILL-00111,V029,Bluepine Health Plans (fictional),BLU-2402171,2024-02-01,2024-02-01,2024-02-01,2024-02-01,2024-02-29,22050.0,Benefits,Allocated,paid,2024-02-01,Medical/dental/vision premiums February 2024 (21 enrolled)
+BILL-00102,V001,Amazon Web Services,EUINUS24019815,2024-02-02,2024-02-04,2024-02-17,2024-01-01,2024-01-31,13997.05,Hosting,COGS,paid,2024-02-16,AWS usage January 2024
+BILL-00105,V026,Marlow & Pierce LLP (fictional),INV-1604,2024-02-11,2024-02-12,2024-03-12,2024-01-01,2024-01-31,7258.91,Legal,G&A,paid,2024-03-12,Legal services January 2024
+BILL-00114,V024,Harbor Point Properties LLC (fictional),HPP-202403,2024-03-01,2024-03-03,2024-03-01,2024-03-01,2024-03-31,9500.0,Rent,G&A,paid,2024-03-01,Office rent March 2024
+BILL-00117,V029,Bluepine Health Plans (fictional),BLU-2403121,2024-03-01,2024-03-03,2024-03-01,2024-03-01,2024-03-31,23100.0,Benefits,Allocated,paid,2024-03-01,Medical/dental/vision premiums March 2024 (22 enrolled)
+BILL-00113,V021,OpsForward Summit (fictional),OPS-2403445,2024-03-03,2024-03-05,2024-04-02,2024-03-01,2024-03-31,12600.0,Events,Marketing,paid,2024-04-02,Booth sponsorship - OpsForward Summit Mar 2024
+BILL-00107,V001,Amazon Web Services,EUINUS24024344,2024-03-04,2024-03-06,2024-03-19,2024-02-01,2024-02-29,15994.97,Hosting,COGS,paid,2024-03-19,AWS usage February 2024
+BILL-00109,V026,Marlow & Pierce LLP (fictional),INV-1608,2024-03-09,2024-03-11,2024-04-08,2024-02-01,2024-02-29,6539.91,Legal,G&A,paid,2024-04-08,Legal services February 2024
+BILL-00116,V027,Brennan Ostrow CPAs (fictional),BRE-2403258,2024-03-20,2024-03-20,2024-04-19,,,9500.0,Accounting & Tax,G&A,paid,2024-04-19,2023 federal & state tax returns
+BILL-00119,V024,Harbor Point Properties LLC (fictional),HPP-202404,2024-04-01,2024-04-02,2024-04-01,2024-04-01,2024-04-30,18000.0,Rent,G&A,paid,2024-04-01,Office rent April 2024
+BILL-00121,V029,Bluepine Health Plans (fictional),BLU-2404741,2024-04-01,2024-04-01,2024-04-01,2024-04-01,2024-04-30,23100.0,Benefits,Allocated,paid,2024-04-01,Medical/dental/vision premiums April 2024 (22 enrolled)
+BILL-00112,V001,Amazon Web Services,EUINUS24036721,2024-04-02,2024-04-02,2024-04-17,2024-03-01,2024-03-31,14719.18,Hosting,COGS,paid,2024-04-17,AWS usage March 2024
+BILL-00115,V026,Marlow & Pierce LLP (fictional),INV-1614,2024-04-08,2024-04-08,2024-05-08,2024-03-01,2024-03-31,97450.87,Legal,G&A,paid,2024-05-08,Legal services March 2024
+BILL-00123,V024,Harbor Point Properties LLC (fictional),HPP-202405,2024-05-01,2024-05-02,2024-05-01,2024-05-01,2024-05-31,18000.0,Rent,G&A,paid,2024-05-01,Office rent May 2024
+BILL-00125,V029,Bluepine Health Plans (fictional),BLU-2405693,2024-05-01,2024-05-02,2024-05-01,2024-05-01,2024-05-31,23100.0,Benefits,Allocated,paid,2024-05-01,Medical/dental/vision premiums May 2024 (22 enrolled)
+BILL-00118,V001,Amazon Web Services,EUINUS24041588,2024-05-02,2024-05-03,2024-05-17,2024-04-01,2024-04-30,19760.65,Hosting,COGS,paid,2024-05-17,AWS usage April 2024
+BILL-00120,V026,Marlow & Pierce LLP (fictional),INV-1619,2024-05-08,2024-05-08,2024-06-07,2024-04-01,2024-04-30,6204.33,Legal,G&A,paid,2024-06-07,Legal services April 2024
+BILL-00129,V024,Harbor Point Properties LLC (fictional),HPP-202406,2024-06-01,2024-06-03,2024-06-01,2024-06-01,2024-06-30,18000.0,Rent,G&A,paid,2024-06-03,Office rent June 2024
+BILL-00131,V029,Bluepine Health Plans (fictional),BLU-2406294,2024-06-01,2024-06-01,2024-06-01,2024-06-01,2024-06-30,25200.0,Benefits,Allocated,paid,2024-06-03,Medical/dental/vision premiums June 2024 (24 enrolled)
+BILL-00122,V001,Amazon Web Services,EUINUS24057939,2024-06-03,2024-06-03,2024-06-18,2024-05-01,2024-05-31,20315.01,Hosting,COGS,paid,2024-06-18,AWS usage May 2024
+BILL-00124,V026,Marlow & Pierce LLP (fictional),INV-1623,2024-06-10,2024-06-11,2024-07-10,2024-05-01,2024-05-31,6777.96,Legal,G&A,paid,2024-07-10,Legal services May 2024
+BILL-00127,V022,Kaltwerk Dev Studio (fictional),KAL-2406328,2024-06-30,2024-07-01,2024-07-30,2024-06-01,2024-06-30,28000.0,Contractors - R&D,Engineering,paid,2024-07-30,Dedicated dev team - June 2024
+BILL-00128,V023,Brightquarry Content Co. (fictional),BRI-2406597,2024-06-30,2024-07-01,2024-07-30,2024-06-01,2024-06-30,9000.0,Contractors - Marketing,Marketing,paid,2024-07-30,Content retainer June 2024
+BILL-00135,V024,Harbor Point Properties LLC (fictional),HPP-202407,2024-07-01,2024-07-01,2024-07-01,2024-07-01,2024-07-31,18000.0,Rent,G&A,paid,2024-07-01,Office rent July 2024
+BILL-00137,V029,Bluepine Health Plans (fictional),BLU-2407912,2024-07-01,2024-07-01,2024-07-01,2024-07-01,2024-07-31,26250.0,Benefits,Allocated,paid,2024-07-01,Medical/dental/vision premiums July 2024 (25 enrolled)
+BILL-00126,V001,Amazon Web Services,EUINUS24065656,2024-07-02,2024-07-04,2024-07-17,2024-06-01,2024-06-30,22812.64,Hosting,COGS,paid,2024-07-17,AWS usage June 2024
+BILL-00130,V026,Marlow & Pierce LLP (fictional),INV-1629,2024-07-11,2024-07-12,2024-08-10,2024-06-01,2024-06-30,6605.43,Legal,G&A,paid,2024-08-09,Legal services June 2024
+BILL-00133,V022,Kaltwerk Dev Studio (fictional),KAL-2407548,2024-07-31,2024-08-01,2024-08-30,2024-07-01,2024-07-31,28000.0,Contractors - R&D,Engineering,paid,2024-08-30,Dedicated dev team - July 2024
+BILL-00134,V023,Brightquarry Content Co. (fictional),BRI-2407926,2024-07-31,2024-08-01,2024-08-30,2024-07-01,2024-07-31,9000.0,Contractors - Marketing,Marketing,paid,2024-08-30,Content retainer July 2024
+BILL-00141,V024,Harbor Point Properties LLC (fictional),HPP-202408,2024-08-01,2024-08-03,2024-08-01,2024-08-01,2024-08-31,18000.0,Rent,G&A,paid,2024-08-01,Office rent August 2024
+BILL-00143,V029,Bluepine Health Plans (fictional),BLU-2408860,2024-08-01,2024-08-02,2024-08-01,2024-08-01,2024-08-31,26250.0,Benefits,Allocated,paid,2024-08-01,Medical/dental/vision premiums August 2024 (25 enrolled)
+BILL-00132,V001,Amazon Web Services,EUINUS24073557,2024-08-02,2024-08-03,2024-08-17,2024-07-01,2024-07-31,22352.0,Hosting,COGS,paid,2024-08-16,AWS usage July 2024
+BILL-00136,V026,Marlow & Pierce LLP (fictional),INV-1635,2024-08-09,2024-08-10,2024-09-08,2024-07-01,2024-07-31,5360.79,Legal,G&A,paid,2024-09-06,Legal services July 2024
+BILL-00139,V022,Kaltwerk Dev Studio (fictional),KAL-2408845,2024-08-31,2024-09-01,2024-09-30,2024-08-01,2024-08-31,28000.0,Contractors - R&D,Engineering,paid,2024-09-30,Dedicated dev team - August 2024
+BILL-00140,V023,Brightquarry Content Co. (fictional),BRI-2408859,2024-08-31,2024-09-01,2024-09-30,2024-08-01,2024-08-31,9000.0,Contractors - Marketing,Marketing,paid,2024-09-30,Content retainer August 2024
+BILL-00149,V024,Harbor Point Properties LLC (fictional),HPP-202409,2024-09-01,2024-09-02,2024-09-01,2024-09-01,2024-09-30,18000.0,Rent,G&A,paid,2024-09-02,Office rent September 2024
+BILL-00151,V029,Bluepine Health Plans (fictional),BLU-2409202,2024-09-01,2024-09-02,2024-09-01,2024-09-01,2024-09-30,31500.0,Benefits,Allocated,paid,2024-09-02,Medical/dental/vision premiums September 2024 (30 enrolled)
+BILL-00138,V001,Amazon Web Services,EUINUS24083660,2024-09-02,2024-09-02,2024-09-17,2024-08-01,2024-08-31,23283.72,Hosting,COGS,paid,2024-09-17,AWS usage August 2024
+BILL-00147,V021,OpsForward Summit (fictional),OPS-2409895,2024-09-03,2024-09-03,2024-10-03,2024-09-01,2024-09-30,18000.0,Events,Marketing,paid,2024-10-03,Booth sponsorship - OpsForward Summit Sep 2024
+BILL-00142,V026,Marlow & Pierce LLP (fictional),INV-1641,2024-09-08,2024-09-10,2024-10-08,2024-08-01,2024-08-31,6080.18,Legal,G&A,paid,2024-10-08,Legal services August 2024
+BILL-00145,V014,Salesforce,SAL-2409275,2024-09-12,2024-09-14,2024-10-12,2024-09-15,2025-09-14,21780.0,Software - Sales,Sales,paid,2024-10-11,"Salesforce Sales Cloud Enterprise - 11 users, 12 months"
+BILL-00146,V022,Kaltwerk Dev Studio (fictional),KAL-2409349,2024-09-30,2024-10-02,2024-10-30,2024-09-01,2024-09-30,28000.0,Contractors - R&D,Engineering,paid,2024-10-30,Dedicated dev team - September 2024
+BILL-00148,V023,Brightquarry Content Co. (fictional),BRI-2409599,2024-09-30,2024-09-30,2024-10-30,2024-09-01,2024-09-30,9000.0,Contractors - Marketing,Marketing,paid,2024-10-30,Content retainer September 2024
+BILL-00155,V024,Harbor Point Properties LLC (fictional),HPP-202410,2024-10-01,2024-10-03,2024-10-01,2024-10-01,2024-10-31,18000.0,Rent,G&A,paid,2024-10-01,Office rent October 2024
+BILL-00157,V029,Bluepine Health Plans (fictional),BLU-2410257,2024-10-01,2024-10-02,2024-10-01,2024-10-01,2024-10-31,32550.0,Benefits,Allocated,paid,2024-10-01,Medical/dental/vision premiums October 2024 (31 enrolled)
+BILL-00144,V001,Amazon Web Services,EUINUS24092397,2024-10-02,2024-10-03,2024-10-17,2024-09-01,2024-09-30,23340.65,Hosting,COGS,paid,2024-10-17,AWS usage September 2024
+BILL-00150,V026,Marlow & Pierce LLP (fictional),INV-1649,2024-10-08,2024-10-08,2024-11-07,2024-09-01,2024-09-30,5238.38,Legal,G&A,paid,2024-11-07,Legal services September 2024
+BILL-00153,V022,Kaltwerk Dev Studio (fictional),KAL-2410677,2024-10-31,2024-10-31,2024-11-30,2024-10-01,2024-10-31,28000.0,Contractors - R&D,Engineering,paid,2024-11-29,Dedicated dev team - October 2024
+BILL-00154,V023,Brightquarry Content Co. (fictional),BRI-2410507,2024-10-31,2024-11-02,2024-11-30,2024-10-01,2024-10-31,9000.0,Contractors - Marketing,Marketing,paid,2024-11-29,Content retainer October 2024
+BILL-00161,V024,Harbor Point Properties LLC (fictional),HPP-202411,2024-11-01,2024-11-02,2024-11-01,2024-11-01,2024-11-30,18000.0,Rent,G&A,paid,2024-11-06,Office rent November 2024
+BILL-00163,V029,Bluepine Health Plans (fictional),BLU-2411647,2024-11-01,2024-11-03,2024-11-01,2024-11-01,2024-11-30,33600.0,Benefits,Allocated,paid,2024-11-01,Medical/dental/vision premiums November 2024 (32 enrolled)
+BILL-00152,V001,Amazon Web Services,EUINUS24103910,2024-11-04,2024-11-06,2024-11-19,2024-10-01,2024-10-31,25322.26,Hosting,COGS,paid,2024-12-09,AWS usage October 2024
+BILL-00156,V026,Marlow & Pierce LLP (fictional),INV-1655,2024-11-06,2024-11-08,2024-12-06,2024-10-01,2024-10-31,5354.94,Legal,G&A,paid,2024-12-06,Legal services October 2024
+BILL-00159,V022,Kaltwerk Dev Studio (fictional),KAL-2411733,2024-11-30,2024-11-30,2024-12-30,2024-11-01,2024-11-30,28000.0,Contractors - R&D,Engineering,paid,2024-12-30,Dedicated dev team - November 2024
+BILL-00160,V023,Brightquarry Content Co. (fictional),BRI-2411495,2024-11-30,2024-11-30,2024-12-30,2024-11-01,2024-11-30,9000.0,Contractors - Marketing,Marketing,paid,2024-12-30,Content retainer November 2024
+BILL-00167,V024,Harbor Point Properties LLC (fictional),HPP-202412,2024-12-01,2024-12-02,2024-12-01,2024-12-01,2024-12-31,18000.0,Rent,G&A,paid,2024-12-23,Office rent December 2024
+BILL-00169,V029,Bluepine Health Plans (fictional),BLU-2412361,2024-12-01,2024-12-03,2024-12-01,2024-12-01,2024-12-31,33600.0,Benefits,Allocated,paid,2024-12-02,Medical/dental/vision premiums December 2024 (32 enrolled)
+BILL-00158,V001,Amazon Web Services,EUINUS24118883,2024-12-02,2024-12-04,2024-12-17,2024-11-01,2024-11-30,26246.05,Hosting,COGS,paid,2024-12-17,AWS usage November 2024
+BILL-00162,V026,Marlow & Pierce LLP (fictional),INV-1661,2024-12-11,2024-12-13,2025-01-10,2024-11-01,2024-11-30,7081.56,Legal,G&A,paid,2025-01-10,Legal services November 2024
+BILL-00165,V022,Kaltwerk Dev Studio (fictional),KAL-2412523,2024-12-31,2025-01-02,2025-01-30,2024-12-01,2024-12-31,28000.0,Contractors - R&D,Engineering,paid,2025-01-30,Dedicated dev team - December 2024
+BILL-00166,V023,Brightquarry Content Co. (fictional),BRI-2412724,2024-12-31,2025-01-01,2025-01-30,2024-12-01,2024-12-31,9000.0,Contractors - Marketing,Marketing,paid,2025-01-30,Content retainer December 2024
+BILL-00174,V024,Harbor Point Properties LLC (fictional),HPP-202501,2025-01-01,2025-01-02,2025-01-01,2025-01-01,2025-01-31,18000.0,Rent,G&A,paid,2025-01-01,Office rent January 2025
+BILL-00176,V029,Bluepine Health Plans (fictional),BLU-2501479,2025-01-01,2025-01-02,2025-01-01,2025-01-01,2025-01-31,34650.0,Benefits,Allocated,paid,2025-01-01,Medical/dental/vision premiums January 2025 (33 enrolled)
+BILL-00164,V001,Amazon Web Services,EUINUS24124206,2025-01-02,2025-01-04,2025-01-17,2024-12-01,2024-12-31,28654.73,Hosting,COGS,paid,2025-01-17,AWS usage December 2024
+BILL-00168,V026,Marlow & Pierce LLP (fictional),INV-1667,2025-01-06,2025-01-06,2025-02-05,2024-12-01,2024-12-31,6117.47,Legal,G&A,paid,2025-02-05,Legal services December 2024
+BILL-00171,V015,ZoomInfo,ZOO-2501759,2025-01-08,2025-01-10,2025-02-07,2025-01-01,2025-12-31,19800.0,Software - Sales,Sales,paid,2025-02-07,ZoomInfo SalesOS annual subscription
+BILL-00172,V022,Kaltwerk Dev Studio (fictional),KAL-2501711,2025-01-31,2025-02-02,2025-03-02,2025-01-01,2025-01-31,38000.0,Contractors - R&D,Engineering,paid,2025-02-28,Dedicated dev team - January 2025
+BILL-00173,V023,Brightquarry Content Co. (fictional),BRI-2501930,2025-01-31,2025-01-31,2025-03-02,2025-01-01,2025-01-31,9000.0,Contractors - Marketing,Marketing,paid,2025-02-28,Content retainer January 2025
+BILL-00180,V024,Harbor Point Properties LLC (fictional),HPP-202502,2025-02-01,2025-02-02,2025-02-01,2025-02-01,2025-02-28,18000.0,Rent,G&A,paid,2025-02-03,Office rent February 2025
+BILL-00182,V028,Keystone Mutual Insurance (fictional),KEY-2502193,2025-02-01,2025-02-03,2025-03-03,2025-02-01,2026-01-31,38000.0,Insurance,G&A,paid,2025-03-03,"D&O, E&O/Cyber and general liability annual premium"
+BILL-00183,V029,Bluepine Health Plans (fictional),BLU-2502357,2025-02-01,2025-02-01,2025-02-01,2025-02-01,2025-02-28,35700.0,Benefits,Allocated,paid,2025-02-20,Medical/dental/vision premiums February 2025 (34 enrolled)
+BILL-00170,V001,Amazon Web Services,EUINUS25018052,2025-02-03,2025-02-05,2025-02-18,2025-01-01,2025-01-31,28660.93,Hosting,COGS,paid,2025-02-18,AWS usage January 2025
+BILL-00175,V026,Marlow & Pierce LLP (fictional),INV-1674,2025-02-11,2025-02-13,2025-03-13,2025-01-01,2025-01-31,7353.86,Legal,G&A,paid,2025-03-13,Legal services January 2025
+BILL-00178,V022,Kaltwerk Dev Studio (fictional),KAL-2502428,2025-02-28,2025-03-01,2025-03-30,2025-02-01,2025-02-28,38000.0,Contractors - R&D,Engineering,paid,2025-03-28,Dedicated dev team - February 2025
+BILL-00179,V023,Brightquarry Content Co. (fictional),BRI-2502443,2025-02-28,2025-03-01,2025-03-30,2025-02-01,2025-02-28,9000.0,Contractors - Marketing,Marketing,paid,2025-03-28,Content retainer February 2025
+BILL-00188,V024,Harbor Point Properties LLC (fictional),HPP-202503,2025-03-01,2025-03-01,2025-03-01,2025-03-01,2025-03-31,18000.0,Rent,G&A,paid,2025-03-03,Office rent March 2025
+BILL-00191,V029,Bluepine Health Plans (fictional),BLU-2503552,2025-03-01,2025-03-02,2025-03-01,2025-03-01,2025-03-31,36750.0,Benefits,Allocated,paid,2025-03-03,Medical/dental/vision premiums March 2025 (35 enrolled)
+BILL-00177,V001,Amazon Web Services,EUINUS25024062,2025-03-03,2025-03-05,2025-03-18,2025-02-01,2025-02-28,31811.26,Hosting,COGS,paid,2025-03-18,AWS usage February 2025
+BILL-00186,V021,OpsForward Summit (fictional),OPS-2503910,2025-03-03,2025-03-04,2025-04-02,2025-03-01,2025-03-31,18200.0,Events,Marketing,paid,2025-04-02,Booth sponsorship - OpsForward Summit Mar 2025
+BILL-00181,V026,Marlow & Pierce LLP (fictional),INV-1680,2025-03-10,2025-03-11,2025-04-09,2025-02-01,2025-02-28,8589.8,Legal,G&A,paid,2025-04-09,Legal services February 2025
+BILL-00190,V027,Brennan Ostrow CPAs (fictional),BRE-2503574,2025-03-20,2025-03-20,2025-04-19,,,12500.0,Accounting & Tax,G&A,paid,2025-04-18,2024 federal & state tax returns
+BILL-00185,V022,Kaltwerk Dev Studio (fictional),KAL-2503978,2025-03-31,2025-03-31,2025-04-30,2025-03-01,2025-03-31,38000.0,Contractors - R&D,Engineering,paid,2025-04-30,Dedicated dev team - March 2025
+BILL-00187,V023,Brightquarry Content Co. (fictional),BRI-2503273,2025-03-31,2025-04-01,2025-04-30,2025-03-01,2025-03-31,9000.0,Contractors - Marketing,Marketing,paid,2025-05-19,Content retainer March 2025
+BILL-00195,V024,Harbor Point Properties LLC (fictional),HPP-202504,2025-04-01,2025-04-01,2025-04-01,2025-04-01,2025-04-30,18000.0,Rent,G&A,paid,2025-04-07,Office rent April 2025
+BILL-00197,V029,Bluepine Health Plans (fictional),BLU-2504804,2025-04-01,2025-04-02,2025-04-01,2025-04-01,2025-04-30,37800.0,Benefits,Allocated,paid,2025-04-01,Medical/dental/vision premiums April 2025 (36 enrolled)
+BILL-00184,V001,Amazon Web Services,EUINUS25039641,2025-04-02,2025-04-03,2025-04-17,2025-03-01,2025-03-31,32127.41,Hosting,COGS,paid,2025-04-17,AWS usage March 2025
+BILL-00189,V026,Marlow & Pierce LLP (fictional),INV-1688,2025-04-08,2025-04-09,2025-05-08,2025-03-01,2025-03-31,6426.41,Legal,G&A,paid,2025-05-19,Legal services March 2025
+BILL-00193,V022,Kaltwerk Dev Studio (fictional),KAL-2504959,2025-04-30,2025-04-30,2025-05-30,2025-04-01,2025-04-30,38000.0,Contractors - R&D,Engineering,paid,2025-05-30,Dedicated dev team - April 2025
+BILL-00194,V023,Brightquarry Content Co. (fictional),BRI-2504946,2025-04-30,2025-04-30,2025-05-30,2025-04-01,2025-04-30,9000.0,Contractors - Marketing,Marketing,paid,2025-05-30,Content retainer April 2025
+BILL-00201,V024,Harbor Point Properties LLC (fictional),HPP-202505,2025-05-01,2025-05-02,2025-05-01,2025-05-01,2025-05-31,18000.0,Rent,G&A,paid,2025-05-01,Office rent May 2025
+BILL-00203,V029,Bluepine Health Plans (fictional),BLU-2505170,2025-05-01,2025-05-03,2025-05-01,2025-05-01,2025-05-31,38850.0,Benefits,Allocated,paid,2025-05-01,Medical/dental/vision premiums May 2025 (37 enrolled)
+BILL-00192,V001,Amazon Web Services,EUINUS25043229,2025-05-02,2025-05-04,2025-05-17,2025-04-01,2025-04-30,31452.85,Hosting,COGS,paid,2025-05-16,AWS usage April 2025
+BILL-00196,V026,Marlow & Pierce LLP (fictional),INV-1695,2025-05-07,2025-05-09,2025-06-06,2025-04-01,2025-04-30,7183.24,Legal,G&A,paid,2025-06-06,Legal services April 2025
+BILL-00199,V022,Kaltwerk Dev Studio (fictional),KAL-2505760,2025-05-31,2025-06-01,2025-06-30,2025-05-01,2025-05-31,38000.0,Contractors - R&D,Engineering,paid,2025-06-30,Dedicated dev team - May 2025
+BILL-00200,V023,Brightquarry Content Co. (fictional),BRI-2505178,2025-05-31,2025-06-02,2025-06-30,2025-05-01,2025-05-31,9000.0,Contractors - Marketing,Marketing,paid,2025-06-30,Content retainer May 2025
+BILL-00207,V024,Harbor Point Properties LLC (fictional),HPP-202506,2025-06-01,2025-06-02,2025-06-01,2025-06-01,2025-06-30,18000.0,Rent,G&A,paid,2025-06-19,Office rent June 2025
+BILL-00209,V029,Bluepine Health Plans (fictional),BLU-2506966,2025-06-01,2025-06-03,2025-06-01,2025-06-01,2025-06-30,38850.0,Benefits,Allocated,paid,2025-06-02,Medical/dental/vision premiums June 2025 (37 enrolled)
+BILL-00198,V001,Amazon Web Services,EUINUS25052641,2025-06-02,2025-06-02,2025-06-17,2025-05-01,2025-05-31,33420.66,Hosting,COGS,paid,2025-06-17,AWS usage May 2025
+BILL-00202,V026,Marlow & Pierce LLP (fictional),INV-1701,2025-06-09,2025-06-11,2025-07-09,2025-05-01,2025-05-31,6429.51,Legal,G&A,paid,2025-07-09,Legal services May 2025
+BILL-00205,V022,Kaltwerk Dev Studio (fictional),KAL-2506161,2025-06-30,2025-07-01,2025-07-30,2025-06-01,2025-06-30,38000.0,Contractors - R&D,Engineering,paid,2025-07-30,Dedicated dev team - June 2025
+BILL-00206,V023,Brightquarry Content Co. (fictional),BRI-2506232,2025-06-30,2025-06-30,2025-07-30,2025-06-01,2025-06-30,9000.0,Contractors - Marketing,Marketing,paid,2025-07-30,Content retainer June 2025
+BILL-00213,V024,Harbor Point Properties LLC (fictional),HPP-202507,2025-07-01,2025-07-03,2025-07-01,2025-07-01,2025-07-31,18000.0,Rent,G&A,paid,2025-07-01,Office rent July 2025
+BILL-00215,V029,Bluepine Health Plans (fictional),BLU-2507202,2025-07-01,2025-07-03,2025-07-01,2025-07-01,2025-07-31,39900.0,Benefits,Allocated,paid,2025-07-01,Medical/dental/vision premiums July 2025 (38 enrolled)
+BILL-00204,V001,Amazon Web Services,EUINUS25064628,2025-07-02,2025-07-02,2025-07-17,2025-06-01,2025-06-30,35589.99,Hosting,COGS,paid,2025-07-17,AWS usage June 2025
+BILL-00208,V026,Marlow & Pierce LLP (fictional),INV-1707,2025-07-11,2025-07-13,2025-08-10,2025-06-01,2025-06-30,8802.1,Legal,G&A,paid,2025-08-08,Legal services June 2025
+BILL-00211,V022,Kaltwerk Dev Studio (fictional),KAL-2507979,2025-07-31,2025-08-01,2025-08-30,2025-07-01,2025-07-31,38000.0,Contractors - R&D,Engineering,paid,2025-08-29,Dedicated dev team - July 2025
+BILL-00212,V023,Brightquarry Content Co. (fictional),BRI-2507454,2025-07-31,2025-08-01,2025-08-30,2025-07-01,2025-07-31,9000.0,Contractors - Marketing,Marketing,paid,2025-08-29,Content retainer July 2025
+BILL-00219,V024,Harbor Point Properties LLC (fictional),HPP-202508,2025-08-01,2025-08-03,2025-08-01,2025-08-01,2025-08-31,18000.0,Rent,G&A,paid,2025-08-01,Office rent August 2025
+BILL-00221,V029,Bluepine Health Plans (fictional),BLU-2508264,2025-08-01,2025-08-03,2025-08-01,2025-08-01,2025-08-31,44100.0,Benefits,Allocated,paid,2025-08-18,Medical/dental/vision premiums August 2025 (42 enrolled)
+BILL-00210,V001,Amazon Web Services,EUINUS25074781,2025-08-04,2025-08-06,2025-08-19,2025-07-01,2025-07-31,40353.28,Hosting,COGS,paid,2025-08-19,AWS usage July 2025
+BILL-00214,V026,Marlow & Pierce LLP (fictional),INV-1713,2025-08-08,2025-08-09,2025-09-07,2025-07-01,2025-07-31,6903.2,Legal,G&A,paid,2025-09-05,Legal services July 2025
+BILL-00217,V022,Kaltwerk Dev Studio (fictional),KAL-2508249,2025-08-31,2025-09-02,2025-09-30,2025-08-01,2025-08-31,38000.0,Contractors - R&D,Engineering,paid,2025-09-30,Dedicated dev team - August 2025
+BILL-00218,V023,Brightquarry Content Co. (fictional),BRI-2508141,2025-08-31,2025-08-31,2025-09-30,2025-08-01,2025-08-31,9000.0,Contractors - Marketing,Marketing,paid,2025-09-30,Content retainer August 2025
+BILL-00227,V024,Harbor Point Properties LLC (fictional),HPP-202509,2025-09-01,2025-09-03,2025-09-01,2025-09-01,2025-09-30,18000.0,Rent,G&A,paid,2025-09-01,Office rent September 2025
+BILL-00229,V029,Bluepine Health Plans (fictional),BLU-2509434,2025-09-01,2025-09-01,2025-09-01,2025-09-01,2025-09-30,44100.0,Benefits,Allocated,paid,2025-09-01,Medical/dental/vision premiums September 2025 (42 enrolled)
+BILL-00216,V001,Amazon Web Services,EUINUS25084757,2025-09-02,2025-09-02,2025-09-17,2025-08-01,2025-08-31,41587.73,Hosting,COGS,paid,2025-09-17,AWS usage August 2025
+BILL-00225,V021,OpsForward Summit (fictional),OPS-2509710,2025-09-03,2025-09-03,2025-10-03,2025-09-01,2025-09-30,26000.0,Events,Marketing,paid,2025-10-03,Booth sponsorship - OpsForward Summit Sep 2025
+BILL-00220,V026,Marlow & Pierce LLP (fictional),INV-1719,2025-09-07,2025-09-08,2025-10-07,2025-08-01,2025-08-31,7849.82,Legal,G&A,paid,2025-10-07,Legal services August 2025
+BILL-00223,V014,Salesforce,SAL-2509928,2025-09-12,2025-09-14,2025-10-12,2025-09-15,2026-09-14,29700.0,Software - Sales,Sales,paid,2025-10-10,"Salesforce Sales Cloud Enterprise - 15 users, 12 months"
+BILL-00224,V022,Kaltwerk Dev Studio (fictional),KAL-2509982,2025-09-30,2025-10-02,2025-10-30,2025-09-01,2025-09-30,38000.0,Contractors - R&D,Engineering,paid,2025-10-30,Dedicated dev team - September 2025
+BILL-00226,V023,Brightquarry Content Co. (fictional),BRI-2509845,2025-09-30,2025-09-30,2025-10-30,2025-09-01,2025-09-30,9000.0,Contractors - Marketing,Marketing,paid,2025-10-30,Content retainer September 2025
+BILL-00233,V024,Harbor Point Properties LLC (fictional),HPP-202510,2025-10-01,2025-10-01,2025-10-01,2025-10-01,2025-10-31,18000.0,Rent,G&A,paid,2025-10-01,Office rent October 2025
+BILL-00235,V029,Bluepine Health Plans (fictional),BLU-2510219,2025-10-01,2025-10-01,2025-10-01,2025-10-01,2025-10-31,46200.0,Benefits,Allocated,paid,2025-10-01,Medical/dental/vision premiums October 2025 (44 enrolled)
+BILL-00222,V001,Amazon Web Services,EUINUS25092632,2025-10-02,2025-10-02,2025-10-17,2025-09-01,2025-09-30,40004.25,Hosting,COGS,paid,2025-10-17,AWS usage September 2025
+BILL-00228,V026,Marlow & Pierce LLP (fictional),INV-1727,2025-10-11,2025-10-13,2025-11-10,2025-09-01,2025-09-30,6371.04,Legal,G&A,paid,2025-11-10,Legal services September 2025
+BILL-00231,V022,Kaltwerk Dev Studio (fictional),KAL-2510103,2025-10-31,2025-11-01,2025-11-30,2025-10-01,2025-10-31,38000.0,Contractors - R&D,Engineering,paid,2025-11-28,Dedicated dev team - October 2025
+BILL-00232,V023,Brightquarry Content Co. (fictional),BRI-2510280,2025-10-31,2025-11-02,2025-11-30,2025-10-01,2025-10-31,9000.0,Contractors - Marketing,Marketing,paid,2025-11-28,Content retainer October 2025
+BILL-00239,V024,Harbor Point Properties LLC (fictional),HPP-202511,2025-11-01,2025-11-03,2025-11-01,2025-11-01,2025-11-30,18000.0,Rent,G&A,paid,2025-11-03,Office rent November 2025
+BILL-00241,V029,Bluepine Health Plans (fictional),BLU-2511325,2025-11-01,2025-11-03,2025-11-01,2025-11-01,2025-11-30,48300.0,Benefits,Allocated,paid,2025-11-03,Medical/dental/vision premiums November 2025 (46 enrolled)
+BILL-00230,V001,Amazon Web Services,EUINUS25108047,2025-11-03,2025-11-04,2025-11-18,2025-10-01,2025-10-31,42387.46,Hosting,COGS,paid,2025-11-18,AWS usage October 2025
+BILL-00234,V026,Marlow & Pierce LLP (fictional),INV-1733,2025-11-10,2025-11-12,2025-12-10,2025-10-01,2025-10-31,6689.55,Legal,G&A,paid,2025-12-10,Legal services October 2025
+BILL-00237,V022,Kaltwerk Dev Studio (fictional),KAL-2511327,2025-11-30,2025-12-01,2025-12-30,2025-11-01,2025-11-30,38000.0,Contractors - R&D,Engineering,paid,2025-12-30,Dedicated dev team - November 2025
+BILL-00238,V023,Brightquarry Content Co. (fictional),BRI-2511262,2025-11-30,2025-11-30,2025-12-30,2025-11-01,2025-11-30,9000.0,Contractors - Marketing,Marketing,paid,2025-12-30,Content retainer November 2025
+BILL-00245,V024,Harbor Point Properties LLC (fictional),HPP-202512,2025-12-01,2025-12-01,2025-12-01,2025-12-01,2025-12-31,18000.0,Rent,G&A,paid,2025-12-01,Office rent December 2025
+BILL-00247,V029,Bluepine Health Plans (fictional),BLU-2512964,2025-12-01,2025-12-03,2025-12-01,2025-12-01,2025-12-31,48300.0,Benefits,Allocated,paid,2025-12-01,Medical/dental/vision premiums December 2025 (46 enrolled)
+BILL-00236,V001,Amazon Web Services,EUINUS25116561,2025-12-02,2025-12-02,2025-12-17,2025-11-01,2025-11-30,49162.85,Hosting,COGS,paid,2025-12-17,AWS usage November 2025
+BILL-00240,V026,Marlow & Pierce LLP (fictional),INV-1739,2025-12-10,2025-12-10,2026-01-09,2025-11-01,2025-11-30,7913.45,Legal,G&A,paid,2026-01-09,Legal services November 2025
+BILL-00243,V022,Kaltwerk Dev Studio (fictional),KAL-2512501,2025-12-31,2025-12-31,2026-01-30,2025-12-01,2025-12-31,38000.0,Contractors - R&D,Engineering,paid,2026-01-30,Dedicated dev team - December 2025
+BILL-00244,V023,Brightquarry Content Co. (fictional),BRI-2512427,2025-12-31,2025-12-31,2026-01-30,2025-12-01,2025-12-31,9000.0,Contractors - Marketing,Marketing,paid,2026-01-30,Content retainer December 2025
+BILL-00252,V024,Harbor Point Properties LLC (fictional),HPP-202601,2026-01-01,2026-01-03,2026-01-01,2026-01-01,2026-01-31,18000.0,Rent,G&A,paid,2026-01-19,Office rent January 2026
+BILL-00254,V029,Bluepine Health Plans (fictional),BLU-2601696,2026-01-01,2026-01-03,2026-01-01,2026-01-01,2026-01-31,51198.0,Benefits,Allocated,paid,2026-01-01,Medical/dental/vision premiums January 2026 (46 enrolled)
+BILL-00242,V001,Amazon Web Services,EUINUS25124602,2026-01-02,2026-01-04,2026-01-17,2025-12-01,2025-12-31,56206.81,Hosting,COGS,paid,2026-01-16,AWS usage December 2025
+BILL-00249,V015,ZoomInfo,ZOO-2601502,2026-01-08,2026-01-09,2026-02-07,2026-01-01,2026-12-31,27600.0,Software - Sales,Sales,paid,2026-02-06,ZoomInfo SalesOS annual subscription
+BILL-00246,V026,Marlow & Pierce LLP (fictional),INV-1745,2026-01-10,2026-01-10,2026-02-09,2025-12-01,2025-12-31,7701.34,Legal,G&A,paid,2026-02-09,Legal services December 2025
+BILL-00250,V022,Kaltwerk Dev Studio (fictional),KAL-2601707,2026-01-31,2026-02-01,2026-03-02,2026-01-01,2026-01-31,38000.0,Contractors - R&D,Engineering,paid,2026-03-02,Dedicated dev team - January 2026
+BILL-00251,V023,Brightquarry Content Co. (fictional),BRI-2601576,2026-01-31,2026-02-01,2026-03-02,2026-01-01,2026-01-31,14000.0,Contractors - Marketing,Marketing,paid,2026-03-02,Content retainer January 2026
+BILL-00258,V024,Harbor Point Properties LLC (fictional),HPP-202602,2026-02-01,2026-02-01,2026-02-01,2026-02-01,2026-02-28,18000.0,Rent,G&A,paid,2026-02-02,Office rent February 2026
+BILL-00260,V028,Keystone Mutual Insurance (fictional),KEY-2602130,2026-02-01,2026-02-03,2026-03-03,2026-02-01,2027-01-31,64000.0,Insurance,G&A,paid,2026-03-03,"D&O, E&O/Cyber and general liability annual premium"
+BILL-00261,V029,Bluepine Health Plans (fictional),BLU-2602129,2026-02-01,2026-02-03,2026-02-01,2026-02-01,2026-02-28,51198.0,Benefits,Allocated,paid,2026-02-02,Medical/dental/vision premiums February 2026 (46 enrolled)
+BILL-00248,V001,Amazon Web Services,EUINUS26016609,2026-02-02,2026-02-04,2026-02-17,2026-01-01,2026-01-31,54588.36,Hosting,COGS,paid,2026-02-17,AWS usage January 2026
+BILL-00253,V026,Marlow & Pierce LLP (fictional),INV-1752,2026-02-09,2026-02-11,2026-03-11,2026-01-01,2026-01-31,8689.63,Legal,G&A,paid,2026-03-11,Legal services January 2026
+BILL-00256,V022,Kaltwerk Dev Studio (fictional),KAL-2602447,2026-02-28,2026-03-02,2026-03-30,2026-02-01,2026-02-28,38000.0,Contractors - R&D,Engineering,paid,2026-04-20,Dedicated dev team - February 2026
+BILL-00257,V023,Brightquarry Content Co. (fictional),BRI-2602330,2026-02-28,2026-02-28,2026-03-30,2026-02-01,2026-02-28,14000.0,Contractors - Marketing,Marketing,paid,2026-03-30,Content retainer February 2026
+BILL-00266,V024,Harbor Point Properties LLC (fictional),HPP-202603,2026-03-01,2026-03-03,2026-03-01,2026-03-01,2026-03-31,18000.0,Rent,G&A,paid,2026-03-02,Office rent March 2026
+BILL-00269,V029,Bluepine Health Plans (fictional),BLU-2603747,2026-03-01,2026-03-03,2026-03-01,2026-03-01,2026-03-31,52311.0,Benefits,Allocated,paid,2026-03-02,Medical/dental/vision premiums March 2026 (47 enrolled)
+BILL-00255,V001,Amazon Web Services,EUINUS26027892,2026-03-02,2026-03-04,2026-03-17,2026-02-01,2026-02-28,56632.47,Hosting,COGS,paid,2026-03-17,AWS usage February 2026
+BILL-00264,V021,OpsForward Summit (fictional),OPS-2603389,2026-03-03,2026-03-03,2026-04-02,2026-03-01,2026-03-31,29400.0,Events,Marketing,paid,2026-04-02,Booth sponsorship - OpsForward Summit Mar 2026
+BILL-00259,V026,Marlow & Pierce LLP (fictional),INV-1758,2026-03-07,2026-03-09,2026-04-06,2026-02-01,2026-02-28,7611.78,Legal,G&A,paid,2026-04-06,Legal services February 2026
+BILL-00268,V027,Brennan Ostrow CPAs (fictional),BRE-2603632,2026-03-20,2026-03-21,2026-04-19,,,15500.0,Accounting & Tax,G&A,paid,2026-04-17,2025 federal & state tax returns
+BILL-00263,V022,Kaltwerk Dev Studio (fictional),KAL-2603126,2026-03-31,2026-04-01,2026-04-30,2026-03-01,2026-03-31,38000.0,Contractors - R&D,Engineering,paid,2026-04-30,Dedicated dev team - March 2026
+BILL-00265,V023,Brightquarry Content Co. (fictional),BRI-2603303,2026-03-31,2026-04-01,2026-04-30,2026-03-01,2026-03-31,14000.0,Contractors - Marketing,Marketing,paid,2026-04-30,Content retainer March 2026
+BILL-00273,V024,Harbor Point Properties LLC (fictional),HPP-202604,2026-04-01,2026-04-03,2026-04-01,2026-04-01,2026-04-30,18000.0,Rent,G&A,paid,2026-04-01,Office rent April 2026
+BILL-00276,V029,Bluepine Health Plans (fictional),BLU-2604252,2026-04-01,2026-04-01,2026-04-01,2026-04-01,2026-04-30,55650.0,Benefits,Allocated,paid,2026-04-13,Medical/dental/vision premiums April 2026 (50 enrolled)
+BILL-00262,V001,Amazon Web Services,EUINUS26033171,2026-04-02,2026-04-04,2026-04-17,2026-03-01,2026-03-31,59845.93,Hosting,COGS,paid,2026-04-17,AWS usage March 2026
+BILL-00267,V026,Marlow & Pierce LLP (fictional),INV-1766,2026-04-09,2026-04-11,2026-05-09,2026-03-01,2026-03-31,7789.86,Legal,G&A,paid,2026-05-08,Legal services March 2026
+BILL-00275,V027,Brennan Ostrow CPAs (fictional),BRE-2604878,2026-04-25,2026-04-27,2026-05-25,,,16000.0,Accounting & Tax,G&A,paid,2026-05-25,FY2025 financial statement audit - progress billing
+BILL-00271,V022,Kaltwerk Dev Studio (fictional),KAL-2604254,2026-04-30,2026-05-02,2026-05-30,2026-04-01,2026-04-30,38000.0,Contractors - R&D,Engineering,paid,2026-05-29,Dedicated dev team - April 2026
+BILL-00272,V023,Brightquarry Content Co. (fictional),BRI-2604103,2026-04-30,2026-04-30,2026-05-30,2026-04-01,2026-04-30,14000.0,Contractors - Marketing,Marketing,paid,2026-05-29,Content retainer April 2026
+BILL-00280,V024,Harbor Point Properties LLC (fictional),HPP-202605,2026-05-01,2026-05-01,2026-05-01,2026-05-01,2026-05-31,18000.0,Rent,G&A,paid,2026-05-01,Office rent May 2026
+BILL-00283,V029,Bluepine Health Plans (fictional),BLU-2605840,2026-05-01,2026-05-03,2026-05-01,2026-05-01,2026-05-31,55650.0,Benefits,Allocated,paid,2026-05-01,Medical/dental/vision premiums May 2026 (50 enrolled)
+BILL-00270,V001,Amazon Web Services,EUINUS26041516,2026-05-04,2026-05-04,2026-05-19,2026-04-01,2026-04-30,58261.24,Hosting,COGS,paid,2026-06-03,AWS usage April 2026
+BILL-00274,V026,Marlow & Pierce LLP (fictional),INV-1773,2026-05-11,2026-05-12,2026-06-10,2026-04-01,2026-04-30,7721.96,Legal,G&A,paid,2026-06-10,Legal services April 2026
+BILL-00282,V027,Brennan Ostrow CPAs (fictional),BRE-2605953,2026-05-25,2026-05-27,2026-06-24,,,16000.0,Accounting & Tax,G&A,paid,2026-06-24,FY2025 financial statement audit - progress billing
+BILL-00278,V022,Kaltwerk Dev Studio (fictional),KAL-2605560,2026-05-31,2026-06-01,2026-06-30,2026-05-01,2026-05-31,38000.0,Contractors - R&D,Engineering,paid,2026-06-30,Dedicated dev team - May 2026
+BILL-00279,V023,Brightquarry Content Co. (fictional),BRI-2605167,2026-05-31,2026-05-31,2026-06-30,2026-05-01,2026-05-31,14000.0,Contractors - Marketing,Marketing,paid,2026-06-30,Content retainer May 2026
+BILL-00287,V024,Harbor Point Properties LLC (fictional),HPP-202606,2026-06-01,2026-06-02,2026-06-01,2026-06-01,2026-06-30,18000.0,Rent,G&A,paid,2026-06-01,Office rent June 2026
+BILL-00290,V029,Bluepine Health Plans (fictional),BLU-2606796,2026-06-01,2026-06-02,2026-06-01,2026-06-01,2026-06-30,58989.0,Benefits,Allocated,paid,2026-06-01,Medical/dental/vision premiums June 2026 (53 enrolled)
+BILL-00277,V001,Amazon Web Services,EUINUS26055707,2026-06-02,2026-06-03,2026-06-17,2026-05-01,2026-05-31,63832.58,Hosting,COGS,paid,2026-06-17,AWS usage May 2026
+BILL-00281,V026,Marlow & Pierce LLP (fictional),INV-1780,2026-06-11,2026-06-11,2026-07-11,2026-05-01,2026-05-31,125722.47,Legal,G&A,paid,2026-07-10,Legal services May 2026
+BILL-00289,V027,Brennan Ostrow CPAs (fictional),BRE-2606240,2026-06-25,2026-06-25,2026-07-25,,,16000.0,Accounting & Tax,G&A,paid,2026-07-24,FY2025 financial statement audit - progress billing
+BILL-00291,V030,Talentridge Search Partners (fictional),TAL-2606233,2026-06-29,2026-06-29,2026-07-29,,,38500.0,Recruiting,Engineering,paid,2026-07-29,Placement fee - Software Engineer (E0063)
+BILL-00285,V022,Kaltwerk Dev Studio (fictional),KAL-2606547,2026-06-30,2026-07-01,2026-07-30,2026-06-01,2026-06-30,38000.0,Contractors - R&D,Engineering,paid,2026-07-30,Dedicated dev team - June 2026
+BILL-00286,V023,Brightquarry Content Co. (fictional),BRI-2606436,2026-06-30,2026-06-30,2026-07-30,2026-06-01,2026-06-30,14000.0,Contractors - Marketing,Marketing,paid,2026-07-30,Content retainer June 2026
+BILL-00295,V024,Harbor Point Properties LLC (fictional),HPP-202607,2026-07-01,2026-07-02,2026-07-01,2026-07-01,2026-07-31,18000.0,Rent,G&A,paid,2026-07-01,Office rent July 2026
+BILL-00298,V029,Bluepine Health Plans (fictional),BLU-2607966,2026-07-01,2026-07-02,2026-07-01,2026-07-01,2026-07-31,66780.0,Benefits,Allocated,paid,2026-07-14,Medical/dental/vision premiums July 2026 (60 enrolled)
+BILL-00284,V001,Amazon Web Services,EUINUS26068261,2026-07-02,2026-07-04,2026-07-17,2026-06-01,2026-06-30,63677.46,Hosting,COGS,paid,2026-07-17,AWS usage June 2026
+BILL-00288,V026,Marlow & Pierce LLP (fictional),INV-1787,2026-07-06,2026-07-08,2026-08-05,2026-06-01,2026-06-30,9216.55,Legal,G&A,paid,2026-08-05,Legal services June 2026
+BILL-00296,V024,Harbor Point Properties LLC (fictional),HPP-DEP-400,2026-07-10,2026-07-11,2026-07-10,,,82000.0,Rent,G&A,paid,2026-07-10,Security deposit - Suite 400 lease (refundable)
+BILL-00293,V022,Kaltwerk Dev Studio (fictional),KAL-2607258,2026-07-31,2026-08-02,2026-08-30,2026-07-01,2026-07-31,20000.0,Contractors - R&D,Engineering,paid,2026-08-28,Dedicated dev team - July 2026
+BILL-00294,V023,Brightquarry Content Co. (fictional),BRI-2607518,2026-07-31,2026-08-01,2026-08-30,2026-07-01,2026-07-31,14000.0,Contractors - Marketing,Marketing,paid,2026-08-28,Content retainer July 2026
+BILL-00302,V024,Harbor Point Properties LLC (fictional),HPP-202608,2026-08-01,2026-08-02,2026-08-01,2026-08-01,2026-08-31,41000.0,Rent,G&A,paid,2026-08-03,Office rent August 2026
+BILL-00305,V029,Bluepine Health Plans (fictional),BLU-2608183,2026-08-01,2026-08-02,2026-08-01,2026-08-01,2026-08-31,70119.0,Benefits,Allocated,paid,2026-08-03,Medical/dental/vision premiums August 2026 (63 enrolled)
+BILL-00292,V001,Amazon Web Services,EUINUS26073592,2026-08-03,2026-08-05,2026-08-18,2026-07-01,2026-07-31,111830.82,Hosting,COGS,paid,2026-08-18,AWS usage July 2026
+BILL-00297,V026,Marlow & Pierce LLP (fictional),INV-1796,2026-08-08,2026-08-09,2026-09-07,2026-07-01,2026-07-31,7189.24,Legal,G&A,paid,2026-09-07,Legal services July 2026
+BILL-00309,V030,Talentridge Search Partners (fictional),TAL-2608732,2026-08-08,2026-08-10,2026-09-07,,,25200.0,Recruiting,Marketing,paid,2026-09-07,Placement fee - Product Marketing Manager (E0080)
+BILL-00311,V030,Talentridge Search Partners (fictional),TAL-2608147,2026-08-10,2026-08-12,2026-09-09,,,36400.0,Recruiting,G&A,paid,2026-09-09,Placement fee - Office & IT Manager (E0083)
+BILL-00303,V025,Dovetail Interiors (fictional),DI-24117,2026-08-14,2026-08-15,2026-09-13,,,186400.0,Fixed Assets,G&A,paid,2026-09-11,Office furniture & buildout - Suite 400
+BILL-00306,V030,Talentridge Search Partners (fictional),TAL-2608273,2026-08-14,2026-08-14,2026-09-13,,,43200.0,Recruiting,Engineering,paid,2026-09-11,Placement fee - Senior Software Engineer (E0075)
+BILL-00307,V030,Talentridge Search Partners (fictional),TAL-2608211,2026-08-14,2026-08-14,2026-09-13,,,38000.0,Recruiting,Engineering,paid,2026-09-11,Placement fee - Software Engineer (E0076)
+BILL-00308,V030,Talentridge Search Partners (fictional),TAL-2608672,2026-08-14,2026-08-14,2026-09-13,,,40200.0,Recruiting,Product,paid,2026-09-11,Placement fee - Product Designer (E0077)
+BILL-00310,V030,Talentridge Search Partners (fictional),TAL-2608881,2026-08-27,2026-08-29,2026-09-26,,,16800.0,Recruiting,Support,paid,2026-09-25,Placement fee - Support Engineer (E0082)
+BILL-00300,V022,Kaltwerk Dev Studio (fictional),KAL-2608116,2026-08-31,2026-09-02,2026-09-30,2026-08-01,2026-08-31,20000.0,Contractors - R&D,Engineering,paid,2026-09-30,Dedicated dev team - August 2026
+BILL-00301,V023,Brightquarry Content Co. (fictional),BRI-2608577,2026-08-31,2026-08-31,2026-09-30,2026-08-01,2026-08-31,14000.0,Contractors - Marketing,Marketing,paid,2026-09-30,Content retainer August 2026
+BILL-00317,V024,Harbor Point Properties LLC (fictional),HPP-202609,2026-09-01,2026-09-01,2026-09-01,2026-09-01,2026-09-30,41000.0,Rent,G&A,paid,2026-09-01,Office rent September 2026
+BILL-00319,V029,Bluepine Health Plans (fictional),BLU-2609859,2026-09-01,2026-09-03,2026-09-01,2026-09-01,2026-09-30,80136.0,Benefits,Allocated,paid,2026-09-14,Medical/dental/vision premiums September 2026 (72 enrolled)
+BILL-00299,V001,Amazon Web Services,EUINUS26084133,2026-09-02,2026-09-04,2026-09-17,2026-08-01,2026-08-31,76688.71,Hosting,COGS,paid,2026-09-17,AWS usage August 2026
+BILL-00315,V021,OpsForward Summit (fictional),OPS-2609804,2026-09-03,2026-09-05,2026-10-03,2026-09-01,2026-09-30,42000.0,Events,Marketing,paid,2026-10-02,Booth sponsorship - OpsForward Summit Sep 2026
+BILL-00304,V026,Marlow & Pierce LLP (fictional),INV-1803,2026-09-08,2026-09-09,2026-10-08,2026-08-01,2026-08-31,8713.3,Legal,G&A,paid,2026-10-08,Legal services August 2026
+BILL-00320,V030,Talentridge Search Partners (fictional),TAL-2609602,2026-09-10,2026-09-11,2026-10-10,,,28300.0,Recruiting,Sales,paid,2026-10-09,Placement fee - Account Executive (E0085)
+BILL-00313,V014,Salesforce,SAL-2609414,2026-09-12,2026-09-13,2026-10-12,2026-09-15,2027-09-14,67795.2,Software - Sales,Sales,paid,2026-10-12,"Salesforce Sales Cloud Enterprise - 32 users, 12 months"
+BILL-00314,V022,Kaltwerk Dev Studio (fictional),KAL-2609536,2026-09-30,2026-09-30,2026-10-30,2026-09-01,2026-09-30,20000.0,Contractors - R&D,Engineering,paid,2026-10-30,Dedicated dev team - September 2026
+BILL-00316,V023,Brightquarry Content Co. (fictional),BRI-2609933,2026-09-30,2026-10-02,2026-10-30,2026-09-01,2026-09-30,14000.0,Contractors - Marketing,Marketing,paid,2026-10-30,Content retainer September 2026
+BILL-00324,V024,Harbor Point Properties LLC (fictional),HPP-202610,2026-10-01,2026-10-01,2026-10-01,2026-10-01,2026-10-31,41000.0,Rent,G&A,paid,2026-10-01,Office rent October 2026
+BILL-00326,V029,Bluepine Health Plans (fictional),BLU-2610908,2026-10-01,2026-10-03,2026-10-01,2026-10-01,2026-10-31,82362.0,Benefits,Allocated,paid,2026-10-01,Medical/dental/vision premiums October 2026 (74 enrolled)
+BILL-00312,V001,Amazon Web Services,EUINUS26097482,2026-10-02,2026-10-04,2026-10-17,2026-09-01,2026-09-30,77466.9,Hosting,COGS,paid,2026-10-16,AWS usage September 2026
+BILL-00318,V026,Marlow & Pierce LLP (fictional),INV-1817,2026-10-11,2026-10-12,2026-11-10,2026-09-01,2026-09-30,23531.81,Legal,G&A,approved,,Legal services September 2026
+BILL-00322,V022,Kaltwerk Dev Studio (fictional),KAL-2610590,2026-10-31,2026-10-31,2026-11-30,2026-10-01,2026-10-31,20000.0,Contractors - R&D,Engineering,approved,,Dedicated dev team - October 2026
+BILL-00327,V030,Talentridge Search Partners (fictional),TAL-2610992,2026-10-14,2026-10-16,2026-11-13,2026-10-14,2026-10-14,28400.0,Recruiting,Sales,pending_approval,,"Placement fee - Senior Account Executive (offer accepted 2026-10-12, start date 2026-11-02)"

@@ -1,0 +1,5 @@
+refund_id,invoice_id,customer_id,refund_date,amount,reason
+re_00001,in_000174,C00005,2022-02-23,7560.0,requested_by_customer
+re_00002,in_001720,C00176,2025-11-06,5940.0,requested_by_customer
+re_00003,in_001968,C00247,2026-05-16,18000.0,requested_by_customer
+re_00004,in_002032,C00266,2026-07-12,9600.0,requested_by_customer

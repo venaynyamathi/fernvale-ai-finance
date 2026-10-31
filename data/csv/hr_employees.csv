@@ -1,0 +1,86 @@
+employee_id,full_name,department,title,employment_type,location,hire_date,termination_date,termination_reason,annual_salary,is_quota_carrying
+E0001,Sofia Mensah,G&A,Chief Executive Officer,Full-time,"Oakland, CA",2022-01-03,,,216000,0
+E0002,Nikhil Fischer,Engineering,Chief Technology Officer,Full-time,"Oakland, CA",2022-01-03,,,221500,0
+E0003,Elena Moreau,Product,Head of Product,Full-time,Remote - TX,2022-01-03,,,203500,0
+E0004,Arjun Castillo,Engineering,Founding Engineer,Full-time,"Oakland, CA",2022-02-14,,,187500,0
+E0005,Amara Owens,Engineering,Founding Engineer,Full-time,Remote - CA,2022-02-28,,,181000,0
+E0006,Omar Walsh,Sales,Head of Sales,Full-time,"Oakland, CA",2022-03-14,,,172000,0
+E0007,Andre Ibarra,Engineering,Software Engineer,Full-time,"Oakland, CA",2022-01-23,2026-06-25,Voluntary - new opportunity,183000,0
+E0008,Isaac Gupta,Engineering,Senior Software Engineer,Full-time,Remote - WA,2022-01-05,2025-07-18,Voluntary - relocation,206000,0
+E0009,Grace Fontaine,Sales,Account Executive,Full-time,Remote - CA,2022-01-12,,,114500,1
+E0010,Elise Yilmaz,Marketing,Product Marketing Manager,Full-time,Remote - NY,2022-12-08,2024-06-12,Voluntary - new opportunity,188500,0
+E0011,Iris Weber,Customer Success,Customer Success Manager,Full-time,"Oakland, CA",2022-12-17,2023-05-12,Voluntary - new opportunity,113000,0
+E0012,Rohan Park,Support,Support Engineer,Full-time,Remote - CA,2022-12-05,,,97000,0
+E0013,Aisha Reyes,Sales,Account Executive,Full-time,Remote - CA,2023-03-19,,,169000,1
+E0014,Chloe Banerjee,Engineering,Senior Software Engineer,Full-time,Remote - TX,2023-04-26,,,269000,0
+E0015,Yara Kowalski,Customer Success,Customer Success Manager,Full-time,Remote - TX,2023-05-16,2024-10-18,Voluntary - new opportunity,118000,0
+E0016,Simone Baker,Engineering,Software Engineer,Full-time,Remote - CO,2023-09-20,,,218500,0
+E0017,Miguel Alvarez,Product,Product Designer,Full-time,Remote - NY,2023-12-24,,,186500,0
+E0018,Mei Weber,Sales,Sales Engineer,Full-time,Remote - CO,2023-12-01,,,163500,0
+E0019,Priya Yilmaz,Marketing,Product Marketing Manager,Full-time,"Oakland, CA",2023-12-24,,,176000,0
+E0020,Diego Sato,Customer Success,Customer Success Manager,Full-time,Remote - TX,2023-12-24,,,147000,0
+E0021,Andre Fontaine,Support,Support Engineer,Full-time,Remote - NY,2023-12-21,,,98000,0
+E0022,Felix Brennan,G&A,Recruiter,Full-time,Remote - TX,2023-12-26,,,121000,0
+E0023,Nikhil Banerjee,Engineering,Software Engineer,Full-time,Remote - WA,2024-02-25,2026-07-13,Voluntary - new opportunity,223000,0
+E0024,Hector Reyes,Marketing,VP Marketing,Full-time,Remote - NY,2024-05-13,,,231000,0
+E0025,Nikhil Kowalski,Engineering,Software Engineer,Full-time,"Oakland, CA",2024-05-04,,,178000,0
+E0026,Andre Nakamura,Engineering,Senior Software Engineer,Full-time,Remote - NY,2024-06-10,,,259500,0
+E0027,Hana Farouk,Sales,Sales Engineer,Full-time,"Oakland, CA",2024-06-22,,,147000,0
+E0028,Caleb Larsen,Engineering,Senior Software Engineer,Full-time,Remote - CA,2024-08-23,,,246500,0
+E0029,Wei Zhang,Marketing,Demand Generation Manager,Full-time,Remote - CA,2024-08-17,,,205500,0
+E0030,Gabriel Agarwal,Customer Success,Customer Success Manager,Full-time,Remote - NY,2024-08-22,2026-07-14,Voluntary - new opportunity,160500,0
+E0031,Tariq Shah,Support,Support Lead,Full-time,Remote - WA,2024-08-04,,,97500,0
+E0032,Kenji Vargas,G&A,People Operations Manager,Full-time,Remote - TX,2024-08-14,,,232000,0
+E0033,Nikhil Alvarez,Sales,Account Executive,Full-time,Remote - CA,2024-09-09,2025-07-13,Voluntary - new opportunity,156500,1
+E0034,Arjun Silva,Engineering,Software Engineer,Full-time,Remote - CO,2024-10-21,,,221500,0
+E0035,Malik Fischer,Customer Success,Customer Success Manager,Full-time,"Oakland, CA",2024-10-05,2025-04-12,Involuntary - performance,105500,0
+E0036,Rosa Murphy,Engineering,Senior Software Engineer,Full-time,Remote - WA,2025-01-01,,,248000,0
+E0037,Daniel Hughes,Sales,Account Executive,Full-time,Remote - WA,2025-01-09,,,122000,1
+E0038,Isaac Bennett,G&A,Controller,Full-time,Remote - WA,2025-02-10,,,204000,0
+E0039,Felix Walsh,Customer Success,Customer Success Manager,Full-time,Remote - CA,2025-03-25,,,116500,0
+E0040,Maya Jensen,Engineering,Software Engineer,Full-time,Remote - CO,2025-04-18,,,217500,0
+E0041,Theo Edwards,Customer Success,Customer Success Manager,Full-time,"Oakland, CA",2025-04-05,2026-03-15,Voluntary - career change,142500,0
+E0042,Olivia Turner,Sales,Account Executive,Full-time,Remote - TX,2025-06-12,,,157500,1
+E0043,Eli Delgado,Engineering,Software Engineer,Full-time,Remote - WA,2025-07-03,2025-12-27,Voluntary - new opportunity,185000,0
+E0044,Elena Reyes,Engineering,Software Engineer,Full-time,Remote - CA,2025-07-19,,,188500,0
+E0045,Rohan Rossi,Product,Product Manager,Full-time,"Oakland, CA",2025-07-02,,,243500,0
+E0046,Olivia Garcia,Sales,Account Executive,Full-time,Remote - CA,2025-07-19,,,149000,1
+E0047,Lucia Lopez,Marketing,Product Marketing Manager,Full-time,"Oakland, CA",2025-07-10,,,133000,0
+E0048,Rohan Ellison,Support,Support Engineer,Full-time,Remote - WA,2025-07-22,,,81000,0
+E0049,Ryan Alvarez,Customer Success,Onboarding Specialist,Full-time,Remote - CA,2025-09-11,,,121500,0
+E0050,Leah Garcia,G&A,Recruiter,Full-time,Remote - CO,2025-09-18,,,217000,0
+E0051,Daria Edwards,Engineering,Senior Software Engineer,Full-time,Remote - CO,2025-10-07,,,178500,0
+E0052,Malik Vargas,Sales,Account Executive,Full-time,Remote - NY,2025-10-14,,,125500,1
+E0053,Eli Moreau,Engineering,Software Engineer,Full-time,Remote - TX,2025-12-22,,,213000,0
+E0054,Quinn Park,Engineering,Staff Engineer,Full-time,"Oakland, CA",2026-03-04,,,221500,0
+E0055,Hana Mensah,Product,Product Manager,Full-time,Remote - TX,2026-03-25,,,174000,0
+E0056,Caleb Hale,Sales,Sales Engineer,Full-time,"Oakland, CA",2026-03-23,,,135000,0
+E0057,Riya Greer,Marketing,Demand Generation Manager,Full-time,"Oakland, CA",2026-03-11,,,162500,0
+E0058,Imani Schmidt,Customer Success,Customer Success Manager,Full-time,Remote - TX,2026-03-01,,,112000,0
+E0059,Ethan Walsh,Engineering,Software Engineer,Full-time,"Oakland, CA",2026-05-03,,,196500,0
+E0060,Rafael Zhang,Sales,Sales Development Rep,Full-time,Remote - TX,2026-05-10,,,102500,0
+E0061,Rosa Ortiz,Engineering,VP Engineering,Full-time,Remote - CA,2026-06-08,,,265000,0
+E0062,Jenna Sato,Engineering,Senior Software Engineer,Full-time,Remote - TX,2026-06-16,,,247500,0
+E0063,Noah Mensah,Engineering,Software Engineer,Full-time,Remote - TX,2026-06-24,,,192500,0
+E0064,Imani Moreau,Product,Product Designer,Full-time,Remote - CA,2026-06-05,,,200500,0
+E0065,Victor Okafor,Sales,Account Executive,Full-time,Remote - WA,2026-06-01,,,118000,1
+E0066,Malik Shah,Marketing,Demand Generation Manager,Full-time,"Oakland, CA",2026-06-06,,,181500,0
+E0067,Aisha Sokolov,Customer Success,Customer Success Manager,Full-time,"Oakland, CA",2026-06-15,,,149500,0
+E0068,Rosa Ellison,G&A,People Operations Manager,Full-time,Remote - CA,2026-06-24,,,175000,0
+E0069,David Vargas,Sales,VP Sales,Full-time,Remote - CA,2026-07-13,,,240000,0
+E0070,Sara Turner,Engineering,Software Engineer,Full-time,"Oakland, CA",2026-07-22,,,188000,0
+E0071,Aaron Rossi,Engineering,Senior Software Engineer,Full-time,"Oakland, CA",2026-07-08,,,187500,0
+E0072,Bianca Silva,Engineering,Software Engineer,Full-time,Remote - CO,2026-07-01,,,165500,0
+E0073,Leah Lee,Sales,Sales Engineer,Full-time,Remote - WA,2026-07-09,,,131500,0
+E0074,Maya Turner,Customer Success,Customer Success Manager,Full-time,"Oakland, CA",2026-07-15,,,122000,0
+E0075,Diego Rossi,Engineering,Senior Software Engineer,Full-time,"Oakland, CA",2026-08-09,,,216000,0
+E0076,Uma Kim,Engineering,Software Engineer,Full-time,"Oakland, CA",2026-08-09,,,190000,0
+E0077,Julia Zhang,Product,Product Designer,Full-time,"Oakland, CA",2026-08-09,,,201000,0
+E0078,Elena Thompson,Sales,Account Executive,Full-time,Remote - CO,2026-08-25,,,136000,1
+E0079,Kai Alvarez,Sales,Sales Development Rep,Full-time,Remote - TX,2026-08-11,,,126500,0
+E0080,Fatima Garcia,Marketing,Product Marketing Manager,Full-time,Remote - CA,2026-08-03,,,126000,0
+E0081,Sofia Moreau,Customer Success,Customer Success Manager,Full-time,Remote - WA,2026-08-21,,,151000,0
+E0082,Ryan Lopez,Support,Support Engineer,Full-time,Remote - NY,2026-08-22,,,84000,0
+E0083,Noah Baker,G&A,Office & IT Manager,Full-time,Remote - CA,2026-08-05,,,182000,0
+E0084,Wei Fischer,Engineering,Senior Software Engineer,Full-time,Remote - CO,2026-09-22,,,164500,0
+E0085,Nadia Hughes,Sales,Account Executive,Full-time,Remote - TX,2026-09-05,,,141500,1

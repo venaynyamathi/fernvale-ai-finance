@@ -1,0 +1,85 @@
+month,department,planned_headcount
+2026-01-01,Engineering,16
+2026-01-01,Product,3
+2026-01-01,Sales,9
+2026-01-01,Marketing,4
+2026-01-01,Customer Success,5
+2026-01-01,Support,4
+2026-01-01,G&A,5
+2026-02-01,Engineering,17
+2026-02-01,Product,3
+2026-02-01,Sales,10
+2026-02-01,Marketing,4
+2026-02-01,Customer Success,5
+2026-02-01,Support,4
+2026-02-01,G&A,5
+2026-03-01,Engineering,17
+2026-03-01,Product,3
+2026-03-01,Sales,10
+2026-03-01,Marketing,4
+2026-03-01,Customer Success,5
+2026-03-01,Support,4
+2026-03-01,G&A,5
+2026-04-01,Engineering,17
+2026-04-01,Product,4
+2026-04-01,Sales,10
+2026-04-01,Marketing,4
+2026-04-01,Customer Success,5
+2026-04-01,Support,4
+2026-04-01,G&A,5
+2026-05-01,Engineering,19
+2026-05-01,Product,4
+2026-05-01,Sales,11
+2026-05-01,Marketing,5
+2026-05-01,Customer Success,6
+2026-05-01,Support,4
+2026-05-01,G&A,6
+2026-06-01,Engineering,20
+2026-06-01,Product,4
+2026-06-01,Sales,12
+2026-06-01,Marketing,6
+2026-06-01,Customer Success,6
+2026-06-01,Support,4
+2026-06-01,G&A,6
+2026-07-01,Engineering,21
+2026-07-01,Product,5
+2026-07-01,Sales,14
+2026-07-01,Marketing,6
+2026-07-01,Customer Success,6
+2026-07-01,Support,5
+2026-07-01,G&A,6
+2026-08-01,Engineering,23
+2026-08-01,Product,6
+2026-08-01,Sales,15
+2026-08-01,Marketing,6
+2026-08-01,Customer Success,7
+2026-08-01,Support,5
+2026-08-01,G&A,7
+2026-09-01,Engineering,24
+2026-09-01,Product,6
+2026-09-01,Sales,16
+2026-09-01,Marketing,7
+2026-09-01,Customer Success,7
+2026-09-01,Support,5
+2026-09-01,G&A,7
+2026-10-01,Engineering,25
+2026-10-01,Product,6
+2026-10-01,Sales,17
+2026-10-01,Marketing,7
+2026-10-01,Customer Success,7
+2026-10-01,Support,5
+2026-10-01,G&A,7
+2026-11-01,Engineering,26
+2026-11-01,Product,6
+2026-11-01,Sales,18
+2026-11-01,Marketing,7
+2026-11-01,Customer Success,7
+2026-11-01,Support,5
+2026-11-01,G&A,7
+2026-12-01,Engineering,27
+2026-12-01,Product,6
+2026-12-01,Sales,19
+2026-12-01,Marketing,7
+2026-12-01,Customer Success,7
+2026-12-01,Support,5
+2026-12-01,G&A,7
