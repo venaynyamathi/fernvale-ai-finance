@@ -1,0 +1,49 @@
+account_number,account_name,debit,credit
+1000,Operating Checking,2508560.88,
+1010,Treasury Money Market,33256933.88,
+1050,Stripe Clearing,5870.55,
+1100,Accounts Receivable,1515248.6,
+1200,Prepaid Software,6956.68,
+1210,Prepaid Insurance,21567.1,
+1300,Security Deposits,82000.0,
+1500,Furniture & Leasehold Improvements,186400.0,
+1550,Accumulated Depreciation,,3106.67
+2000,Accounts Payable,,180808.5
+2100,Ramp Corporate Card,,203264.72
+2200,Accrued Expenses,,105300.0
+2210,Accrued Commissions,,65048.4
+2220,Accrued Bonus,,497846.62
+2300,Deferred Revenue,,4691538.46
+3010,Preferred Stock - Seed,,5000000.0
+3020,Preferred Stock - Series A,,14000000.0
+3030,Preferred Stock - Series B,,32000000.0
+3900,Retained Earnings,13795976.95,
+4000,Subscription Revenue,,6182393.96
+4100,Professional Services Revenue,,303913.3
+5000,Hosting & Infrastructure,690694.34,
+5100,COGS - Support Salaries,312842.5,
+5110,COGS - Support Taxes & Benefits,67128.39,
+5200,Merchant Processing Fees,59227.26,
+6000,Salaries & Wages,7102114.7,
+6010,Payroll Taxes,611403.75,
+6020,Employee Benefits,500850.0,
+6030,Sales Commissions,243288.57,
+6040,Bonuses,410561.16,
+6100,Contractors,414000.0,
+6200,Software & Subscriptions,257995.36,
+6300,Advertising & Marketing Programs,540131.12,
+6310,Events & Sponsorships,71400.0,
+6400,Travel,119858.45,
+6410,Meals & Entertainment,34317.15,
+6500,Rent & Facilities,208000.0,
+6600,Legal Fees,205656.13,
+6610,Accounting & Tax Fees,63500.0,
+6620,Insurance,45660.28,
+6700,Recruiting,281900.0,
+6710,Computer Equipment,76482.82,
+6720,Office Expenses,19717.29,
+6800,Taxes & Licenses,3300.0,
+6850,Bank & Service Fees,7719.0,
+6900,Bad Debt & Chargebacks,71280.0,
+6950,Depreciation,3106.67,
+7000,Interest Income,,568428.95
