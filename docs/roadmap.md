@@ -32,6 +32,8 @@ Loaded Oct 31, 2026 with `python -m qbo_loader all`: sample data cleaned, 49 acc
 | SaaS metrics pack | billing events, CRM | ARR bridge, NRR/GRR, CAC payback, burn multiple |
 | Rolling forecast | all of the above | 18-month forecast and cash runway |
 
+Monthly data generation (one new month with fresh planted errors per close): see [month_extend_plan.md](month_extend_plan.md).
+
 ## 5. Portfolio
 
 - [ ] Before making the repo public: confirm `private/` was never committed and no secrets are in history.
