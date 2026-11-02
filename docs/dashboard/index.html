@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fernvale October Close</title>
+<meta name="description" content="October 2026 month-end close for Fernvale Systems, a simulated SaaS company: results, ARR bridge, budget variance and errors caught.">
+<!--
+  Every number on this page comes from the October 2026 close in this repository:
+    close/2026-10/04_variance_analysis/flux_and_budget_variance.xlsx  (P&L, budget, metrics)
+    close/2026-10/02_reconciliations/00_reconciliation_summary.xlsx    (balance sheet ties)
+    close/2026-10/SCORECARD.md                                         (planted errors)
+  Net loss for October is the QuickBooks figure (includes $567.50 of sandbox demo data).
+-->
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --s1: #2a78d6; --s3: #1baf7a; --s8: #e34948; --div-mid: #f0efec;
+  --good-text: #006300; --bad-text: #b3261e; --tip: #0b0b0b; --tip-ink: #f0efec;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s3: #199e70; --s8: #e66767; --div-mid: #383835;
+    --good-text: #0ca30c; --bad-text: #e66767; --tip: #f0efec; --tip-ink: #0b0b0b;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+  --s1: #3987e5; --s3: #199e70; --s8: #e66767; --div-mid: #383835;
+  --good-text: #0ca30c; --bad-text: #e66767; --tip: #f0efec; --tip-ink: #0b0b0b;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1080px; margin: 0 auto; padding: 32px 16px 56px; }
+a { color: var(--s1); }
+header h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--ink-2); max-width: 760px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.links { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 28px 0 12px; }
+.tile, .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.tile { padding: 16px 18px; }
+.tile .label { font-size: 13px; color: var(--ink-2); }
+.tile .value { font-size: 30px; font-weight: 600; margin: 2px 0; letter-spacing: -0.01em; }
+.tile .sub { font-size: 13px; color: var(--ink-2); }
+.up { color: var(--good-text); font-weight: 600; }
+.down { color: var(--bad-text); font-weight: 600; }
+.status { display: flex; flex-wrap: wrap; gap: 8px 22px; padding: 12px 18px; margin-bottom: 20px; font-size: 14px; }
+.status span { display: inline-flex; align-items: center; gap: 6px; }
+.status svg { flex: none; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 820px) { .grid2 { grid-template-columns: 1fr; } }
+.card { padding: 18px 18px 12px; margin-bottom: 16px; }
+.card h2 { font-size: 17px; margin: 0 0 2px; }
+.card .lead { font-size: 13.5px; color: var(--ink-2); margin: 0 0 10px; }
+.chart { width: 100%; position: relative; }
+.chart svg { width: 100%; height: auto; display: block; overflow: visible; }
+.axis text, .lbl { fill: var(--muted); font-size: 11px; }
+.val { fill: var(--ink); font-size: 11.5px; font-weight: 600; }
+.val2 { fill: var(--ink-2); font-size: 11px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--ink-2); margin: 4px 0 6px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin: 2px 0 8px; }
+.toggle button { font: inherit; font-size: 13px; padding: 5px 12px; background: transparent; color: var(--ink-2); border: 0; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+details { font-size: 13px; color: var(--ink-2); margin-top: 6px; }
+details table { margin-top: 6px; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); font-size: 12.5px; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tablewrap { overflow-x: auto; }
+.tip { position: absolute; pointer-events: none; background: var(--tip); color: var(--tip-ink); font-size: 12.5px; padding: 7px 9px; border-radius: 6px; max-width: 280px; opacity: 0; transition: opacity .1s; z-index: 5; line-height: 1.4; }
+.hit { fill: transparent; cursor: default; }
+footer { font-size: 12.5px; color: var(--muted); margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="eyebrow">Fernvale Systems · simulated B2B SaaS · month-end close</div>
+  <h1>October 2026 close: books reconciled, 8 of 8 planted errors caught</h1>
+  <p>A practice company built in a QuickBooks Online sandbox with six simulated operational systems. AI agents prepared the reconciliations and journal entries; every entry was reviewed and approved before posting. All data is fictional.</p>
+  <div class="links">
+    <a href="https://github.com/venaynyamathi/demo-company/tree/main/close/2026-10">Close workpapers</a>
+    <a href="https://github.com/venaynyamathi/demo-company/blob/main/close/2026-10/01_close_memo/close_package.pdf">Close memo (PDF)</a>
+    <a href="https://github.com/venaynyamathi/demo-company/blob/main/close/2026-10/SCORECARD.md">Scorecard vs answer key</a>
+    <a href="https://github.com/venaynyamathi/demo-company">Repository</a>
+  </div>
+</header>
+
+<section class="tiles" aria-label="Headline results">
+  <div class="tile"><div class="label">Revenue</div><div class="value">$967.7k</div><div class="sub"><span class="up">+1.0%</span> vs budget · +18.3% vs Sep</div></div>
+  <div class="tile"><div class="label">Ending ARR</div><div class="value">$11.00M</div><div class="sub">Net new <b>$996k</b> vs plan $620k</div></div>
+  <div class="tile"><div class="label">Net loss</div><div class="value">($595.8k)</div><div class="sub"><span class="up">$98k better</span> than budget</div></div>
+  <div class="tile"><div class="label">Gross margin</div><div class="value">77.6%</div><div class="sub">84.2% excl. prior-period corrections</div></div>
+  <div class="tile"><div class="label">Cash</div><div class="value">$34.7M</div><div class="sub">October burn $1.05M · ~33 months runway</div></div>
+</section>
+
+<section class="tile status" aria-label="Close status">
+  <span><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="#0ca30c"/><path d="M4.5 8.2l2.2 2.2 4.8-4.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg><b>Closed</b>&nbsp;QuickBooks locked through 10/31</span>
+  <span><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="#0ca30c"/><path d="M4.5 8.2l2.2 2.2 4.8-4.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>15 balance sheet accounts tied to source</span>
+  <span><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="#0ca30c"/><path d="M4.5 8.2l2.2 2.2 4.8-4.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>8 / 8 planted errors found</span>
+  <span><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="#0ca30c"/><path d="M4.5 8.2l2.2 2.2 4.8-4.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>21 postings reviewed and approved</span>
+</section>
+
+<div class="grid2">
+  <section class="card">
+    <h2>ARR bridge, October</h2>
+    <p class="lead">New logos added $920k. Ending ARR beat September by $996k but still trails plan by $385k, a gap carried from earlier months.</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Balance</span><span><i style="background:var(--s3)"></i>Increase</span><span><i style="background:var(--s8)"></i>Churn &amp; contraction</span><span><i style="background:transparent;border:1.5px dashed var(--ink-2)"></i>Plan ending ARR</span></div>
+    <div class="chart" id="bridge"></div>
+    <details><summary>Show as table</summary><table id="bridge-t"></table></details>
+  </section>
+  <section class="card">
+    <h2>Net loss by month</h2>
+    <p class="lead">October's loss narrowed to $596k, $98k better than budget. Excluding prior-period corrections it was $668k, still $25k better.</p>
+    <div class="legend"><span><i style="background:var(--s1)"></i>Net loss (reported)</span><span><i style="background:transparent;border:1.5px dashed var(--ink-2)"></i>October budget</span></div>
+    <div class="chart" id="loss"></div>
+    <details><summary>Show as table</summary><table id="loss-t"></table></details>
+  </section>
+</div>
+
+<section class="card">
+  <h2>October vs budget: lines that moved the result</h2>
+  <p class="lead">Favorable to the right, unfavorable to the left. Three corrections of errors from closed months were booked in October; switch them off to see the underlying run-rate.</p>
+  <div class="toggle" role="group" aria-label="Basis">
+    <button type="button" aria-pressed="true" data-basis="reported">As reported</button>
+    <button type="button" aria-pressed="false" data-basis="adjusted">Excl. prior-period corrections</button>
+  </div>
+  <div class="legend"><span><i style="background:var(--s1)"></i>Favorable</span><span><i style="background:var(--s8)"></i>Unfavorable</span></div>
+  <div class="chart" id="var"></div>
+  <details><summary>Show as table</summary><table id="var-t"></table></details>
+</section>
+
+<section class="card">
+  <h2>Errors found and fixed</h2>
+  <p class="lead">The dataset had eight planted issues. The close found all eight, each through the reconciliation or review designed to catch it.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Issue</th><th>How it was found</th><th>Resolution</th><th class="num">Amount</th></tr></thead>
+    <tbody>
+      <tr><td>Stripe payout recorded without a chargeback</td><td>Bank reconciliation</td><td>Booked dispute and fee</td><td class="num">$10,726</td></tr>
+      <tr><td>Customer payment applied to the wrong customer</td><td>AR by customer; bank payer check</td><td>Re-pointed and applied</td><td class="num">$44,788</td></tr>
+      <tr><td>Duplicate vendor bill (INV-1817 / INV1817)</td><td>AP tie-out to the AP system</td><td>Deleted before payment</td><td class="num">$23,532</td></tr>
+      <tr><td>Annual Salesforce renewal expensed in one month</td><td>Prepaid roll-forward</td><td>Moved to prepaid, amortized</td><td class="num">$64,823</td></tr>
+      <tr><td>AWS hosting bill coded to Marketing software</td><td>Expense coding review</td><td>Reclassed to cost of revenue</td><td class="num">$63,677</td></tr>
+      <tr><td>Recruiter invoice stuck in approval, not in the books</td><td>Unrecorded-liability search</td><td>Accrued in October</td><td class="num">$28,400</td></tr>
+      <tr><td>CRM shows 335 seats, billing invoices 295</td><td>CRM-to-billing bookings check</td><td>Billing to issue add-on invoice</td><td class="num">$29,582 ARR</td></tr>
+      <tr><td>Enterprise invoice 50 days past due</td><td>AR aging</td><td>Collections escalated; reserve reviewed</td><td class="num">$321,200</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>Fictional company and data, generated by a simulation. Prepared with Claude as close agent under draft-and-approve controls; reviewed by Vinny. Source: close/2026-10 in this repository.</footer>
+</main>
+
+<div class="tip" id="tip" role="tooltip"></div>
+<script>
+(() => {
+  const NS = "http://www.w3.org/2000/svg";
+  const tip = document.getElementById("tip");
+  const fmtK = v => (v < 0 ? "(" : "") + "$" + (Math.abs(v) >= 1e6 ? (Math.abs(v) / 1e6).toFixed(2) + "M" : Math.round(Math.abs(v) / 1e3) + "k") + (v < 0 ? ")" : "");
+  const fmt$ = v => (v < 0 ? "(" : "") + "$" + Math.round(Math.abs(v)).toLocaleString("en-US") + (v < 0 ? ")" : "");
+  const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+  const txt = (parent, x, y, s, cls, anchor = "middle") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, parent); t.textContent = s; return t; };
+  function hover(target, host, html) {
+    target.addEventListener("mousemove", ev => {
+      tip.innerHTML = html; tip.style.opacity = 1;
+      const r = document.body.getBoundingClientRect();
+      let x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14;
+      if (x + 290 > document.documentElement.clientWidth) x -= 300;
+      tip.style.left = x + "px"; tip.style.top = y + "px";
+    });
+    target.addEventListener("mouseleave", () => tip.style.opacity = 0);
+  }
+  // rounded-top bar path anchored to baseline (4px radius at the data end)
+  function bar(g, x, y0, y1, w, fill) {
+    const top = Math.min(y0, y1), h = Math.abs(y1 - y0), r = Math.min(4, h / 2, w / 2);
+    const dataEndTop = y1 < y0; // data end is the far end from the anchor
+    const d = dataEndTop
+      ? `M${x},${top + h} V${top + r} Q${x},${top} ${x + r},${top} H${x + w - r} Q${x + w},${top} ${x + w},${top + r} V${top + h} Z`
+      : `M${x},${top} V${top + h - r} Q${x},${top + h} ${x + r},${top + h} H${x + w - r} Q${x + w},${top + h} ${x + w},${top + h - r} V${top} Z`;
+    return el("path", { d, fill }, g);
+  }
+  function table(id, head, rows) {
+    const t = document.getElementById(id); t.innerHTML = "";
+    const tr = document.createElement("tr"); head.forEach((h, i) => { const th = document.createElement("th"); th.textContent = h; if (i) th.className = "num"; tr.appendChild(th); }); t.appendChild(tr);
+    rows.forEach(r => { const tr = document.createElement("tr"); r.forEach((c, i) => { const td = document.createElement("td"); td.textContent = c; if (i) td.className = "num"; tr.appendChild(td); }); t.appendChild(tr); });
+  }
+
+  // ---------------- ARR bridge (waterfall, axis broken at $9.5M so the steps are visible) ----------------
+  (function () {
+    const steps = [
+      { k: "Sep 30", v: 10007448.24, type: "total" },
+      { k: "New", v: 920416.20, type: "up", note: "18 new logos; Yarrow $362k, Talbot Electric $219k" },
+      { k: "Expansion", v: 178669.20, type: "up", note: "Mid-term seat adds and expansion renewals" },
+      { k: "Churn", v: -103239.00, type: "down", note: "Churn and contraction: 4 churned customers, 2 contractions" },
+      { k: "Oct 31", v: 11003294.64, type: "total" },
+    ];
+    const plan = 11388585.72;
+    const W = Math.max(320, Math.min(480, document.getElementById("bridge").clientWidth)), H = 280, m = { t: 22, r: 12, b: 38, l: 52 }, lo = 9.5e6, hi = 11.6e6;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "ARR bridge from $10.01M to $11.00M against plan $11.39M" }, document.getElementById("bridge"));
+    const y = v => m.t + (H - m.t - m.b) * (1 - (v - lo) / (hi - lo));
+    const ax = el("g", { class: "axis" }, svg);
+    for (let v = 9.5e6; v <= 11.5e6 + 1; v += 0.5e6) { el("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: "var(--grid)", "stroke-width": 1 }, ax); txt(ax, m.l - 6, y(v) + 4, "$" + (v / 1e6).toFixed(1) + "M", "", "end"); }
+    const n = steps.length, slot = (W - m.l - m.r) / n, bw = Math.min(54, slot * 0.6);
+    let run = 0;
+    steps.forEach((s, i) => {
+      const x = m.l + slot * i + (slot - bw) / 2;
+      let a, b, fill;
+      if (s.type === "total") { a = lo; b = s.v; run = s.v; fill = "var(--s1)"; }
+      else { a = run; b = run + s.v; run = b; fill = s.type === "up" ? "var(--s3)" : "var(--s8)"; }
+      const p = bar(svg, x, y(Math.min(a, b)) + (s.type === "total" ? 0 : 0), y(Math.max(a, b)), bw, fill);
+      if (s.type !== "total") { p.setAttribute("d", `M${x},${y(Math.max(a, b))} h${bw} v${y(Math.min(a, b)) - y(Math.max(a, b))} h${-bw} Z`); p.setAttribute("rx", 2); }
+      const label = s.type === "total" ? fmtK(s.v) : (s.v > 0 ? "+" : "−") + fmtK(Math.abs(s.v));
+      txt(svg, x + bw / 2, y(Math.max(a, b)) - 6, label, "val");
+      txt(svg, x + bw / 2, H - m.b + 16, s.k, "lbl").setAttribute("font-size", 11);
+      if (i < n - 1) el("line", { x1: x + bw, x2: x + slot, y1: y(run), y2: y(run), stroke: "var(--axis)", "stroke-dasharray": "2 2" }, svg);
+      const hit = el("rect", { x: m.l + slot * i, y: m.t, width: slot, height: H - m.t - m.b, class: "hit" }, svg);
+      hover(hit, svg, `<b>${s.k}</b><br>${s.type === "total" ? "ARR " + fmt$(s.v) : (s.v > 0 ? "+" : "") + fmt$(s.v)}${s.note ? "<br>" + s.note : ""}`);
+    });
+    el("line", { x1: m.l, x2: W - m.r, y1: y(plan), y2: y(plan), stroke: "var(--ink-2)", "stroke-width": 1.5, "stroke-dasharray": "5 4" }, svg);
+    txt(svg, W - m.r, y(plan) - 6, "Plan $11.39M", "val2", "end");
+    txt(svg, m.l, H - 4, "Axis starts at $9.5M", "lbl", "start").setAttribute("font-size", 10);
+    table("bridge-t", ["Step", "ARR"], steps.map(s => [s.k, fmt$(s.v)]).concat([["Plan ending ARR", fmt$(plan)]]));
+  })();
+
+  // ---------------- Net loss by month ----------------
+  (function () {
+    const rows = [
+      { m: "Jul", v: -590769.03, note: "" },
+      { m: "Aug", v: -809820.48, note: "Includes $202.5k of recruiting fees" },
+      { m: "Sep", v: -949073.59, note: "Includes the full $67.8k Salesforce renewal (corrected in Oct) and the $42k OpsForward booth" },
+      { m: "Oct", v: -595754.80, note: "Excl. prior-period corrections: ($668,408)" },
+    ];
+    const budget = -693754.54;
+    const W = Math.max(320, Math.min(480, document.getElementById("loss").clientWidth)), H = 280, m = { t: 22, r: 12, b: 38, l: 52 }, lo = -1.0e6;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Net loss by month, July to October 2026, with October budget" }, document.getElementById("loss"));
+    const y = v => m.t + (H - m.t - m.b) * (v / lo); // 0 at top (baseline), losses grow downward
+    const ax = el("g", { class: "axis" }, svg);
+    for (let v = 0; v >= lo; v -= 250000) { el("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: v === 0 ? "var(--axis)" : "var(--grid)" }, ax); txt(ax, m.l - 6, y(v) + 4, v === 0 ? "$0" : (v <= -1e6 ? "($1.0M)" : "($" + Math.abs(v / 1e3) + "k)"), "", "end"); }
+    const slot = (W - m.l - m.r) / rows.length, bw = Math.min(54, slot * 0.55);
+    rows.forEach((r, i) => {
+      const x = m.l + slot * i + (slot - bw) / 2;
+      bar(svg, x, y(0), y(r.v), bw, "var(--s1)");
+      txt(svg, x + bw / 2, y(r.v) + 15, fmtK(r.v), "val");
+      txt(svg, x + bw / 2, H - m.b + 16, r.m + " 2026", "lbl");
+      if (r.m === "Oct") {
+        el("line", { x1: x - 8, x2: x + bw + 8, y1: y(budget), y2: y(budget), stroke: "var(--ink-2)", "stroke-width": 1.5, "stroke-dasharray": "5 4" }, svg);
+        txt(svg, x + bw / 2, y(budget) + 15, "Budget " + fmtK(budget), "val2");
+      }
+      const hit = el("rect", { x: m.l + slot * i, y: m.t, width: slot, height: H - m.t - m.b, class: "hit" }, svg);
+      hover(hit, svg, `<b>${r.m} 2026</b><br>Net loss ${fmt$(r.v)}${r.m === "Oct" ? "<br>Budget " + fmt$(budget) : ""}${r.note ? "<br>" + r.note : ""}`);
+    });
+    table("loss-t", ["Month", "Net income (loss)"], rows.map(r => [r.m + " 2026", fmt$(r.v)]).concat([["Oct 2026 budget", fmt$(budget)]]));
+  })();
+
+  // ---------------- Budget variance (diverging bars, favorable positive) ----------------
+  const VAR = [
+    { k: "Software & subscriptions", s: "Software", rep: 124718, adj: -3783, note: "Reported includes the Salesforce prepaid correction ($64,823) and the AWS reclass out of Marketing ($63,677). Underlying spend $19,287 vs budget $15,504." },
+    { k: "Salaries & wages", s: "Salaries", rep: 70107, adj: 70107, note: "74 employees, on plan; pay levels below the plan build." },
+    { k: "Professional services revenue", s: "Services rev.", rep: 42997, adj: 42997, note: "Ten implementations earning at once; budget assumes a flat $35k a month." },
+    { k: "Sales commissions", s: "Commissions", rep: 22470, adj: 22470, note: "$612k commissionable first-year ACV vs ~$837k implied by budget." },
+    { k: "Legal fees", s: "Legal", rep: -6632, adj: -6632, note: "$13,100 run-rate accrual vs $6,500 budget." },
+    { k: "Payroll taxes", s: "Payroll taxes", rep: -7522, adj: -7522, note: "" },
+    { k: "Recruiting", s: "Recruiting", rep: -8454, adj: -8454, note: "$28,400 placement fee for a Senior AE starting Nov 2." },
+    { k: "Subscription revenue", s: "Subscr. rev.", rep: -33512, adj: -33512, note: "Ending ARR trails plan by $385k, carried from earlier months." },
+    { k: "Advertising & marketing", s: "Advertising", rep: -52529, adj: -52529, note: "Google Ads $72.5k and LinkedIn Ads $35.1k; running about twice plan since September." },
+    { k: "Hosting & infrastructure", s: "Hosting", rep: -68207, adj: -4529, note: "Reported includes the $63,677 June AWS bill reclassed from software. Underlying $95,965 = 10.8% of subscription revenue vs 9.2% plan." },
+  ];
+  function drawVar(basis) {
+    const host = document.getElementById("var"); host.innerHTML = "";
+    const rows = VAR.map(r => ({ ...r, v: r[basis === "reported" ? "rep" : "adj"] })).sort((a, b) => b.v - a.v);
+    const narrow = host.clientWidth < 600, W = Math.max(320, Math.min(960, host.clientWidth)), rowH = 30, m = { t: 8, r: narrow ? 70 : 90, b: 26, l: narrow ? 104 : 210 }, H = m.t + m.b + rowH * rows.length, lim = narrow ? 175000 : 130000;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "October budget variance by line, favorable positive" }, host);
+    const cx = m.l + (W - m.l - m.r) / 2, sx = v => cx + (v / lim) * ((W - m.l - m.r) / 2);
+    for (let v = -100000; v <= 100000; v += narrow ? 100000 : 50000) { el("line", { x1: sx(v), x2: sx(v), y1: m.t, y2: H - m.b, stroke: v === 0 ? "var(--axis)" : "var(--grid)" }, svg); txt(svg, sx(v), H - 8, v === 0 ? "$0" : (v > 0 ? "+" : "−") + "$" + Math.abs(v / 1e3) + "k", "lbl"); }
+    rows.forEach((r, i) => {
+      const yy = m.t + rowH * i, bh = 16, by = yy + (rowH - bh) / 2;
+      txt(svg, m.l - 10, yy + rowH / 2 + 4, narrow ? r.s : r.k, "lbl", "end").setAttribute("style", "fill:var(--ink-2);font-size:12px");
+      const x0 = sx(0), x1 = sx(Math.max(-lim, Math.min(lim, r.v))), w = Math.abs(x1 - x0), rr = Math.min(4, w / 2);
+      const fill = r.v >= 0 ? "var(--s1)" : "var(--s8)";
+      const d = r.v >= 0
+        ? `M${x0},${by} H${x1 - rr} Q${x1},${by} ${x1},${by + rr} V${by + bh - rr} Q${x1},${by + bh} ${x1 - rr},${by + bh} H${x0} Z`
+        : `M${x0},${by} H${x1 + rr} Q${x1},${by} ${x1},${by + rr} V${by + bh - rr} Q${x1},${by + bh} ${x1 + rr},${by + bh} H${x0} Z`;
+      if (w > 0.5) el("path", { d, fill }, svg);
+      txt(svg, r.v >= 0 ? x1 + 6 : x1 - 6, yy + rowH / 2 + 4, (r.v >= 0 ? "+" : "−") + (narrow ? fmtK(Math.abs(r.v)) : fmt$(Math.abs(r.v))), "val", r.v >= 0 ? "start" : "end");
+      const hit = el("rect", { x: 0, y: yy, width: W, height: rowH, class: "hit" }, svg);
+      hover(hit, svg, `<b>${r.k}</b><br>${r.v >= 0 ? "Favorable" : "Unfavorable"} ${fmt$(Math.abs(r.v))} vs budget${r.note ? "<br>" + r.note : ""}`);
+    });
+    table("var-t", ["Line", basis === "reported" ? "Variance vs budget, reported" : "Variance vs budget, excl. corrections"], rows.map(r => [r.k, (r.v >= 0 ? "+" : "−") + fmt$(Math.abs(r.v))]));
+  }
+  document.querySelectorAll(".toggle button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".toggle button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    drawVar(b.dataset.basis);
+  }));
+  drawVar("reported");
+  let rw = window.innerWidth; window.addEventListener("resize", () => { if (Math.abs(window.innerWidth - rw) > 40) { rw = window.innerWidth; drawVar(document.querySelector('.toggle [aria-pressed="true"]').dataset.basis); } });
+})();
+</script>
+</body>
+</html>
