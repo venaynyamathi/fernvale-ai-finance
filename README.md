@@ -31,6 +31,8 @@ build/
   conversion_checks.json  opening AR/AP tie-out
 qbo_loader/       loads the books into a QuickBooks Online sandbox (see docs/qbo_loader.md)
 fernvale_mcp/     MCP server giving Claude QuickBooks + source systems, draft-then-confirm writes
+close_playbook/   the month-end close as Claude skills
+close/2026-10/    October 2026 close: memo, reconciliations, entry support, flux and trial balances
 tests/            offline tests for the loader
 docs/             company profile, data dictionary, loader guide, roadmap
 private/          answer key (generated locally, git-ignored)

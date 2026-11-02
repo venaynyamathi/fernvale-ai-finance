@@ -1,0 +1,22 @@
+draft_id,qbo_id,txn_date,category,prior_period_correction,memo,amount,support
+D1031-B7B9,6139,2026-10-19,Reconciliation correction,,"Record Stripe dispute dp_1Q8fernvale (invoice in_000551, customer C00044) withdrawn from payout po_00688 - not booked with the deposit",10726.44,1050_stripe_clearing.xlsx; 1000_1010_bank_reconciliation.xlsx
+D1031-446A,6037,2026-10-21,Cash application correction,,"Re-point ACH py_000653 ($44,788.32, bank BTX-001625) from Sawtooth Wholesale Co. (unapplied credit) to Sawtooth Plumbing Holdings and apply to invoice FV-12064 (QBO Invoice 5781)",44788.32,1100_accounts_receivable.xlsx
+D1031-907D,5975,2026-10-13,AP correction,,Delete duplicate Marlow & Pierce bill INV1817 (BILL-00318-DUP); original INV-1817 is QBO Bill 5945,23531.81,2000_accounts_payable.xlsx
+D1031-71D6,6140,2026-10-31,Prior-period correction,Yes,"Correct deferred revenue on written-off invoice FV-11156 (in_001811): unearned balance left in 2300 after April 2026 write-off (prior-period error, flagged)",8397.37,2300_deferred_revenue_waterfall.xlsx; je_support.xlsx (Corrections)
+D1031-E141,6141,2026-10-31,Revenue,,Deferred revenue true-up to waterfall Oct 2026,410820.34,2300_deferred_revenue_waterfall.xlsx
+D1031-124A,6142,2026-10-31,Accrual,,Accrue Amazon Web Services October 2026,86900.0,je_support.xlsx (Accruals)
+D1031-124AR,6143,2026-11-01,Accrual reversal,,Reverse D1031-124A: Accrue Amazon Web Services October 2026,86900.0,je_support.xlsx (Accruals)
+D1031-376E,6144,2026-10-31,Accrual,,Accrue Marlow & Pierce LLP (fictional) October 2026,13100.0,je_support.xlsx (Accruals)
+D1031-376ER,6145,2026-11-01,Accrual reversal,,Reverse D1031-376E: Accrue Marlow & Pierce LLP (fictional) October 2026,13100.0,je_support.xlsx (Accruals)
+D1031-07AB,6146,2026-10-31,Accrual,,Accrue Brightquarry Content Co. (fictional) October 2026 content retainer,14000.0,je_support.xlsx (Accruals)
+D1031-07ABR,6147,2026-11-01,Accrual reversal,,Reverse D1031-07AB: Accrue Brightquarry Content Co. (fictional) October 2026 content retainer,14000.0,je_support.xlsx (Accruals)
+D1031-8FD2,6148,2026-10-31,Accrual,,Accrue Talentridge Search Partners (fictional) placement fee TAL-2610992 (pending approval in AP),28400.0,je_support.xlsx (Accruals); 2000_accounts_payable.xlsx
+D1031-8FD2R,6149,2026-11-01,Accrual reversal,,Reverse D1031-8FD2: Accrue Talentridge Search Partners (fictional) placement fee TAL-2610992,28400.0,je_support.xlsx (Accruals)
+D1031-BF83,6150,2026-10-31,Prior-period correction,Yes,"Correct Salesforce renewal SAL-2609414 expensed in Sep 2026 - move unexpired portion at 9/30 to prepaid (prior-period error, flagged)",64823.36,"je_support.xlsx (Prepaids, Corrections)"
+D1031-27E0,6151,2026-10-31,Prepaid amortization,,Amortize Salesforce prepaid Oct 2026,5757.95,je_support.xlsx (Prepaids)
+D1031-1F6D,6152,2026-10-31,Prepaid amortization,,Amortize ZoomInfo prepaid Oct 2026,2344.11,je_support.xlsx (Prepaids)
+D1031-8450,6153,2026-10-31,Prepaid amortization,,Amortize Keystone Mutual Insurance (fictional) prepaid Oct 2026,5435.62,je_support.xlsx (Prepaids)
+D1031-2864,6154,2026-10-31,Depreciation,,Depreciation Oct 2026,3106.67,je_support.xlsx (Depreciation)
+D1031-A52D,6155,2026-10-31,Compensation,,Accrue commissions on Oct 2026 bookings,61229.94,je_support.xlsx (Commissions)
+D1031-9BF6,6156,2026-10-31,Compensation,,Accrue annual bonus Oct 2026,69410.0,je_support.xlsx (Bonus)
+D1031-CF36,6157,2026-10-31,Prior-period correction,Yes,"Reclass June 2026 AWS bill EUINUS26068261 miscoded to Software/Marketing in Jul 2026 (prior-period error, flagged; YTD reclass only)",63677.46,je_support.xlsx (Corrections)
